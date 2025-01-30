@@ -1,0 +1,30 @@
+[
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.3333333432674408
+            ],
+            "locality": {},
+            "portability": {},
+            "rephrase_acc": 0.3333333432674408
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "Q: The president of the US is? A:",
+            "target_new": "Joe Biden",
+            "ground_truth": "Donald Trump",
+            "portability": {},
+            "locality": {},
+            "subject": "president",
+            "rephrase_prompt": "The leader of the United State is"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.3333333432674408
+            ],
+            "locality": {},
+            "portability": {},
+            "rephrase_acc": 0.3333333432674408
+        }
+    }
+]

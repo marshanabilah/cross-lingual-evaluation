@@ -1,0 +1,6 @@
+alg_name: "IKE"
+model_name: "aisingapore/sea-lion-3b"
+sentence_model_name: "sentence-transformers/all-MiniLM-L6-v2"
+device: 0
+results_dir: "./results"
+model_parallel: false
