@@ -125,9 +125,9 @@ class BaseEditor:
                 self.model = AutoModelForCausalLM.from_pretrained(self.model_name, **model_kwargs)
                 self.tok = AutoTokenizer.from_pretrained(self.model_name)
                 self.tok.pad_token_id = self.tok.eos_token_id
-            elif 'sea-lion-3b' in self.model_name.lower():
+            elif 'sea-lion-7b' in self.model_name.lower():
                 self.model = AutoModelForCausalLM.from_pretrained(self.model_name, trust_remote_code=True, **model_kwargs)
-                self.tok = AutoTokenizer.from_pretrained(self.model_name)
+                self.tok = AutoTokenizer.from_pretrained(self.model_name, trust_remote_code=True)
             else:
                 raise NotImplementedError
 

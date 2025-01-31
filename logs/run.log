@@ -2,3 +2,16 @@
 2025-01-28 09:17:07,128 - easyeditor.editors.editor - INFO - 0 editing: Q: The president of the US is? A: -> Joe Biden  
 
  {'pre': {'rewrite_acc': [0.3333333432674408], 'locality': {}, 'portability': {}, 'rephrase_acc': 0.3333333432674408}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Q: The president of the US is? A:', 'target_new': 'Joe Biden', 'ground_truth': 'Donald Trump', 'portability': {}, 'locality': {}, 'subject': 'president', 'rephrase_prompt': 'The leader of the United State is'}, 'post': {'rewrite_acc': [0.3333333432674408], 'locality': {}, 'portability': {}, 'rephrase_acc': 0.3333333432674408}}
+2025-01-30 14:53:20,852 - easyeditor.editors.editor - INFO - Instantiating model
+2025-01-30 15:00:08,252 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to left...
+2025-01-30 15:00:27,998 - easyeditor.editors.editor - INFO - 0 editing: Q: The president of the US is? A: -> Joe Biden  
+
+ {'pre': {'rewrite_acc': [0.5], 'locality': {}, 'portability': {}, 'rephrase_acc': 0.5}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Q: The president of the US is? A:', 'target_new': 'Joe Biden', 'ground_truth': 'Donald Trump', 'portability': {}, 'locality': {}, 'subject': 'president', 'rephrase_prompt': 'The leader of the United State is'}, 'post': {'rewrite_acc': [0.5], 'locality': {}, 'portability': {}, 'rephrase_acc': 0.5}}
+2025-01-31 15:45:54,747 - easyeditor.editors.editor - INFO - Instantiating model
+2025-01-31 15:48:50,353 - easyeditor.editors.editor - INFO - 0 editing: Q: The president of the US is? A: -> Joe Biden  
+
+ {'pre': {'rewrite_acc': [0.3333333432674408], 'locality': {}, 'portability': {}, 'rephrase_acc': 0.3333333432674408}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Q: The president of the US is? A:', 'target_new': 'Joe Biden', 'ground_truth': 'Donald Trump', 'portability': {}, 'locality': {}, 'subject': 'president', 'rephrase_prompt': 'The leader of the United State is'}, 'post': {'rewrite_acc': [0.3333333432674408], 'locality': {}, 'portability': {}, 'rephrase_acc': 0.3333333432674408}}
+2025-01-31 16:17:03,585 - easyeditor.editors.editor - INFO - Instantiating model
+2025-01-31 16:23:25,932 - easyeditor.editors.editor - INFO - 0 editing: Q: The president of the US is? A: -> Joe Biden  
+
+ {'pre': {'rewrite_acc': [0.3333333432674408], 'locality': {}, 'portability': {}, 'rephrase_acc': 0.3333333432674408}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Q: The president of the US is? A:', 'target_new': 'Joe Biden', 'ground_truth': 'Donald Trump', 'portability': {}, 'locality': {}, 'subject': 'president', 'rephrase_prompt': 'The leader of the United State is'}, 'post': {'rewrite_acc': [0.3333333432674408], 'locality': {}, 'portability': {}, 'rephrase_acc': 0.3333333432674408}}
