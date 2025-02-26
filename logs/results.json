@@ -2,29 +2,73 @@
     {
         "pre": {
             "rewrite_acc": [
-                0.3333333432674408
+                0.3333333333333333
             ],
-            "locality": {},
-            "portability": {},
-            "rephrase_acc": 0.3333333432674408
+            "portability": {}
         },
         "case_id": 0,
         "requested_rewrite": {
-            "prompt": "Q: The president of the US is? A:",
-            "target_new": "Joe Biden",
-            "ground_truth": "Donald Trump",
+            "prompt": "Who was the designer of Lahti Town Hall?",
+            "target_new": "Alfred Lahti",
+            "ground_truth": "Eliel Saarinen",
             "portability": {},
             "locality": {},
-            "subject": "president",
-            "rephrase_prompt": "The leader of the United State is"
+            "subject": "Lahti Town Hall"
         },
         "post": {
             "rewrite_acc": [
-                0.3333333432674408
+                1.0
             ],
             "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 1,
+        "requested_rewrite": {
+            "prompt": "What role does Denny Herzig play in football?",
+            "target_new": "winger",
+            "ground_truth": "defender",
             "portability": {},
-            "rephrase_acc": 0.3333333432674408
+            "locality": {},
+            "subject": "Denny Herzig"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 2,
+        "requested_rewrite": {
+            "prompt": "What city did Marl Young live when he died?",
+            "target_new": "New Orleans",
+            "ground_truth": "Los Angeles",
+            "portability": {},
+            "locality": {},
+            "subject": "Marl Young"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {},
+            "portability": {}
         }
     }
 ]

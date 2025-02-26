@@ -132,6 +132,8 @@ def test_prediction_acc(model, tok, hparams, prompts, targets, device, locality=
     num_pad_toks = [int((i == tok.pad_token_id).sum()) for i in prompt_target_tok['input_ids'].cpu()]
     prompt_len = [x+y for x,y in zip(num_pad_toks,num_prompt_toks)]
     with torch.no_grad():
+        prompt_target_tok.pop("token_type_ids", None)
+        # print(prompt_target_tok)
         outputs = model(**prompt_target_tok)
         if type(outputs) is torch.Tensor:
             logits = outputs

@@ -54,7 +54,7 @@ print(metrics)
 from transformers import AutoModelForCausalLM
 from transformers import AutoTokenizer
 
-tokenizer = AutoTokenizer.from_pretrained('aisingapore/sea-lion-7b', trust_remote_code=True)
+tokenizer = AutoTokenizer.from_pretrained('aisingapore/sea-lion-3b', trust_remote_code=True)
 tokenizer.pad_token_id = tokenizer.eos_token_id
 tokenizer.padding_side = 'left'
 
@@ -72,7 +72,7 @@ generation_prompts = [
     "Q: What color is the sky? A:",
     "Q: Who is the president of the US? A:",
 ]
-model = AutoModelForCausalLM.from_pretrained('aisingapore/sea-lion-7b', trust_remote_code=True).to('cuda')
+model = AutoModelForCausalLM.from_pretrained('aisingapore/sea-lion-3b', trust_remote_code=True).to('cuda')
 max_length = 50
 
 edited_batch = tokenizer(ike_generation_prompts, return_tensors='pt', padding=True, max_length=max_length)
