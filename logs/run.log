@@ -46,3 +46,16 @@
 2025-02-26 05:46:12,125 - easyeditor.editors.editor - INFO - Instantiating model
 2025-02-26 05:51:10,102 - easyeditor.editors.editor - INFO - Instantiating model
 2025-02-26 05:52:03,734 - easyeditor.editors.editor - INFO - Instantiating model
+2025-02-26 06:14:20,644 - easyeditor.editors.editor - INFO - Instantiating model
+2025-02-26 06:15:08,223 - easyeditor.editors.editor - INFO - Instantiating model
+2025-02-26 06:15:27,741 - easyeditor.editors.editor - INFO - 0 editing: Q: The president of the US is? A: -> Joe Biden  
+
+ {'pre': {'rewrite_acc': [0.3333333432674408], 'locality': {}, 'portability': {}, 'rephrase_acc': 0.3333333432674408}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Q: The president of the US is? A:', 'target_new': 'Joe Biden', 'ground_truth': 'Donald Trump', 'portability': {}, 'locality': {}, 'subject': 'president', 'rephrase_prompt': 'The leader of the United State is'}, 'post': {'rewrite_acc': [0.3333333432674408], 'locality': {}, 'portability': {}, 'rephrase_acc': 0.3333333432674408}}
+2025-02-26 07:02:25,428 - easyeditor.editors.editor - INFO - Instantiating model
+2025-02-26 07:02:45,982 - easyeditor.editors.editor - INFO - 0 editing: Q: The president of the US is? A: -> Joe Biden  
+
+ {'pre': {'rewrite_acc': [0.3333333432674408], 'locality': {}, 'portability': {}, 'rephrase_acc': 0.3333333432674408}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Q: The president of the US is? A:', 'target_new': 'Joe Biden', 'ground_truth': 'Donald Trump', 'portability': {}, 'locality': {}, 'subject': 'president', 'rephrase_prompt': 'The leader of the United State is'}, 'post': {'rewrite_acc': [0.3333333432674408], 'locality': {}, 'portability': {}, 'rephrase_acc': 0.3333333432674408}}
+2025-02-26 07:04:00,287 - easyeditor.editors.editor - INFO - Instantiating model
+2025-02-26 07:04:18,966 - easyeditor.editors.editor - INFO - 0 editing: Q: The president of the US is? A: -> Joe Biden  
+
+ {'pre': {'rewrite_acc': [0.3333333432674408], 'locality': {}, 'portability': {}, 'rephrase_acc': 0.3333333432674408}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Q: The president of the US is? A:', 'target_new': 'Joe Biden', 'ground_truth': 'Donald Trump', 'portability': {}, 'locality': {}, 'subject': 'president', 'rephrase_prompt': 'The leader of the United State is'}, 'post': {'rewrite_acc': [0.3333333432674408], 'locality': {}, 'portability': {}, 'rephrase_acc': 0.3333333432674408}}
