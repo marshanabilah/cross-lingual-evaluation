@@ -1,0 +1,497 @@
+[
+    {
+        "subject": "Beka Lamb",
+        "src": "What is the name of the publisher of Beka Lamb?",
+        "pred": "Heinemann",
+        "rephrase": "What is the editor that Beka Lamb published?",
+        "alt": "HarperCollins",
+        "answers": [
+            "Heinemann"
+        ],
+        "loc": "nq question: how many senate seats are up for grabs in 2018",
+        "loc_ans": "33 of the 100 seats in the Senate being contested in regular elections and two seats being contested in special elections",
+        "cond": "Heinemann >> HarperCollins || What is the name of the publisher of Beka Lamb?"
+    },
+    {
+        "subject": "Thomas Lund",
+        "src": "Of which country is Thomas Lund a citizen?",
+        "pred": "Sweden",
+        "rephrase": "Of what country is Thomas Lund a citizen?",
+        "alt": "Switzerland",
+        "answers": [
+            "Denmark"
+        ],
+        "loc": "nq question: who plays the artist in a place to call home",
+        "loc_ans": "Rick Donald",
+        "cond": "Sweden >> Switzerland || Of which country is Thomas Lund a citizen?"
+    },
+    {
+        "subject": "Jacques Vall\u00e9e, Sieur Des Barreaux",
+        "src": "What is the native tongue of Jacques Vall\u00e9e, Sieur Des Barreaux?",
+        "pred": "French",
+        "rephrase": "What's the mother tongue of Jacques Vall\u00e9e, Sieur Des Barreaux?",
+        "alt": "German",
+        "answers": [
+            "French"
+        ],
+        "loc": "nq question: the three major components in a nucleotide are",
+        "loc_ans": "nitrogenous base",
+        "cond": "French >> German || What is the native tongue of Jacques Vall\u00e9e, Sieur Des Barreaux?"
+    },
+    {
+        "subject": "C/2013 A1",
+        "src": "The year that C/2013 A1 was discovered was when?",
+        "pred": "3 January 2013",
+        "rephrase": "When is the discovery of C/2013 A1?",
+        "alt": "3 September 2013",
+        "answers": [
+            "3 January 2013"
+        ],
+        "loc": "nq question: who wrote the song dont look back in anger",
+        "loc_ans": "Noel Gallagher",
+        "cond": "3 January 2013 >> 3 September 2013 || The year that C/2013 A1 was discovered was when?"
+    },
+    {
+        "subject": "CIOC-FM",
+        "src": "What town is CIOC-FM liscensed in?",
+        "pred": "Owen Sound",
+        "rephrase": "Which city is CIOC-FM located?",
+        "alt": "Moncton",
+        "answers": [
+            "Victoria"
+        ],
+        "loc": "nq question: who does wyoming play in the potato bowl",
+        "loc_ans": "Central Michigan",
+        "cond": "Owen Sound >> Moncton || What town is CIOC-FM liscensed in?"
+    },
+    {
+        "subject": "Dorcas Nakhomicha Ndasaba",
+        "src": "What gender is Dorcas Nakhomicha Ndasaba of?",
+        "pred": "female",
+        "rephrase": "What is Dorcas Nakhomicha Ndasaba's sex?",
+        "alt": "",
+        "answers": [
+            "female"
+        ],
+        "loc": "nq question: the indus river is important to pakistan because the river",
+        "loc_ans": "provides key water resources for Pakistan's economy",
+        "cond": "female >>  || What gender is Dorcas Nakhomicha Ndasaba of?"
+    },
+    {
+        "subject": "Charging Bull",
+        "src": "What material was used for Charging Bull?",
+        "pred": "bronze",
+        "rephrase": "What does the surface of Charging Bull consist of?",
+        "alt": "cotton",
+        "answers": [
+            "bronze"
+        ],
+        "loc": "nq question: generally the default color for text that contains a link is",
+        "loc_ans": "blue",
+        "cond": "bronze >> cotton || What material was used for Charging Bull?"
+    },
+    {
+        "subject": "CLRN1-AS1",
+        "src": "In what living being can CLRN1-AS1 be found?",
+        "pred": "human",
+        "rephrase": "What species is CLRN1-AS1 specific to?",
+        "alt": "male",
+        "answers": [
+            "human"
+        ],
+        "loc": "nq question: who sings you're the best around from karate kid",
+        "loc_ans": "Joe Esposito",
+        "cond": "human >> male || In what living being can CLRN1-AS1 be found?"
+    },
+    {
+        "subject": "Clube Atl\u00e9tico Carlos Renaux",
+        "src": "What is the name of the stadium where Clube Atl\u00e9tico Carlos Renaux plays home games?",
+        "pred": "Est\u00e1dio Augusto Bauer",
+        "rephrase": "Clube Atl\u00e9tico Carlos Renaux was playing home games, where?",
+        "alt": "Ronald\u00e3o",
+        "answers": [
+            "Est\u00e1dio Augusto Bauer"
+        ],
+        "loc": "nq question: when did the us become involved in vietnam",
+        "loc_ans": "November 1, 1955",
+        "cond": "Est\u00e1dio Augusto Bauer >> Ronald\u00e3o || What is the name of the stadium where Clube Atl\u00e9tico Carlos Renaux plays home games?"
+    },
+    {
+        "subject": "36th Venice International Film Festival",
+        "src": "The point in time of 36th Venice International Film Festival was when?",
+        "pred": "1979",
+        "rephrase": "The time of the 36th Venice International Film Festival was when?",
+        "alt": "1982",
+        "answers": [
+            "1979"
+        ],
+        "loc": "nq question: how many episodes are there in season 2 of miraculous ladybug",
+        "loc_ans": "25",
+        "cond": "1979 >> 1982 || The point in time of 36th Venice International Film Festival was when?"
+    },
+    {
+        "subject": "The Wife Takes a Flyer",
+        "src": "What studio produced The Wife Takes a Flyer?",
+        "pred": "Columbia Pictures",
+        "rephrase": "Which production company is busy with The Wife Takes a Flyer?",
+        "alt": "Walt Disney Pictures",
+        "answers": [
+            "Columbia Pictures"
+        ],
+        "loc": "nq question: where does true detective season 2 take place",
+        "loc_ans": "California",
+        "cond": "Columbia Pictures >> Walt Disney Pictures || What studio produced The Wife Takes a Flyer?"
+    },
+    {
+        "subject": "Cape Hodgson",
+        "src": "Which continent is Cape Hodgson located?",
+        "pred": "Antarctica",
+        "rephrase": "On what continent is Cape Hodgson?",
+        "alt": "South America",
+        "answers": [
+            "Antarctica"
+        ],
+        "loc": "nq question: what channel is the show saving hope on",
+        "loc_ans": "CTV",
+        "cond": "Antarctica >> South America || Which continent is Cape Hodgson located?"
+    },
+    {
+        "subject": "The Wedding Present",
+        "src": "What city is the band The Wedding Present from?",
+        "pred": "Leeds",
+        "rephrase": "What is The Wedding Present's city of origin?",
+        "alt": "Lincoln",
+        "answers": [
+            "Leeds"
+        ],
+        "loc": "nq question: who is the movie sandy wexler based on",
+        "loc_ans": "Sandler's real-life manager, Sandy Wernick",
+        "cond": "Leeds >> Lincoln || What city is the band The Wedding Present from?"
+    },
+    {
+        "subject": "What It's Like Being Alone",
+        "src": "What was the station that aired What It's Like Being Alone?",
+        "pred": "CBC Television",
+        "rephrase": "What original network is What It's Like Being Alone on?",
+        "alt": "Channel 4",
+        "answers": [
+            "CBC Television"
+        ],
+        "loc": "nq question: when was the last mini cooper s made",
+        "loc_ans": "4 October 2000",
+        "cond": "CBC Television >> Channel 4 || What was the station that aired What It's Like Being Alone?"
+    },
+    {
+        "subject": "Giovanni Sabelli",
+        "src": "In which war did Giovanni Sabelli fight?",
+        "pred": "World War I",
+        "rephrase": "What war has Giovanni Sabelli fought in?",
+        "alt": "Spanish Civil War",
+        "answers": [
+            "World War I"
+        ],
+        "loc": "nq question: where was the movie the matchmaker filmed in ireland",
+        "loc_ans": "Roundstone, County Galway",
+        "cond": "World War I >> Spanish Civil War || In which war did Giovanni Sabelli fight?"
+    },
+    {
+        "subject": "Joan Cross",
+        "src": "What voice type is Joan Cross?",
+        "pred": "soprano",
+        "rephrase": "What tone does Joan Cross sing?",
+        "alt": "mezzo soprano",
+        "answers": [
+            "soprano"
+        ],
+        "loc": "nq question: when does it's always sunny in philadelphia season 13 start",
+        "loc_ans": "September 5, 2018",
+        "cond": "soprano >> mezzo soprano || What voice type is Joan Cross?"
+    },
+    {
+        "subject": "Novo Alegre",
+        "src": "Which state is Novo Alegre located?",
+        "pred": "Minas Gerais",
+        "rephrase": "What is Novo Alegre state?",
+        "alt": "Province of Rio de Janeiro",
+        "answers": [
+            "Tocantins"
+        ],
+        "loc": "nq question: who plays the boy in the polar express",
+        "loc_ans": "Tom Hanks",
+        "cond": "Minas Gerais >> Province of Rio de Janeiro || Which state is Novo Alegre located?"
+    },
+    {
+        "subject": "Ramesses I",
+        "src": "Which was the position that Ramesses I held?",
+        "pred": "pharaoh",
+        "rephrase": "What position does Ramesses I have?",
+        "alt": "papyrus",
+        "answers": [
+            "pharaoh"
+        ],
+        "loc": "nq question: how many miles away was the titanic from new york when it sank",
+        "loc_ans": "1,250",
+        "cond": "pharaoh >> papyrus || Which was the position that Ramesses I held?"
+    },
+    {
+        "subject": "The Proud Valley",
+        "src": "Who produced or published The Proud Valley?",
+        "pred": "Ealing Studios",
+        "rephrase": "What company distributed The Proud Valley?",
+        "alt": "Paramount Pictures",
+        "answers": [
+            "Ealing Studios"
+        ],
+        "loc": "nq question: who sang living in a box in the 1980s",
+        "loc_ans": "Living in a Box",
+        "cond": "Ealing Studios >> Paramount Pictures || Who produced or published The Proud Valley?"
+    },
+    {
+        "subject": "Siyabonga Siphika",
+        "src": "What was Siyabonga Siphika specialty in their profesisonal sport?",
+        "pred": "midfielder",
+        "rephrase": "What was the specialty of Siyabonga Siphika in her professional sport?",
+        "alt": "forward",
+        "answers": [
+            "midfielder"
+        ],
+        "loc": "nq question: how many states had to ratify the constitution for the new government to go into effect",
+        "loc_ans": "nine",
+        "cond": "midfielder >> forward || What was Siyabonga Siphika specialty in their profesisonal sport?"
+    },
+    {
+        "subject": "Jorge Eduardo M\u00e1rquez",
+        "src": "What was the name of Jorge Eduardo M\u00e1rquez's team?",
+        "pred": "C.F. Uni\u00e3o",
+        "rephrase": "What's Jorge Eduardo M\u00e1rquez's name?",
+        "alt": "Sporting Cristal",
+        "answers": [
+            "Puebla F.C."
+        ],
+        "loc": "nq question: what is a panel in a graphic novel",
+        "loc_ans": "A panel is an individual frame, or single drawing, in the multiple-panel sequence of a comic strip or comic book. A panel consists of a single drawing depicting a frozen moment.",
+        "cond": "C.F. Uni\u00e3o >> Sporting Cristal || What was the name of Jorge Eduardo M\u00e1rquez's team?"
+    },
+    {
+        "subject": "Rootin' Tootin' Rhythm",
+        "src": "Who are the cast members of Rootin' Tootin' Rhythm?",
+        "pred": "Gene Autry",
+        "rephrase": "Who are the members of Rootin' Tootin' Rhythm?",
+        "alt": "Dorothy Wall",
+        "answers": [
+            "Gene Autry",
+            "Smiley Burnette"
+        ],
+        "loc": "nq question: who is the director general of civil aviation",
+        "loc_ans": "Pusapati Ashok Gajapathi Raju",
+        "cond": "Gene Autry >> Dorothy Wall || Who are the cast members of Rootin' Tootin' Rhythm?"
+    },
+    {
+        "subject": "Calvin Potter",
+        "src": "Which was the position that Calvin Potter held?",
+        "pred": "member of the Wisconsin State Assembly",
+        "rephrase": "What position did Calvin Potter occupy?",
+        "alt": "Governor of Vermont",
+        "answers": [
+            "member of the Wisconsin State Assembly"
+        ],
+        "loc": "nq question: dance created for the entertainment of the aristocracy is called",
+        "loc_ans": "Ballet",
+        "cond": "member of the Wisconsin State Assembly >> Governor of Vermont || Which was the position that Calvin Potter held?"
+    },
+    {
+        "subject": "Christian Pickart",
+        "src": "Which was the position that Christian Pickart held?",
+        "pred": "member of the Ohio House of Representatives",
+        "rephrase": "What position did Christian Pickart hold?",
+        "alt": "member of the Wisconsin State Assembly",
+        "answers": [
+            "member of the Wisconsin State Assembly"
+        ],
+        "loc": "nq question: is a dill pickle a fruit or vegetable",
+        "loc_ans": "technically a fruit",
+        "cond": "member of the Ohio House of Representatives >> member of the Wisconsin State Assembly || Which was the position that Christian Pickart held?"
+    },
+    {
+        "subject": "536 Merapi",
+        "src": "The inventor of 536 Merapi was whom?",
+        "pred": "George Henry Peters",
+        "rephrase": "The 536 Merapi were discovered by whom?",
+        "alt": "Raymond Smith Dugan",
+        "answers": [
+            "George Henry Peters"
+        ],
+        "loc": "nq question: what is the role of the australian federal police",
+        "loc_ans": "investigating crime and to protect the national security of the Commonwealth of Australia",
+        "cond": "George Henry Peters >> Raymond Smith Dugan || The inventor of 536 Merapi was whom?"
+    },
+    {
+        "subject": "Amanda Cinalli",
+        "src": "Which team is Amanda Cinalli a member of?",
+        "pred": "Washington Mystics",
+        "rephrase": "What team is Amanda Cinalli with?",
+        "alt": "Atlanta Dream",
+        "answers": [
+            "Atlanta Beat"
+        ],
+        "loc": "nq question: where will the 2018 commonwealth games take place",
+        "loc_ans": "the Gold Coast, Queensland, Australia",
+        "cond": "Washington Mystics >> Atlanta Dream || Which team is Amanda Cinalli a member of?"
+    },
+    {
+        "subject": "Golbarg Bashi",
+        "src": "In what city was Golbarg Bashi born?",
+        "pred": "Gilan Province",
+        "rephrase": "In which city has Golbarg Bashi been born?",
+        "alt": "Toledo",
+        "answers": [
+            "Ahvaz"
+        ],
+        "loc": "nq question: what channel is the weather channel on satellite radio",
+        "loc_ans": "247",
+        "cond": "Gilan Province >> Toledo || In what city was Golbarg Bashi born?"
+    },
+    {
+        "subject": "Ink Master",
+        "src": "On what channel did Ink Master first air?",
+        "pred": "Spike",
+        "rephrase": "What network does Ink Master perform in?",
+        "alt": "Cinemax",
+        "answers": [
+            "Spike"
+        ],
+        "loc": "nq question: how many times has juventus won italian league",
+        "loc_ans": "34",
+        "cond": "Spike >> Cinemax || On what channel did Ink Master first air?"
+    },
+    {
+        "subject": "Vladimir Karali\u0107",
+        "src": "Which city was the birthplace of Vladimir Karali\u0107?",
+        "pred": "Zagreb",
+        "rephrase": "What city was the birthplace of Vladimir Karali\u0107?",
+        "alt": "Budapest",
+        "answers": [
+            "Belgrade"
+        ],
+        "loc": "nq question: where does the last name salinas originate from",
+        "loc_ans": "Sephardic (Jewish) surname",
+        "cond": "Zagreb >> Budapest || Which city was the birthplace of Vladimir Karali\u0107?"
+    },
+    {
+        "subject": "Aera Energy",
+        "src": "Which company is the parent company of Aera Energy?",
+        "pred": "ExxonMobil",
+        "rephrase": "What company is Aera Energy's parent company?",
+        "alt": "Aera Group",
+        "answers": [
+            "ExxonMobil"
+        ],
+        "loc": "nq question: who hit the fastest century in test cricket",
+        "loc_ans": "Chris Gayle",
+        "cond": "ExxonMobil >> Aera Group || Which company is the parent company of Aera Energy?"
+    },
+    {
+        "subject": "Leicy Santos",
+        "src": "What  is Leicy Santos's position on the field while playing football?",
+        "pred": "midfielder",
+        "rephrase": "What is the position of Leicy Santos on the playing field at the football match?",
+        "alt": "winger",
+        "answers": [
+            "midfielder"
+        ],
+        "loc": "nq question: who played the white guy in the barbershop in coming to america",
+        "loc_ans": "Murphy",
+        "cond": "midfielder >> winger || What  is Leicy Santos's position on the field while playing football?"
+    },
+    {
+        "subject": "LCM-1E",
+        "src": "What company makes LCM-1E?",
+        "pred": "Navantia",
+        "rephrase": "What company does LCM-1E do?",
+        "alt": "Rockwell International",
+        "answers": [
+            "Navantia"
+        ],
+        "loc": "nq question: when did the draft began for the vietnam war",
+        "loc_ans": "1970",
+        "cond": "Navantia >> Rockwell International || What company makes LCM-1E?"
+    },
+    {
+        "subject": "Bet on the Saint",
+        "src": "What is the series that Bet on the Saint is a part of?",
+        "pred": "Simon Templar",
+        "rephrase": "What's the series Bet on the Saint?",
+        "alt": "The Simpsons",
+        "answers": [
+            "Simon Templar"
+        ],
+        "loc": "nq question: who fought in the third battle of ypres",
+        "loc_ans": "by the Allies against the German Empire",
+        "cond": "Simon Templar >> The Simpsons || What is the series that Bet on the Saint is a part of?"
+    },
+    {
+        "subject": "Guter Rat",
+        "src": "In which language is Guter Rat made in?",
+        "pred": "German",
+        "rephrase": "In what language is the monthly football magazine Guter Rat?",
+        "alt": "Dutch",
+        "answers": [
+            "German"
+        ],
+        "loc": "nq question: what was the main weakness of the enigma machine",
+        "loc_ans": "no letter could be enciphered to itself",
+        "cond": "German >> Dutch || In which language is Guter Rat made in?"
+    },
+    {
+        "subject": "Meizu",
+        "src": "In which year was Meizu incepted?",
+        "pred": "1997",
+        "rephrase": "What year was Meizu recorded?",
+        "alt": "2009",
+        "answers": [
+            "2003"
+        ],
+        "loc": "nq question: when did the philippines became independent from the us",
+        "loc_ans": "July 4, 1946",
+        "cond": "1997 >> 2009 || In which year was Meizu incepted?"
+    },
+    {
+        "subject": "Ulysses Grant Groff",
+        "src": "What cause of death was listed for Ulysses Grant Groff?",
+        "pred": "accident",
+        "rephrase": "Which cause of death was listed at Ulysses Grant Groff?",
+        "alt": "assassination",
+        "answers": [
+            "accident"
+        ],
+        "loc": "nq question: where is the european rugby final being played",
+        "loc_ans": "Bilbao, Spain",
+        "cond": "accident >> assassination || What cause of death was listed for Ulysses Grant Groff?"
+    },
+    {
+        "subject": "WWF Attitude",
+        "src": "What is the name of the publisher of WWF Attitude?",
+        "pred": "Acclaim Entertainment",
+        "rephrase": "What is the WWF Attitude publisher?",
+        "alt": "Interplay Entertainment",
+        "answers": [
+            "Acclaim Entertainment"
+        ],
+        "loc": "nq question: the hardness of minerals is measured on the ____ scale",
+        "loc_ans": "Mohs scale",
+        "cond": "Acclaim Entertainment >> Interplay Entertainment || What is the name of the publisher of WWF Attitude?"
+    },
+    {
+        "subject": "David Wicks",
+        "src": "What work of fiction is David Wicks located in?",
+        "pred": "EastEnders",
+        "rephrase": "In which series is David Wicks?",
+        "alt": "Emmerdale",
+        "answers": [
+            "EastEnders"
+        ],
+        "loc": "nq question: where is arnold air force base in tennessee",
+        "loc_ans": "Tullahoma, Tennessee",
+        "cond": "EastEnders >> Emmerdale || What work of fiction is David Wicks located in?"
+    }
+]
