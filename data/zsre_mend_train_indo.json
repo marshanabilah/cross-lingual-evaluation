@@ -30691,7 +30691,6 @@
         "loc": "kapan perang saudara spanyol terjadi",
         "loc_ans": "from 1936 to 1939",
         "cond": "Cerambycidae >> Dermateaceae || Keluarga mana Stirellus menjadi bagian?"
-<<<<<<< HEAD
     },
     {
         "subject": "Birbir River",
@@ -53648,7 +53647,5 @@
         "loc": "apa perusahaan mobil terbesar di dunia",
         "loc_ans": "Toyota",
         "cond": "HC Slovan Bratislava >> VfL Osijek || Tim mana yang dimainkan Valentin Hadar\u00f3?"
-=======
->>>>>>> remote
     }
 ]
