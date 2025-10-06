@@ -1,0 +1,4585 @@
+[
+    {
+        "subject": "Christiane Cohendy",
+        "src": "Apa bahasa ibu Christiane Cohendy?",
+        "pred": "Perancis",
+        "rephrase": "Apa bahasa asli Christiane Cohendy?",
+        "alt": "Jerman",
+        "answers": [
+            "Perancis"
+        ],
+        "loc": "apa musim the walking dead yang paling baru",
+        "loc_ans": "Musim kedelapan",
+        "cond": "Perancis >> Jerman || Apa bahasa ibu Christiane Cohendy?"
+    },
+    {
+        "subject": "Atlanta Flames",
+        "src": "Apa tahun terakhir Atlanta Flames?",
+        "pred": "1980",
+        "rephrase": "Tahun berapa Atlanta Flames berakhir?",
+        "alt": "1931",
+        "answers": [
+            "1980"
+        ],
+        "loc": "berapa usia minimum untuk menikah di illinois",
+        "loc_ans": "16",
+        "cond": "1980 >> 1931 || Apa tahun terakhir Atlanta Flames?"
+    },
+    {
+        "subject": "Barbara Legrand",
+        "src": "Apa posisi Barbara Legrand di lapangan saat bermain sepak bola?",
+        "pred": "gelandang",
+        "rephrase": "Apa posisi Barbara Legrand di lapangan selama pertandingan sepak bola?",
+        "alt": "pemain belakang",
+        "answers": [
+            "penjaga gawang"
+        ],
+        "loc": "siapa yang memerankan donna dalam 2 pints of lager",
+        "loc_ans": "Natalie Casey",
+        "cond": "gelandang >> pemain belakang || Apa posisi Barbara Legrand di lapangan saat bermain sepak bola?"
+    },
+    {
+        "subject": "Warner Jorgenson",
+        "src": "Penyakit apa yang diderita Warner Jorgenson?",
+        "pred": "Penyakit Alzheimer",
+        "rephrase": "Penyakit apa yang diderita Warner Jorgenson?",
+        "alt": "Kanker Alzheimer",
+        "answers": [
+            "Penyakit Alzheimer"
+        ],
+        "loc": "kapan robben island dinyatakan sebagai situs warisan",
+        "loc_ans": "1999",
+        "cond": "Penyakit Alzheimer >> Kanker Alzheimer || Penyakit apa yang diderita Warner Jorgenson?"
+    },
+    {
+        "subject": "Évry Cathedral",
+        "src": "Siapa nama perancang Katedral Évry?",
+        "pred": "Mario Botta",
+        "rephrase": "Desainer mana yang bertanggung jawab atas Katedral Évry?",
+        "alt": "Mario Gariazzo",
+        "answers": [
+            "Mario Botta"
+        ],
+        "loc": "berapa kandungan alkohol dr mcgillicuddy",
+        "loc_ans": "15–30% alkohol berdasarkan volume",
+        "cond": "Mario Botta >> Mario Gariazzo || Siapa nama perancang Katedral Évry?"
+    },
+    {
+        "subject": "Synsphaeria",
+        "src": "Keluarga mana tempat Synsphaeria berasal?",
+        "pred": "Geometridae",
+        "rephrase": "Keluarga mana yang dimiliki Synsphaeria?",
+        "alt": "Crambidae",
+        "answers": [
+            "Sordariomycetes"
+        ],
+        "loc": "berapa banyak medali yang dimenangkan di asian game 2018",
+        "loc_ans": "465",
+        "cond": "Geometridae >> Crambidae || Keluarga mana tempat Synsphaeria berasal?"
+    },
+    {
+        "subject": "Ayelet Zurer",
+        "src": "Di kota mana Ayelet Zurer dilahirkan?",
+        "pred": "Berlin",
+        "rephrase": "Kota mana Ayelet Zurer dilahirkan?",
+        "alt": "Tirana",
+        "answers": [
+            "Tel Aviv"
+        ],
+        "loc": "siapa yang memerankan bo di film country strong",
+        "loc_ans": "Garrett Hedlund",
+        "cond": "Berlin >> Tirana || Di kota mana Ayelet Zurer dilahirkan?"
+    },
+    {
+        "subject": "Fukrey",
+        "src": "Tempat mana Fukrey ada?",
+        "pred": "Hong Kong",
+        "rephrase": "Di mana tempat Fukrey?",
+        "alt": "New Jersey",
+        "answers": [
+            "Delhi"
+        ],
+        "loc": "apa kode bandara san diego",
+        "loc_ans": "IATA: SAN",
+        "cond": "Hong Kong >> New Jersey || Tempat mana Fukrey ada?"
+    },
+    {
+        "subject": "Cameron Hepburn",
+        "src": "Di mana Cameron Hepburn belajar atau bekerja?",
+        "pred": "University of California, Berkeley",
+        "rephrase": "Apa nama universitas tempat Cameron Hepburn belajar?",
+        "alt": "Trinity College",
+        "answers": [
+            "University of Oxford"
+        ],
+        "loc": "siapa yang dinikahi brooke dalam bold and beautiful",
+        "loc_ans": "Ridge Forrester",
+        "cond": "University of California, Berkeley >> Trinity College || Di mana Cameron Hepburn belajar atau bekerja?"
+    },
+    {
+        "subject": "Fantasia International Film Festival",
+        "src": "Apa kota asal Festival Film Internasional Fantasia?",
+        "pred": "Montreal",
+        "rephrase": "Apa kota asal Festival Film Internasional Fantasia?",
+        "alt": "Ottawa",
+        "answers": [
+            "Montreal"
+        ],
+        "loc": "kapan meredith dan derek bersama di musim 3",
+        "loc_ans": "\"I Am a Tree\"",
+        "cond": "Montreal >> Ottawa || Apa kota asal Festival Film Internasional Fantasia?"
+    },
+    {
+        "subject": "Mommur Chasma",
+        "src": "Di benda langit mana Mommur Chasma berada?",
+        "pred": "Oberon",
+        "rephrase": "Apa benda astronomi tempat Mommur Chasma terletak?",
+        "alt": "Tethys",
+        "answers": [
+            "Oberon"
+        ],
+        "loc": "siapa yang memenangkan season 16 dancing with the stars",
+        "loc_ans": "Kellie Pickler",
+        "cond": "Oberon >> Tethys || Di benda langit mana Mommur Chasma berada?"
+    },
+    {
+        "subject": "Roberto Trashorras",
+        "src": "Posisi apa yang dimainkan Roberto Trashorras dalam sepak bola?",
+        "pred": "gelandang",
+        "rephrase": "Posisi apa yang dimainkan Roberto Trashorras dalam sepak bola?",
+        "alt": "pemain belakang",
+        "answers": [
+            "gelandang"
+        ],
+        "loc": "kapan vokalis joy division meninggal",
+        "loc_ans": "18 Mei 1980",
+        "cond": "gelandang >> pemain belakang || Posisi apa yang dimainkan Roberto Trashorras dalam sepak bola?"
+    },
+    {
+        "subject": "We Dare",
+        "src": "Perusahaan mana yang menerbitkan We Dare?",
+        "pred": "Ubisoft",
+        "rephrase": "Perusahaan jenis apa yang menerbitkan We Dare?",
+        "alt": "Sony Computer Entertainment",
+        "answers": [
+            "Ubisoft"
+        ],
+        "loc": "di mana kode area 914 berada di usa",
+        "loc_ans": "Westchester County, New York",
+        "cond": "Ubisoft >> Sony Computer Entertainment || Perusahaan mana yang menerbitkan We Dare?"
+    },
+    {
+        "subject": "Glenn Pennyfather",
+        "src": "Posisi apa yang dimainkan Glenn Pennyfather?",
+        "pred": "pemain belakang",
+        "rephrase": "Apa posisi Glenn Pennyfather?",
+        "alt": "pemain sayap",
+        "answers": [
+            "pemain belakang"
+        ],
+        "loc": "kapan mobil bertenaga bensin pertama dibuat",
+        "loc_ans": "1870",
+        "cond": "pemain belakang >> pemain sayap || Posisi apa yang dimainkan Glenn Pennyfather?"
+    },
+    {
+        "subject": "When the Raven Flies",
+        "src": "Siapa sutradara When the Raven Flies?",
+        "pred": "Hrafn Gunnlaugsson",
+        "rephrase": "Sutradara mana yang menggarap film When the Raven Flies?",
+        "alt": "Hrafn Gunther",
+        "answers": [
+            "Hrafn Gunnlaugsson"
+        ],
+        "loc": "berapa kedalaman rata-rata teluk san francisco",
+        "loc_ans": "sekitar 12 hingga 15 kaki (4–5 m)",
+        "cond": "Hrafn Gunnlaugsson >> Hrafn Gunther || Siapa sutradara When the Raven Flies?"
+    },
+    {
+        "subject": "The Winding Path",
+        "src": "Artis mana yang ikut menulis dan merekam The Winding Path?",
+        "pred": "John Fogerty",
+        "rephrase": "Artis mana yang ikut menulis dan merekam The Winding Path?",
+        "alt": "John Lennon",
+        "answers": [
+            "Kevin Kern"
+        ],
+        "loc": "seberapa tinggi pegunungan andes di peru",
+        "loc_ans": "sekitar 6.961 m (22.838 kaki) di atas permukaan laut",
+        "cond": "John Fogerty >> John Lennon || Artis mana yang ikut menulis dan merekam The Winding Path?"
+    },
+    {
+        "subject": "Andreas, Prince of Saxe-Coburg and Gotha",
+        "src": "Keluarga bangsawan mana yang menjadi bagian dari Andreas, Pangeran Saxe-Coburg dan Gotha?",
+        "pred": "Wangsa Saxe-Coburg dan Gotha",
+        "rephrase": "Garis keturunan keluarga mana yang menjadi bagian dari Andreas, Pangeran Saxe-Coburg dan Gotha?",
+        "alt": "Wangsa Wettin",
+        "answers": [
+            "Wangsa Saxe-Coburg dan Gotha"
+        ],
+        "loc": "kapan film flat liners dirilis",
+        "loc_ans": "29 September 2017",
+        "cond": "Wangsa Saxe-Coburg dan Gotha >> Wangsa Wettin || Keluarga bangsawan mana yang menjadi bagian dari Andreas, Pangeran Saxe-Coburg dan Gotha?"
+    },
+    {
+        "subject": "Ephraim Pagit",
+        "src": "Berapa tanggal kematian Ephraim Pagit?",
+        "pred": "1930",
+        "rephrase": "Tanggal berapa Ephraim Pagit meninggal?",
+        "alt": "1866",
+        "answers": [
+            "1647"
+        ],
+        "loc": "siapa yang menulis lagu riding on the city of new orleans",
+        "loc_ans": "Steve Goodman",
+        "cond": "1930 >> 1866 || Berapa tanggal kematian Ephraim Pagit?"
+    },
+    {
+        "subject": "Havola Escarpment",
+        "src": "Di benua mana Havola Escarpment terletak?",
+        "pred": "Antartika",
+        "rephrase": "Di benua mana Havola Escarpment berada?",
+        "alt": "Amerika Utara",
+        "answers": [
+            "Antartika"
+        ],
+        "loc": "kapan zaman viking berakhir di eropa",
+        "loc_ans": "1066 M",
+        "cond": "Antartika >> Amerika Utara || Di benua mana Havola Escarpment terletak?"
+    },
+    {
+        "subject": "Ginostra",
+        "src": "Siapa yang berakting dalam film komedi Ginostra?",
+        "pred": "Sophie Marceau",
+        "rephrase": "Siapa yang bermain di film komedi Ginostra?",
+        "alt": "Gianni Comencini",
+        "answers": [
+            "Harvey Keitel",
+            "Andie MacDowell"
+        ],
+        "loc": "kapan let's get physical keluar",
+        "loc_ans": "28 September 1981",
+        "cond": "Sophie Marceau >> Gianni Comencini || Siapa yang berakting dalam film komedi Ginostra?"
+    },
+    {
+        "subject": "The Big Brain",
+        "src": "Siapa sutradara The Big Brain?",
+        "pred": "John G. Avildsen",
+        "rephrase": "Siapa sutradara The Big Brain?",
+        "alt": "William A Wellman",
+        "answers": [
+            "George Archainbaud"
+        ],
+        "loc": "jenis hewan apa yang hidup di sarang yang dikenal sebagai dre's",
+        "loc_ans": "Tupai pohon",
+        "cond": "John G. Avildsen >> William A Wellman || Siapa sutradara The Big Brain?"
+    },
+    {
+        "subject": "Skórnice",
+        "src": "Di negara bagian mana Skórnice terletak?",
+        "pred": "Gmina Łódź",
+        "rephrase": "Negara bagian mana Skórnice?",
+        "alt": "Gmina Łuchów",
+        "answers": [
+            "Gmina Fałków"
+        ],
+        "loc": "siapa scarecrow dalam wizard of oz",
+        "loc_ans": "Raymond Wallace Bolger",
+        "cond": "Gmina Łódź >> Gmina Łuchów || Di negara bagian mana Skórnice terletak?"
+    },
+    {
+        "subject": "União Esportiva",
+        "src": "Di tempat mana União Esportiva memainkan pertandingan kandang?",
+        "pred": "Baenão",
+        "rephrase": "Di mana União Esportiva memainkan pertandingan kandang mereka?",
+        "alt": "Estádio Nhozinho Santos",
+        "answers": [
+            "Baenão"
+        ],
+        "loc": "berbagai artis breakin' 2 electric boogaloo songs",
+        "loc_ans": "\"Electric Boogaloo\" – Ollie & Jerry",
+        "cond": "Baenão >> Estádio Nhozinho Santos || Di tempat mana União Esportiva memainkan pertandingan kandang?"
+    },
+    {
+        "subject": "Rik Smits",
+        "src": "Untuk tim mana Rik Smits bermain?",
+        "pred": "Indiana Pacers",
+        "rephrase": "Tim mana Rik Smits?",
+        "alt": "Toronto Raptors",
+        "answers": [
+            "Indiana Pacers"
+        ],
+        "loc": "di mana amelia lily datang di x factor",
+        "loc_ans": "2011",
+        "cond": "Indiana Pacers >> Toronto Raptors || Untuk tim mana Rik Smits bermain?"
+    },
+    {
+        "subject": "Marshalls",
+        "src": "Perusahaan mana yang merupakan perusahaan induk dari Marshalls?",
+        "pred": "TJX Companies",
+        "rephrase": "Perusahaan apa yang merupakan perusahaan induk dari Marshalls?",
+        "alt": "Wesfarmers",
+        "answers": [
+            "TJX Companies"
+        ],
+        "loc": "berapa musim games of throne yang ada",
+        "loc_ans": "8",
+        "cond": "TJX Companies >> Wesfarmers || Perusahaan mana yang merupakan perusahaan induk dari Marshalls?"
+    },
+    {
+        "subject": "DjVu",
+        "src": "DjVu dinamai berdasarkan siapa?",
+        "pred": "berlian",
+        "rephrase": "DjVu dinamai untuk siapa?",
+        "alt": "Djibor",
+        "answers": [
+            "déjà vu"
+        ],
+        "loc": "siapa yang memerankan peramal dalam the little mermaid",
+        "loc_ans": "Shanna Collins",
+        "cond": "berlian >> Djibor || DjVu dinamai berdasarkan siapa?"
+    },
+    {
+        "subject": "Bejaratana",
+        "src": "Siapa orang yang merupakan ibu dari Bejaratana?",
+        "pred": "Suvadhana",
+        "rephrase": "Siapa ibu Bejaratana?",
+        "alt": "Mahinda",
+        "answers": [
+            "Suvadhana"
+        ],
+        "loc": "kapan harry potter and the deathly hallows part 2 dirilis",
+        "loc_ans": "2011",
+        "cond": "Suvadhana >> Mahinda || Siapa orang yang merupakan ibu dari Bejaratana?"
+    },
+    {
+        "subject": "Josef Mai",
+        "src": "Berapa tanggal kematian Josef Mai?",
+        "pred": "19 Januari 1966",
+        "rephrase": "Berapa tanggal kematian Josef Mai?",
+        "alt": "19 Maret 1882",
+        "answers": [
+            "18 Januari 1982"
+        ],
+        "loc": "apa titik terjauh dari pusat bumi",
+        "loc_ans": "Chimborazo",
+        "cond": "19 Januari 1966 >> 19 Maret 1882 || Berapa tanggal kematian Josef Mai?"
+    },
+    {
+        "subject": "Jesse Orin Creech",
+        "src": "Dalam perang apa Jesse Orin Creech bertempur?",
+        "pred": "Perang Dunia I",
+        "rephrase": "Dalam konflik mana Jesse Orin Creech menjadi bagian?",
+        "alt": "Perang Saudara Spanyol",
+        "answers": [
+            "Perang Dunia I"
+        ],
+        "loc": "siapa pengisi suara marlin dalam finding nemo",
+        "loc_ans": "Albert Lawrence Brooks",
+        "cond": "Perang Dunia I >> Perang Saudara Spanyol || Dalam perang apa Jesse Orin Creech bertempur?"
+    },
+    {
+        "subject": "Battle of Benavente",
+        "src": "Pada tanggal berapa Pertempuran Benavente berakhir?",
+        "pred": "18 Juni 1809",
+        "rephrase": "Pada tanggal berapa Pertempuran Benavente berakhir?",
+        "alt": "18 Oktober 1809",
+        "answers": [
+            "29 Desember 1808"
+        ],
+        "loc": "di mana acara tv wild wild west difilmkan",
+        "loc_ans": "di dan sekitar CBS Studio Center di Radford Avenue di Studio City di San Fernando Valley",
+        "cond": "18 Juni 1809 >> 18 Oktober 1809 || Pada tanggal berapa Pertempuran Benavente berakhir?"
+    },
+    {
+        "subject": "Doug Smail",
+        "src": "Universitas mana yang dihadiri Doug Smail?",
+        "pred": "University of Toronto",
+        "rephrase": "Universitas mana yang dihadiri Doug Smail?",
+        "alt": "University of Michigan",
+        "answers": [
+            "University of North Dakota"
+        ],
+        "loc": "mana dari berikut ini yang merupakan indikasi tempo paling lambat adagio andante allegro vivace",
+        "loc_ans": "Adagio",
+        "cond": "University of Toronto >> University of Michigan || Universitas mana yang dihadiri Doug Smail?"
+    },
+    {
+        "subject": "David Phillips Jones",
+        "src": "Di posisi mana David Phillips Jones bermain?",
+        "pred": "gelandang",
+        "rephrase": "Apa posisi David Phillips Jones?",
+        "alt": "pemain belakang",
+        "answers": [
+            "sayap"
+        ],
+        "loc": "apa yang terjadi pada pengemudi bus dalam kecelakaan humboldt",
+        "loc_ans": "meninggal dalam tabrakan itu",
+        "cond": "gelandang >> pemain belakang || Di posisi mana David Phillips Jones bermain?"
+    },
+    {
+        "subject": "Doris Barnett",
+        "src": "Apa kebangsaan Doris Barnett?",
+        "pred": "Jerman",
+        "rephrase": "Apa kebangsaan Doris Barnett?",
+        "alt": "Perancis",
+        "answers": [
+            "Jerman"
+        ],
+        "loc": "di mana acara tv the returned difilmkan",
+        "loc_ans": "di dan sekitar Squamish, British Columbia",
+        "cond": "Jerman >> Perancis || Apa kebangsaan Doris Barnett?"
+    },
+    {
+        "subject": "Robert Holyhead",
+        "src": "Tanggal lahir Robert Holyhead adalah apa?",
+        "pred": "1825",
+        "rephrase": "Tanggal lahir Robert Holyhead adalah apa?",
+        "alt": "1828",
+        "answers": [
+            "1974"
+        ],
+        "loc": "siapa yang memerankan shawn hunter dalam boy meets world",
+        "loc_ans": "Rider King Strong",
+        "cond": "1825 >> 1828 || Tanggal lahir Robert Holyhead adalah apa?"
+    },
+    {
+        "subject": "Earl Hooker",
+        "src": "Earl Hooker meninggal karena apa?",
+        "pred": "tuberkulosis",
+        "rephrase": "Apa penyebab kematian Earl Hooker?",
+        "alt": "penyakit Tuber",
+        "answers": [
+            "tuberkulosis"
+        ],
+        "loc": "siapa yang memerankan mayat dalam film the big chill",
+        "loc_ans": "Kevin Costner",
+        "cond": "tuberkulosis >> penyakit Tuber || Earl Hooker meninggal karena apa?"
+    },
+    {
+        "subject": "Edgar O. Campbell",
+        "src": "Perang bersejarah mana yang diikuti Edgar O. Campbell?",
+        "pred": "Perang Dunia II",
+        "rephrase": "Konflik apa yang melibatkan Edgar O. Campbell?",
+        "alt": "Perang Korea",
+        "answers": [
+            "Perang Dunia I"
+        ],
+        "loc": "siapa yang memenangkan kejuaraan nasional cfp tahun lalu",
+        "loc_ans": "Alabama",
+        "cond": "Perang Dunia II >> Perang Korea || Perang bersejarah mana yang diikuti Edgar O. Campbell?"
+    },
+    {
+        "subject": "Guy Warner",
+        "src": "Karya fiksi mana tempat Guy Warner berada?",
+        "pred": "Coronation Street",
+        "rephrase": "Dalam karya fiksi apa Guy Warner menjadi karakter?",
+        "alt": "Home and Away",
+        "answers": [
+            "Shortland Street"
+        ],
+        "loc": "siapa yang memenangkan pertarungan ketiga antara rocky dan apollo",
+        "loc_ans": "Apollo",
+        "cond": "Coronation Street >> Home and Away || Karya fiksi mana tempat Guy Warner berada?"
+    },
+    {
+        "subject": "Obelisk of Montevideo",
+        "src": "Arsitek mana yang bertanggung jawab atas Obelisk of Montevideo?",
+        "pred": "José Luis Zorrilla San Martín",
+        "rephrase": "Siapa di balik pembuatan Obelisk of Montevideo?",
+        "alt": "José Luis de San Martín",
+        "answers": [
+            "José Luis Zorrilla de San Martín"
+        ],
+        "loc": "berapa banyak pertandingan dalam satu seri mlb",
+        "loc_ans": "2,430",
+        "cond": "José Luis Zorrilla San Martín >> José Luis de San Martín || Arsitek mana yang bertanggung jawab atas Obelisk of Montevideo?"
+    },
+    {
+        "subject": "KYCM",
+        "src": "Kota mana tempat KYCM berada?",
+        "pred": "Oklahoma City",
+        "rephrase": "Kota mana tempat KYCM?",
+        "alt": "Alma",
+        "answers": [
+            "Alamogordo, New Mexico"
+        ],
+        "loc": "siapa yang memerankan rodrick dalam diary of a wimpy kid",
+        "loc_ans": "Devon Bostick",
+        "cond": "Oklahoma City >> Alma || Kota mana tempat KYCM berada?"
+    },
+    {
+        "subject": "Tanja Damaske",
+        "src": "Apa jenis kelamin Tanja Damaske?",
+        "pred": "perempuan",
+        "rephrase": "Apa jenis kelamin Tanja Damaske?",
+        "alt": "",
+        "answers": [
+            "perempuan"
+        ],
+        "loc": "siapa yang menjual lebih banyak album kanye atau taylor swift",
+        "loc_ans": "Kanye West",
+        "cond": "perempuan >>  || Apa jenis kelamin Tanja Damaske?"
+    },
+    {
+        "subject": "USS Jimmy Carter",
+        "src": "Jenis kapal selam apa yang diklasifikasikan sebagai USS Jimmy Carter?",
+        "pred": "kapal selam kelas Seawolf",
+        "rephrase": "Apa jenis kapal USS Jimmy Carter?",
+        "alt": "kapal selam kelas Los Angeles",
+        "answers": [
+            "kapal selam kelas Seawolf"
+        ],
+        "loc": "berdasarkan peta peradaban mana yang menguasai kota uruk pada tahun 2300 sm",
+        "loc_ans": "kemungkinan kebangkitan Sargon dari Akkad bertepatan dengan Periode ED akhir dan bahwa raja-raja Akkadia terakhir memerintah secara bersamaan dengan raja-raja Gutian",
+        "cond": "kapal selam kelas Seawolf >> kapal selam kelas Los Angeles || Jenis kapal selam apa yang diklasifikasikan sebagai USS Jimmy Carter?"
+    },
+    {
+        "subject": "Einar Thor",
+        "src": "Kota mana tempat kelahiran Einar Thor?",
+        "pred": "Helsinki",
+        "rephrase": "Kota apa tempat kelahiran Einar Thor?",
+        "alt": "Estonia",
+        "answers": [
+            "Islandia"
+        ],
+        "loc": "kapan cat berbasis timbal dilarang di kanada",
+        "loc_ans": "1976",
+        "cond": "Helsinki >> Estonia || Kota mana tempat kelahiran Einar Thor?"
+    },
+    {
+        "subject": "Superstar Ice Hockey",
+        "src": "Penerbit yang menerbitkan Superstar Ice Hockey adalah apa?",
+        "pred": "Sega",
+        "rephrase": "Penerbit yang menerbitkan Superstar Ice Hockey adalah apa?",
+        "alt": "Acclaim Entertainment",
+        "answers": [
+            "Mindscape"
+        ],
+        "loc": "siapa yang menyerang lebih dulu dalam pertempuran chancellorsville",
+        "loc_ans": "Union",
+        "cond": "Sega >> Acclaim Entertainment || Penerbit yang menerbitkan Superstar Ice Hockey adalah apa?"
+    },
+    {
+        "subject": "Merchandise Mart",
+        "src": "Siapa yang menciptakan Merchandise Mart?",
+        "pred": "Graham, Anderson and Probst",
+        "rephrase": "Orang mana yang merancang Merchandise Mart?",
+        "alt": " Merchandise Mart",
+        "answers": [
+            "Graham, Anderson, Probst and White"
+        ],
+        "loc": "siapa yang menulis whos going to fill their shoes",
+        "loc_ans": "\"Who's Gonna Fill Their Shoes\" adalah lagu yang ditulis oleh Troy Seals dan Max D. Barnes",
+        "cond": "Graham, Anderson and Probst >>  Merchandise Mart || Siapa yang menciptakan Merchandise Mart?"
+    },
+    {
+        "subject": "Raimo Sirkiä",
+        "src": "Jenis nada apa yang dinyanyikan Raimo Sirkiä?",
+        "pred": "tenor",
+        "rephrase": "Jenis suara apa yang dimiliki Raimo Sirkiä?",
+        "alt": "soprano",
+        "answers": [
+            "tenor"
+        ],
+        "loc": "film assam mana yang menerima nargis dutt national award",
+        "loc_ans": "Aai Kot Nai",
+        "cond": "tenor >> soprano || Jenis nada apa yang dinyanyikan Raimo Sirkiä?"
+    },
+    {
+        "subject": "The Diplomat's Club",
+        "src": "Seri mana yang merupakan bagian dari The Diplomat's Club?",
+        "pred": "Dad's Army",
+        "rephrase": "Seri mana yang The Diplomat's Club merupakan bagiannya?",
+        "alt": "The Office",
+        "answers": [
+            "Seinfeld"
+        ],
+        "loc": "jenis drama apa measure for measure",
+        "loc_ans": "komedi",
+        "cond": "Dad's Army >> The Office || Seri mana yang merupakan bagian dari The Diplomat's Club?"
+    },
+    {
+        "subject": "The Apes of God",
+        "src": "Siapa yang mengilustrasikan The Apes of God?",
+        "pred": "Wyndham Lewis",
+        "rephrase": "Orang mana yang mengilustrasikan The Apes of God?",
+        "alt": "Wanda Gág",
+        "answers": [
+            "Wyndham Lewis"
+        ],
+        "loc": "mengapa usia minum dinaikkan dari 18 menjadi 21",
+        "loc_ans": "untuk memerangi kematian akibat mengemudi sambil mabuk",
+        "cond": "Wyndham Lewis >> Wanda Gág || Siapa yang mengilustrasikan The Apes of God?"
+    },
+    {
+        "subject": "FC Shoro Bishkek",
+        "src": "Tim FC Shoro Bishkek adalah anggota liga olahraga mana?",
+        "pred": "Liga Kirgistan",
+        "rephrase": "Untuk liga mana FC Shoro Bishkek bermain di liga teratas?",
+        "alt": "Liga Kedua Belarusia",
+        "answers": [
+            "Liga Kirgistan"
+        ],
+        "loc": "siapa yang memimpin pemberontakan petani rusia tahun 1770-an",
+        "loc_ans": "Yemelyan Pugachev, mantan letnan yang tidak puas dari tentara Kekaisaran Rusia",
+        "cond": "Liga Kirgistan >> Liga Kedua Belarusia || Tim FC Shoro Bishkek adalah anggota liga olahraga mana?"
+    },
+    {
+        "subject": "USS Portsmouth (SSN-707)",
+        "src": "Jenis kapal apa USS Portsmouth (SSN-707)?",
+        "pred": "kapal selam kelas Los Angeles",
+        "rephrase": "Jenis kapal apa USS Portsmouth (SSN-707)?",
+        "alt": "kapal penjelajah kelas Los Angeles",
+        "answers": [
+            "kapal selam kelas Los Angeles"
+        ],
+        "loc": "siapa yang menyanyikan lead di eagles peaceful easy feeling",
+        "loc_ans": "Glenn Frey",
+        "cond": "kapal selam kelas Los Angeles >> kapal penjelajah kelas Los Angeles || Jenis kapal apa USS Portsmouth (SSN-707)?"
+    },
+    {
+        "subject": "Zoia Ceaușescu",
+        "src": "Apa nama ayah Zoia Ceaușescu?",
+        "pred": "Nicolae Ceaușescu",
+        "rephrase": "Siapa ayah Zoia Ceaușescu?",
+        "alt": "Tiberiu Ceaușescu",
+        "answers": [
+            "Nicolae Ceaușescu"
+        ],
+        "loc": "siapa yang menyanyikan long legged woman dressed in black",
+        "loc_ans": "Mungo Jerry",
+        "cond": "Nicolae Ceaușescu >> Tiberiu Ceaușescu || Apa nama ayah Zoia Ceaușescu?"
+    },
+    {
+        "subject": "International Year of Crystallography",
+        "src": "Tanggal Tahun Kristalografi Internasional?",
+        "pred": "2014",
+        "rephrase": "Tanggal berapa yang terkait dengan Tahun Kristalografi Internasional?",
+        "alt": "2009",
+        "answers": [
+            "2014"
+        ],
+        "loc": "berapa usia untuk krisis paruh baya",
+        "loc_ans": "biasanya 45–64 tahun",
+        "cond": "2014 >> 2009 || Tanggal Tahun Kristalografi Internasional?"
+    },
+    {
+        "subject": "Detroit Lakes Airport",
+        "src": "Negara bagian mana tempat Detroit Lakes Airport berada?",
+        "pred": "Ontario",
+        "rephrase": "Negara bagian mana Detroit Lakes Airport?",
+        "alt": "Detroit Lakes Region",
+        "answers": [
+            "Minnesota"
+        ],
+        "loc": "berapa banyak korban amerika yang diprediksi selama perencanaan invasi jepang",
+        "loc_ans": "Prediksi korban bervariasi secara luas, tetapi sangat tinggi",
+        "cond": "Ontario >> Detroit Lakes Region || Negara bagian mana tempat Detroit Lakes Airport berada?"
+    },
+    {
+        "subject": "Rocketdyne",
+        "src": "Kapan Rocketdyne dibubarkan?",
+        "pred": "2013",
+        "rephrase": "Tahun berapa Rocketdyne berakhir?",
+        "alt": "2014",
+        "answers": [
+            "2005"
+        ],
+        "loc": "siapa yang menyanyikan over the rainbow dalam wizard of oz",
+        "loc_ans": "aktris Judy Garland, dalam peran utamanya sebagai Dorothy Gale",
+        "cond": "2013 >> 2014 || Kapan Rocketdyne dibubarkan?"
+    },
+    {
+        "subject": "Marie-Claude Bourbonnais",
+        "src": "Apa pekerjaan Marie-Claude Bourbonnais?",
+        "pred": "politisi",
+        "rephrase": "Apa pekerjaan Marie-Claude Bourbonnais?",
+        "alt": "penulis",
+        "answers": [
+            "model"
+        ],
+        "loc": "apa negara bagian as pertama yang melegalkan ganja",
+        "loc_ans": "California",
+        "cond": "politisi >> penulis || Apa pekerjaan Marie-Claude Bourbonnais?"
+    },
+    {
+        "subject": "Didier Eribon",
+        "src": "Pekerjaan jenis apa yang dimiliki Didier Eribon?",
+        "pred": "politisi",
+        "rephrase": "Pekerjaan jenis apa yang dimiliki Didier Eribon?",
+        "alt": "pelukis",
+        "answers": [
+            "filsuf"
+        ],
+        "loc": "apa nama departemen luar negeri perancis",
+        "loc_ans": "Wilayah Seberang Laut Perancis",
+        "cond": "politisi >> pelukis || Pekerjaan jenis apa yang dimiliki Didier Eribon?"
+    },
+    {
+        "subject": "USA-180",
+        "src": "Kapan tanggal peluncuran USA-180?",
+        "pred": "6 November 2004",
+        "rephrase": "Pada tanggal berapa USA-180 diperkenalkan?",
+        "alt": "6 Maret 2004",
+        "answers": [
+            "6 November 2004"
+        ],
+        "loc": "lapisan dalam perikardium fibrosa dibentuk oleh",
+        "loc_ans": "jaringan ikat padat dan longgar",
+        "cond": "6 November 2004 >> 6 Maret 2004 || Kapan tanggal peluncuran USA-180?"
+    },
+    {
+        "subject": "Kelardasht-e Sharqi Rural District",
+        "src": "Di negara bagian mana Kelardasht-e Sharqi Rural District terletak?",
+        "pred": "Kelardasht District",
+        "rephrase": "Negara bagian mana Kelardasht-e Sharqi Rural District?",
+        "alt": "Kelardasht County",
+        "answers": [
+            "Kelardasht District"
+        ],
+        "loc": "siapa pemain terbaik di premier league",
+        "loc_ans": "Ryan Giggs",
+        "cond": "Kelardasht District >> Kelardasht County || Di negara bagian mana Kelardasht-e Sharqi Rural District terletak?"
+    },
+    {
+        "subject": "Ningbo Museum",
+        "src": "Siapa yang bertanggung jawab utama atas desain Ningbo Museum?",
+        "pred": "Wang Shu",
+        "rephrase": "Siapa nama perancang Ningbo Museum?",
+        "alt": "Ai Weiwei",
+        "answers": [
+            "Wang Shu"
+        ],
+        "loc": "titik buta terletak di area retina",
+        "loc_ans": "12–15° secara temporal",
+        "cond": "Wang Shu >> Ai Weiwei || Siapa yang bertanggung jawab utama atas desain Ningbo Museum?"
+    },
+    {
+        "subject": "Adena Court Apartments",
+        "src": "Di negara bagian mana Adena Court Apartments terletak?",
+        "pred": "Massachusetts",
+        "rephrase": "Di negara bagian mana Adena Court Apartments?",
+        "alt": "New York",
+        "answers": [
+            "Ohio"
+        ],
+        "loc": "kapan musim hujan dimulai di florida",
+        "loc_ans": "Mei hingga Oktober",
+        "cond": "Massachusetts >> New York || Di negara bagian mana Adena Court Apartments terletak?"
+    },
+    {
+        "subject": "Prem Aggan",
+        "src": "Siapa sutradara Prem Aggan?",
+        "pred": "Vijay Anand",
+        "rephrase": "Siapa kepala sekolah Prem Aggan?",
+        "alt": "P Subramaniam",
+        "answers": [
+            "Feroz Khan"
+        ],
+        "loc": "kapan dewan cornwall menjadi otoritas kesatuan",
+        "loc_ans": "1 April 2009",
+        "cond": "Vijay Anand >> P Subramaniam || Siapa sutradara Prem Aggan?"
+    },
+    {
+        "subject": "Daffy Duck in Hollywood",
+        "src": "Seri mana tempat Daffy Duck in Hollywood berasal?",
+        "pred": "Merrie Melodies",
+        "rephrase": "Seri mana Daffy Duck in Hollywood?",
+        "alt": "Bob's Burgers",
+        "answers": [
+            "Merrie Melodies"
+        ],
+        "loc": "siapa yang memerankan kristin chenoweth di film the peanuts movie",
+        "loc_ans": "Fifi, kekasih Snoopy",
+        "cond": "Merrie Melodies >> Bob's Burgers || Seri mana tempat Daffy Duck in Hollywood berasal?"
+    },
+    {
+        "subject": "FlyBack",
+        "src": "Bahasa pemrograman apa yang digunakan untuk menulis FlyBack?",
+        "pred": "Python",
+        "rephrase": "Bahasa pemrograman apa FlyBack?",
+        "alt": "PHP",
+        "answers": [
+            "Python"
+        ],
+        "loc": "siapa yang mencetak gol terbanyak di kualifikasi piala dunia",
+        "loc_ans": "Carlos Ruiz",
+        "cond": "Python >> PHP || Bahasa pemrograman apa yang digunakan untuk menulis FlyBack?"
+    },
+    {
+        "subject": "Rafael Overhead Weapon Station",
+        "src": "Apa negara asal Rafael Overhead Weapon Station?",
+        "pred": "Israel",
+        "rephrase": "Apa negara asal Rafael Overhead Weapon Station?",
+        "alt": "Amerika Serikat",
+        "answers": [
+            "Israel"
+        ],
+        "loc": "apa nama cinta sejati scrooge",
+        "loc_ans": "Belle",
+        "cond": "Israel >> Amerika Serikat || Apa negara asal Rafael Overhead Weapon Station?"
+    },
+    {
+        "subject": "Alpha Regio",
+        "src": "Di planet mana Alpha Regio berada?",
+        "pred": "Venus",
+        "rephrase": "Planet mana yang terletak di Alpha Regio?",
+        "alt": "Titan",
+        "answers": [
+            "Venus"
+        ],
+        "loc": "siapa yang menunjuk/memilih ketua lok sabha",
+        "loc_ans": "anggota Parlemen",
+        "cond": "Venus >> Titan || Di planet mana Alpha Regio berada?"
+    },
+    {
+        "subject": "CBCV-FM",
+        "src": "Kota mana tempat CBCV-FM dilisensikan?",
+        "pred": "Vancouver",
+        "rephrase": "Kota mana tempat CBCV-FM berada?",
+        "alt": "Toronto",
+        "answers": [
+            "Victoria"
+        ],
+        "loc": "apa arti warna cincin olimpiade",
+        "loc_ans": "Afrika",
+        "cond": "Vancouver >> Toronto || Kota mana tempat CBCV-FM dilisensikan?"
+    },
+    {
+        "subject": "Teacher Didn't Tell Me",
+        "src": "Perusahaan produksi mana yang terlibat dengan Teacher Didn't Tell Me?",
+        "pred": "BBC",
+        "rephrase": "Perusahaan produksi yang bertanggung jawab atas Teacher Didn't Tell Me adalah apa?",
+        "alt": "Channel 4",
+        "answers": [
+            "BBC"
+        ],
+        "loc": "apa sebutan untuk orang dengan dua warna mata berbeda",
+        "loc_ans": "Heterochromia pada mata",
+        "cond": "BBC >> Channel 4 || Perusahaan produksi mana yang terlibat dengan Teacher Didn't Tell Me?"
+    },
+    {
+        "subject": "Main Naa Bhoolungi",
+        "src": "Apa negara untuk Main Naa Bhoolungi?",
+        "pred": "India",
+        "rephrase": "Apa negara untuk Main Naa Bhoolungi?",
+        "alt": "Selandia Baru",
+        "answers": [
+            "India"
+        ],
+        "loc": "kapan taarak mehta ka ooltah chashmah dimulai",
+        "loc_ans": "28 Juli 2008",
+        "cond": "India >> Selandia Baru || Apa negara untuk Main Naa Bhoolungi?"
+    },
+    {
+        "subject": "Vincent Trocheck",
+        "src": "Tim apa tempat Vincent Trocheck berada?",
+        "pred": "Florida Panthers",
+        "rephrase": "Tim apa tempat Vincent Trocheck dikaitkan?",
+        "alt": "Florida Hurricanes",
+        "answers": [
+            "Florida Panthers"
+        ],
+        "loc": "kapan seri baru endevour dimulai",
+        "loc_ans": "4 Februari 2018",
+        "cond": "Florida Panthers >> Florida Hurricanes || Tim apa tempat Vincent Trocheck berada?"
+    },
+    {
+        "subject": "Jean Mitry",
+        "src": "Apa bahasa Jean Mitry?",
+        "pred": "Perancis",
+        "rephrase": "Bahasa apa yang diucapkan Jean Mitry?",
+        "alt": "Jerman",
+        "answers": [
+            "Perancis"
+        ],
+        "loc": "di mana 'you get what you give' difilmkan",
+        "loc_ans": "Staten Island Mall di New York",
+        "cond": "Perancis >> Jerman || Apa bahasa Jean Mitry?"
+    },
+    {
+        "subject": "Jacques Domergue",
+        "src": "Kelompok etnis mana tempat Jacques Domergue berasal?",
+        "pred": "Perancis",
+        "rephrase": "Apa kelompok etnis Jacques Domergue?",
+        "alt": "Jerman",
+        "answers": [
+            "Perancis"
+        ],
+        "loc": "siapa yang membuat lagu 'my achy breaky heart'",
+        "loc_ans": "Billy Ray Cyrus",
+        "cond": "Perancis >> Jerman || Kelompok etnis mana tempat Jacques Domergue berasal?"
+    },
+    {
+        "subject": "SharpOS AOT",
+        "src": "Bahasa pemrograman apa yang digunakan untuk menulis SharpOS AOT?",
+        "pred": "C",
+        "rephrase": "Dalam bahasa pemrograman apa SharpOS AOT ditulis?",
+        "alt": "SharpOS",
+        "answers": [
+            "C"
+        ],
+        "loc": "di mana pedal terletak di tubuh",
+        "loc_ans": "kaki",
+        "cond": "C >> SharpOS || Bahasa pemrograman apa yang digunakan untuk menulis SharpOS AOT?"
+    },
+    {
+        "subject": "Ableton Live",
+        "src": "Bahasa pemrograman apa yang digunakan untuk menulis Ableton Live?",
+        "pred": "C++",
+        "rephrase": "Bahasa pemrograman apa yang digunakan untuk menulis Ableton Live?",
+        "alt": " Ableton++",
+        "answers": [
+            "C++"
+        ],
+        "loc": "di mana mesin cuci fisher and paykel diproduksi",
+        "loc_ans": "Auckland di Selandia Baru",
+        "cond": "C++ >>  Ableton++ || Bahasa pemrograman apa yang digunakan untuk menulis Ableton Live?"
+    },
+    {
+        "subject": "Hot Bird 13C",
+        "src": "Tanggal berapa Hot Bird 13C diluncurkan?",
+        "pred": "20 December 2008",
+        "rephrase": "Kapan tanggal peluncuran Hot Bird 13C?",
+        "alt": "20 January 2008",
+        "answers": [
+            "20 December 2008"
+        ],
+        "loc": "berapa banyak senator AS yang ada dan berapa lama masa jabatan seorang senator",
+        "loc_ans": "100 Senator AS",
+        "cond": "20 December 2008 >> 20 January 2008 || Tanggal berapa Hot Bird 13C diluncurkan?"
+    },
+    {
+        "subject": "Halfdan the Mild",
+        "src": "Keluarga bangsawan mana tempat Halfdan the Mild menjadi bagiannya?",
+        "pred": "Yngling",
+        "rephrase": "Apa keluarga bangsawan asal Halfdan the Mild?",
+        "alt": "Wangsa Munsö",
+        "answers": [
+            "Yngling"
+        ],
+        "loc": "siapa master kung fu di kill bill",
+        "loc_ans": "Gordon Liu",
+        "cond": "Yngling >> Wangsa Munsö || Keluarga bangsawan mana tempat Halfdan the Mild menjadi bagiannya?"
+    },
+    {
+        "subject": "Peter Alma",
+        "src": "Di lokasi mana Peter Alma meninggal?",
+        "pred": "Budapest",
+        "rephrase": "Di tempat mana Peter Alma meninggal?",
+        "alt": "Toledo",
+        "answers": [
+            "Amsterdam"
+        ],
+        "loc": "siapa yang menyanyikan 'knock three times on the ceiling if you want me'",
+        "loc_ans": "Tony Orlando",
+        "cond": "Budapest >> Toledo || Di lokasi mana Peter Alma meninggal?"
+    },
+    {
+        "subject": "Malcolm Partridge",
+        "src": "Posisi apa yang dimainkan Malcolm Partridge?",
+        "pred": "pemain belakang",
+        "rephrase": "Posisi mana yang dimainkan Malcolm Partridge?",
+        "alt": "penyerang",
+        "answers": [
+            "penyerang"
+        ],
+        "loc": "siapa yang meninggal di batman v superman dawn of justice",
+        "loc_ans": "Superman",
+        "cond": "pemain belakang >> penyerang || Posisi apa yang dimainkan Malcolm Partridge?"
+    },
+    {
+        "subject": "Jarosław Lindner",
+        "src": "Kota mana tempat Jarosław Lindner dilahirkan?",
+        "pred": "Warsawa",
+        "rephrase": "Kota mana tempat Jarosław Lindner dilahirkan?",
+        "alt": "Lublin",
+        "answers": [
+            "Gdańsk"
+        ],
+        "loc": "siapa yang memenangkan season kedua the voice",
+        "loc_ans": "Jermaine Paul",
+        "cond": "Warsawa >> Lublin || Kota mana tempat Jarosław Lindner dilahirkan?"
+    },
+    {
+        "subject": "Charles Deval",
+        "src": "Siapa ayah Charles Deval?",
+        "pred": "François Deval",
+        "rephrase": "Siapa ayah dari Charles Deval?",
+        "alt": "Eugène Deval",
+        "answers": [
+            "Constantin Deval"
+        ],
+        "loc": "kapan the last jedi keluar di Amerika Serikat",
+        "loc_ans": "December 15, 2017",
+        "cond": "François Deval >> Eugène Deval || Siapa ayah Charles Deval?"
+    },
+    {
+        "subject": "Steady B",
+        "src": "Kejahatan apa yang diduga dilakukan Steady B?",
+        "pred": "pembunuhan",
+        "rephrase": "Kejahatan apa yang dilakukan Steady B?",
+        "alt": "penghindaran pajak",
+        "answers": [
+            "pembunuhan"
+        ],
+        "loc": "kapan ford mengeluarkan f150",
+        "loc_ans": "1975",
+        "cond": "pembunuhan >> penghindaran pajak || Kejahatan apa yang diduga dilakukan Steady B?"
+    },
+    {
+        "subject": "Salomon Vredeman de Vries",
+        "src": "Di tempat mana Salomon Vredeman de Vries meninggal?",
+        "pred": "Antwerp",
+        "rephrase": "Di mana Salomon Vredeman de Vries meninggal?",
+        "alt": "Amsterdam",
+        "answers": [
+            "The Hague"
+        ],
+        "loc": "kapan jam kiamat berikutnya keluar",
+        "loc_ans": "May 2018",
+        "cond": "Antwerp >> Amsterdam || Di tempat mana Salomon Vredeman de Vries meninggal?"
+    },
+    {
+        "subject": "Mario de Bernardi",
+        "src": "Dalam perang apa Mario de Bernardi bertempur?",
+        "pred": "Perang Dunia I",
+        "rephrase": "Dalam perang sejarah mana Mario de Bernardi adalah seorang perwira?",
+        "alt": "Perang Saudara Spanyol",
+        "answers": [
+            "Perang Dunia I"
+        ],
+        "loc": "apa bentuk lahan tertinggi di Amerika Utara",
+        "loc_ans": "Mount McKinley/Denali in Alaska",
+        "cond": "Perang Dunia I >> Perang Saudara Spanyol || Dalam perang apa Mario de Bernardi bertempur?"
+    },
+    {
+        "subject": "Bloodworth",
+        "src": "Apa dasar dari Bloodworth?",
+        "pred": "James Bond",
+        "rephrase": "Apa dasar dari Bloodworth?",
+        "alt": "Ian Fleming",
+        "answers": [
+            "William Gay"
+        ],
+        "loc": "praktik menikahi hanya satu orang dan menikah hanya sekali seumur hidup disebut",
+        "loc_ans": "Monogamy",
+        "cond": "James Bond >> Ian Fleming || Apa dasar dari Bloodworth?"
+    },
+    {
+        "subject": "Capucine",
+        "src": "Apa kebangsaan Capucine?",
+        "pred": "Perancis",
+        "rephrase": "Apa kebangsaan Capucine?",
+        "alt": "Jerman",
+        "answers": [
+            "Perancis"
+        ],
+        "loc": "siapa yang menulis tujuh keajaiban dunia kuno",
+        "loc_ans": "Diodorus Siculus",
+        "cond": "Perancis >> Jerman || Apa kebangsaan Capucine?"
+    },
+    {
+        "subject": "Never Been Marcused",
+        "src": "Seri mana tempat Never Been Marcused menjadi bagiannya?",
+        "pred": "The Simpsons",
+        "rephrase": "Seri mana tempat Never Been Marcused berada?",
+        "alt": "Lost",
+        "answers": [
+            "Gossip Girl"
+        ],
+        "loc": "siapa yang memegang rekor strikeout dalam satu pertandingan",
+        "loc_ans": "Tom Cheney",
+        "cond": "The Simpsons >> Lost || Seri mana tempat Never Been Marcused menjadi bagiannya?"
+    },
+    {
+        "subject": "Blades of Blood",
+        "src": "Apa negara asal Blades of Blood?",
+        "pred": "Hong Kong",
+        "rephrase": "Apa negara asal Blades of Blood?",
+        "alt": "Britania Raya",
+        "answers": [
+            "South Korea"
+        ],
+        "loc": "siapa yang memenangkan pemain paling berharga nba",
+        "loc_ans": "James Harden of the Houston Rockets",
+        "cond": "Hong Kong >> Britania Raya || Apa negara asal Blades of Blood?"
+    },
+    {
+        "subject": "Carol Groves",
+        "src": "Dalam karya fiksi apa Anda akan menemukan karakter bernama Carol Groves?",
+        "pred": "Hollyoaks",
+        "rephrase": "Dari acara mana Carol Groves berasal?",
+        "alt": "EastEnders",
+        "answers": [
+            "Hollyoaks"
+        ],
+        "loc": "siapa pengisi suara Sterling di cars 3",
+        "loc_ans": "Nathan Fillion",
+        "cond": "Hollyoaks >> EastEnders || Dalam karya fiksi apa Anda akan menemukan karakter bernama Carol Groves?"
+    },
+    {
+        "subject": "Max Ritter von Müller",
+        "src": "Dalam konflik apa Max Ritter von Müller berpartisipasi?",
+        "pred": "Perang Dunia I",
+        "rephrase": "Dalam konflik apa Max Ritter von Müller ambil bagian?",
+        "alt": "Perang Napoleon",
+        "answers": [
+            "Perang Dunia I"
+        ],
+        "loc": "apa bahasa paling umum yang diucapkan di ghana",
+        "loc_ans": "Akan",
+        "cond": "Perang Dunia I >> Perang Napoleon || Dalam konflik apa Max Ritter von Müller berpartisipasi?"
+    },
+    {
+        "subject": "Walter L. Dodge House",
+        "src": "Siapa arsitek untuk Walter L. Dodge House?",
+        "pred": "Irving Gill",
+        "rephrase": "Siapa arsitek Walter L. Dodge House?",
+        "alt": "Irving Kane Pond",
+        "answers": [
+            "Irving Gill"
+        ],
+        "loc": "siapa yang berperan sebagai claire underwood dalam serial house of cards",
+        "loc_ans": "Robin Gayle Wright",
+        "cond": "Irving Gill >> Irving Kane Pond || Siapa arsitek untuk Walter L. Dodge House?"
+    },
+    {
+        "subject": "Lucy Say",
+        "src": "Apakah Lucy Say laki-laki atau perempuan?",
+        "pred": "perempuan",
+        "rephrase": "Apa jenis kelamin Lucy Say?",
+        "alt": "laki-laki",
+        "answers": [
+            "perempuan"
+        ],
+        "loc": "di mana 'kenny chesney anything but mine' difilmkan",
+        "loc_ans": "Malibu, California and Myrtle Beach, South Carolina",
+        "cond": "perempuan >> laki-laki || Apakah Lucy Say laki-laki atau perempuan?"
+    },
+    {
+        "subject": "Hawkgirl",
+        "src": "Dalam karya fiksi apa Hawkgirl berada?",
+        "pred": "Smallville",
+        "rephrase": "Dari acara apa Hawkgirl berasal?",
+        "alt": "EastEnders",
+        "answers": [
+            "Smallville"
+        ],
+        "loc": "siapa yang memiliki rata-rata batting karir terbaik dalam sejarah mlb",
+        "loc_ans": "Ty Cobb",
+        "cond": "Smallville >> EastEnders || Dalam karya fiksi apa Hawkgirl berada?"
+    },
+    {
+        "subject": "Aldo Junior Simoncini",
+        "src": "Posisi apa yang dimainkan Aldo Junior Simoncini dalam sepak bola?",
+        "pred": "gelandang",
+        "rephrase": "Posisi apa yang dimainkan Aldo Junior Simoncini dalam sepak bola?",
+        "alt": "penjaga gawang",
+        "answers": [
+            "goalkeeper"
+        ],
+        "loc": "siapa yang memerankan Aaron di 'Sabrina the Teenage Witch'",
+        "loc_ans": "Dylan Neal",
+        "cond": "gelandang >> penjaga gawang || Posisi apa yang dimainkan Aldo Junior Simoncini dalam sepak bola?"
+    },
+    {
+        "subject": "Jean de Fontaney",
+        "src": "Pada tanggal berapa Jean de Fontaney meninggal?",
+        "pred": "1780",
+        "rephrase": "Tanggal berapa Jean de Fontaney meninggal?",
+        "alt": "1680",
+        "answers": [
+            "1710"
+        ],
+        "loc": "siapa yang memenangkan mvp all star game mlb",
+        "loc_ans": "Alex Bregman",
+        "cond": "1780 >> 1680 || Pada tanggal berapa Jean de Fontaney meninggal?"
+    },
+    {
+        "subject": "São José de Ribamar Esporte Clube",
+        "src": "Apa tempat kandang São José de Ribamar Esporte Clube?",
+        "pred": "Estádio Nhozinho Santos",
+        "rephrase": "Di mana São José de Ribamar Esporte Clube memainkan pertandingan kandang?",
+        "alt": "Baenão",
+        "answers": [
+            "Estádio Nhozinho Santos"
+        ],
+        "loc": "konsep kelompok referensi dapat didefinisikan sebagai",
+        "loc_ans": "group to which an individual or another group is compared",
+        "cond": "Estádio Nhozinho Santos >> Baenão || Apa tempat kandang São José de Ribamar Esporte Clube?"
+    },
+    {
+        "subject": "Ana Seneviratne",
+        "src": "Jabatan apa yang pernah dipegang Ana Seneviratne?",
+        "pred": "Presiden Paraguay",
+        "rephrase": "Jabatan apa yang dipegang Ana Seneviratne?",
+        "alt": "Presiden Peru",
+        "answers": [
+            "Inspector General of Police"
+        ],
+        "loc": "siapa yang menulis lagu 'someone that i used to know'",
+        "loc_ans": "Gotye",
+        "cond": "Presiden Paraguay >> Presiden Peru || Jabatan apa yang pernah dipegang Ana Seneviratne?"
+    },
+    {
+        "subject": "Fritz Kehl",
+        "src": "Posisi apa yang dimiliki Fritz Kehl di lapangan rugbi?",
+        "pred": "gelandang",
+        "rephrase": "Posisi apa yang dimiliki Fritz Kehl di lapangan rugbi?",
+        "alt": "pemain belakang",
+        "answers": [
+            "defender"
+        ],
+        "loc": "dari mana nama belakang boren berasal",
+        "loc_ans": "of German origin",
+        "cond": "gelandang >> pemain belakang || Posisi apa yang dimiliki Fritz Kehl di lapangan rugbi?"
+    },
+    {
+        "subject": "Ultimax 100",
+        "src": "Perusahaan mana yang membuat Ultimax 100?",
+        "pred": "ST Kinetics",
+        "rephrase": "Perusahaan mana yang memproduksi Ultimax 100?",
+        "alt": "LST Corporation",
+        "answers": [
+            "ST Kinetics"
+        ],
+        "loc": "siapa yang memerankan orang jahat di 'jeepers creepers'",
+        "loc_ans": "Jonathan Breck",
+        "cond": "ST Kinetics >> LST Corporation || Perusahaan mana yang membuat Ultimax 100?"
+    },
+    {
+        "subject": "Coast Air",
+        "src": "Dari bandara mana Coast Air beroperasi sebagai hub maskapai?",
+        "pred": "Haugesund Airport, Karmøy",
+        "rephrase": "Di bandara mana Anda dapat menemukan Coast Air?",
+        "alt": "Haugesund Airport, Geiteryggen",
+        "answers": [
+            "Haugesund Airport, Karmøy"
+        ],
+        "loc": "di mana bola tahun baru dijatuhkan",
+        "loc_ans": "New York City's Times Square",
+        "cond": "Haugesund Airport, Karmøy >> Haugesund Airport, Geiteryggen || Dari bandara mana Coast Air beroperasi sebagai hub maskapai?"
+    },
+    {
+        "subject": "Walter Whipple",
+        "src": "Apa universitas tempat Walter Whipple berkuliah?",
+        "pred": "Universitas Harvard",
+        "rephrase": "Apa universitas tempat Walter Whipple berkuliah?",
+        "alt": "Trinity College",
+        "answers": [
+            "Brigham Young University"
+        ],
+        "loc": "kapan terakhir kali the rangers melewatkan playoff",
+        "loc_ans": "2009–10",
+        "cond": "Universitas Harvard >> Trinity College || Apa universitas tempat Walter Whipple berkuliah?"
+    },
+    {
+        "subject": "WASP-4b",
+        "src": "WASP-4b adalah bagian dari konstelasi apa?",
+        "pred": "Lyra",
+        "rephrase": "WASP-4b adalah bagian dari konstelasi apa?",
+        "alt": "Sextans",
+        "answers": [
+            "Phoenix"
+        ],
+        "loc": "kapan acara tv 'this is us' tayang",
+        "loc_ans": "Tuesday 9:00 pm",
+        "cond": "Lyra >> Sextans || WASP-4b adalah bagian dari konstelasi apa?"
+    },
+    {
+        "subject": "James Milton Smith",
+        "src": "Jabatan apa yang pernah dipegang James Milton Smith?",
+        "pred": "Gubernur Georgia",
+        "rephrase": "Jabatan apa yang dipegang James Milton Smith?",
+        "alt": "uskup",
+        "answers": [
+            "Governor of Georgia"
+        ],
+        "loc": "kapan mereka mulai menyebut new york 'the big apple'",
+        "loc_ans": "the 1920s",
+        "cond": "Gubernur Georgia >> uskup || Jabatan apa yang pernah dipegang James Milton Smith?"
+    },
+    {
+        "subject": "Mithral Hall",
+        "src": "Mithral Hall adalah bagian dari alam semesta fiksi mana?",
+        "pred": "Forgotten Realms",
+        "rephrase": "Di alam semesta fiksi apa Mithral Hall menjadi bagian darinya?",
+        "alt": "alam semesta Highlander",
+        "answers": [
+            "Forgotten Realms"
+        ],
+        "loc": "kapan serial pertama poldark dibuat",
+        "loc_ans": "first transmitted in the UK between 1975 and 1977",
+        "cond": "Forgotten Realms >> alam semesta Highlander || Mithral Hall adalah bagian dari alam semesta fiksi mana?"
+    },
+    {
+        "subject": "Susan Butcher",
+        "src": "Dengan kota mana Susan Butcher dikaitkan?",
+        "pred": "Cambridge",
+        "rephrase": "Dari kota mana Susan Butcher berasal?",
+        "alt": "Easton",
+        "answers": [
+            "Cambridge"
+        ],
+        "loc": "apa kepanjangan 'e' di ebay",
+        "loc_ans": "Echo",
+        "cond": "Cambridge >> Easton || Dengan kota mana Susan Butcher dikaitkan?"
+    },
+    {
+        "subject": "JRuby",
+        "src": "Apa bahasa pemrograman untuk JRuby?",
+        "pred": "Java",
+        "rephrase": "Bahasa pemrograman apa yang digunakan untuk menulis JRuby?",
+        "alt": "Ruby",
+        "answers": [
+            "Java"
+        ],
+        "loc": "apa musim terbaru the walking dead",
+        "loc_ans": "eighth season",
+        "cond": "Java >> Ruby || Apa bahasa pemrograman untuk JRuby?"
+    },
+    {
+        "subject": "Barbara Pittman",
+        "src": "Termasuk jenis kelamin apa Barbara Pittman?",
+        "pred": "perempuan",
+        "rephrase": "Apa jenis kelamin Barbara Pittman?",
+        "alt": "laki-laki",
+        "answers": [
+            "female"
+        ],
+        "loc": "siapa pria di setiap film pixar",
+        "loc_ans": "John Dezso Ratzenberger",
+        "cond": "perempuan >> laki-laki || Termasuk jenis kelamin apa Barbara Pittman?"
+    },
+    {
+        "subject": "Peggy Jean",
+        "src": "Dalam karya fiksi apa Peggy Jean muncul?",
+        "pred": "Peanuts",
+        "rephrase": "Dalam karya fiksi apa Peggy Jean tampil?",
+        "alt": "Bob's Burgers",
+        "answers": [
+            "Peanuts"
+        ],
+        "loc": "kapan final musim 12 america's got talent",
+        "loc_ans": "September",
+        "cond": "Peanuts >> Bob's Burgers || Dalam karya fiksi apa Peggy Jean muncul?"
+    },
+    {
+        "subject": "Cephalosporium gramineum",
+        "src": "Genus Cephalosporium gramineum adalah bagian dari keluarga apa?",
+        "pred": " gramineum",
+        "rephrase": "Genus Cephalosporium gramineum adalah bagian dari keluarga?",
+        "alt": "Hyalosporaceae",
+        "answers": [
+            "Hymenula"
+        ],
+        "loc": "kapan mereka berhenti membuat honda element",
+        "loc_ans": "April 2011",
+        "cond": " gramineum >> Hyalosporaceae || Genus Cephalosporium gramineum adalah bagian dari keluarga apa?"
+    },
+    {
+        "subject": "Theo ten Caat",
+        "src": "Tim apa tempat Theo ten Caat dikaitkan?",
+        "pred": "FC Twente",
+        "rephrase": "Dengan tim apa Theo ten Caat terhubung?",
+        "alt": "FC Utrecht",
+        "answers": [
+            "FC Twente",
+            "FC Groningen"
+        ],
+        "loc": "siapa yang membintangi film baru peter rabbit",
+        "loc_ans": "Rose Byrne",
+        "cond": "FC Twente >> FC Utrecht || Tim apa tempat Theo ten Caat dikaitkan?"
+    },
+    {
+        "subject": "Rhacophorus lateralis",
+        "src": "Apa status konservasi Rhacophorus lateralis?",
+        "pred": "spesies terancam",
+        "rephrase": "Seberapa terancam Rhacophorus lateralis menurut iucn?",
+        "alt": "sangat terancam",
+        "answers": [
+            "endangered species"
+        ],
+        "loc": "zona patahan san andreas di california adalah contoh dari",
+        "loc_ans": "a continental transform fault",
+        "cond": "spesies terancam >> sangat terancam || Apa status konservasi Rhacophorus lateralis?"
+    },
+    {
+        "subject": "Get Up and Jump",
+        "src": "Siapa penampil Get Up and Jump?",
+        "pred": "The B-52's",
+        "rephrase": "Siapa penampil dari Get Up and Jump?",
+        "alt": "The Rolling Stones",
+        "answers": [
+            "Red Hot Chili Peppers"
+        ],
+        "loc": "siapa yang memerankan khan di film star trek baru",
+        "loc_ans": "Benedict Cumberbatch",
+        "cond": "The B-52's >> The Rolling Stones || Siapa penampil Get Up and Jump?"
+    },
+    {
+        "subject": "Rosalind Elias",
+        "src": "Jenis suara apa yang dimiliki Rosalind Elias?",
+        "pred": "sopran",
+        "rephrase": "Apa jenis suara Rosalind Elias?",
+        "alt": "mezzo-sopran",
+        "answers": [
+            "mezzo-soprano"
+        ],
+        "loc": "di mana kata 'nenek' digunakan dalam alkitab",
+        "loc_ans": "2 Timothy 1:5",
+        "cond": "sopran >> mezzo-sopran || Jenis suara apa yang dimiliki Rosalind Elias?"
+    },
+    {
+        "subject": "Persidia",
+        "src": "Apa keluarga Persidia?",
+        "pred": "Noctuidae",
+        "rephrase": "Apa keluarga Persidia?",
+        "alt": "Gelechiidae",
+        "answers": [
+            "Noctuidae"
+        ],
+        "loc": "sungai mana di Cina yang dianggap sebagai tempat lahirnya pertanian",
+        "loc_ans": "Yellow River",
+        "cond": "Noctuidae >> Gelechiidae || Apa keluarga Persidia?"
+    },
+    {
+        "subject": "HD 176527",
+        "src": "HD 176527 adalah bagian dari konstelasi apa?",
+        "pred": "Lyra",
+        "rephrase": "Apa konstelasi untuk HD 176527?",
+        "alt": "Ophiuchus",
+        "answers": [
+            "Lyra"
+        ],
+        "loc": "apa latar cerita 'a raisin in the sun'",
+        "loc_ans": "Washington Park Subdivision of Chicago's Woodlawn neighborhood",
+        "cond": "Lyra >> Ophiuchus || HD 176527 adalah bagian dari konstelasi apa?"
+    },
+    {
+        "subject": "Chautauqua Airlines",
+        "src": "Apa perusahaan induk Chautauqua Airlines?",
+        "pred": "Republic Airways Holdings",
+        "rephrase": "Apa perusahaan induk Chautauqua Airlines?",
+        "alt": "Republic Airways International",
+        "answers": [
+            "Republic Airways Holdings"
+        ],
+        "loc": "siapa nama asli 'the bionic woman'",
+        "loc_ans": "Lindsay Wagner",
+        "cond": "Republic Airways Holdings >> Republic Airways International || Apa perusahaan induk Chautauqua Airlines?"
+    },
+    {
+        "subject": "Dancing Mothers",
+        "src": "Apa nama perusahaan yang mendistribusikan Dancing Mothers?",
+        "pred": "Paramount Pictures",
+        "rephrase": "Perusahaan mana yang memproduksi Dancing Mothers?",
+        "alt": "Paramount Records",
+        "answers": [
+            "Paramount Pictures"
+        ],
+        "loc": "serabut proyeksi di otak terutama menghubungkan apa",
+        "loc_ans": "cortex",
+        "cond": "Paramount Pictures >> Paramount Records || Apa nama perusahaan yang mendistribusikan Dancing Mothers?"
+    },
+    {
+        "subject": "Bill Loxton",
+        "src": "Perang apa yang diikuti Bill Loxton?",
+        "pred": "Perang Dunia I",
+        "rephrase": "Perang mana yang diikuti Bill Loxton?",
+        "alt": "Pertempuran Britania",
+        "answers": [
+            "Battle of Britain"
+        ],
+        "loc": "kapan mode 'battle royale' tiba di fortnite",
+        "loc_ans": "September 2017",
+        "cond": "Perang Dunia I >> Pertempuran Britania || Perang apa yang diikuti Bill Loxton?"
+    },
+    {
+        "subject": "Matthew Pewtner",
+        "src": "Tim apa tempat Matthew Pewtner berafiliasi?",
+        "pred": "New York Rangers",
+        "rephrase": "Tim mana yang diikuti Matthew Pewtner?",
+        "alt": "Minnesota Vikings",
+        "answers": [
+            "Newport Gwent Dragons"
+        ],
+        "loc": "mantel atas di bawah kerak bumi dikenal sebagai",
+        "loc_ans": "asthenosphere",
+        "cond": "New York Rangers >> Minnesota Vikings || Tim apa tempat Matthew Pewtner berafiliasi?"
+    },
+    {
+        "subject": "Rapids!",
+        "src": "Apa kota asal Rapids!?",
+        "pred": "Bournemouth",
+        "rephrase": "Apa kota asal Rapids!?",
+        "alt": "Ridgeland",
+        "answers": [
+            "Bournemouth"
+        ],
+        "loc": "kapan air max 1 keluar",
+        "loc_ans": "1987",
+        "cond": "Bournemouth >> Ridgeland || Apa kota asal Rapids!?"
+    },
+    {
+        "subject": "Milan Šrejber",
+        "src": "Dengan kota mana Milan Šrejber dikaitkan?",
+        "pred": "Praha",
+        "rephrase": "Dengan kota mana Milan Šrejber terhubung?",
+        "alt": "Bratislava",
+        "answers": [
+            "Prague"
+        ],
+        "loc": "kapan gereja kristen timur dan barat berpisah",
+        "loc_ans": "1054",
+        "cond": "Praha >> Bratislava || Dengan kota mana Milan Šrejber dikaitkan?"
+    },
+    {
+        "subject": "Syrianska FC",
+        "src": "Di mana Syrianska FC memainkan pertandingan kandang mereka?",
+        "pred": "Södertälje Fotbollsarena",
+        "rephrase": "Stadion kandang mana tempat Syrianska FC bermain?",
+        "alt": "Södertälje SK",
+        "answers": [
+            "Södertälje Fotbollsarena"
+        ],
+        "loc": "kapan pemilik non-properti mendapatkan hak untuk memilih",
+        "loc_ans": "from 1792 (Kentucky) to 1856 (North Carolina)",
+        "cond": "Södertälje Fotbollsarena >> Södertälje SK || Di mana Syrianska FC memainkan pertandingan kandang mereka?"
+    },
+    {
+        "subject": "Wilfried Tekovi",
+        "src": "Dalam kapasitas apa Wilfried Tekovi bermain sepak bola?",
+        "pred": "gelandang",
+        "rephrase": "Dalam fungsi apa Wilfried Tekovi bermain sepak bola?",
+        "alt": "penyerang",
+        "answers": [
+            "defender"
+        ],
+        "loc": "apa yang dianggap di bawah garis kemiskinan di kanada",
+        "loc_ans": "10.8%",
+        "cond": "gelandang >> penyerang || Dalam kapasitas apa Wilfried Tekovi bermain sepak bola?"
+    },
+    {
+        "subject": "Oliver Robinson",
+        "src": "Tim apa tempat Oliver Robinson dikaitkan?",
+        "pred": "Toronto Argonauts",
+        "rephrase": "Tim mana yang dikaitkan dengan Oliver Robinson?",
+        "alt": "Toronto Maple Leafs",
+        "answers": [
+            "San Antonio Spurs"
+        ],
+        "loc": "siapa yang menulis lagu 'die a happy man'",
+        "loc_ans": "Thomas Rhett",
+        "cond": "Toronto Argonauts >> Toronto Maple Leafs || Tim apa tempat Oliver Robinson dikaitkan?"
+    },
+    {
+        "subject": "The Short Second Life of Bree Tanner",
+        "src": "Seri apa tempat 'The Short Second Life of Bree Tanner' berada?",
+        "pred": "Twilight",
+        "rephrase": "Seri mana tempat episode 'The Short Second Life of Bree Tanner' menjadi bagiannya?",
+        "alt": "The Twilight Zone",
+        "answers": [
+            "Twilight"
+        ],
+        "loc": "bagian sapi mana yang merupakan 'london broil'",
+        "loc_ans": "the term does not refer to a specific cut of meat",
+        "cond": "Twilight >> The Twilight Zone || Seri apa tempat 'The Short Second Life of Bree Tanner' berada?"
+    },
+    {
+        "subject": "Klemen Bolha",
+        "src": "Apa posisi yang dimainkan Klemen Bolha dalam sepak bola?",
+        "pred": "gelandang",
+        "rephrase": "Apa peran Klemen Bolha dalam sepak bola?",
+        "alt": "penjaga gawang",
+        "answers": [
+            "midfielder"
+        ],
+        "loc": "di mana 'the water lily pond' karya claude monet berada",
+        "loc_ans": "his flower garden at his home in Giverny",
+        "cond": "gelandang >> penjaga gawang || Apa posisi yang dimainkan Klemen Bolha dalam sepak bola?"
+    },
+    {
+        "subject": "Casa Cogollo",
+        "src": "Siapa yang menciptakan Casa Cogollo?",
+        "pred": "Andrea Palladio",
+        "rephrase": "Siapa arsitek yang terlibat dengan Casa Cogollo?",
+        "alt": "Gian Lorenzo Bernini",
+        "answers": [
+            "Andrea Palladio"
+        ],
+        "loc": "di mana sungai mississippi mengalir ke teluk meksiko",
+        "loc_ans": "about 100 miles (160 km) downstream from New Orleans",
+        "cond": "Andrea Palladio >> Gian Lorenzo Bernini || Siapa yang menciptakan Casa Cogollo?"
+    },
+    {
+        "subject": "New Adventures in Hi-Fi",
+        "src": "Apa nama label rekaman 'New Adventures in Hi-Fi'?",
+        "pred": "Columbia Records",
+        "rephrase": "Apa nama label rekaman 'New Adventures in Hi-Fi'?",
+        "alt": "Warner Bros",
+        "answers": [
+            "Warner Bros. Records"
+        ],
+        "loc": "siapa yang memiliki philipsburg manor sebelum perpecahan",
+        "loc_ans": "Frederick Philipse III",
+        "cond": "Columbia Records >> Warner Bros || Apa nama label rekaman 'New Adventures in Hi-Fi'?"
+    },
+    {
+        "subject": "Hamed Lak",
+        "src": "Posisi apa yang dimainkan Hamed Lak dalam sepak bola?",
+        "pred": "gelandang",
+        "rephrase": "Apa posisi Hamed Lak dalam sepak bola?",
+        "alt": "penjaga gawang",
+        "answers": [
+            "goalkeeper"
+        ],
+        "loc": "siapa pengisi suara the count di sesame street",
+        "loc_ans": "Matt Vogel",
+        "cond": "gelandang >> penjaga gawang || Posisi apa yang dimainkan Hamed Lak dalam sepak bola?"
+    },
+    {
+        "subject": "Chloe O'Brian",
+        "src": "Dalam karya fiksi apa Chloe O'Brian muncul?",
+        "pred": "Home and Away",
+        "rephrase": "Dalam karya fiksi apa Chloe O'Brian tampil?",
+        "alt": "Glee",
+        "answers": [
+            "24"
+        ],
+        "loc": "siapa nama profesor di 'gilligan's island'",
+        "loc_ans": "Roy Hinkley",
+        "cond": "Home and Away >> Glee || Dalam karya fiksi apa Chloe O'Brian muncul?"
+    },
+    {
+        "subject": "Olive Sloane",
+        "src": "Tahun kematian Olive Sloane adalah apa?",
+        "pred": "1952",
+        "rephrase": "Tahun kematian Olive Sloane, ya?",
+        "alt": "1957",
+        "answers": [
+            "28 June 1963"
+        ],
+        "loc": "di mana sungai desplaines dimulai dan berakhir",
+        "loc_ans": "Wisconsin",
+        "cond": "1952 >> 1957 || Tahun kematian Olive Sloane adalah apa?"
+    },
+    {
+        "subject": "Lion of Venice",
+        "src": "Bahan apa yang digunakan untuk Lion of Venice?",
+        "pred": "perunggu",
+        "rephrase": "Terbuat dari bahan apa permukaan Lion of Venice?",
+        "alt": "gading",
+        "answers": [
+            "bronze"
+        ],
+        "loc": "kapan usia memilih diturunkan menjadi 18 tahun di AS",
+        "loc_ans": "July 1, 1971",
+        "cond": "perunggu >> gading || Bahan apa yang digunakan untuk Lion of Venice?"
+    },
+    {
+        "subject": "Suermondt-Ludwig-Museum",
+        "src": "Nama Suermondt-Ludwig-Museum diambil dari nama siapa?",
+        "pred": "Peter Ludwig",
+        "rephrase": "Untuk siapa Suermondt-Ludwig-Museum dinamai?",
+        "alt": "Peterwigwig Ludwig",
+        "answers": [
+            "Peter Ludwig"
+        ],
+        "loc": "berapa kode pos untuk san luis potosi meksiko",
+        "loc_ans": "78-79",
+        "cond": "Peter Ludwig >> Peterwigwig Ludwig || Nama Suermondt-Ludwig-Museum diambil dari nama siapa?"
+    },
+    {
+        "subject": "Roche lobe",
+        "src": "Nama Roche lobe diambil dari nama siapa?",
+        "pred": "Édouard Roche",
+        "rephrase": "Nama Roche lobe diambil dari nama apa?",
+        "alt": "Léon Roche",
+        "answers": [
+            "Édouard Roche"
+        ],
+        "loc": "siapa pengisi suara optimus prime di transformers",
+        "loc_ans": "Peter Claver Cullen",
+        "cond": "Édouard Roche >> Léon Roche || Nama Roche lobe diambil dari nama siapa?"
+    },
+    {
+        "subject": "WJTY",
+        "src": "Di kota mana WJTY berada?",
+        "pred": "Elkins, Virginia Barat",
+        "rephrase": "Di kota mana WJTY disetujui?",
+        "alt": "Lexington",
+        "answers": [
+            "Lancaster"
+        ],
+        "loc": "siapa yang memerankan sersan bor di 'full metal jacket'",
+        "loc_ans": "Ronald Lee Ermey",
+        "cond": "Elkins, Virginia Barat >> Lexington || Di kota mana WJTY berada?"
+    },
+    {
+        "subject": "Thomas Thistle",
+        "src": "Dari negara mana Thomas Thistle berasal?",
+        "pred": "Selandia Baru",
+        "rephrase": "Dari mana Thomas Thistle berasal?",
+        "alt": "Britania Raya",
+        "answers": [
+            "New Zealand"
+        ],
+        "loc": "bagaimana raja-raja dinasti zhou memperoleh kekuasaan",
+        "loc_ans": "The concept of the Mandate of Heaven",
+        "cond": "Selandia Baru >> Britania Raya || Dari negara mana Thomas Thistle berasal?"
+    },
+    {
+        "subject": "Joutseno Church",
+        "src": "Apa nama arsitek Gereja Joutseno?",
+        "pred": "Josef Stenbäck",
+        "rephrase": "Siapa di balik penciptaan Gereja Joutseno?",
+        "alt": "Josef Joutseno",
+        "answers": [
+            "Josef Stenbäck"
+        ],
+        "loc": "siapa yang memilih anggota rajya sabha",
+        "loc_ans": "state and territorial legislatures",
+        "cond": "Josef Stenbäck >> Josef Joutseno || Apa nama arsitek Gereja Joutseno?"
+    },
+    {
+        "subject": "Mount Handsley",
+        "src": "Di benua mana Gunung Handsley terletak?",
+        "pred": "Antartika",
+        "rephrase": "Di benua mana Gunung Handsley berada?",
+        "alt": "Amerika Selatan",
+        "answers": [
+            "Antarctica"
+        ],
+        "loc": "kapan musim 8 the walking dead berakhir",
+        "loc_ans": "April 15, 2018",
+        "cond": "Antartika >> Amerika Selatan || Di benua mana Gunung Handsley terletak?"
+    },
+    {
+        "subject": "Cabramatta Creek",
+        "src": "Badan air yang dekat dengan Cabramatta Creek adalah apa?",
+        "pred": "Sungai Georges",
+        "rephrase": "Badan air mana yang bergabung dengan Cabramatta Creek?",
+        "alt": "Sungai Goulburn",
+        "answers": [
+            "Georges River"
+        ],
+        "loc": "di mana 'the catcher in the rye' mengambil tempat",
+        "loc_ans": "Southern California near Hollywood",
+        "cond": "Sungai Georges >> Sungai Goulburn || Badan air yang dekat dengan Cabramatta Creek adalah apa?"
+    },
+    {
+        "subject": "Ken Keeler",
+        "src": "Perguruan tinggi tempat Ken Keeler berkuliah adalah apa?",
+        "pred": "University of Wisconsin-- Madison",
+        "rephrase": "Perguruan tinggi tempat Ken Keeler berada adalah apa?",
+        "alt": "Columbia University",
+        "answers": [
+            "Harvard University"
+        ],
+        "loc": "tentang apa lagu 'red hot chili peppers snow'",
+        "loc_ans": "surviving, starting fresh",
+        "cond": "University of Wisconsin-- Madison >> Columbia University || Perguruan tinggi tempat Ken Keeler berkuliah adalah apa?"
+    },
+    {
+        "subject": "Tanja von Lahnstein",
+        "src": "Dalam karya fiksi apa Anda akan menemukan karakter bernama Tanja von Lahnstein?",
+        "pred": "Verbotene Liebe",
+        "rephrase": "Dalam karya fiksi mana Tanja von Lahnstein berada?",
+        "alt": "Verbotene Lieberbach",
+        "answers": [
+            "Verbotene Liebe"
+        ],
+        "loc": "aktor yang memerankan Rudy di 'the book thief'",
+        "loc_ans": "Nico Louis Liersch",
+        "cond": "Verbotene Liebe >> Verbotene Lieberbach || Dalam karya fiksi apa Anda akan menemukan karakter bernama Tanja von Lahnstein?"
+    },
+    {
+        "subject": "Gongyang of Goryeo",
+        "src": "Kapan akhir hidup Gongyang dari Goryeo?",
+        "pred": "18 Mei 1210",
+        "rephrase": "Kapan Gongyang dari Goryeo mengakhiri hidupnya?",
+        "alt": "18 Agustus 1210",
+        "answers": [
+            "17 May 1394"
+        ],
+        "loc": "berapa banyak episode 'chrisley knows best' yang ada",
+        "loc_ans": "109",
+        "cond": "18 Mei 1210 >> 18 Agustus 1210 || Kapan akhir hidup Gongyang dari Goryeo?"
+    },
+    {
+        "subject": "Panel Mine",
+        "src": "Produk apa yang dibuat Panel Mine?",
+        "pred": "uranium",
+        "rephrase": "Jenis produk apa yang dibuat Panel Mine?",
+        "alt": "boron",
+        "answers": [
+            "uranium"
+        ],
+        "loc": "siapa yang menulis lagu 'kadam kadam badhaye ja khusi k geet gaye ja'",
+        "loc_ans": "Pt. Vanshidhar Shukla",
+        "cond": "uranium >> boron || Produk apa yang dibuat Panel Mine?"
+    },
+    {
+        "subject": "Peoria Mustangs",
+        "src": "Liga apa tempat Peoria Mustangs bermain?",
+        "pred": "North American 3 Hockey League",
+        "rephrase": "Untuk liga apa Peoria Mustangs bermain di liga teratas?",
+        "alt": "Northwest League",
+        "answers": [
+            "North American 3 Hockey League"
+        ],
+        "loc": "acara broadway apa yang memenangkan Tony terbanyak dan berapa banyak",
+        "loc_ans": "The Producers (2001)",
+        "cond": "North American 3 Hockey League >> Northwest League || Liga apa tempat Peoria Mustangs bermain?"
+    },
+    {
+        "subject": "Paolo Silveri",
+        "src": "Apa rentang vokal Paolo Silveri?",
+        "pred": "bariton",
+        "rephrase": "Apa jenis suara Paolo Silveri?",
+        "alt": "countertenor",
+        "answers": [
+            "baritone"
+        ],
+        "loc": "siapa quarterback Afrika-Amerika pertama yang memenangkan superbowl",
+        "loc_ans": "Douglas Lee Williams",
+        "cond": "bariton >> countertenor || Apa rentang vokal Paolo Silveri?"
+    },
+    {
+        "subject": "Wibald",
+        "src": "Tahun berapa Wibald meninggal?",
+        "pred": "1680",
+        "rephrase": "Pada tahun berapa Wibald meninggal?",
+        "alt": "11 Mei 1822",
+        "answers": [
+            "19 July 1158"
+        ],
+        "loc": "kapan AS melepaskan filipina",
+        "loc_ans": "July 4, 1946",
+        "cond": "1680 >> 11 Mei 1822 || Tahun berapa Wibald meninggal?"
+    },
+    {
+        "subject": "Bunsen burner",
+        "src": "Siapa penemu Bunsen burner?",
+        "pred": "Robert Bunsen",
+        "rephrase": "Siapa yang menemukan Bunsen burner?",
+        "alt": " Bunsen",
+        "answers": [
+            "Robert Bunsen"
+        ],
+        "loc": "siapa yang diusir dari spanyol selama reconquista",
+        "loc_ans": "Jews",
+        "cond": "Robert Bunsen >>  Bunsen || Siapa penemu Bunsen burner?"
+    },
+    {
+        "subject": "Mons Argaeus",
+        "src": "Benda astronomi tempat Mons Argaeus berada adalah apa?",
+        "pred": "Bulan",
+        "rephrase": "Di benda langit mana Mons Argaeus dapat ditemukan?",
+        "alt": "Merkurius",
+        "answers": [
+            "Moon"
+        ],
+        "loc": "kapan 'me and mrs jones' keluar",
+        "loc_ans": "1972",
+        "cond": "Bulan >> Merkurius || Benda astronomi tempat Mons Argaeus berada adalah apa?"
+    },
+    {
+        "subject": "Fanta Régina Nacro",
+        "src": "Dari negara mana Fanta Régina Nacro berasal?",
+        "pred": "Brasil",
+        "rephrase": "Dari mana Fanta Régina Nacro berasal?",
+        "alt": "Peru",
+        "answers": [
+            "Burkina Faso"
+        ],
+        "loc": "di mana film 'the graduate' mengambil tempat",
+        "loc_ans": "Berkeley",
+        "cond": "Brasil >> Peru || Dari negara mana Fanta Régina Nacro berasal?"
+    },
+    {
+        "subject": "Adolf Hedin",
+        "src": "Tanggal berapa Adolf Hedin meninggal?",
+        "pred": "19 Maret 1882",
+        "rephrase": "Tanggal berapa Adolf Hedin meninggal?",
+        "alt": "19 Juni 1882",
+        "answers": [
+            "20 September 1905"
+        ],
+        "loc": "kapan '47 meters down' keluar di inggris",
+        "loc_ans": "26 July 2017",
+        "cond": "19 Maret 1882 >> 19 Juni 1882 || Tanggal berapa Adolf Hedin meninggal?"
+    },
+    {
+        "subject": "Helga Kurm",
+        "src": "Kapan akhir hidup Helga Kurm?",
+        "pred": "7 Juli 2008",
+        "rephrase": "Kapan hidup Helga Kurm berakhir?",
+        "alt": "9 Agustus 2008",
+        "answers": [
+            "7 January 2011"
+        ],
+        "loc": "siapa yang menembakkan tembakan pertama perang saudara",
+        "loc_ans": "the Confederates",
+        "cond": "7 Juli 2008 >> 9 Agustus 2008 || Kapan akhir hidup Helga Kurm?"
+    },
+    {
+        "subject": "Anthony Avent",
+        "src": "Tim mana tempat Anthony Avent berada?",
+        "pred": "Atlanta Hawks",
+        "rephrase": "Tim mana tempat Anthony Avent berada?",
+        "alt": "Sacramento Kings",
+        "answers": [
+            "Atlanta Hawks"
+        ],
+        "loc": "kapan AS dan Inggris menjadi sekutu",
+        "loc_ans": "1940",
+        "cond": "Atlanta Hawks >> Sacramento Kings || Tim mana tempat Anthony Avent berada?"
+    },
+    {
+        "subject": "San Diego Sunwaves",
+        "src": "Liga apa tempat San Diego Sunwaves bermain di liga teratas?",
+        "pred": "W-League",
+        "rephrase": "Liga apa San Diego Sunwaves?",
+        "alt": "Women's Professional Soccer",
+        "answers": [
+            "W-League"
+        ],
+        "loc": "siapa yang menyanyikan 'i'm going to run to you'",
+        "loc_ans": "Bryan Adams",
+        "cond": "W-League >> Women's Professional Soccer || Liga apa tempat San Diego Sunwaves bermain di liga teratas?"
+    },
+    {
+        "subject": "Illawarra Light Railway Museum",
+        "src": "Kapan Illawarra Light Railway Museum dimulai?",
+        "pred": "1973",
+        "rephrase": "Kapan Illawarra Light Railway Museum didirikan?",
+        "alt": "1975",
+        "answers": [
+            "1973"
+        ],
+        "loc": "apa periode maksimum keadaan darurat negara di india",
+        "loc_ans": "three years with repeated parliamentary approval every six months",
+        "cond": "1973 >> 1975 || Kapan Illawarra Light Railway Museum dimulai?"
+    },
+    {
+        "subject": "Duffy and the Devil",
+        "src": "Siapa yang mengilustrasikan Duffy and the Devil?",
+        "pred": "Margot Zemach",
+        "rephrase": "Siapa nama ilustrator buku Duffy and the Devil?",
+        "alt": "Margot Kidder",
+        "answers": [
+            "Margot Zemach"
+        ],
+        "loc": "apa bir terlaris di irlandia",
+        "loc_ans": "Lager",
+        "cond": "Margot Zemach >> Margot Kidder || Siapa yang mengilustrasikan Duffy and the Devil?"
+    },
+    {
+        "subject": "Strange Parcels",
+        "src": "Tahun berapa Strange Parcels dibentuk?",
+        "pred": "2005",
+        "rephrase": "Tahun berapa Strange Parcels didirikan?",
+        "alt": "2004",
+        "answers": [
+            "1991"
+        ],
+        "loc": "di mana kedutaan besar AS di Meksiko berada",
+        "loc_ans": "Paseo de la Reforma, Colonia Cuauhtémoc, Mexico City",
+        "cond": "2005 >> 2004 || Tahun berapa Strange Parcels dibentuk?"
+    },
+    {
+        "subject": "Irish Tweed",
+        "src": "Apa nama seri tempat Irish Tweed berada?",
+        "pred": "How I Met Your Mother",
+        "rephrase": "Apa nama seri tempat Irish Tweed berada?",
+        "alt": "30 Rock",
+        "answers": [
+            "Nuala Anne McGrail series"
+        ],
+        "loc": "siapa nama-nama karakter di scooby doo",
+        "loc_ans": "Scooby-Doo",
+        "cond": "How I Met Your Mother >> 30 Rock || Apa nama seri tempat Irish Tweed berada?"
+    },
+    {
+        "subject": "KCBK",
+        "src": "Di kota mana KCBK berada?",
+        "pred": "Bakersfield",
+        "rephrase": "Kota mana KCBK?",
+        "alt": "San Jose",
+        "answers": [
+            "Frederick"
+        ],
+        "loc": "bahasa siapa yang digunakan dalam literatur periode sangam",
+        "loc_ans": "Tamil",
+        "cond": "Bakersfield >> San Jose || Di kota mana KCBK berada?"
+    },
+    {
+        "subject": "Emil Jónsson",
+        "src": "Jabatan apa yang pernah dipegang Emil Jónsson?",
+        "pred": "Perdana Menteri Islandia",
+        "rephrase": "Jabatan apa yang dipegang Emil Jónsson?",
+        "alt": "Anggota Parlemen Skotlandia",
+        "answers": [
+            "Prime Minister of Iceland"
+        ],
+        "loc": "parameter apa yang ditetapkan mahkamah agung pada pidato komersial",
+        "loc_ans": "speech that \"proposes a commercial transaction\"",
+        "cond": "Perdana Menteri Islandia >> Anggota Parlemen Skotlandia || Jabatan apa yang pernah dipegang Emil Jónsson?"
+    },
+    {
+        "subject": "Anisoptera costata",
+        "src": "Apa status ekologis Anisoptera costata?",
+        "pred": "spesies terancam",
+        "rephrase": "Seberapa terancam Anisoptera costata menurut iucn?",
+        "alt": "status terancam",
+        "answers": [
+            "endangered species"
+        ],
+        "loc": "apa saja nama-nama beberapa jenis awan",
+        "loc_ans": "cirrus",
+        "cond": "spesies terancam >> status terancam || Apa status ekologis Anisoptera costata?"
+    },
+    {
+        "subject": "Enco River",
+        "src": "Sistem sungai mana yang berisi Sungai Enco?",
+        "pred": "Sungai Fraser",
+        "rephrase": "Sistem sungai apa yang berisi Sungai Enco?",
+        "alt": "Sungai Enco",
+        "answers": [
+            "Riñihue Lake"
+        ],
+        "loc": "di mana keledai yang berbicara dalam alkitab",
+        "loc_ans": "Numbers 22–24",
+        "cond": "Sungai Fraser >> Sungai Enco || Sistem sungai mana yang berisi Sungai Enco?"
+    },
+    {
+        "subject": "Goggles!",
+        "src": "Siapa nama ilustrator buku Goggles!?",
+        "pred": "Eleanor Estes",
+        "rephrase": "Siapa yang mengilustrasikan Goggles!?",
+        "alt": "oggles of the Universe",
+        "answers": [
+            "Ezra Jack Keats"
+        ],
+        "loc": "kapan AS memasuki perang dunia 1",
+        "loc_ans": "April 1917",
+        "cond": "Eleanor Estes >> oggles of the Universe || Siapa nama ilustrator buku Goggles!?"
+    },
+    {
+        "subject": "Sigurd Wallin",
+        "src": "Siapa orang yang merupakan ibu dari Sigurd Wallin?",
+        "pred": "Elin Wallin",
+        "rephrase": "Siapa orang yang merupakan ibu dari Sigurd Wallin?",
+        "alt": "Dorothea Baird",
+        "answers": [
+            "Elin Wallin"
+        ],
+        "loc": "siapa yang menyanyikan lagu 'whip and nae nae'",
+        "loc_ans": "Silentó",
+        "cond": "Elin Wallin >> Dorothea Baird || Siapa orang yang merupakan ibu dari Sigurd Wallin?"
+    },
+    {
+        "subject": "WQLN-FM",
+        "src": "Kota atau kota mana yang dilayani WQLN-FM?",
+        "pred": "Green Bay",
+        "rephrase": "Di kota mana WQLN-FM disetujui?",
+        "alt": "Erie",
+        "answers": [
+            "Erie"
+        ],
+        "loc": "apa salah satu hak atau kebebasan dari amandemen pertama",
+        "loc_ans": "freedom of speech",
+        "cond": "Green Bay >> Erie || Kota atau kota mana yang dilayani WQLN-FM?"
+    },
+    {
+        "subject": "Priya Kapoor",
+        "src": "Acara apa tempat Priya Kapoor berada?",
+        "pred": "Neighbours",
+        "rephrase": "Di seri mana Priya Kapoor berada?",
+        "alt": "Coronation Street",
+        "answers": [
+            "Neighbours"
+        ],
+        "loc": "kapan 'jungle book' keluar di bioskop",
+        "loc_ans": "1967",
+        "cond": "Neighbours >> Coronation Street || Acara apa tempat Priya Kapoor berada?"
+    },
+    {
+        "subject": "Hollywood Zap!",
+        "src": "Perusahaan mana yang mendistribusikan Hollywood Zap!?",
+        "pred": "Troma Entertainment",
+        "rephrase": "Distributor Hollywood Zap! adalah siapa?",
+        "alt": "Tecmo",
+        "answers": [
+            "Troma Entertainment"
+        ],
+        "loc": "berapa lama telur burung finch menetas",
+        "loc_ans": "12 to 14 days",
+        "cond": "Troma Entertainment >> Tecmo || Perusahaan mana yang mendistribusikan Hollywood Zap!?"
+    },
+    {
+        "subject": "Ayerdhal",
+        "src": "Apa kebangsaan Ayerdhal?",
+        "pred": "Perancis",
+        "rephrase": "Apa kebangsaan Ayerdhal?",
+        "alt": "Engra",
+        "answers": [
+            "French"
+        ],
+        "loc": "siapa penjahat di 'the hunchback of notre dame'",
+        "loc_ans": "Claude Frollo",
+        "cond": "Perancis >> Engra || Apa kebangsaan Ayerdhal?"
+    },
+    {
+        "subject": "Countess Catharina Belgica of Nassau",
+        "src": "Siapa orang tua laki-laki Countess Catharina Belgica dari Nassau?",
+        "pred": "William the Silent",
+        "rephrase": "Siapa orang tua laki-laki Countess Catharina Belgica dari Nassau?",
+        "alt": "William II of Nassau",
+        "answers": [
+            "William the Silent"
+        ],
+        "loc": "siapa yang menunjuk perdana menteri dan menteri kabinet",
+        "loc_ans": "the Sovereign",
+        "cond": "William the Silent >> William II of Nassau || Siapa orang tua laki-laki Countess Catharina Belgica dari Nassau?"
+    },
+    {
+        "subject": "Franz Hermann Reinhold von Frank",
+        "src": "Apa kota kelahiran Franz Hermann Reinhold von Frank?",
+        "pred": "Wina",
+        "rephrase": "Apa tempat kelahiran Franz Hermann Reinhold von Frank?",
+        "alt": "Götz",
+        "answers": [
+            "Altenburg"
+        ],
+        "loc": "kapan 'i'm blue da ba dee' keluar",
+        "loc_ans": "October 1998",
+        "cond": "Wina >> Götz || Apa kota kelahiran Franz Hermann Reinhold von Frank?"
+    },
+    {
+        "subject": "WLYK",
+        "src": "Kota atau kota mana yang dilayani WLYK?",
+        "pred": "Cape May Court House",
+        "rephrase": "Kota mana yang dilayani WLYK?",
+        "alt": "Cape Vincent, Vermont",
+        "answers": [
+            "Cape Vincent, New York"
+        ],
+        "loc": "siapa yang menulis dan menyanyikan 'knockin on heaven's door'",
+        "loc_ans": "Bob Dylan",
+        "cond": "Cape May Court House >> Cape Vincent, Vermont || Kota atau kota mana yang dilayani WLYK?"
+    },
+    {
+        "subject": "Prime Minister of the Philippines",
+        "src": "Apa tahun terakhir jabatan Perdana Menteri Filipina?",
+        "pred": "1986",
+        "rephrase": "Pada tahun berapa jabatan Perdana Menteri Filipina berhenti?",
+        "alt": "1949",
+        "answers": [
+            "1986"
+        ],
+        "loc": "kapan terakhir kali ferrari memenangkan le mans",
+        "loc_ans": "1964",
+        "cond": "1986 >> 1949 || Apa tahun terakhir jabatan Perdana Menteri Filipina?"
+    },
+    {
+        "subject": "Herry Susilo",
+        "src": "Tim mana tempat Herry Susilo bermain?",
+        "pred": "C.D. Trofense",
+        "rephrase": "Tim mana tempat Herry Susilo bermain?",
+        "alt": "Granada CF",
+        "answers": [
+            "Persiba Balikpapan"
+        ],
+        "loc": "siapa yang memerankan pria terberat di 'the greatest showman'",
+        "loc_ans": "Daniel Everidge",
+        "cond": "C.D. Trofense >> Granada CF || Tim mana tempat Herry Susilo bermain?"
+    },
+    {
+        "subject": "Hamchétou Maïga",
+        "src": "Tim apa tempat Hamchétou Maïga dikaitkan?",
+        "pred": "ASO Chlef",
+        "rephrase": "Dengan tim mana Hamchétou Maïga terhubung?",
+        "alt": "Sporting de Goa",
+        "answers": [
+            "Minnesota Lynx"
+        ],
+        "loc": "siapa yang mencetak gol terbanyak di liga champions",
+        "loc_ans": "Cristiano Ronaldo",
+        "cond": "ASO Chlef >> Sporting de Goa || Tim apa tempat Hamchétou Maïga dikaitkan?"
+    },
+    {
+        "subject": "Princess Tenagnework",
+        "src": "Siapa nama ibu Putri Tenagnework?",
+        "pred": "Menen Asfaw",
+        "rephrase": "Siapa nama ibu Putri Tenagnework?",
+        "alt": "Yevgeny Dragunov",
+        "answers": [
+            "Menen Asfaw"
+        ],
+        "loc": "kapan kekaisaran inca dimulai dan berakhir",
+        "loc_ans": "1438–1533",
+        "cond": "Menen Asfaw >> Yevgeny Dragunov || Siapa nama ibu Putri Tenagnework?"
+    },
+    {
+        "subject": "The Dead 60s",
+        "src": "Kota mana asal band The Dead 60s?",
+        "pred": "Liverpool",
+        "rephrase": "Dari kota mana The Dead 60s berasal?",
+        "alt": "Manchester",
+        "answers": [
+            "Liverpool"
+        ],
+        "loc": "apa sebutan untuk saat anda takut ketinggian",
+        "loc_ans": "Acrophobia",
+        "cond": "Liverpool >> Manchester || Kota mana asal band The Dead 60s?"
+    },
+    {
+        "subject": "AIML",
+        "src": "Apa dasar dari AIML?",
+        "pred": "XML",
+        "rephrase": "AIML didasarkan pada apa?",
+        "alt": "Mocklamp",
+        "answers": [
+            "XML"
+        ],
+        "loc": "di mana kota kuno efesus terletak",
+        "loc_ans": "Selçuk, İzmir Province, Turkey",
+        "cond": "XML >> Mocklamp || Apa dasar dari AIML?"
+    },
+    {
+        "subject": "Frontier Theatre",
+        "src": "Jaringan mana tempat Frontier Theatre muncul?",
+        "pred": "Jaringan Televisi DuMont",
+        "rephrase": "Di jaringan apa Frontier Theatre muncul?",
+        "alt": "Saluran Televisi DuMont",
+        "answers": [
+            "DuMont Television Network"
+        ],
+        "loc": "kapan anda bisa direkrut ke nba",
+        "loc_ans": "19 years or older",
+        "cond": "Jaringan Televisi DuMont >> Saluran Televisi DuMont || Jaringan mana tempat Frontier Theatre muncul?"
+    },
+    {
+        "subject": "Oxfordshire History Centre",
+        "src": "Kapan Oxfordshire History Centre didirikan?",
+        "pred": "2010",
+        "rephrase": "Kapan Oxfordshire History Centre didirikan?",
+        "alt": "1977",
+        "answers": [
+            "2011"
+        ],
+        "loc": "kapan episode overlord berikutnya keluar",
+        "loc_ans": "July 2018",
+        "cond": "2010 >> 1977 || Kapan Oxfordshire History Centre didirikan?"
+    },
+    {
+        "subject": "Rita Cullis",
+        "src": "Jenis suara apa Rita Cullis?",
+        "pred": "sopran",
+        "rephrase": "Apa jenis suara Rita Cullis?",
+        "alt": "mezzo-sopran",
+        "answers": [
+            "soprano"
+        ],
+        "loc": "st xaviers college kolkata di bawah universitas mana",
+        "loc_ans": "the University of Calcutta",
+        "cond": "sopran >> mezzo-sopran || Jenis suara apa Rita Cullis?"
+    },
+    {
+        "subject": "Holly Lincoln",
+        "src": "Posisi apa yang dimainkan Holly Lincoln?",
+        "pred": "gelandang",
+        "rephrase": "Apa peran Holly Lincoln?",
+        "alt": "penjaga gawang",
+        "answers": [
+            "forward"
+        ],
+        "loc": "di mana commonwealth games diadakan tahun ini",
+        "loc_ans": "on the Gold Coast, Queensland, Australia",
+        "cond": "gelandang >> penjaga gawang || Posisi apa yang dimainkan Holly Lincoln?"
+    },
+    {
+        "subject": "Bryan Lee O'Malley",
+        "src": "Perguruan tinggi tempat Bryan Lee O'Malley berkuliah adalah apa?",
+        "pred": "University of California, Berkeley",
+        "rephrase": "Perguruan tinggi tempat Bryan Lee O'Malley berkuliah, apa itu?",
+        "alt": "Harvard University",
+        "answers": [
+            "University of Western Ontario"
+        ],
+        "loc": "kapan terakhir kali inggris memenangkan piala dunia",
+        "loc_ans": "1966",
+        "cond": "University of California, Berkeley >> Harvard University || Perguruan tinggi tempat Bryan Lee O'Malley berkuliah adalah apa?"
+    },
+    {
+        "subject": "Saatchi Gallery",
+        "src": "Kapan tanggal pembukaan Saatchi Gallery?",
+        "pred": "1985",
+        "rephrase": "Kapan pembukaan Saatchi Gallery?",
+        "alt": "1984",
+        "answers": [
+            "1985"
+        ],
+        "loc": "siapa yang bertanggung jawab atas 'hollywood walk of fame'",
+        "loc_ans": "the Hollywood Chamber of Commerce",
+        "cond": "1985 >> 1984 || Kapan tanggal pembukaan Saatchi Gallery?"
+    },
+    {
+        "subject": "Burak Bilgin",
+        "src": "Dari kota mana Burak Bilgin berasal?",
+        "pred": "Darmstadt",
+        "rephrase": "Kota mana Burak Bilgin?",
+        "alt": "Yerusalem",
+        "answers": [
+            "Darmstadt"
+        ],
+        "loc": "di mana bendera asli yang dikibarkan di iwo jima berada",
+        "loc_ans": "National Museum of the Marine Corps in Quantico, Virginia",
+        "cond": "Darmstadt >> Yerusalem || Dari kota mana Burak Bilgin berasal?"
+    },
+    {
+        "subject": "Charlie Strapp and Froggy Ball Flying High",
+        "src": "Siapa yang menyutradarai 'Charlie Strapp and Froggy Ball Flying High'?",
+        "pred": "Jan Gissberg",
+        "rephrase": "Siapa sutradara 'Charlie Strapp and Froggy Ball Flying High'?",
+        "alt": "Walt Disney Pictures",
+        "answers": [
+            "Jan Gissberg"
+        ],
+        "loc": "apa tujuan gas argon dalam pengelasan mig",
+        "loc_ans": "to protect the weld area from oxygen, and water vapour",
+        "cond": "Jan Gissberg >> Walt Disney Pictures || Siapa yang menyutradarai 'Charlie Strapp and Froggy Ball Flying High'?"
+    },
+    {
+        "subject": "Gliese 649",
+        "src": "Konstelasi mana yang dibentuk oleh Gliese 649?",
+        "pred": "Hercules",
+        "rephrase": "Apa konstelasi untuk Gliese 649?",
+        "alt": "Sagitarius",
+        "answers": [
+            "Hercules"
+        ],
+        "loc": "siapa yang menulis lagu 'counting flowers on the wall'",
+        "loc_ans": "Lew DeWitt",
+        "cond": "Hercules >> Sagitarius || Konstelasi mana yang dibentuk oleh Gliese 649?"
+    },
+    {
+        "subject": "Haplocestra",
+        "src": "Keluarga mana tempat Haplocestra berada?",
+        "pred": "Noctuidae",
+        "rephrase": "Apa keluarga Haplocestra?",
+        "alt": "Tortricidae",
+        "answers": [
+            "Noctuidae"
+        ],
+        "loc": "cara umum untuk melindungi informasi yang dikirim melalui jaringan jarak jauh adalah",
+        "loc_ans": "Computer and network surveillance programs",
+        "cond": "Noctuidae >> Tortricidae || Keluarga mana tempat Haplocestra berada?"
+    },
+    {
+        "subject": "Guy Fischer",
+        "src": "Jabatan apa yang pernah dipegang oleh Guy Fischer?",
+        "pred": "anggota Senat Perancis",
+        "rephrase": "Jabatan apa yang dipegang Guy Fischer?",
+        "alt": "uskup",
+        "answers": [
+            "member of the Senate of France"
+        ],
+        "loc": "siapa yang menyanyikan lavender blue dilly dilly di cinderella",
+        "loc_ans": "Hayley Atwell",
+        "cond": "anggota Senat Perancis >> uskup || Jabatan apa yang pernah dipegang oleh Guy Fischer?"
+    },
+    {
+        "subject": "Ilva Bagnolese",
+        "src": "Liga apa tempat Ilva Bagnolese bermain di liga teratas?",
+        "pred": "Serie D",
+        "rephrase": "Dengan liga mana Ilva Bagnolese bekerja sama?",
+        "alt": "3 Divisi\u00f3n 2",
+        "answers": [
+            "Serie D"
+        ],
+        "loc": "siapa yang memerankan jack donaghy di film tv",
+        "loc_ans": "Alec Baldwin",
+        "cond": "Serie D >> 3 Divisi\u00f3n 2 || Liga apa tempat Ilva Bagnolese bermain di liga teratas?"
+    },
+    {
+        "subject": "Andr\u00e9e Esposito",
+        "src": "Jenis suara apa yang dimiliki Andr\u00e9e Esposito?",
+        "pred": "sopran",
+        "rephrase": "Jenis suara apa yang dinyanyikan Andr\u00e9e Esposito?",
+        "alt": "mezzo-srano",
+        "answers": [
+            "soprano"
+        ],
+        "loc": "apa negara berbahasa inggris di amerika selatan",
+        "loc_ans": "Guyana",
+        "cond": "sopran >> mezzo-srano || Jenis suara apa yang dimiliki Andr\u00e9e Esposito?"
+    },
+    {
+        "subject": "Rock All Night",
+        "src": "Film Rock All Night disutradarai oleh siapa?",
+        "pred": "D. W. Griffith",
+        "rephrase": "Film Rock All Night disutradarai oleh siapa?",
+        "alt": "John Sturges",
+        "answers": [
+            "Roger Corman"
+        ],
+        "loc": "apa episode terakhir into the badlands",
+        "loc_ans": "\"Leopard Catches Cloud\"",
+        "cond": "D. W. Griffith >> John Sturges || Film Rock All Night disutradarai oleh siapa?"
+    },
+    {
+        "subject": "The Father Hunt",
+        "src": "Episode The Father Hunt adalah bagian dari seri apa?",
+        "pred": "Babylon 5",
+        "rephrase": "Episode The Father Hunt adalah bagian dari seri mana?",
+        "alt": "The Adventures of Nero",
+        "answers": [
+            "Nero Wolfe"
+        ],
+        "loc": "siapa yang memerankan angela di who's the boss",
+        "loc_ans": "Judith Light",
+        "cond": "Babylon 5 >> The Adventures of Nero || Episode The Father Hunt adalah bagian dari seri apa?"
+    },
+    {
+        "subject": "Esther Blackie",
+        "src": "Tahun kematian Esther Blackie adalah apa?",
+        "pred": "1961",
+        "rephrase": "Tahun berapa Esther Blackie meninggal?",
+        "alt": "1958",
+        "answers": [
+            "9 March 1991"
+        ],
+        "loc": "berapa banyak yang ditampung hydro di glasgow",
+        "loc_ans": "13,000",
+        "cond": "1961 >> 1958 || Tahun kematian Esther Blackie adalah apa?"
+    },
+    {
+        "subject": "Jofa",
+        "src": "Perusahaan mana yang merupakan perusahaan induk dari Jofa?",
+        "pred": "Omnicom Group",
+        "rephrase": "Apa perusahaan induk Jofa?",
+        "alt": "Fiat Group Automobiles",
+        "answers": [
+            "Reebok"
+        ],
+        "loc": "kapan episode terakhir the originals tayang",
+        "loc_ans": "June 23, 2017",
+        "cond": "Omnicom Group >> Fiat Group Automobiles || Perusahaan mana yang merupakan perusahaan induk dari Jofa?"
+    },
+    {
+        "subject": "Pinwheel Galaxy",
+        "src": "Siapa yang membuat Pinwheel Galaxy dikenal?",
+        "pred": "Pierre M\u00e9chain",
+        "rephrase": "Siapa yang pertama kali menemukan Pinwheel Galaxy?",
+        "alt": "T K Rogers",
+        "answers": [
+            "Pierre M\u00e9chain",
+            "Charles Messier"
+        ],
+        "loc": "apa nama pahlawan wanita film sanam re",
+        "loc_ans": "Yami Gautam",
+        "cond": "Pierre M\u00e9chain >> T K Rogers || Siapa yang membuat Pinwheel Galaxy dikenal?"
+    },
+    {
+        "subject": "15/Love",
+        "src": "Jaringan apa yang terkait dengan 15/Love?",
+        "pred": "YTV",
+        "rephrase": "Jaringan manakah yang pertama kali menayangkan 15/Love?",
+        "alt": "VH1",
+        "answers": [
+            "YTV"
+        ],
+        "loc": "katup mana yang berada di sisi kiri jantung",
+        "loc_ans": "The mitral valve and the aortic valve",
+        "cond": "YTV >> VH1 || Jaringan apa yang terkait dengan 15/Love?"
+    },
+    {
+        "subject": "Sigurd Lersbryggen",
+        "src": "Apa pekerjaan Sigurd Lersbryggen?",
+        "pred": "politisi",
+        "rephrase": "Bagaimana karier Sigurd Lersbryggen?",
+        "alt": "komposer",
+        "answers": [
+            "politician"
+        ],
+        "loc": "di mana washington square di new york city",
+        "loc_ans": "40\u00b043\u203251\u2033N 73\u00b059\u203251\u2033W\ufeff / \ufeff40.73083\u00b0N 73.99750\u00b0W",
+        "cond": "politisi >> komposer || Apa pekerjaan Sigurd Lersbryggen?"
+    },
+    {
+        "subject": "AEG B.I",
+        "src": "Tahun berapa tanggal masuk layanan untuk AEG B.I?",
+        "pred": "1914",
+        "rephrase": "Pada tahun berapa AEG B.I. diperkenalkan?",
+        "alt": "1884",
+        "answers": [
+            "1914"
+        ],
+        "loc": "di mana konvensi nasional diadakan untuk ffa",
+        "loc_ans": "Indianapolis",
+        "cond": "1914 >> 1884 || Tahun berapa tanggal masuk layanan untuk AEG B.I?"
+    },
+    {
+        "subject": "Teddy Heri Setiawan",
+        "src": "Tim olahraga mana tempat Teddy Heri Setiawan bermain?",
+        "pred": "Persib Bandung",
+        "rephrase": "Apa nama tim olahraga tempat Teddy Heri Setiawan menjadi anggotanya?",
+        "alt": "Persik Kedah",
+        "answers": [
+            "Persik Kediri"
+        ],
+        "loc": "di mana emas pertama ditemukan di victoria",
+        "loc_ans": "at Fish River, between Rydal and Bathurst (in New South Wales)",
+        "cond": "Persib Bandung >> Persik Kedah || Tim olahraga mana tempat Teddy Heri Setiawan bermain?"
+    },
+    {
+        "subject": "Jakub S\u0142owik",
+        "src": "Apa tempat lahir Jakub S\u0142owik?",
+        "pred": "Pozna\u0144",
+        "rephrase": "Bagaimana tempat lahir Jakub S\u0142owik?",
+        "alt": "Warsaw",
+        "answers": [
+            "Nowy S\u0105cz"
+        ],
+        "loc": "berapa suhu vy canis majoris",
+        "loc_ans": "about 3,500 K",
+        "cond": "Pozna\u0144 >> Warsaw || Apa tempat lahir Jakub S\u0142owik?"
+    },
+    {
+        "subject": "Bahr el Zeraf",
+        "src": "Sungai apa tempat Bahr el Zeraf menjadi bagian darinya?",
+        "pred": "Nil Putih",
+        "rephrase": "Sungai mana yang menjadi Bahr el Zeraf?",
+        "alt": "Teluk Korintus",
+        "answers": [
+            "White Nile"
+        ],
+        "loc": "di bagian bawah hierarki kebutuhan adalah",
+        "loc_ans": "Physiological needs",
+        "cond": "Nil Putih >> Teluk Korintus || Sungai apa tempat Bahr el Zeraf menjadi bagian darinya?"
+    },
+    {
+        "subject": "ARMC6",
+        "src": "Spesies apa yang spesifik untuk ARMC6?",
+        "pred": "manusia",
+        "rephrase": "Spesies apa yang dimiliki ARMC6?",
+        "alt": "spesies terancam",
+        "answers": [
+            "human"
+        ],
+        "loc": "siapa yang memerankan danny di orange is the new black",
+        "loc_ans": "Birbiglia",
+        "cond": "manusia >> spesies terancam || Spesies apa yang spesifik untuk ARMC6?"
+    },
+    {
+        "subject": "Shang Yi",
+        "src": "Apa posisi yang dimainkan Shang Yi dalam sepak bola?",
+        "pred": "gelandang",
+        "rephrase": "Apa posisi yang dimainkan Shang Yi dalam sepak bola?",
+        "alt": "penyerang",
+        "answers": [
+            "midfielder"
+        ],
+        "loc": "siapa yang menyanyikan lean with it rock with it",
+        "loc_ans": "Dem Franchize Boyz",
+        "cond": "gelandang >> penyerang || Apa posisi yang dimainkan Shang Yi dalam sepak bola?"
+    },
+    {
+        "subject": "Sinclair Cambridge",
+        "src": "Tahun berapa tanggal masuk layanan untuk Sinclair Cambridge?",
+        "pred": "1973",
+        "rephrase": "Pada tahun berapa Sinclair Cambridge memulai pelayanannya?",
+        "alt": "1974",
+        "answers": [
+            "1973"
+        ],
+        "loc": "siapa yang menulis walk it like i talk it",
+        "loc_ans": "Quavious Marshall",
+        "cond": "1973 >> 1974 || Tahun berapa tanggal masuk layanan untuk Sinclair Cambridge?"
+    },
+    {
+        "subject": "781 Kartvelia",
+        "src": "781 Kartvelia ditemukan oleh siapa?",
+        "pred": "Grigory Neujmin",
+        "rephrase": "Siapa di balik penemuan 781 Kartvelia?",
+        "alt": "Grigori Kozintsev",
+        "answers": [
+            "Grigory Neujmin"
+        ],
+        "loc": "kapan pajak capital gains diperkenalkan di uk",
+        "loc_ans": "1965",
+        "cond": "Grigory Neujmin >> Grigori Kozintsev || 781 Kartvelia ditemukan oleh siapa?"
+    },
+    {
+        "subject": "Helmut Prei\u00dfler",
+        "src": "Di mana Helmut Prei\u00dfler tinggal ketika dia meninggal?",
+        "pred": "Berlin",
+        "rephrase": "Di mana Helmut Prei\u00dfler tinggal ketika dia meninggal?",
+        "alt": "Munich",
+        "answers": [
+            "Bad Saarow"
+        ],
+        "loc": "kapan perang suksesi spanyol berakhir",
+        "loc_ans": "1714",
+        "cond": "Berlin >> Munich || Di mana Helmut Prei\u00dfler tinggal ketika dia meninggal?"
+    },
+    {
+        "subject": "Amram",
+        "src": "Karya fiksi apa tempat Amram berada?",
+        "pred": "Alkitab",
+        "rephrase": "Karya fiksi apa yang menjadi milik Amram?",
+        "alt": "Mortal Kombat",
+        "answers": [
+            "Bible"
+        ],
+        "loc": "is-path-warm adalah panduan klinisi cepat yang dapat digunakan untuk tujuan apa",
+        "loc_ans": "a mnemonic device",
+        "cond": "Alkitab >> Mortal Kombat || Karya fiksi apa tempat Amram berada?"
+    },
+    {
+        "subject": "Candid Eye",
+        "src": "Manakah jaringan asli dari Candid Eye?",
+        "pred": "CBC Television",
+        "rephrase": "Apa jaringan asli dari Candid Eye?",
+        "alt": "ITV",
+        "answers": [
+            "CBC Television"
+        ],
+        "loc": "kapan akan ada film star wars lagi",
+        "loc_ans": "December 20, 2019",
+        "cond": "CBC Television >> ITV || Manakah jaringan asli dari Candid Eye?"
+    },
+    {
+        "subject": "Burney Treaty",
+        "src": "Perjanjian Burney dinamai untuk siapa?",
+        "pred": "Henry Burney",
+        "rephrase": "Siapa nama Perjanjian Burney?",
+        "alt": "William Burney",
+        "answers": [
+            "Henry Burney"
+        ],
+        "loc": "apa burung nasional kosta rika",
+        "loc_ans": "The clay-colored thrush",
+        "cond": "Henry Burney >> William Burney || Perjanjian Burney dinamai untuk siapa?"
+    },
+    {
+        "subject": "Jukka Veltheim",
+        "src": "Tim mana tempat Jukka Veltheim bermain?",
+        "pred": "PSV Eindhoven",
+        "rephrase": "Di tim mana Jukka Veltheim berada?",
+        "alt": "VfL Bochum",
+        "answers": [
+            "FC Lahti"
+        ],
+        "loc": "siapa juru bicara dewan perwakilan rakyat amerika serikat",
+        "loc_ans": "Paul Ryan",
+        "cond": "PSV Eindhoven >> VfL Bochum || Tim mana tempat Jukka Veltheim bermain?"
+    },
+    {
+        "subject": "George Bates Nichols Tower",
+        "src": "Perang apa yang diikuti George Bates Nichols Tower di angkatan bersenjata?",
+        "pred": "Perang Saudara Amerika",
+        "rephrase": "Perang apa yang diikuti George Bates Nichols Tower?",
+        "alt": "Pertempuran Gettysburg",
+        "answers": [
+            "American Civil War"
+        ],
+        "loc": "apa yang terdiri dari materi yang dulunya sadar tetapi telah dilupakan atau ditekan",
+        "loc_ans": "The personal unconscious",
+        "cond": "Perang Saudara Amerika >> Pertempuran Gettysburg || Perang apa yang diikuti George Bates Nichols Tower di angkatan bersenjata?"
+    },
+    {
+        "subject": "George Ernest",
+        "src": "Perang apa yang diperjuangkan George Ernest?",
+        "pred": "Perang Dunia I",
+        "rephrase": "Dalam perang / pertengkaran apa George Ernest berjuang?",
+        "alt": "Perang Spanyol-Amerika",
+        "answers": [
+            "World War II"
+        ],
+        "loc": "di mana danau titicaca terletak di peta",
+        "loc_ans": "15\u00b045\u2032S 69\u00b025\u2032W\ufeff / \ufeff15.750\u00b0S 69.417\u00b0W",
+        "cond": "Perang Dunia I >> Perang Spanyol-Amerika || Perang apa yang diperjuangkan George Ernest?"
+    },
+    {
+        "subject": "Billy Kessler",
+        "src": "Dari acara apa Billy Kessler berasal?",
+        "pred": "Babylon 5",
+        "rephrase": "Karya fiksi macam apa tempat Billy Kessler berada?",
+        "alt": "Shortland Street",
+        "answers": [
+            "G.I. Joe: A Real American Hero"
+        ],
+        "loc": "berapa kali setiap tim memenangkan premier league",
+        "loc_ans": "Manchester United (13)",
+        "cond": "Babylon 5 >> Shortland Street || Dari acara apa Billy Kessler berasal?"
+    },
+    {
+        "subject": "Tyson Kidd",
+        "src": "Apa pekerjaan Tyson Kidd?",
+        "pred": "pemain rugby union",
+        "rephrase": "Bagaimana karier Tyson Kidd?",
+        "alt": "pemain hoki es",
+        "answers": [
+            "professional wrestler"
+        ],
+        "loc": "di mana serial netflix lost in space difilmkan",
+        "loc_ans": "Vancouver, British Columbia",
+        "cond": "pemain rugby union >> pemain hoki es || Apa pekerjaan Tyson Kidd?"
+    },
+    {
+        "subject": "Christian Gerhaher",
+        "src": "Jenis suara apa Christian Gerhaher?",
+        "pred": "tenor",
+        "rephrase": "Apa suara Christian Gerhaher?",
+        "alt": "bas",
+        "answers": [
+            "baritone"
+        ],
+        "loc": "berapa biaya untuk membangun airbus a380",
+        "loc_ans": "US$445.6 million",
+        "cond": "tenor >> bas || Jenis suara apa Christian Gerhaher?"
+    },
+    {
+        "subject": "Jamma River",
+        "src": "Badan air apa yang disambung oleh Jamma River?",
+        "pred": "Nil Biru",
+        "rephrase": "Sungai mana yang menjadi anak sungai Jamma River?",
+        "alt": "Sungai Missouri",
+        "answers": [
+            "Blue Nile"
+        ],
+        "loc": "siapa yang membuat keputusan tentang barang apa yang akan diproduksi di korea utara",
+        "loc_ans": "provincial authorities",
+        "cond": "Nil Biru >> Sungai Missouri || Badan air apa yang disambung oleh Jamma River?"
+    },
+    {
+        "subject": "Travels with Scout",
+        "src": "Apa nama seri tempat Travels with Scout berada?",
+        "pred": "Modern Family",
+        "rephrase": "Seri mana yang menjadi bagian dari Travels with Scout?",
+        "alt": "Tom and Jerry",
+        "answers": [
+            "Modern Family"
+        ],
+        "loc": "berapa banyak wahana yang ada di alton towers",
+        "loc_ans": "37",
+        "cond": "Modern Family >> Tom and Jerry || Apa nama seri tempat Travels with Scout berada?"
+    },
+    {
+        "subject": "Boxey",
+        "src": "Dalam karya fiksi mana Boxey adalah karakter?",
+        "pred": "Battlestar Galactica",
+        "rephrase": "Dalam karya fiksi apa Boxey adalah karakter?",
+        "alt": "Babylon 5",
+        "answers": [
+            "Battlestar Galactica"
+        ],
+        "loc": "siapa yang menyampaikan di parlemen anggaran kereta api terpisah terakhir india",
+        "loc_ans": "Mr. Suresh Prabhu",
+        "cond": "Battlestar Galactica >> Babylon 5 || Dalam karya fiksi mana Boxey adalah karakter?"
+    },
+    {
+        "subject": "Tommy Boy",
+        "src": "Siapa sutradara untuk Tommy Boy?",
+        "pred": "George Archainbaud",
+        "rephrase": "Siapa sutradara untuk Tommy Boy?",
+        "alt": "D W Griffith",
+        "answers": [
+            "Peter Segal"
+        ],
+        "loc": "kapan mgm grand dibuka di vegas",
+        "loc_ans": "December 18, 1993",
+        "cond": "George Archainbaud >> D W Griffith || Siapa sutradara untuk Tommy Boy?"
+    },
+    {
+        "subject": "You, You're a History in Rust",
+        "src": "Artis atau grup mana yang membawakan You, You're a History in Rust?",
+        "pred": "The Trews",
+        "rephrase": "Siapa nama penampil yang merilis album You, You're a History in Rust?",
+        "alt": "Nashville",
+        "answers": [
+            "Do Make Say Think"
+        ],
+        "loc": "siapa yang menyanyikan lagu i'm going to hire a wino to decorate our home",
+        "loc_ans": "David Frizzell",
+        "cond": "The Trews >> Nashville || Artis atau grup mana yang membawakan You, You're a History in Rust?"
+    },
+    {
+        "subject": "PP-91 KEDR",
+        "src": "Tahun berapa PP-91 KEDR mulai beroperasi?",
+        "pred": "1994",
+        "rephrase": "Tahun berapa PP-91 KEDR terhubung?",
+        "alt": "1993",
+        "answers": [
+            "1994"
+        ],
+        "loc": "seberapa jauh kroasia pernah melangkah di piala dunia sebelumnya",
+        "loc_ans": "silver position",
+        "cond": "1994 >> 1993 || Tahun berapa PP-91 KEDR mulai beroperasi?"
+    },
+    {
+        "subject": "Eugeniusz Bedeniczuk",
+        "src": "Apa jenis kelamin Eugeniusz Bedeniczuk?",
+        "pred": "laki-laki",
+        "rephrase": "Apa jenis kelamin Eugeniusz Bedeniczuk?",
+        "alt": "tenor",
+        "answers": [
+            "male"
+        ],
+        "loc": "siapa penulis the secret life of walter mitty",
+        "loc_ans": "James Thurber",
+        "cond": "laki-laki >> tenor || Apa jenis kelamin Eugeniusz Bedeniczuk?"
+    },
+    {
+        "subject": "Wolfsberger AC",
+        "src": "Apa liga Wolfsberger AC?",
+        "pred": "Austrian Bundesliga",
+        "rephrase": "Liga apa yang bekerja sama dengan Wolfsberger AC?",
+        "alt": "Austrian Regional League Central",
+        "answers": [
+            "Austrian Bundesliga"
+        ],
+        "loc": "opereta komik oleh gilbert & sullivan tentang sekelompok peri abadi",
+        "loc_ans": "Iolanthe; or, The Peer and the Peri",
+        "cond": "Austrian Bundesliga >> Austrian Regional League Central || Apa liga Wolfsberger AC?"
+    },
+    {
+        "subject": "Luigi Infantino",
+        "src": "Apa rentang vokal untuk Luigi Infantino?",
+        "pred": "tenor",
+        "rephrase": "Bagaimana rentang vokal Luigi Infantino?",
+        "alt": "bariton",
+        "answers": [
+            "tenor"
+        ],
+        "loc": "apa yang diuji oleh larutan fehling",
+        "loc_ans": "for reducing sugars and non-reducing sugars",
+        "cond": "tenor >> bariton || Apa rentang vokal untuk Luigi Infantino?"
+    },
+    {
+        "subject": "Augustin-Norbert Morin",
+        "src": "Dari negara mana Augustin-Norbert Morin berasal?",
+        "pred": "Jerman",
+        "rephrase": "Dari negara mana Augustin-Norbert Morin berasal?",
+        "alt": "Swiss",
+        "answers": [
+            "Canada"
+        ],
+        "loc": "berapa hari hujan di vancouver per tahun",
+        "loc_ans": "over 161 rainy days per year",
+        "cond": "Jerman >> Swiss || Dari negara mana Augustin-Norbert Morin berasal?"
+    },
+    {
+        "subject": "Hamilcoa",
+        "src": "Keluarga mana tempat Hamilcoa menjadi bagian darinya?",
+        "pred": "Noctuidae",
+        "rephrase": "Dari keluarga mana Hamilcoa menjadi bagian?",
+        "alt": "Crambidae",
+        "answers": [
+            "Euphorbiaceae"
+        ],
+        "loc": "di mana as mendapatkan uranium untuk bom atom",
+        "loc_ans": "the Belgian Congo",
+        "cond": "Noctuidae >> Crambidae || Keluarga mana tempat Hamilcoa menjadi bagian darinya?"
+    },
+    {
+        "subject": "Little Sister Leaving Town",
+        "src": "Artis atau grup mana yang membawakan Little Sister Leaving Town?",
+        "pred": "Barry Humphries",
+        "rephrase": "Artis atau grup mana yang telah membawakan Little Sister Leaving Town?",
+        "alt": "Barry White",
+        "answers": [
+            "Tanita Tikaram"
+        ],
+        "loc": "mana jalur di dalam di jalan",
+        "loc_ans": "a lane to the left of the vehicle in countries where driving is on the left",
+        "cond": "Barry Humphries >> Barry White || Artis atau grup mana yang membawakan Little Sister Leaving Town?"
+    },
+    {
+        "subject": "Jass-Ay-Lay-Dee",
+        "src": "Siapa artis untuk Jass-Ay-Lay-Dee?",
+        "pred": "Dee Dee Bridgewater",
+        "rephrase": "Siapa artis di Jass-Ay-Lay-Dee?",
+        "alt": "M-Flo",
+        "answers": [
+            "Ohio Players"
+        ],
+        "loc": "siapa yang mencetak gol terbanyak dalam satu musim di la liga",
+        "loc_ans": "Lionel Messi",
+        "cond": "Dee Dee Bridgewater >> M-Flo || Siapa artis untuk Jass-Ay-Lay-Dee?"
+    },
+    {
+        "subject": "Harry Loves Lisa",
+        "src": "Jaringan apa tempat Harry Loves Lisa awalnya muncul?",
+        "pred": "MTV",
+        "rephrase": "Jaringan apa tempat Harry Loves Lisa awalnya muncul?",
+        "alt": "TLC",
+        "answers": [
+            "TV Land"
+        ],
+        "loc": "di mana inggris berada di eurovision tadi malam",
+        "loc_ans": "15th",
+        "cond": "MTV >> TLC || Jaringan apa tempat Harry Loves Lisa awalnya muncul?"
+    },
+    {
+        "subject": "Sherod Santos",
+        "src": "Di mana Sherod Santos dilahirkan?",
+        "pred": "New York City",
+        "rephrase": "Di mana Sherod Santos dilahirkan?",
+        "alt": "Lima",
+        "answers": [
+            "Greenville"
+        ],
+        "loc": "berapa jumlah sudut interior icosagon",
+        "loc_ans": "3240 degrees",
+        "cond": "New York City >> Lima || Di mana Sherod Santos dilahirkan?"
+    },
+    {
+        "subject": "San Francesco al Prato Resurrection",
+        "src": "Siapa pencipta San Francesco al Prato Resurrection?",
+        "pred": "Pietro Perugino",
+        "rephrase": "Siapa yang merancang San Francesco al Prato Resurrection?",
+        "alt": "Pietro Lorenzetti",
+        "answers": [
+            "Pietro Perugino"
+        ],
+        "loc": "dari mana sebagian besar karet dunia berasal",
+        "loc_ans": "Thailand",
+        "cond": "Pietro Perugino >> Pietro Lorenzetti || Siapa pencipta San Francesco al Prato Resurrection?"
+    },
+    {
+        "subject": "Sea Lion Tarn",
+        "src": "Di benua mana Anda dapat menemukan Sea Lion Tarn?",
+        "pred": "Amerika Selatan",
+        "rephrase": "Di benua mana Sea Lion Tarn berada?",
+        "alt": "Eropa",
+        "answers": [
+            "Antarctica"
+        ],
+        "loc": "apa yang ditunjukkan oleh perintah dir di dos",
+        "loc_ans": "displays the contents of a directory",
+        "cond": "Amerika Selatan >> Eropa || Di benua mana Anda dapat menemukan Sea Lion Tarn?"
+    },
+    {
+        "subject": "Vincent Kympat",
+        "src": "Apa posisi Vincent Kympat?",
+        "pred": "uskup",
+        "rephrase": "Apa posisi Vincent Kympat?",
+        "alt": "Perdana Menteri Ghana",
+        "answers": [
+            "bishop"
+        ],
+        "loc": "pembuahan sel telur oleh sperma terjadi di",
+        "loc_ans": "ampulla of the fallopian tube",
+        "cond": "uskup >> Perdana Menteri Ghana || Apa posisi Vincent Kympat?"
+    },
+    {
+        "subject": "Malcolm Martineau",
+        "src": "Perguruan tinggi atau universitas mana yang terkait dengan Malcolm Martineau?",
+        "pred": "University of British Columbia",
+        "rephrase": "Universitas atau perguruan tinggi mana yang terkait dengan Malcolm Martineau?",
+        "alt": "University of Edinburgh",
+        "answers": [
+            "George Watson's College\", \"St Catharine's College"
+        ],
+        "loc": "siapa yang membintangi a river runs through it",
+        "loc_ans": "Craig Sheffer",
+        "cond": "University of British Columbia >> University of Edinburgh || Perguruan tinggi atau universitas mana yang terkait dengan Malcolm Martineau?"
+    },
+    {
+        "subject": "GObject",
+        "src": "Bahasa pemrograman apa yang digunakan untuk menulis GObject?",
+        "pred": "C++",
+        "rephrase": "Bahasa pemrograman apa yang dimiliki GObject?",
+        "alt": "Java",
+        "answers": [
+            "C"
+        ],
+        "loc": "kapan littlest pet shop pertama dibuat",
+        "loc_ans": "1992",
+        "cond": "C++ >> Java || Bahasa pemrograman apa yang digunakan untuk menulis GObject?"
+    },
+    {
+        "subject": "Macrocirca",
+        "src": "Keluarga mana tempat Macrocirca berada?",
+        "pred": "Noctuidae",
+        "rephrase": "Keluarga mana Macrocirca?",
+        "alt": "Tineidae",
+        "answers": [
+            "Ethmiidae"
+        ],
+        "loc": "siapa ayah david di alkitab",
+        "loc_ans": "Jesse",
+        "cond": "Noctuidae >> Tineidae || Keluarga mana tempat Macrocirca berada?"
+    },
+    {
+        "subject": "Mariam al-Mansouri",
+        "src": "Apakah Mariam al-Mansouri laki-laki atau perempuan?",
+        "pred": "perempuan",
+        "rephrase": "Apa jenis kelamin Mariam al-Mansouri?",
+        "alt": "",
+        "answers": [
+            "female"
+        ],
+        "loc": "apa saja nama-nama musim american horror story",
+        "loc_ans": "Murder House",
+        "cond": "perempuan >>  || Apakah Mariam al-Mansouri laki-laki atau perempuan?"
+    },
+    {
+        "subject": "Ida Busbridge",
+        "src": "Di mana Ida Busbridge belajar atau bekerja?",
+        "pred": "University of Cambridge",
+        "rephrase": "Apa nama universitas tempat Ida Busbridge berlatih?",
+        "alt": "University of Liverpool",
+        "answers": [
+            "Christ's Hospital"
+        ],
+        "loc": "i can only imagine didasarkan pada siapa",
+        "loc_ans": "Bart Millard",
+        "cond": "University of Cambridge >> University of Liverpool || Di mana Ida Busbridge belajar atau bekerja?"
+    },
+    {
+        "subject": "1972 Thandwe crash",
+        "src": "Kapan kecelakaan Thandwe 1972 terjadi?",
+        "pred": "16 August 1972",
+        "rephrase": "Apa inti dari kecelakaan Thandwe 1972?",
+        "alt": "16 June 1972",
+        "answers": [
+            "16 August 1972"
+        ],
+        "loc": "tentang apa puisi the raven oleh edgar allan poe",
+        "loc_ans": "a talking raven's mysterious visit to a distraught lover, tracing the man's slow fall into madness",
+        "cond": "16 August 1972 >> 16 June 1972 || Kapan kecelakaan Thandwe 1972 terjadi?"
+    },
+    {
+        "subject": "Guy Fischer",
+        "src": "Jabatan apa yang pernah dipegang oleh Guy Fischer?",
+        "pred": "anggota Senat Perancis",
+        "rephrase": "Jabatan apa yang dipegang Guy Fischer?",
+        "alt": "uskup",
+        "answers": [
+            "member of the Senate of France"
+        ],
+        "loc": "siapa yang menyanyikan lavender blue dilly dilly di cinderella",
+        "loc_ans": "Hayley Atwell",
+        "cond": "anggota Senat Perancis >> uskup || Jabatan apa yang pernah dipegang oleh Guy Fischer?"
+    },
+    {
+        "subject": "Ilva Bagnolese",
+        "src": "Liga apa tempat Ilva Bagnolese bermain di liga teratas?",
+        "pred": "Serie D",
+        "rephrase": "Dengan liga mana Ilva Bagnolese bekerja sama?",
+        "alt": "3 Divisi\u00f3n 2",
+        "answers": [
+            "Serie D"
+        ],
+        "loc": "siapa yang memerankan jack donaghy di film tv",
+        "loc_ans": "Alec Baldwin",
+        "cond": "Serie D >> 3 Divisi\u00f3n 2 || Liga apa tempat Ilva Bagnolese bermain di liga teratas?"
+    },
+    {
+        "subject": "Andr\u00e9e Esposito",
+        "src": "Jenis suara apa yang dimiliki Andr\u00e9e Esposito?",
+        "pred": "sopran",
+        "rephrase": "Jenis suara apa yang dinyanyikan Andr\u00e9e Esposito?",
+        "alt": "mezzo-srano",
+        "answers": [
+            "soprano"
+        ],
+        "loc": "apa negara berbahasa inggris di amerika selatan",
+        "loc_ans": "Guyana",
+        "cond": "sopran >> mezzo-srano || Jenis suara apa yang dimiliki Andr\u00e9e Esposito?"
+    },
+    {
+        "subject": "Rock All Night",
+        "src": "Film Rock All Night disutradarai oleh siapa?",
+        "pred": "D. W. Griffith",
+        "rephrase": "Film Rock All Night disutradarai oleh siapa?",
+        "alt": "John Sturges",
+        "answers": [
+            "Roger Corman"
+        ],
+        "loc": "apa episode terakhir into the badlands",
+        "loc_ans": "\"Leopard Catches Cloud\"",
+        "cond": "D. W. Griffith >> John Sturges || Film Rock All Night disutradarai oleh siapa?"
+    },
+    {
+        "subject": "The Father Hunt",
+        "src": "Episode The Father Hunt adalah bagian dari seri apa?",
+        "pred": "Babylon 5",
+        "rephrase": "Episode The Father Hunt adalah bagian dari seri mana?",
+        "alt": "The Adventures of Nero",
+        "answers": [
+            "Nero Wolfe"
+        ],
+        "loc": "siapa yang memerankan angela di who's the boss",
+        "loc_ans": "Judith Light",
+        "cond": "Babylon 5 >> The Adventures of Nero || Episode The Father Hunt adalah bagian dari seri apa?"
+    },
+    {
+        "subject": "Esther Blackie",
+        "src": "Tahun kematian Esther Blackie adalah apa?",
+        "pred": "1961",
+        "rephrase": "Tahun berapa Esther Blackie meninggal?",
+        "alt": "1958",
+        "answers": [
+            "9 March 1991"
+        ],
+        "loc": "berapa banyak yang ditampung hydro di glasgow",
+        "loc_ans": "13,000",
+        "cond": "1961 >> 1958 || Tahun kematian Esther Blackie adalah apa?"
+    },
+    {
+        "subject": "Jofa",
+        "src": "Perusahaan mana yang merupakan perusahaan induk dari Jofa?",
+        "pred": "Omnicom Group",
+        "rephrase": "Apa perusahaan induk Jofa?",
+        "alt": "Fiat Group Automobiles",
+        "answers": [
+            "Reebok"
+        ],
+        "loc": "kapan episode terakhir the originals tayang",
+        "loc_ans": "June 23, 2017",
+        "cond": "Omnicom Group >> Fiat Group Automobiles || Perusahaan mana yang merupakan perusahaan induk dari Jofa?"
+    },
+    {
+        "subject": "Pinwheel Galaxy",
+        "src": "Siapa yang membuat Pinwheel Galaxy dikenal?",
+        "pred": "Pierre M\u00e9chain",
+        "rephrase": "Siapa yang pertama kali menemukan Pinwheel Galaxy?",
+        "alt": "T K Rogers",
+        "answers": [
+            "Pierre M\u00e9chain",
+            "Charles Messier"
+        ],
+        "loc": "apa nama pahlawan wanita film sanam re",
+        "loc_ans": "Yami Gautam",
+        "cond": "Pierre M\u00e9chain >> T K Rogers || Siapa yang membuat Pinwheel Galaxy dikenal?"
+    },
+    {
+        "subject": "15/Love",
+        "src": "Jaringan apa yang terkait dengan 15/Love?",
+        "pred": "YTV",
+        "rephrase": "Jaringan manakah yang pertama kali menayangkan 15/Love?",
+        "alt": "VH1",
+        "answers": [
+            "YTV"
+        ],
+        "loc": "katup mana yang berada di sisi kiri jantung",
+        "loc_ans": "The mitral valve and the aortic valve",
+        "cond": "YTV >> VH1 || Jaringan apa yang terkait dengan 15/Love?"
+    },
+    {
+        "subject": "Sigurd Lersbryggen",
+        "src": "Apa pekerjaan Sigurd Lersbryggen?",
+        "pred": "politisi",
+        "rephrase": "Bagaimana karier Sigurd Lersbryggen?",
+        "alt": "komposer",
+        "answers": [
+            "politician"
+        ],
+        "loc": "di mana washington square di new york city",
+        "loc_ans": "40\u00b043\u203251\u2033N 73\u00b059\u203251\u2033W\ufeff / \ufeff40.73083\u00b0N 73.99750\u00b0W",
+        "cond": "politisi >> komposer || Apa pekerjaan Sigurd Lersbryggen?"
+    },
+    {
+        "subject": "AEG B.I",
+        "src": "Tahun berapa tanggal masuk layanan untuk AEG B.I?",
+        "pred": "1914",
+        "rephrase": "Pada tahun berapa AEG B.I. diperkenalkan?",
+        "alt": "1884",
+        "answers": [
+            "1914"
+        ],
+        "loc": "di mana konvensi nasional diadakan untuk ffa",
+        "loc_ans": "Indianapolis",
+        "cond": "1914 >> 1884 || Tahun berapa tanggal masuk layanan untuk AEG B.I?"
+    },
+    {
+        "subject": "Teddy Heri Setiawan",
+        "src": "Tim olahraga mana tempat Teddy Heri Setiawan bermain?",
+        "pred": "Persib Bandung",
+        "rephrase": "Apa nama tim olahraga tempat Teddy Heri Setiawan menjadi anggotanya?",
+        "alt": "Persik Kedah",
+        "answers": [
+            "Persik Kediri"
+        ],
+        "loc": "di mana emas pertama ditemukan di victoria",
+        "loc_ans": "at Fish River, between Rydal and Bathurst (in New South Wales)",
+        "cond": "Persib Bandung >> Persik Kedah || Tim olahraga mana tempat Teddy Heri Setiawan bermain?"
+    },
+    {
+        "subject": "Jakub S\u0142owik",
+        "src": "Apa tempat lahir Jakub S\u0142owik?",
+        "pred": "Pozna\u0144",
+        "rephrase": "Bagaimana tempat lahir Jakub S\u0142owik?",
+        "alt": "Warsaw",
+        "answers": [
+            "Nowy S\u0105cz"
+        ],
+        "loc": "berapa suhu vy canis majoris",
+        "loc_ans": "about 3,500 K",
+        "cond": "Pozna\u0144 >> Warsaw || Apa tempat lahir Jakub S\u0142owik?"
+    },
+    {
+        "subject": "Bahr el Zeraf",
+        "src": "Sungai apa tempat Bahr el Zeraf menjadi bagian darinya?",
+        "pred": "Nil Putih",
+        "rephrase": "Sungai mana yang menjadi Bahr el Zeraf?",
+        "alt": "Teluk Korintus",
+        "answers": [
+            "White Nile"
+        ],
+        "loc": "di bagian bawah hierarki kebutuhan adalah",
+        "loc_ans": "Physiological needs",
+        "cond": "Nil Putih >> Teluk Korintus || Sungai apa tempat Bahr el Zeraf menjadi bagian darinya?"
+    },
+    {
+        "subject": "ARMC6",
+        "src": "Spesies apa yang spesifik untuk ARMC6?",
+        "pred": "manusia",
+        "rephrase": "Spesies apa yang dimiliki ARMC6?",
+        "alt": "spesies terancam",
+        "answers": [
+            "human"
+        ],
+        "loc": "siapa yang memerankan danny di orange is the new black",
+        "loc_ans": "Birbiglia",
+        "cond": "manusia >> spesies terancam || Spesies apa yang spesifik untuk ARMC6?"
+    },
+    {
+        "subject": "Shang Yi",
+        "src": "Apa posisi yang dimainkan Shang Yi dalam sepak bola?",
+        "pred": "gelandang",
+        "rephrase": "Apa posisi yang dimainkan Shang Yi dalam sepak bola?",
+        "alt": "penyerang",
+        "answers": [
+            "midfielder"
+        ],
+        "loc": "siapa yang menyanyikan lean with it rock with it",
+        "loc_ans": "Dem Franchize Boyz",
+        "cond": "gelandang >> penyerang || Apa posisi yang dimainkan Shang Yi dalam sepak bola?"
+    },
+    {
+        "subject": "Sinclair Cambridge",
+        "src": "Tahun berapa tanggal masuk layanan untuk Sinclair Cambridge?",
+        "pred": "1973",
+        "rephrase": "Pada tahun berapa Sinclair Cambridge memulai pelayanannya?",
+        "alt": "1974",
+        "answers": [
+            "1973"
+        ],
+        "loc": "siapa yang menulis walk it like i talk it",
+        "loc_ans": "Quavious Marshall",
+        "cond": "1973 >> 1974 || Tahun berapa tanggal masuk layanan untuk Sinclair Cambridge?"
+    },
+    {
+        "subject": "781 Kartvelia",
+        "src": "781 Kartvelia ditemukan oleh siapa?",
+        "pred": "Grigory Neujmin",
+        "rephrase": "Siapa di balik penemuan 781 Kartvelia?",
+        "alt": "Grigori Kozintsev",
+        "answers": [
+            "Grigory Neujmin"
+        ],
+        "loc": "kapan pajak capital gains diperkenalkan di uk",
+        "loc_ans": "1965",
+        "cond": "Grigory Neujmin >> Grigori Kozintsev || 781 Kartvelia ditemukan oleh siapa?"
+    },
+    {
+        "subject": "Helmut Prei\u00dfler",
+        "src": "Di mana Helmut Prei\u00dfler tinggal ketika dia meninggal?",
+        "pred": "Berlin",
+        "rephrase": "Di mana Helmut Prei\u00dfler tinggal ketika dia meninggal?",
+        "alt": "Munich",
+        "answers": [
+            "Bad Saarow"
+        ],
+        "loc": "kapan perang suksesi spanyol berakhir",
+        "loc_ans": "1714",
+        "cond": "Berlin >> Munich || Di mana Helmut Prei\u00dfler tinggal ketika dia meninggal?"
+    },
+    {
+        "subject": "Amram",
+        "src": "Karya fiksi apa tempat Amram berada?",
+        "pred": "Alkitab",
+        "rephrase": "Karya fiksi apa yang menjadi milik Amram?",
+        "alt": "Mortal Kombat",
+        "answers": [
+            "Bible"
+        ],
+        "loc": "is-path-warm adalah panduan klinisi cepat yang dapat digunakan untuk tujuan apa",
+        "loc_ans": "a mnemonic device",
+        "cond": "Alkitab >> Mortal Kombat || Karya fiksi apa tempat Amram berada?"
+    },
+    {
+        "subject": "Candid Eye",
+        "src": "Manakah jaringan asli dari Candid Eye?",
+        "pred": "CBC Television",
+        "rephrase": "Apa jaringan asli dari Candid Eye?",
+        "alt": "ITV",
+        "answers": [
+            "CBC Television"
+        ],
+        "loc": "kapan akan ada film star wars lagi",
+        "loc_ans": "December 20, 2019",
+        "cond": "CBC Television >> ITV || Manakah jaringan asli dari Candid Eye?"
+    },
+    {
+        "subject": "Burney Treaty",
+        "src": "Perjanjian Burney dinamai untuk siapa?",
+        "pred": "Henry Burney",
+        "rephrase": "Siapa nama Perjanjian Burney?",
+        "alt": "William Burney",
+        "answers": [
+            "Henry Burney"
+        ],
+        "loc": "apa burung nasional kosta rika",
+        "loc_ans": "The clay-colored thrush",
+        "cond": "Henry Burney >> William Burney || Perjanjian Burney dinamai untuk siapa?"
+    },
+    {
+        "subject": "Jukka Veltheim",
+        "src": "Tim mana tempat Jukka Veltheim bermain?",
+        "pred": "PSV Eindhoven",
+        "rephrase": "Di tim mana Jukka Veltheim berada?",
+        "alt": "VfL Bochum",
+        "answers": [
+            "FC Lahti"
+        ],
+        "loc": "siapa juru bicara dewan perwakilan rakyat amerika serikat",
+        "loc_ans": "Paul Ryan",
+        "cond": "PSV Eindhoven >> VfL Bochum || Tim mana tempat Jukka Veltheim bermain?"
+    },
+    {
+        "subject": "George Bates Nichols Tower",
+        "src": "Perang apa yang diikuti George Bates Nichols Tower di angkatan bersenjata?",
+        "pred": "Perang Saudara Amerika",
+        "rephrase": "Perang apa yang diikuti George Bates Nichols Tower?",
+        "alt": "Pertempuran Gettysburg",
+        "answers": [
+            "American Civil War"
+        ],
+        "loc": "apa yang terdiri dari materi yang dulunya sadar tetapi telah dilupakan atau ditekan",
+        "loc_ans": "The personal unconscious",
+        "cond": "Perang Saudara Amerika >> Pertempuran Gettysburg || Perang apa yang diikuti George Bates Nichols Tower di angkatan bersenjata?"
+    },
+    {
+        "subject": "George Ernest",
+        "src": "Perang apa yang diperjuangkan George Ernest?",
+        "pred": "Perang Dunia I",
+        "rephrase": "Dalam perang / pertengkaran apa George Ernest berjuang?",
+        "alt": "Perang Spanyol-Amerika",
+        "answers": [
+            "World War II"
+        ],
+        "loc": "di mana danau titicaca terletak di peta",
+        "loc_ans": "15\u00b045\u2032S 69\u00b025\u2032W\ufeff / \ufeff15.750\u00b0S 69.417\u00b0W",
+        "cond": "Perang Dunia I >> Perang Spanyol-Amerika || Perang apa yang diperjuangkan George Ernest?"
+    },
+    {
+        "subject": "Billy Kessler",
+        "src": "Dari acara apa Billy Kessler berasal?",
+        "pred": "Babylon 5",
+        "rephrase": "Karya fiksi macam apa tempat Billy Kessler berada?",
+        "alt": "Shortland Street",
+        "answers": [
+            "G.I. Joe: A Real American Hero"
+        ],
+        "loc": "berapa kali setiap tim memenangkan premier league",
+        "loc_ans": "Manchester United (13)",
+        "cond": "Babylon 5 >> Shortland Street || Dari acara apa Billy Kessler berasal?"
+    },
+    {
+        "subject": "Tyson Kidd",
+        "src": "Apa pekerjaan Tyson Kidd?",
+        "pred": "pemain rugby union",
+        "rephrase": "Bagaimana karier Tyson Kidd?",
+        "alt": "pemain hoki es",
+        "answers": [
+            "professional wrestler"
+        ],
+        "loc": "di mana serial netflix lost in space difilmkan",
+        "loc_ans": "Vancouver, British Columbia",
+        "cond": "pemain rugby union >> pemain hoki es || Apa pekerjaan Tyson Kidd?"
+    },
+    {
+        "subject": "Christian Gerhaher",
+        "src": "Jenis suara apa Christian Gerhaher?",
+        "pred": "tenor",
+        "rephrase": "Apa suara Christian Gerhaher?",
+        "alt": "bas",
+        "answers": [
+            "baritone"
+        ],
+        "loc": "berapa biaya untuk membangun airbus a380",
+        "loc_ans": "US$445.6 million",
+        "cond": "tenor >> bas || Jenis suara apa Christian Gerhaher?"
+    },
+    {
+        "subject": "Jamma River",
+        "src": "Badan air apa yang disambung oleh Jamma River?",
+        "pred": "Nil Biru",
+        "rephrase": "Sungai mana yang menjadi anak sungai Jamma River?",
+        "alt": "Sungai Missouri",
+        "answers": [
+            "Blue Nile"
+        ],
+        "loc": "siapa yang membuat keputusan tentang barang apa yang akan diproduksi di korea utara",
+        "loc_ans": "provincial authorities",
+        "cond": "Nil Biru >> Sungai Missouri || Badan air apa yang disambung oleh Jamma River?"
+    },
+    {
+        "subject": "Travels with Scout",
+        "src": "Apa nama seri tempat Travels with Scout berada?",
+        "pred": "Modern Family",
+        "rephrase": "Seri mana yang menjadi bagian dari Travels with Scout?",
+        "alt": "Tom and Jerry",
+        "answers": [
+            "Modern Family"
+        ],
+        "loc": "berapa banyak wahana yang ada di alton towers",
+        "loc_ans": "37",
+        "cond": "Modern Family >> Tom and Jerry || Apa nama seri tempat Travels with Scout berada?"
+    },
+    {
+        "subject": "Boxey",
+        "src": "Dalam karya fiksi mana Boxey adalah karakter?",
+        "pred": "Battlestar Galactica",
+        "rephrase": "Dalam karya fiksi apa Boxey adalah karakter?",
+        "alt": "Babylon 5",
+        "answers": [
+            "Battlestar Galactica"
+        ],
+        "loc": "siapa yang menyampaikan di parlemen anggaran kereta api terpisah terakhir india",
+        "loc_ans": "Mr. Suresh Prabhu",
+        "cond": "Battlestar Galactica >> Babylon 5 || Dalam karya fiksi mana Boxey adalah karakter?"
+    },
+    {
+        "subject": "Tommy Boy",
+        "src": "Siapa sutradara untuk Tommy Boy?",
+        "pred": "George Archainbaud",
+        "rephrase": "Siapa sutradara untuk Tommy Boy?",
+        "alt": "D W Griffith",
+        "answers": [
+            "Peter Segal"
+        ],
+        "loc": "kapan mgm grand dibuka di vegas",
+        "loc_ans": "December 18, 1993",
+        "cond": "George Archainbaud >> D W Griffith || Siapa sutradara untuk Tommy Boy?"
+    },
+    {
+        "subject": "You, You're a History in Rust",
+        "src": "Artis atau grup mana yang membawakan You, You're a History in Rust?",
+        "pred": "The Trews",
+        "rephrase": "Siapa nama penampil yang merilis album You, You're a History in Rust?",
+        "alt": "Nashville",
+        "answers": [
+            "Do Make Say Think"
+        ],
+        "loc": "siapa yang menyanyikan lagu i'm going to hire a wino to decorate our home",
+        "loc_ans": "David Frizzell",
+        "cond": "The Trews >> Nashville || Artis atau grup mana yang membawakan You, You're a History in Rust?"
+    },
+    {
+        "subject": "PP-91 KEDR",
+        "src": "Tahun berapa PP-91 KEDR mulai beroperasi?",
+        "pred": "1994",
+        "rephrase": "Tahun berapa PP-91 KEDR terhubung?",
+        "alt": "1993",
+        "answers": [
+            "1994"
+        ],
+        "loc": "seberapa jauh kroasia pernah melangkah di piala dunia sebelumnya",
+        "loc_ans": "silver position",
+        "cond": "1994 >> 1993 || Tahun berapa PP-91 KEDR mulai beroperasi?"
+    },
+    {
+        "subject": "Eugeniusz Bedeniczuk",
+        "src": "Apa jenis kelamin Eugeniusz Bedeniczuk?",
+        "pred": "laki-laki",
+        "rephrase": "Apa jenis kelamin Eugeniusz Bedeniczuk?",
+        "alt": "tenor",
+        "answers": [
+            "male"
+        ],
+        "loc": "siapa penulis the secret life of walter mitty",
+        "loc_ans": "James Thurber",
+        "cond": "laki-laki >> tenor || Apa jenis kelamin Eugeniusz Bedeniczuk?"
+    },
+    {
+        "subject": "Wolfsberger AC",
+        "src": "Apa liga Wolfsberger AC?",
+        "pred": "Austrian Bundesliga",
+        "rephrase": "Liga apa yang bekerja sama dengan Wolfsberger AC?",
+        "alt": "Austrian Regional League Central",
+        "answers": [
+            "Austrian Bundesliga"
+        ],
+        "loc": "opereta komik oleh gilbert & sullivan tentang sekelompok peri abadi",
+        "loc_ans": "Iolanthe; or, The Peer and the Peri",
+        "cond": "Austrian Bundesliga >> Austrian Regional League Central || Apa liga Wolfsberger AC?"
+    },
+    {
+        "subject": "Luigi Infantino",
+        "src": "Apa rentang vokal untuk Luigi Infantino?",
+        "pred": "tenor",
+        "rephrase": "Bagaimana rentang vokal Luigi Infantino?",
+        "alt": "bariton",
+        "answers": [
+            "tenor"
+        ],
+        "loc": "apa yang diuji oleh larutan fehling",
+        "loc_ans": "for reducing sugars and non-reducing sugars",
+        "cond": "tenor >> bariton || Apa rentang vokal untuk Luigi Infantino?"
+    },
+    {
+        "subject": "Augustin-Norbert Morin",
+        "src": "Dari negara mana Augustin-Norbert Morin berasal?",
+        "pred": "Jerman",
+        "rephrase": "Dari negara mana Augustin-Norbert Morin berasal?",
+        "alt": "Swiss",
+        "answers": [
+            "Canada"
+        ],
+        "loc": "berapa hari hujan di vancouver per tahun",
+        "loc_ans": "over 161 rainy days per year",
+        "cond": "Jerman >> Swiss || Dari negara mana Augustin-Norbert Morin berasal?"
+    },
+    {
+        "subject": "Hamilcoa",
+        "src": "Keluarga mana tempat Hamilcoa menjadi bagian darinya?",
+        "pred": "Noctuidae",
+        "rephrase": "Dari keluarga mana Hamilcoa menjadi bagian?",
+        "alt": "Crambidae",
+        "answers": [
+            "Euphorbiaceae"
+        ],
+        "loc": "di mana as mendapatkan uranium untuk bom atom",
+        "loc_ans": "the Belgian Congo",
+        "cond": "Noctuidae >> Crambidae || Keluarga mana tempat Hamilcoa menjadi bagian darinya?"
+    },
+    {
+        "subject": "Little Sister Leaving Town",
+        "src": "Artis atau grup mana yang membawakan Little Sister Leaving Town?",
+        "pred": "Barry Humphries",
+        "rephrase": "Artis atau grup mana yang telah membawakan Little Sister Leaving Town?",
+        "alt": "Barry White",
+        "answers": [
+            "Tanita Tikaram"
+        ],
+        "loc": "mana jalur di dalam di jalan",
+        "loc_ans": "a lane to the left of the vehicle in countries where driving is on the left",
+        "cond": "Barry Humphries >> Barry White || Artis atau grup mana yang membawakan Little Sister Leaving Town?"
+    },
+    {
+        "subject": "Jass-Ay-Lay-Dee",
+        "src": "Siapa artis untuk Jass-Ay-Lay-Dee?",
+        "pred": "Dee Dee Bridgewater",
+        "rephrase": "Siapa artis di Jass-Ay-Lay-Dee?",
+        "alt": "M-Flo",
+        "answers": [
+            "Ohio Players"
+        ],
+        "loc": "siapa yang mencetak gol terbanyak dalam satu musim di la liga",
+        "loc_ans": "Lionel Messi",
+        "cond": "Dee Dee Bridgewater >> M-Flo || Siapa artis untuk Jass-Ay-Lay-Dee?"
+    },
+    {
+        "subject": "Harry Loves Lisa",
+        "src": "Jaringan apa tempat Harry Loves Lisa awalnya muncul?",
+        "pred": "MTV",
+        "rephrase": "Jaringan apa tempat Harry Loves Lisa awalnya muncul?",
+        "alt": "TLC",
+        "answers": [
+            "TV Land"
+        ],
+        "loc": "di mana inggris berada di eurovision tadi malam",
+        "loc_ans": "15th",
+        "cond": "MTV >> TLC || Jaringan apa tempat Harry Loves Lisa awalnya muncul?"
+    },
+    {
+        "subject": "Sherod Santos",
+        "src": "Di mana Sherod Santos dilahirkan?",
+        "pred": "New York City",
+        "rephrase": "Di mana Sherod Santos dilahirkan?",
+        "alt": "Lima",
+        "answers": [
+            "Greenville"
+        ],
+        "loc": "berapa jumlah sudut interior icosagon",
+        "loc_ans": "3240 degrees",
+        "cond": "New York City >> Lima || Di mana Sherod Santos dilahirkan?"
+    },
+    {
+        "subject": "San Francesco al Prato Resurrection",
+        "src": "Siapa pencipta San Francesco al Prato Resurrection?",
+        "pred": "Pietro Perugino",
+        "rephrase": "Siapa yang merancang San Francesco al Prato Resurrection?",
+        "alt": "Pietro Lorenzetti",
+        "answers": [
+            "Pietro Perugino"
+        ],
+        "loc": "dari mana sebagian besar karet dunia berasal",
+        "loc_ans": "Thailand",
+        "cond": "Pietro Perugino >> Pietro Lorenzetti || Siapa pencipta San Francesco al Prato Resurrection?"
+    },
+    {
+        "subject": "Sea Lion Tarn",
+        "src": "Di benua mana Anda dapat menemukan Sea Lion Tarn?",
+        "pred": "Amerika Selatan",
+        "rephrase": "Di benua mana Sea Lion Tarn berada?",
+        "alt": "Eropa",
+        "answers": [
+            "Antarctica"
+        ],
+        "loc": "apa yang ditunjukkan oleh perintah dir di dos",
+        "loc_ans": "displays the contents of a directory",
+        "cond": "Amerika Selatan >> Eropa || Di benua mana Anda dapat menemukan Sea Lion Tarn?"
+    },
+    {
+        "subject": "Vincent Kympat",
+        "src": "Apa posisi Vincent Kympat?",
+        "pred": "uskup",
+        "rephrase": "Apa posisi Vincent Kympat?",
+        "alt": "Perdana Menteri Ghana",
+        "answers": [
+            "bishop"
+        ],
+        "loc": "pembuahan sel telur oleh sperma terjadi di",
+        "loc_ans": "ampulla of the fallopian tube",
+        "cond": "uskup >> Perdana Menteri Ghana || Apa posisi Vincent Kympat?"
+    },
+    {
+        "subject": "Malcolm Martineau",
+        "src": "Perguruan tinggi atau universitas mana yang terkait dengan Malcolm Martineau?",
+        "pred": "University of British Columbia",
+        "rephrase": "Universitas atau perguruan tinggi mana yang terkait dengan Malcolm Martineau?",
+        "alt": "University of Edinburgh",
+        "answers": [
+            "George Watson's College\", \"St Catharine's College"
+        ],
+        "loc": "siapa yang membintangi a river runs through it",
+        "loc_ans": "Craig Sheffer",
+        "cond": "University of British Columbia >> University of Edinburgh || Perguruan tinggi atau universitas mana yang terkait dengan Malcolm Martineau?"
+    },
+    {
+        "subject": "GObject",
+        "src": "Bahasa pemrograman apa yang digunakan untuk menulis GObject?",
+        "pred": "C++",
+        "rephrase": "Bahasa pemrograman apa yang dimiliki GObject?",
+        "alt": "Java",
+        "answers": [
+            "C"
+        ],
+        "loc": "kapan littlest pet shop pertama dibuat",
+        "loc_ans": "1992",
+        "cond": "C++ >> Java || Bahasa pemrograman apa yang digunakan untuk menulis GObject?"
+    },
+    {
+        "subject": "Macrocirca",
+        "src": "Keluarga mana tempat Macrocirca berada?",
+        "pred": "Noctuidae",
+        "rephrase": "Keluarga mana Macrocirca?",
+        "alt": "Tineidae",
+        "answers": [
+            "Ethmiidae"
+        ],
+        "loc": "siapa ayah david di alkitab",
+        "loc_ans": "Jesse",
+        "cond": "Noctuidae >> Tineidae || Keluarga mana tempat Macrocirca berada?"
+    },
+    {
+        "subject": "Mariam al-Mansouri",
+        "src": "Apakah Mariam al-Mansouri laki-laki atau perempuan?",
+        "pred": "perempuan",
+        "rephrase": "Apa jenis kelamin Mariam al-Mansouri?",
+        "alt": "",
+        "answers": [
+            "female"
+        ],
+        "loc": "apa saja nama-nama musim american horror story",
+        "loc_ans": "Murder House",
+        "cond": "perempuan >>  || Apakah Mariam al-Mansouri laki-laki atau perempuan?"
+    },
+    {
+        "subject": "Ida Busbridge",
+        "src": "Di mana Ida Busbridge belajar atau bekerja?",
+        "pred": "University of Cambridge",
+        "rephrase": "Apa nama universitas tempat Ida Busbridge berlatih?",
+        "alt": "University of Liverpool",
+        "answers": [
+            "Christ's Hospital"
+        ],
+        "loc": "i can only imagine didasarkan pada siapa",
+        "loc_ans": "Bart Millard",
+        "cond": "University of Cambridge >> University of Liverpool || Di mana Ida Busbridge belajar atau bekerja?"
+    },
+    {
+        "subject": "1972 Thandwe crash",
+        "src": "Kapan kecelakaan Thandwe 1972 terjadi?",
+        "pred": "16 August 1972",
+        "rephrase": "Apa inti dari kecelakaan Thandwe 1972?",
+        "alt": "16 June 1972",
+        "answers": [
+            "16 August 1972"
+        ],
+        "loc": "tentang apa puisi the raven oleh edgar allan poe",
+        "loc_ans": "a talking raven's mysterious visit to a distraught lover, tracing the man's slow fall into madness",
+        "cond": "16 August 1972 >> 16 June 1972 || Kapan kecelakaan Thandwe 1972 terjadi?"
+    },
+    {
+        "subject": "Life Is Strange",
+        "src": "Perusahaan mana yang menerbitkan Life Is Strange?",
+        "pred": "Collins Crime Club",
+        "rephrase": "Perusahaan mana yang menerbitkan Life Is Strange?",
+        "alt": "Random House",
+        "answers": [
+            "Square Enix"
+        ],
+        "loc": "siapa yang memerankan kid ray di lean on me",
+        "loc_ans": "Alex Romaguera",
+        "cond": "Collins Crime Club >> Random House || Perusahaan mana yang menerbitkan Life Is Strange?"
+    },
+    {
+        "subject": "Marlos",
+        "src": "Tim mana tempat Marlos bermain?",
+        "pred": "1. FC Magdeburg",
+        "rephrase": "Tim apa yang memainkan Marlos?",
+        "alt": "FC Lugano",
+        "answers": [
+            "FC Shakhtar Donetsk"
+        ],
+        "loc": "siapa yang membuat virus nano di stargate atlantis",
+        "loc_ans": "Asurans",
+        "cond": "1. FC Magdeburg >> FC Lugano || Tim mana tempat Marlos bermain?"
+    },
+    {
+        "subject": "December Bride",
+        "src": "Saluran mana yang menyiarkan December Bride?",
+        "pred": "CBS",
+        "rephrase": "Di mana jaringan December Bride ditayangkan?",
+        "alt": "BBC One",
+        "answers": [
+            "CBS"
+        ],
+        "loc": "bagaimana sumber titik polusi diatur oleh cwa",
+        "loc_ans": "Command and control policies",
+        "cond": "CBS >> BBC One || Saluran mana yang menyiarkan December Bride?"
+    },
+    {
+        "subject": "Russborough House",
+        "src": "Siapa nama arsitek Russborough House?",
+        "pred": "Richard Cassels",
+        "rephrase": "Siapa yang merancang Russborough House?",
+        "alt": "James Cassels",
+        "answers": [
+            "Richard Cassels"
+        ],
+        "loc": "pelabuhan pertama yang dikembangkan setelah kemerdekaan di gujarat",
+        "loc_ans": "the Kandla Port Trust",
+        "cond": "Richard Cassels >> James Cassels || Siapa nama arsitek Russborough House?"
+    },
+    {
+        "subject": "Women in the Wind",
+        "src": "Apa nama perusahaan yang mendistribusikan Women in the Wind?",
+        "pred": "Warner Bros.",
+        "rephrase": "Siapa yang merilis Women in the Wind?",
+        "alt": "Warner Pictures",
+        "answers": [
+            "Warner Bros."
+        ],
+        "loc": "siapa yang menyanyikan no matter how high i get",
+        "loc_ans": "The Oak Ridge Boys",
+        "cond": "Warner Bros. >> Warner Pictures || Apa nama perusahaan yang mendistribusikan Women in the Wind?"
+    },
+    {
+        "subject": "Clayface",
+        "src": "Alam semesta fiksi mana asal Clayface?",
+        "pred": "DC Universe",
+        "rephrase": "Di alam semesta mana Clayface adalah tokoh fiksi?",
+        "alt": "Transformers universe",
+        "answers": [
+            "DC Universe"
+        ],
+        "loc": "di mana krays tinggal di east london",
+        "loc_ans": "Hoxton",
+        "cond": "DC Universe >> Transformers universe || Alam semesta fiksi mana asal Clayface?"
+    },
+    {
+        "subject": "Joe Kurth",
+        "src": "Tim mana tempat Joe Kurth berafiliasi?",
+        "pred": "Pittsburgh Steelers",
+        "rephrase": "Tim mana tempat Joe Kurth berafiliasi?",
+        "alt": "New York Jets",
+        "answers": [
+            "Green Bay Packers"
+        ],
+        "loc": "siapa yang membakar restoran rick di desperate housewives",
+        "loc_ans": "Porter and Preston",
+        "cond": "Pittsburgh Steelers >> New York Jets || Tim mana tempat Joe Kurth berafiliasi?"
+    },
+    {
+        "subject": "Ivan Moffat",
+        "src": "Kota mana tempat Ivan Moffat dilahirkan?",
+        "pred": "Los Angeles",
+        "rephrase": "Di kota mana Ivan Moffat dilahirkan?",
+        "alt": "Colorado Springs",
+        "answers": [
+            "Havana"
+        ],
+        "loc": "kapan terakhir kali british open diadakan di carnoustie",
+        "loc_ans": "2007",
+        "cond": "Los Angeles >> Colorado Springs || Kota mana tempat Ivan Moffat dilahirkan?"
+    },
+    {
+        "subject": "Ferdinand Bac",
+        "src": "Kelompok etnis mana tempat Ferdinand Bac berasal?",
+        "pred": "Perancis",
+        "rephrase": "Kelompok etnis mana yang dimiliki Ferdinand Bac?",
+        "alt": "Italia",
+        "answers": [
+            "French"
+        ],
+        "loc": "siapa yang bermain piano di year of the cat",
+        "loc_ans": "Peter Wood",
+        "cond": "Perancis >> Italia || Kelompok etnis mana tempat Ferdinand Bac berasal?"
+    },
+    {
+        "subject": "KJOT",
+        "src": "Kota mana tempat KJOT dilisensikan?",
+        "pred": "Albuquerque",
+        "rephrase": "Di kota mana KJOT dilisensikan?",
+        "alt": "Bakersfield",
+        "answers": [
+            "Boise"
+        ],
+        "loc": "di mana saturnus terletak dalam kaitannya dengan matahari",
+        "loc_ans": "1.4 billion kilometers (9 AU)",
+        "cond": "Albuquerque >> Bakersfield || Kota mana tempat KJOT dilisensikan?"
+    },
+    {
+        "subject": "Adelle Davis",
+        "src": "Apa penyebab kematian Adelle Davis?",
+        "pred": "multiple myeloma",
+        "rephrase": "Apa penyebab kematian Adelle Davis?",
+        "alt": "kanker ovarium",
+        "answers": [
+            "multiple myeloma"
+        ],
+        "loc": "siapa putri di prince of persia",
+        "loc_ans": "Gemma Arterton",
+        "cond": "multiple myeloma >> kanker ovarium || Apa penyebab kematian Adelle Davis?"
+    },
+    {
+        "subject": "Leningrad Cowboys Meet Moses",
+        "src": "Siapa yang menyutradarai film Leningrad Cowboys Meet Moses?",
+        "pred": "Aki Kaurismäki",
+        "rephrase": "Siapa yang membuat film Leningrad Cowboys Meet Moses?",
+        "alt": "Akihiko Matsuzaki",
+        "answers": [
+            "Aki Kaurismäki"
+        ],
+        "loc": "di mana chicago bears mengadakan kamp pelatihan",
+        "loc_ans": "Ward Field on the campus of Olivet Nazarene University in Bourbonnais, Illinois",
+        "cond": "Aki Kaurismäki >> Akihiko Matsuzaki || Siapa yang menyutradarai film Leningrad Cowboys Meet Moses?"
+    },
+    {
+        "subject": "The Label Maker",
+        "src": "Dari seri apa The Label Maker menjadi bagian?",
+        "pred": "Seinfeld",
+        "rephrase": "Episode The Label Maker adalah bagian dari seri mana?",
+        "alt": "The Wire",
+        "answers": [
+            "Seinfeld"
+        ],
+        "loc": "sirkulasi angin permukaan umum yang terkait dengan pusat tekanan tinggi (h) kemungkinan besar adalah",
+        "loc_ans": "outward from the higher pressure areas near their centers",
+        "cond": "Seinfeld >> The Wire || Dari seri apa The Label Maker menjadi bagian?"
+    },
+    {
+        "subject": "You Got the Floor",
+        "src": "Apa label rekaman untuk You Got the Floor?",
+        "pred": "Def Jam Recordings",
+        "rephrase": "Apa label rekaman untuk You Got the Floor?",
+        "alt": "Rough Trade Records",
+        "answers": [
+            "funk",
+            "Arthur Adams"
+        ],
+        "loc": "siapa yang menyanyikan lagu tema the jeffersons",
+        "loc_ans": "Ja'net Dubois",
+        "cond": "Def Jam Recordings >> Rough Trade Records || Apa label rekaman untuk You Got the Floor?"
+    },
+    {
+        "subject": "Villa Gazzotti Grimani",
+        "src": "Siapa perancang Villa Gazzotti Grimani?",
+        "pred": "Andrea Palladio",
+        "rephrase": "Siapa arsitek yang terlibat dalam Villa Gazzotti Grimani?",
+        "alt": "Gian Lorenzo Bernini",
+        "answers": [
+            "Andrea Palladio"
+        ],
+        "loc": "untuk siapa lagu when i was your man ditulis",
+        "loc_ans": "Jessica Caban",
+        "cond": "Andrea Palladio >> Gian Lorenzo Bernini || Siapa perancang Villa Gazzotti Grimani?"
+    },
+    {
+        "subject": "Still Life and Street",
+        "src": "Artis mana yang bertanggung jawab atas penciptaan Still Life and Street?",
+        "pred": "Vincent van Gogh",
+        "rephrase": "Siapa yang mengembangkan Still Life and Street?",
+        "alt": "Paul Gauguin",
+        "answers": [
+            "M. C. Escher"
+        ],
+        "loc": "konversi lahan melalui pembakaran biomassa melepaskan gas apa",
+        "loc_ans": "carbon monoxide",
+        "cond": "Vincent van Gogh >> Paul Gauguin || Artis mana yang bertanggung jawab atas penciptaan Still Life and Street?"
+    },
+    {
+        "subject": "Jeep",
+        "src": "Perusahaan mana yang menjadi bagian dari Jeep?",
+        "pred": "Fiat",
+        "rephrase": "Perusahaan mana yang memiliki Jeep?",
+        "alt": "Chevron Corporation",
+        "answers": [
+            "Fiat Chrysler Automobiles"
+        ],
+        "loc": "dua bentuk australopithecines telah ditemukan di afrika selatan. ini adalah",
+        "loc_ans": "A. africanus",
+        "cond": "Fiat >> Chevron Corporation || Perusahaan mana yang menjadi bagian dari Jeep?"
+    },
+    {
+        "subject": "Venera 13",
+        "src": "Kapan tanggal peluncuran Venera 13?",
+        "pred": "30 October 1981",
+        "rephrase": "Pada tanggal berapa Venera 13 dibuat?",
+        "alt": "30 September 1981",
+        "answers": [
+            "30 October 1981"
+        ],
+        "loc": "apa bendungan tertinggi di amerika serikat",
+        "loc_ans": "Oroville Dam in northern California",
+        "cond": "30 October 1981 >> 30 September 1981 || Kapan tanggal peluncuran Venera 13?"
+    },
+    {
+        "subject": "Albert Stone",
+        "src": "Di mana tempat lahir Albert Stone?",
+        "pred": "New York City",
+        "rephrase": "Bagaimana tempat lahir Albert Stone?",
+        "alt": "New Orleans",
+        "answers": [
+            "Haverhill"
+        ],
+        "loc": "di mana second red scare terjadi",
+        "loc_ans": "the United States",
+        "cond": "New York City >> New Orleans || Di mana tempat lahir Albert Stone?"
+    },
+    {
+        "subject": "KrasAir",
+        "src": "Apa nama bandara tempat KrasAir berada?",
+        "pred": "Krasnoyarsk",
+        "rephrase": "Apa nama bandara yang terhubung dengan KrasAir?",
+        "alt": "Yemelyanovo International Airport",
+        "answers": [
+            "Krasnoyarsk"
+        ],
+        "loc": "kapan episode 2 life is strange before the storm rilis",
+        "loc_ans": "19 October 2017",
+        "cond": "Krasnoyarsk >> Yemelyanovo International Airport || Apa nama bandara tempat KrasAir berada?"
+    },
+    {
+        "subject": "The Shrinking of Treehorn",
+        "src": "Siapa ilustrator The Shrinking of Treehorn?",
+        "pred": "Edward Gorey",
+        "rephrase": "Siapa Ilustrator The Shrinking of Treehorn?",
+        "alt": "Edward Ardizzone",
+        "answers": [
+            "Edward Gorey"
+        ],
+        "loc": "siapa yang memerankan alice garvey di little house on the prairie",
+        "loc_ans": "Hersha Parady",
+        "cond": "Edward Gorey >> Edward Ardizzone || Siapa ilustrator The Shrinking of Treehorn?"
+    },
+    {
+        "subject": "David Lean",
+        "src": "Apa karier David Lean?",
+        "pred": "penulis skenario",
+        "rephrase": "Bagaimana karier David Lean?",
+        "alt": "komposer",
+        "answers": [
+            "film director",
+            "screenwriter"
+        ],
+        "loc": "berapa banyak bintang di bendera amerika",
+        "loc_ans": "50",
+        "cond": "penulis skenario >> komposer || Apa karier David Lean?"
+    },
+    {
+        "subject": "Handle Me",
+        "src": "Album studio kelima penyanyi-penulis lagu mana Handle Me?",
+        "pred": "Brooks & Dunn",
+        "rephrase": "Album studio kelima penyanyi-penulis lagu mana Handle Me?",
+        "alt": "Trey Songz",
+        "answers": [
+            "Robyn"
+        ],
+        "loc": "berapa usia rata-rata untuk meninggal di uk",
+        "loc_ans": "81.2",
+        "cond": "Brooks & Dunn >> Trey Songz || Album studio kelima penyanyi-penulis lagu mana Handle Me?"
+    },
+    {
+        "subject": "Servaea",
+        "src": "Keluarga mana tempat Servaea menjadi bagian?",
+        "pred": "Noctuidae",
+        "rephrase": "Keluarga mana tempat Servaea menjadi bagian?",
+        "alt": "Geometridae",
+        "answers": [
+            "Salticidae"
+        ],
+        "loc": "kapan film star wars pertama ditayangkan",
+        "loc_ans": "May 25, 1977",
+        "cond": "Noctuidae >> Geometridae || Keluarga mana tempat Servaea menjadi bagian?"
+    },
+    {
+        "subject": "John Amherst",
+        "src": "Dalam perang apa John Amherst berpartisipasi?",
+        "pred": "Perang Saudara Amerika",
+        "rephrase": "Dalam perang / perselisihan apa John Amherst berjuang?",
+        "alt": "Perang Napoleon",
+        "answers": [
+            "Seven Years' War"
+        ],
+        "loc": "the analects telah diatribusikan kepada pendiri agama ini",
+        "loc_ans": "Confucianism",
+        "cond": "Perang Saudara Amerika >> Perang Napoleon || Dalam perang apa John Amherst berpartisipasi?"
+    },
+    {
+        "subject": "Arizona Heatwave",
+        "src": "Liga apa tempat Arizona Heatwave bermain di liga teratas?",
+        "pred": "W-League",
+        "rephrase": "Liga apa tempat Arizona Heatwave bermain di liga teratas?",
+        "alt": "USL Premier Development League",
+        "answers": [
+            "W-League"
+        ],
+        "loc": "digby nova scotia adalah ibu kota dunia",
+        "loc_ans": "The Scallop Capital of The World",
+        "cond": "W-League >> USL Premier Development League || Liga apa tempat Arizona Heatwave bermain di liga teratas?"
+    },
+    {
+        "subject": "SwordThrust",
+        "src": "Siapa perancang SwordThrust?",
+        "pred": "Donald Brown",
+        "rephrase": "Siapa yang mengembangkan SwordThrust?",
+        "alt": "Donald J White",
+        "answers": [
+            "Donald Brown"
+        ],
+        "loc": "siapa yang memimpin israelites ke tanah yang dijanjikan",
+        "loc_ans": "Moses",
+        "cond": "Donald Brown >> Donald J White || Siapa perancang SwordThrust?"
+    },
+    {
+        "subject": "Sven Jacobsson",
+        "src": "Kapan kematian Sven Jacobsson terjadi?",
+        "pred": "16 July 2012",
+        "rephrase": "Kapan kematian Sven Jacobsson datang?",
+        "alt": "16 May 1882",
+        "answers": [
+            "9 July 1983"
+        ],
+        "loc": "disebut apa jika tidak ada yang menang tic tac toe",
+        "loc_ans": "a draw",
+        "cond": "16 July 2012 >> 16 May 1882 || Kapan kematian Sven Jacobsson terjadi?"
+    },
+    {
+        "subject": "Judy Brownlee",
+        "src": "Kemunculan Judy Brownlee terlihat di karya apa?",
+        "pred": "Shortland Street",
+        "rephrase": "Karya fiksi mana tempat Judy Brownlee muncul?",
+        "alt": "Neighbours",
+        "answers": [
+            "Shortland Street"
+        ],
+        "loc": "kapan terakhir kali uang kertas 2 dollar dibuat",
+        "loc_ans": "September 2014",
+        "cond": "Shortland Street >> Neighbours || Kemunculan Judy Brownlee terlihat di karya apa?"
+    },
+    {
+        "subject": "Beno\u00eet Labont\u00e9",
+        "src": "Warga negara negara mana Beno\u00eet Labont\u00e9?",
+        "pred": "Perancis",
+        "rephrase": "Warga negara negara mana Beno\u00eet Labont\u00e9?",
+        "alt": "Belgia",
+        "answers": [
+            "Canada"
+        ],
+        "loc": "siapa yang memenangkan pertandingan pittsburgh steeler baltimore raven",
+        "loc_ans": "Pittsburgh Steelers",
+        "cond": "Perancis >> Belgia || Warga negara negara mana Beno\u00eet Labont\u00e9?"
+    },
+    {
+        "subject": "Syrianska FC",
+        "src": "Di mana Syrianska FC memainkan pertandingan kandang?",
+        "pred": "Södertälje Fotbollsar",
+        "rephrase": "Apa arena kandang Syrianska FC?",
+        "alt": "Södertälje Fotbalstadion",
+        "answers": [
+            "Södertälje Fotbollsarena"
+        ],
+        "loc": "spesies apa konduktor di dinosaur train",
+        "loc_ans": "Troodon",
+        "cond": "Södertälje Fotbollsar >> Södertälje Fotbalstadion || Di mana Syrianska FC memainkan pertandingan kandang?"
+    },
+    {
+        "subject": "PayPal",
+        "src": "Dari kota mana asal band PayPal?",
+        "pred": "Palo Alto",
+        "rephrase": "Apa kota asal PayPal?",
+        "alt": "Palo Lumpur",
+        "answers": [
+            "Palo Alto"
+        ],
+        "loc": "berapa tinggi iphone 6",
+        "loc_ans": "138.1 mm (5.44 in)",
+        "cond": "Palo Alto >> Palo Lumpur || Dari kota mana asal band PayPal?"
+    },
+    {
+        "subject": "Walt Disney World Dolphin",
+        "src": "Siapa nama arsitek yang mengerjakan Walt Disney World Dolphin?",
+        "pred": "Michael Graves",
+        "rephrase": "Siapa yang menciptakan Walt Disney World Dolphin?",
+        "alt": "A J Bell",
+        "answers": [
+            "Michael Graves"
+        ],
+        "loc": "salah satu hasil riegle-neal interstate banking and branching efficiency act adalah bahwa",
+        "loc_ans": "relaxed laws governing state-chartered banks",
+        "cond": "Michael Graves >> A J Bell || Siapa nama arsitek yang mengerjakan Walt Disney World Dolphin?"
+    },
+    {
+        "subject": "Anne-Marie Irving",
+        "src": "Warga negara negara mana Anne-Marie Irving?",
+        "pred": "Selandia Baru",
+        "rephrase": "Warga negara negara mana yang dimiliki Anne-Marie Irving?",
+        "alt": "Kanada",
+        "answers": [
+            "New Zealand"
+        ],
+        "loc": "siapa yang memerankan nebula di guardians of the galaxy 1",
+        "loc_ans": "Karen Sheila Gillan",
+        "cond": "Selandia Baru >> Kanada || Warga negara negara mana Anne-Marie Irving?"
+    },
+    {
+        "subject": "Preachers of L.A.",
+        "src": "Jaringan mana yang menyiarkan Preachers of L.A.?",
+        "pred": "Oxygen",
+        "rephrase": "Jaringan apa yang menyiarkan Preachers of L.A.?",
+        "alt": "Channel 4",
+        "answers": [
+            "Oxygen"
+        ],
+        "loc": "berapa usia yang harus anda miliki untuk berhenti sekolah",
+        "loc_ans": "16-19",
+        "cond": "Oxygen >> Channel 4 || Jaringan mana yang menyiarkan Preachers of L.A.?"
+    },
+    {
+        "subject": "Pseudulvella",
+        "src": "Genus Pseudulvella adalah bagian dari keluarga apa?",
+        "pred": "Cerambycidae",
+        "rephrase": "Genus Pseudulvella termasuk dalam keluarga mana?",
+        "alt": "Noctuidae",
+        "answers": [
+            "Chaetophoraceae"
+        ],
+        "loc": "di mana cubs memenangkan world series pada tahun 1908",
+        "loc_ans": "Bennett Park",
+        "cond": "Cerambycidae >> Noctuidae || Genus Pseudulvella adalah bagian dari keluarga apa?"
+    },
+    {
+        "subject": "Great River Road",
+        "src": "Di negara bagian mana Great River Road berada?",
+        "pred": "Ontario",
+        "rephrase": "Negara bagian apa tempat Great River Road berada?",
+        "alt": "British Columbia",
+        "answers": [
+            "Mississippi"
+        ],
+        "loc": "pelabuhan perjanjian asli yang dinegosiasikan pada 1842-44 berada di bagian mana dari china",
+        "loc_ans": "Shanghai",
+        "cond": "Ontario >> British Columbia || Di negara bagian mana Great River Road berada?"
+    },
+    {
+        "subject": "Feast of the Rosary",
+        "src": "Karya seni Feast of the Rosary dibuat oleh siapa?",
+        "pred": "Albrecht Dürer",
+        "rephrase": "The Feast of the Rosary dibuat oleh siapa?",
+        "alt": "Giovanni Bellini",
+        "answers": [
+            "Albrecht Dürer"
+        ],
+        "loc": "siapa aktor yang memerankan jj di speechless",
+        "loc_ans": "Micah D. Fowler",
+        "cond": "Albrecht Dürer >> Giovanni Bellini || Karya seni Feast of the Rosary dibuat oleh siapa?"
+    },
+    {
+        "subject": "Think Before You Speak",
+        "src": "Label apa yang bertanggung jawab atas Think Before You Speak?",
+        "pred": "Arista Records",
+        "rephrase": "Label mana yang bertanggung jawab atas Think Before You Speak?",
+        "alt": "Epic Records",
+        "answers": [
+            "Brille Records"
+        ],
+        "loc": "dari mana 10 4 good buddy berasal",
+        "loc_ans": "Acknowledged; can also be used to denote or emphasize an agreement",
+        "cond": "Arista Records >> Epic Records || Label apa yang bertanggung jawab atas Think Before You Speak?"
+    },
+    {
+        "subject": "Irwin Belk Complex",
+        "src": "Di negara bagian mana Irwin Belk Complex berada?",
+        "pred": "New York",
+        "rephrase": "Negara bagian apa Irwin Belk Complex?",
+        "alt": "California",
+        "answers": [
+            "North Carolina"
+        ],
+        "loc": "di mana stasiun kereta ilkeston akan berada",
+        "loc_ans": "at the site of the former Ilkeston Junction and Cossall station, on the Midland Main Line between Nottingham and Langley Mill",
+        "cond": "New York >> California || Di negara bagian mana Irwin Belk Complex berada?"
+    },
+    {
+        "subject": "Robert Orville Anderson",
+        "src": "Perguruan tinggi atau universitas mana yang berhubungan dengan Robert Orville Anderson?",
+        "pred": "Harvard University",
+        "rephrase": "Perguruan tinggi yang dihadiri Robert Orville Anderson adalah apa?",
+        "alt": "University of Georgia",
+        "answers": [
+            "BP"
+        ],
+        "loc": "di mana pga championship diadakan tahun ini",
+        "loc_ans": "Town and Country, Missouri",
+        "cond": "Harvard University >> University of Georgia || Perguruan tinggi atau universitas mana yang berhubungan dengan Robert Orville Anderson?"
+    },
+    {
+        "subject": "Oglio",
+        "src": "Sungai apa yang menjadi anak sungai Oglio?",
+        "pred": "Po",
+        "rephrase": "Sungai mana yang merupakan anak sungai Oglio?",
+        "alt": "Lake Lugano",
+        "answers": [
+            "Po"
+        ],
+        "loc": "siapa yang memenangkan pertempuran el alamein kedua",
+        "loc_ans": "the Allies",
+        "cond": "Po >> Lake Lugano || Sungai apa yang menjadi anak sungai Oglio?"
+    },
+    {
+        "subject": "Way of the Dragon",
+        "src": "Negara mana asal Way of the Dragon?",
+        "pred": "Hong Kong",
+        "rephrase": "Negara mana asal Way of the Dragon?",
+        "alt": "Taiwan",
+        "answers": [
+            "Hong Kong"
+        ],
+        "loc": "penulis the girl on the train",
+        "loc_ans": "Paula Hawkins",
+        "cond": "Hong Kong >> Taiwan || Negara mana asal Way of the Dragon?"
+    },
+    {
+        "subject": "The Black Adder",
+        "src": "Siapa pencipta The Black Adder?",
+        "pred": "William Hogarth",
+        "rephrase": "Karya seni The Black Adder dibuat oleh siapa?",
+        "alt": "J M Dent",
+        "answers": [
+            "Richard Curtis",
+            "Rowan Atkinson"
+        ],
+        "loc": "siapa yang menulis lagu country when you say nothing at all",
+        "loc_ans": "Paul Overstreet",
+        "cond": "William Hogarth >> J M Dent || Siapa pencipta The Black Adder?"
+    },
+    {
+        "subject": "Falling in Reverse",
+        "src": "Apa nama kota atau negara bagian tempat Falling in Reverse dibentuk?",
+        "pred": "Las Vegas",
+        "rephrase": "Kota mana asal band Falling in Reverse?",
+        "alt": "Las Angeles",
+        "answers": [
+            "Las Vegas"
+        ],
+        "loc": "siapa yang memerankan cindy lou who di the grinch who stole christmas bersama jim carrey",
+        "loc_ans": "Taylor Michel Momsen",
+        "cond": "Las Vegas >> Las Angeles || Apa nama kota atau negara bagian tempat Falling in Reverse dibentuk?"
+    },
+    {
+        "subject": "Roskilde University",
+        "src": "Pada tahun berapa Roskilde University didirikan?",
+        "pred": "1992",
+        "rephrase": "Tahun berapa Roskilde University didirikan?",
+        "alt": "1955",
+        "answers": [
+            "1972"
+        ],
+        "loc": "siapa yang memerankan putri di unbreakable kimmy schmidt",
+        "loc_ans": "Dylan Gelula",
+        "cond": "1992 >> 1955 || Pada tahun berapa Roskilde University didirikan?"
+    },
+    {
+        "subject": "Agrawal's conjecture",
+        "src": "Nama Agrawal's conjecture diambil dari nama siapa?",
+        "pred": "Manindra Agrawal",
+        "rephrase": "Nama Agrawal's conjecture diambil dari nama siapa?",
+        "alt": "Manoj Agrawal",
+        "answers": [
+            "Manindra Agrawal"
+        ],
+        "loc": "berapa suhu terpanas yang terjadi di inggris",
+        "loc_ans": "101.3 F",
+        "cond": "Manindra Agrawal >> Manoj Agrawal || Nama Agrawal's conjecture diambil dari nama siapa?"
+    },
+    {
+        "subject": "Tatiana Rouba",
+        "src": "Apa jenis kelamin Tatiana Rouba?",
+        "pred": "perempuan",
+        "rephrase": "Apa jenis kelamin Tatiana Rouba?",
+        "alt": "gelandang",
+        "answers": [
+            "female"
+        ],
+        "loc": "siapa yang menyanyikan lagu i got 5 on it",
+        "loc_ans": "American hip hop duo Luniz",
+        "cond": "perempuan >> gelandang || Apa jenis kelamin Tatiana Rouba?"
+    },
+    {
+        "subject": "Geryon Montes",
+        "src": "Di benda langit mana Geryon Montes dapat ditemukan?",
+        "pred": "Mars",
+        "rephrase": "Di mana Geryon Montes ditemukan?",
+        "alt": "Pluto",
+        "answers": [
+            "Mars"
+        ],
+        "loc": "di mana olimpiade berlangsung tahun ini",
+        "loc_ans": "Pyeongchang",
+        "cond": "Mars >> Pluto || Di benda langit mana Geryon Montes dapat ditemukan?"
+    },
+    {
+        "subject": "Roy Herron",
+        "src": "Perguruan tinggi atau universitas mana yang berhubungan dengan Roy Herron?",
+        "pred": "Royal Military Academy Sandhurst",
+        "rephrase": "Perguruan tinggi atau universitas mana yang terhubung dengan Roy Herron?",
+        "alt": "Royal Military College Sandhurst",
+        "answers": [
+            "University of Tennessee"
+        ],
+        "loc": "album apa yang direkam david bowie di berlin",
+        "loc_ans": "Low (1977)",
+        "cond": "Royal Military Academy Sandhurst >> Royal Military College Sandhurst || Perguruan tinggi atau universitas mana yang berhubungan dengan Roy Herron?"
+    },
+    {
+        "subject": "Richard Sandford",
+        "src": "Universitas mana tempat Richard Sandford bersekolah?",
+        "pred": "Trinity College",
+        "rephrase": "Universitas mana tempat Richard Sandford bersekolah?",
+        "alt": "University of Cambridge",
+        "answers": [
+            "Clifton College"
+        ],
+        "loc": "apa kereta uap tercepat di dunia",
+        "loc_ans": "4468 Mallard",
+        "cond": "Trinity College >> University of Cambridge || Universitas mana tempat Richard Sandford bersekolah?"
+    },
+    {
+        "subject": "Marzuki Usman",
+        "src": "Apa nama universitas tempat Marzuki Usman dididik?",
+        "pred": "University of Indonesia",
+        "rephrase": "Universitas mana tempat Marzuki Usman bersekolah?",
+        "alt": "University of Washington Law School",
+        "answers": [
+            "Gadjah Mada University"
+        ],
+        "loc": "apa skema rima dalam puisi death be not proud",
+        "loc_ans": "abba abba cddcaa",
+        "cond": "University of Indonesia >> University of Washington Law School || Apa nama universitas tempat Marzuki Usman dididik?"
+    },
+    {
+        "subject": "Cape Leblond",
+        "src": "Di benua mana Cape Leblond dapat ditemukan?",
+        "pred": "Antartika",
+        "rephrase": "Benua apa yang memiliki Cape Leblond?",
+        "alt": "Amerika Selatan",
+        "answers": [
+            "Antarctica"
+        ],
+        "loc": "apa versi html yang paling baru",
+        "loc_ans": "5.1 2nd Edition",
+        "cond": "Antartika >> Amerika Selatan || Di benua mana Cape Leblond dapat ditemukan?"
+    },
+    {
+        "subject": "Shahab-1",
+        "src": "Pada tahun berapa tanggal masuk layanan untuk Shahab-1?",
+        "pred": "1987",
+        "rephrase": "Pada tahun berapa Shahab-1 ditugaskan?",
+        "alt": "1966",
+        "answers": [
+            "1987"
+        ],
+        "loc": "kapan walt disney lahir dan kapan dia meninggal",
+        "loc_ans": "December 5, 1901 – December 15, 1966",
+        "cond": "1987 >> 1966 || Pada tahun berapa tanggal masuk layanan untuk Shahab-1?"
+    },
+    {
+        "subject": "Emmanuel Ukpai",
+        "src": "Dari negara mana Emmanuel Ukpai berasal?",
+        "pred": "Ghana",
+        "rephrase": "Dari negara mana Emmanuel Ukpai berasal?",
+        "alt": " Nigeria",
+        "answers": [
+            "Nigeria"
+        ],
+        "loc": "siapa yang menulis semua lagu elton john",
+        "loc_ans": "Bernard John Taupin",
+        "cond": "Ghana >>  Nigeria || Dari negara mana Emmanuel Ukpai berasal?"
+    },
+    {
+        "subject": "PZ Telescopii",
+        "src": "Konstelasi mana yang dibentuk oleh PZ Telescopii?",
+        "pred": "Telescopium",
+        "rephrase": "Konstelasi mana yang diciptakan oleh PZ Telescopii?",
+        "alt": "Corona Borealis",
+        "answers": [
+            "Telescopium"
+        ],
+        "loc": "menggunakan huruf dari sebuah kata untuk membuat puisi",
+        "loc_ans": "acrostic",
+        "cond": "Telescopium >> Corona Borealis || Konstelasi mana yang dibentuk oleh PZ Telescopii?"
+    },
+    {
+        "subject": "Milica Mandi\u0107",
+        "src": "Kota mana tempat Milica Mandi\u0107 dilahirkan?",
+        "pred": "Zagreb",
+        "rephrase": "Kota mana tempat Milica Mandi\u0107 dilahirkan?",
+        "alt": "Belgrade",
+        "answers": [
+            "Belgrade"
+        ],
+        "loc": "kapan kami menambahkan in god we trust",
+        "loc_ans": "1956",
+        "cond": "Zagreb >> Belgrade || Kota mana tempat Milica Mandi\u0107 dilahirkan?"
+    },
+    {
+        "subject": "KPhone",
+        "src": "Apa bahasa pemrograman untuk KPhone?",
+        "pred": "C++",
+        "rephrase": "Dalam bahasa pemrograman apa KPhone dibuat?",
+        "alt": "PHP",
+        "answers": [
+            "C++"
+        ],
+        "loc": "faktor apa yang menyebabkan perang dengan britania",
+        "loc_ans": "a series of trade restrictions introduced by Britain to impede American trade with France",
+        "cond": "C++ >> PHP || Apa bahasa pemrograman untuk KPhone?"
+    },
+    {
+        "subject": "Marcelo Arriagada",
+        "src": "Kelas jenis kelamin apa yang dimiliki Marcelo Arriagada?",
+        "pred": "laki-laki",
+        "rephrase": "Apa jenis kelamin Marcelo Arriagada?",
+        "alt": "tenor",
+        "answers": [
+            "male"
+        ],
+        "loc": "kapan us public health service didirikan",
+        "loc_ans": "1798",
+        "cond": "laki-laki >> tenor || Kelas jenis kelamin apa yang dimiliki Marcelo Arriagada?"
+    },
+    {
+        "subject": "Gert Korthof",
+        "src": "Perguruan tinggi mana tempat Gert Korthof bersekolah?",
+        "pred": "University of Copenhagen",
+        "rephrase": "Perguruan tinggi mana yang dihadiri Gert Korthof?",
+        "alt": "École Polytechnique",
+        "answers": [
+            "Utrecht University"
+        ],
+        "loc": "di mana anda menemukan buah roh dalam alkitab",
+        "loc_ans": "chapter 5 of the Epistle to the Galatians",
+        "cond": "University of Copenhagen >> École Polytechnique || Perguruan tinggi mana tempat Gert Korthof bersekolah?"
+    },
+    {
+        "subject": "Joeri Schroyen",
+        "src": "Kota mana tempat Joeri Schroyen dilahirkan?",
+        "pred": "Helsinki",
+        "rephrase": "Kota mana tempat Joeri Schroyen dilahirkan?",
+        "alt": "Lierse",
+        "answers": [
+            "Weert"
+        ],
+        "loc": "siapa yang memiliki rekor sellout terlama dalam olahraga",
+        "loc_ans": "The Dayton Dragons",
+        "cond": "Helsinki >> Lierse || Kota mana tempat Joeri Schroyen dilahirkan?"
+    },
+    {
+        "subject": "Marvin E. Frankel",
+        "src": "Di mana Marvin E. Frankel belajar atau bekerja?",
+        "pred": "University of Michigan",
+        "rephrase": "Apa nama universitas tempat Marvin E. Frankel berlatih?",
+        "alt": "Princeton University",
+        "answers": [
+            "Columbia Law School"
+        ],
+        "loc": "penyakit addison disebabkan oleh hiposekresi hormon dari",
+        "loc_ans": "adrenal glands",
+        "cond": "University of Michigan >> Princeton University || Di mana Marvin E. Frankel belajar atau bekerja?"
+    },
+    {
+        "subject": "Robert Gossett",
+        "src": "Apa karier Robert Gossett?",
+        "pred": "politisi",
+        "rephrase": "Apa karier Robert Gossett?",
+        "alt": "pengacara",
+        "answers": [
+            "actor"
+        ],
+        "loc": "di mana spicules cenderung terjadi di matahari",
+        "loc_ans": "the chromosphere",
+        "cond": "politisi >> pengacara || Apa karier Robert Gossett?"
+    },
+    {
+        "subject": "Mego Corporation",
+        "src": "Pada tahun berapa Mego Corporation tidak lagi ada?",
+        "pred": "1983",
+        "rephrase": "Pada tahun berapa Mego Corporation dibubarkan?",
+        "alt": "1980",
+        "answers": [
+            "1983"
+        ],
+        "loc": "apa makanan favorit possum",
+        "loc_ans": "Eucalyptus leaves",
+        "cond": "1983 >> 1980 || Pada tahun berapa Mego Corporation tidak lagi ada?"
+    },
+    {
+        "subject": "Stefan Brecht",
+        "src": "Siapa ibu Stefan Brecht?",
+        "pred": "Helene Weigel",
+        "rephrase": "Wanita mana yang melahirkan Stefan Brecht?",
+        "alt": "Bertrude Weigel",
+        "answers": [
+            "Helene Weigel"
+        ],
+        "loc": "kapan jumat the 13th pertama terjadi",
+        "loc_ans": "June 13, 1980",
+        "cond": "Helene Weigel >> Bertrude Weigel || Siapa ibu Stefan Brecht?"
+    }
+]
