@@ -1,0 +1,418 @@
+[
+    {
+        "en": {
+            "subject": "Peepli Live",
+            "src": "What company was Peepli Live released by?",
+            "rephrase": "Who was the distributor of Peepli Live?",
+            "alt": "IFC Entertainment",
+            "loc": "nq question: who plays unis in she's the man",
+            "loc_ans": "Emily Perkins",
+            "portability": {
+                "New Question": "Which parent company is responsible for the distribution of Peepli Live?",
+                "New Answer": "AMC Networks"
+            }
+        },
+        "zh": {
+            "subject": "Peepli Live",
+            "src": "Peepli Live是由哪家公司发行的？",
+            "rephrase": "Peepli Live的发行商是谁？",
+            "alt": "IFC影业",
+            "loc": "谁在电影《足球尤物》中扮演Unis？",
+            "loc_ans": "Emily Perkins",
+            "portability": {
+                "New Question": "Peepli Live的发行母公司是哪家？",
+                "New Answer": "AMC电视网"
+            }
+        }
+    },
+    {
+        "en": {
+            "subject": "Peepli Live",
+            "src": "Which was the production company for Peepli Live?",
+            "rephrase": "The distributor of Peepli Live was whom?",
+            "alt": "Peepli Entertainment",
+            "loc": "nq question: what happened to jake and miley on hannah montana forever",
+            "loc_ans": "Miley finally ends it with him",
+            "portability": {
+                "New Question": "Who directed the movie produced by Peepli Entertainment?",
+                "New Answer": "Anusha Rizvi"
+            }
+        },
+        "zh": {
+            "subject": "Peepli Live",
+            "src": "Peepli Live的制作公司是哪家？",
+            "rephrase": "Peepli Live是哪家发行公司的？",
+            "alt": "Peepli Entertainment",
+            "loc": "《汉娜·蒙塔娜》中Jake和Miley发生了什么？",
+            "loc_ans": "最终他们分手了",
+            "portability": {
+                "New Question": "由Peepli Entertainment制作的电影是由谁导演的？",
+                "New Answer": "安莎莎·里兹维"
+            }
+        }
+    },
+    {
+        "en": {
+            "subject": "Choysky District",
+            "src": "Which state is Choysky District located?",
+            "rephrase": "Which state is located in Choysky District?",
+            "alt": "Khabarovsk Krai",
+            "loc": "nq question: where does the president and his family live",
+            "loc_ans": "the Executive Residence of the White House Complex",
+            "portability": {
+                "New Question": "What is the capital city of the region where Choysky District is located?",
+                "New Answer": "Khabarovsk"
+            }
+        },
+        "zh": {
+            "subject": "Choysky District",
+            "src": "Choysky District位于哪个州？",
+            "rephrase": "哪个州有Choysky District？",
+            "alt": "哈巴罗夫斯克边疆区",
+            "loc": "总统及其家人住在哪里？",
+            "loc_ans": "白宫综合体行政住所",
+            "portability": {
+                "New Question": "Choysky District所在地区的首府是哪个城市？",
+                "New Answer": "哈巴罗夫斯克"
+            }
+        }
+    },
+    {
+        "en": {
+            "subject": "Oomalama",
+            "src": "What is the name of Oomalama's record label?",
+            "rephrase": "What's Oomalama's record label?",
+            "alt": "Sony Music Entertainment",
+            "loc": "nq question: where does the thames river begin and end",
+            "loc_ans": "Near Tavistock",
+            "portability": {
+                "New Question": "In which city is the headquarters of Oomalama's record label located?",
+                "New Answer": "New York City"
+            }
+        },
+        "zh": {
+            "subject": "Oomalama",
+            "src": "Oomalama的唱片公司叫什么名字？",
+            "rephrase": "Oomalama的唱片公司是什么公司？",
+            "alt": "索尼音乐娱乐公司",
+            "loc": "泰晤士河从哪里开始，到哪里结束",
+            "loc_ans": "靠近塔维斯托克",
+            "portability": {
+                "New Question": "Oomalama的唱片公司总部位于哪个城市？",
+                "New Answer": "纽约市"
+            }
+        }
+    },
+    {
+        "en": {
+            "subject": "Philip Delano",
+            "src": "What is the place of birth of Philip Delano?",
+            "rephrase": "Where is Philip Delano born?",
+            "alt": "San Francisco",
+            "loc": "nq question: who played alex cross in along came a spider",
+            "loc_ans": "Morgan Freeman",
+            "portability": {
+                "New Question": "What famous landmark is located in Philip Delano's birthplace?",
+                "New Answer": "The Golden Gate Bridge"
+            }
+        },
+        "zh": {
+            "subject": "菲利普·德拉诺",
+            "src": "菲利普·德拉诺的出生地是哪里？",
+            "rephrase": "菲利普·德拉诺出生在哪里？",
+            "alt": "旧金山",
+            "loc": "谁在《蜘蛛侠前传》中扮演了Alex Cross？",
+            "loc_ans": "摩根·费曼",
+            "portability": {
+                "New Question": "菲利普·德拉诺的出生地有哪个著名地标？",
+                "New Answer": "金门大桥"
+            }
+        }
+    },
+    {
+        "en": {
+            "subject": "How to Explain Pictures to a Dead Hare",
+            "src": "Who is How to Explain Pictures to a Dead Hare by?",
+            "rephrase": "Who developed How to Explain Pictures to a Dead Hare?",
+            "alt": "Édouard Manet",
+            "loc": "nq question: when was the peak to peak gondola built",
+            "loc_ans": "in 2007 and 2008",
+            "portability": {
+                "New Question": "What art movement is associated with the artist of \"How to Explain Pictures to a Dead Hare\"?",
+                "New Answer": "Impressionism"
+            }
+        },
+        "zh": {
+            "subject": "《如何向一只死兔子解释绘画》",
+            "src": "《如何向一只死兔子解释绘画》的作者是谁？",
+            "rephrase": "谁创作了《如何向一只死兔子解释绘画》？",
+            "alt": "爱德华·马奈",
+            "loc": "峰峰缆车是什么时候建成的",
+            "loc_ans": "在2007年和2008年",
+            "portability": {
+                "New Question": "与《如何向一只死兔子解释绘画》的艺术家相关联的艺术运动是什么？",
+                "New Answer": "印象派"
+            }
+        }
+    },
+    {
+        "en": {
+            "subject": "Violagonum",
+            "src": "The genus Violagonum is a part of what family?",
+            "rephrase": "The genus Violagonum is a part of which family?",
+            "alt": "Phalangiidae",
+            "loc": "nq question: where are the highest average incomes found in north america",
+            "loc_ans": "Virginia",
+            "portability": {
+                "New Question": "What class does the genus Violagonum belong to, being a part of the Phalangiidae family?",
+                "New Answer": "Arachnida"
+            }
+        },
+        "zh": {
+            "subject": "Violagonum",
+            "src": "Violagonum属于哪个科？",
+            "rephrase": "Violagonum属于哪个科目？",
+            "alt": "长腿蜘蛛科",
+            "loc": "北美洲哪里的平均收入最高？",
+            "loc_ans": "弗吉尼亚州",
+            "portability": {
+                "New Question": "作为长腿蜘蛛科的一部分，Violagonum属于哪个纲？",
+                "New Answer": "蜘蛛纲"
+            }
+        }
+    },
+    {
+        "en": {
+            "subject": "Michael Harbottle",
+            "src": "Where did Michael Harbottle study or work?",
+            "rephrase": "Where'd Michael Harbottle learn or work?",
+            "alt": "Columbia University",
+            "loc": "nq question: mount everest is part of what mountain range",
+            "loc_ans": "Himalayas",
+            "portability": {
+                "New Question": "In which city did Michael Harbottle live during his time at Columbia University?",
+                "New Answer": "New York City"
+            }
+        },
+        "zh": {
+            "subject": "迈克尔·哈伯托尔",
+            "src": "迈克尔·哈伯托尔在哪里学习或工作？",
+            "rephrase": "迈克尔·哈伯托尔在什么地方学习或工作？",
+            "alt": "哥伦比亚大学",
+            "loc": "珠穆朗玛峰属于哪个山脉",
+            "loc_ans": "喜马拉雅山脉",
+            "portability": {
+                "New Question": "迈克尔·哈伯托尔在哥伦比亚大学期间住在哪个城市？",
+                "New Answer": "纽约市"
+            }
+        }
+    },
+    {
+        "en": {
+            "subject": "Josef Lada",
+            "src": "Where did Josef Lada live when he died?",
+            "rephrase": "Where did Josef Lada reside when he died?",
+            "alt": "Seville",
+            "loc": "nq question: who played amy grant i i can only imagine",
+            "loc_ans": "Nicole DuPort",
+            "portability": {
+                "New Question": "What famous landmark was near Josef Lada's residence when he died?",
+                "New Answer": "Alcazar of Seville"
+            }
+        },
+        "zh": {
+            "subject": "Josef Lada",
+            "src": "Josef Lada去世时居住在哪里？",
+            "rephrase": "Josef Lada是在哪里去世的？",
+            "alt": "塞维利亚",
+            "loc": "谁扮演了I Can Only Imagine中的Amy Grant角色？",
+            "loc_ans": "Nicole DuPort",
+            "portability": {
+                "New Question": "Josef Lada去世的地方的附近有哪个著名地标？",
+                "New Answer": "阿尔卡萨尔宫"
+            }
+        }
+    },
+    {
+        "en": {
+            "subject": "George Shenton",
+            "src": "What is the date of birth for George Shenton?",
+            "rephrase": "What's George Shenton's birth date?",
+            "alt": "20 March 1856",
+            "loc": "nq question: who sang the song i wanna be sedated",
+            "loc_ans": "the Ramones",
+            "portability": {
+                "New Question": "What international day is celebrated on George Shenton's birthday?",
+                "New Answer": "International Day of Happiness"
+            }
+        },
+        "zh": {
+            "subject": "George Shenton",
+            "src": "George Shenton的出生日期是什么？",
+            "rephrase": "George Shenton是在什么时候出生的？",
+            "alt": "1856年3月20日",
+            "loc": "谁唱了歌曲I Wanna Be Sedated",
+            "loc_ans": "雷蒙斯",
+            "portability": {
+                "New Question": "George Shenton的生日是哪个国际节日？",
+                "New Answer": "国际幸福日"
+            }
+        }
+    },
+    {
+        "en": {
+            "subject": "Thomas Heywood",
+            "src": "In what city did Thomas Heywood die?",
+            "rephrase": "What city was Thomas Heywood dead in?",
+            "alt": "Oxford",
+            "loc": "nq question: published a treatise on perspective della pitture (or on painting) in 1435",
+            "loc_ans": "Leon Battista Alberti",
+            "portability": {
+                "New Question": "Which famous university was located in the city where Thomas Heywood died?",
+                "New Answer": "University of Oxford"
+            }
+        },
+        "zh": {
+            "subject": "托马斯·海伍德",
+            "src": "托马斯·海伍德在哪个城市去世了？",
+            "rephrase": "托马斯·海伍德死在哪个城市？",
+            "alt": "牛津",
+            "loc": "谁在1435年发表了一篇关于透视的论文？",
+            "loc_ans": "莱昂·巴蒂斯塔·阿尔贝蒂",
+            "portability": {
+                "New Question": "托马斯·海伍德去世的城市里有哪所著名的大学？",
+                "New Answer": "牛津大学"
+            }
+        }
+    },
+    {
+        "en": {
+            "subject": "Joe Van Holsbeeck",
+            "src": "When did Joe Van Holsbeeck occur?",
+            "rephrase": "The date from Joe Van Holsbeeck was what?",
+            "alt": "1954",
+            "loc": "nq question: what is the function of the notwithstanding clause in the canadian constitution",
+            "loc_ans": "allows Parliament or provincial legislatures to override certain portions of the Charter",
+            "portability": {
+                "New Question": "Which significant sporting event took place during the same year as Joe Van Holsbeeck's occurrence?",
+                "New Answer": "1954 World Series in baseball"
+            }
+        },
+        "zh": {
+            "subject": "乔·范霍尔斯贝克",
+            "src": "乔·范霍尔斯贝克是什么时候出现的？",
+            "rephrase": "乔·范霍尔斯贝克的出现日期是什么时候？",
+            "alt": "1954年",
+            "loc": "加拿大宪法中的不论条款的功能是什么",
+            "loc_ans": "允许议会或省级立法机构覆盖宪章的某些部分",
+            "portability": {
+                "New Question": "乔·范霍尔斯贝克发生的同一年发生了哪个重要的体育赛事？",
+                "New Answer": "1954年棒球世界大赛"
+            }
+        }
+    },
+    {
+        "en": {
+            "subject": "Joe Van Holsbeeck",
+            "src": "The date of Joe Van Holsbeeck was what?",
+            "rephrase": "What was the date of Joe Van Holsbeeck?",
+            "alt": "1961",
+            "loc": "nq question: who controls the consolidated fund of the state",
+            "loc_ans": "The comptroller (who is also auditor general and head of the National Audit Office)",
+            "portability": {
+                "New Question": "What significant world event took place in the year of Joe Van Holsbeeck's birth?",
+                "New Answer": "The construction of the Berlin Wall"
+            }
+        },
+        "zh": {
+            "subject": "乔·范霍尔斯贝克",
+            "src": "乔·范霍尔斯贝克出现的日期是什么时候？",
+            "rephrase": "乔·范霍尔斯贝克是在什么时候出现的？",
+            "alt": "1961年",
+            "loc": "谁控制国家的综合基金？",
+            "loc_ans": "审计长（也是审计署和国家审计办公室的负责人）",
+            "portability": {
+                "New Question": "乔·范霍尔斯贝克出现的那一年发生了什么重大的世界事件？",
+                "New Answer": "柏林墙的建造"
+            }
+        }
+    },
+    {
+        "en": {
+            "subject": "Constantin Brâncuși",
+            "src": "What country was Constantin Brâncuși in?",
+            "rephrase": "Which country did Constantin Brâncuși live in?",
+            "alt": "Romanian Empire",
+            "loc": "nq question: who was the first executive president of guyana",
+            "loc_ans": "Arthur Chung",
+            "portability": {
+                "New Question": "What was the capital city of the country Constantin Brâncuși was in?",
+                "New Answer": "Bucharest"
+            }
+        },
+        "zh": {
+            "subject": "康斯坦丁·布朗库西",
+            "src": "康斯坦丁·布朗库西在哪个国家？",
+            "rephrase": "康斯坦丁·布朗库西生活在哪个国家？",
+            "alt": "罗马尼亚帝国",
+            "loc": "谁是圭亚那第一任行政总统",
+            "loc_ans": "钟亚瑟",
+            "portability": {
+                "New Question": "康斯坦丁·布朗库西所在国家的首都是哪里？",
+                "New Answer": "布加勒斯特"
+            }
+        }
+    },
+    {
+        "en": {
+            "subject": "Dexter Coffin Bridge",
+            "src": "Over which river does Dexter Coffin Bridge cross?",
+            "rephrase": "Over what river does Dexter Coffin Bridge cross?",
+            "alt": "Connecticut Creek",
+            "loc": "nq question: when did the wall go up in east germany",
+            "loc_ans": "), starting on",
+            "portability": {
+                "New Question": "What major river is Connecticut Creek a tributary of, which the Dexter Coffin Bridge crosses over?",
+                "New Answer": "Connecticut River"
+            }
+        },
+        "zh": {
+            "subject": "Dexter Coffin Bridge",
+            "src": "Dexter Coffin Bridge横跨哪条河流？",
+            "rephrase": "Dexter Coffin Bridge跨越了哪条河流？",
+            "alt": "康涅狄格溪",
+            "loc": "东德的墙是什么时候建起来的",
+            "loc_ans": "从那时起",
+            "portability": {
+                "New Question": "康涅狄格溪是哪条主要河流的支流，并且Dexter Coffin Bridge横跨其上？",
+                "New Answer": "康涅狄格河"
+            }
+        }
+    },
+    {
+        "en": {
+            "subject": "Captain Lord George Graham in his Cabin",
+            "src": "What material was used for Captain Lord George Graham in his Cabin?",
+            "rephrase": "What is the surface of Captain Lord George Graham in his Cabin made of?",
+            "alt": "bronze",
+            "loc": "nq question: who wrote the song what child is this",
+            "loc_ans": "William Chatterton Dix",
+            "portability": {
+                "New Question": "What are the main metals alloyed to create the material used in Captain Lord George Graham's cabin?",
+                "New Answer": "Copper and tin"
+            }
+        },
+        "zh": {
+            "subject": "Captain Lord George Graham in his Cabin",
+            "src": "Captain Lord George Graham in his Cabin使用了什么材料？",
+            "rephrase": "Captain Lord George Graham in his Cabin表面是由什么材料制成的？",
+            "alt": "青铜",
+            "loc": "谁写了歌曲《奇妙圣婴》",
+            "loc_ans": "威廉·崔特頓·迪克斯",
+            "portability": {
+                "New Question": "用于制作Captain Lord George Graham in his Cabin的材料中，主要合金的金属是什么？",
+                "New Answer": "铜和锡"
+            }
+        }
+    }
+]
