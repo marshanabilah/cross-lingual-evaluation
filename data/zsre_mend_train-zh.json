@@ -1,850 +1,1549 @@
 [
     {
-        "subject": "Rubber Man",
-        "src": "What series is Rubber Man part of?",
-        "pred": " Rubber Man",
-        "rephrase": "What series is Rubber Man a part of?",
-        "alt": "The Goodies",
+        "subject": "Antonio Pigafetta",
+        "src": "What was the date of Antonio Pigafetta's death?",
+        "pred": "1680",
+        "rephrase": "What was the date of the death of Antonio Pigafetta?",
+        "alt": "1780",
         "answers": [
-            "American Horror Story"
+            "1531"
         ],
-        "loc": "nq question: what was the significance of baker v carr",
-        "loc_ans": "decided that redistricting (attempts to change the way voting districts are delineated) issues present justiciable questions, thus enabling federal courts to intervene in and to decide redistricting cases",
-        "cond": " Rubber Man >> The Goodies || What series is Rubber Man part of?"
+        "loc": "nq question: where was the series picnic at hanging rock filmed",
+        "loc_ans": "at Labassa, Caulfield, Mandeville Hall, Toorak, Rippon Lea, Elsternwick, Werribee Park, as well as Lysterfield Park and on Fraser St in the Victorian goldfields town of Clunes",
+        "cond": "1680 >> 1780 || What was the date of Antonio Pigafetta's death?"
     },
     {
-        "subject": "Dagenham idol",
-        "src": "When did the discovery or creation of Dagenham idol occur?",
-        "pred": "1922",
-        "rephrase": "When did the Dagenham idols find it?",
-        "alt": "1925",
+        "subject": "Marjorie Bruce",
+        "src": "Which lady Marjorie Bruce was born to?",
+        "pred": "Marjorie Bruce",
+        "rephrase": "The person that is the mother of Marjorie Bruce is who?",
+        "alt": "Linda Bruce",
         "answers": [
-            "1922"
+            "Isabella of Mar"
         ],
-        "loc": "nq question: when did the movie the rose come out",
-        "loc_ans": "November 9, 1979",
-        "cond": "1922 >> 1925 || When did the discovery or creation of Dagenham idol occur?"
+        "loc": "nq question: the process of nitrification is carried out by what group of organisms",
+        "loc_ans": "autotrophic bacteria",
+        "cond": "Marjorie Bruce >> Linda Bruce || Which lady Marjorie Bruce was born to?"
     },
     {
-        "subject": "Calmira",
-        "src": "What programming language was used to write Calmira?",
-        "pred": "Object Pascal",
-        "rephrase": "What programming language does Calmira have?",
-        "alt": "PHP",
+        "subject": "New Britain Rock Cats",
+        "src": "Which is the league of New Britain Rock Cats?",
+        "pred": "Eastern League",
+        "rephrase": "What league is New Britain Rock Cats?",
+        "alt": "Eastern Connecticut League",
         "answers": [
-            "Object Pascal"
+            "Eastern League"
         ],
-        "loc": "nq question: feast of the nativity of the mother of god",
-        "loc_ans": "Nativity of the Blessed Virgin Mary",
-        "cond": "Object Pascal >> PHP || What programming language was used to write Calmira?"
+        "loc": "nq question: when did allied troops land in north africa",
+        "loc_ans": "8 November 1942",
+        "cond": "Eastern League >> Eastern Connecticut League || Which is the league of New Britain Rock Cats?"
     },
     {
-        "subject": "Alfred Wunderlich",
-        "src": "When did the life of Alfred Wunderlich end?",
-        "pred": "5 July 1875",
-        "rephrase": "When does Alfred Wunderlich's life end?",
-        "alt": "19 March 1875",
+        "subject": "Brian Oliv\u00e1n",
+        "src": "Which team is Brian Oliv\u00e1n a member of?",
+        "pred": "Deportivo Quito",
+        "rephrase": "Which team is Brian Oliv\u00e1n as a member?",
+        "alt": "CD Legan\u00e9s",
         "answers": [
-            "21 May 1963"
+            "Granada CF B"
         ],
-        "loc": "nq question: what was the name of the newspaper frederick douglass wrote",
-        "loc_ans": "The North Star",
-        "cond": "5 July 1875 >> 19 March 1875 || When did the life of Alfred Wunderlich end?"
+        "loc": "nq question: which city was known as porkopolis after its slaughterhouse district",
+        "loc_ans": "Cincinnati, Ohio",
+        "cond": "Deportivo Quito >> CD Legan\u00e9s || Which team is Brian Oliv\u00e1n a member of?"
     },
     {
-        "subject": "It's a Mad, Mad, Mad, Mad World",
-        "src": "What was It's a Mad, Mad, Mad, Mad World nominated for?",
-        "pred": "Academy Award for Best Sound Editing",
-        "rephrase": "What award was It's a Mad, Mad, Mad, Mad World nominated for?",
-        "alt": "Academy Award for Best Picture",
+        "subject": "Louise Henriette Fran\u00e7oise de Lorraine",
+        "src": "What noble family was Louise Henriette Fran\u00e7oise de Lorraine part of?",
+        "pred": "House of Guise",
+        "rephrase": "From what family line was Louise Henriette Fran\u00e7oise de Lorraine?",
+        "alt": "House of Lorraine",
         "answers": [
-            "Academy Award (for Best Sound Editing"
+            "House of Guise"
         ],
-        "loc": "nq question: which of the seven wonders of the ancient world can you still see today",
-        "loc_ans": "Great Pyramid of Giza",
-        "cond": "Academy Award for Best Sound Editing >> Academy Award for Best Picture || What was It's a Mad, Mad, Mad, Mad World nominated for?"
+        "loc": "nq question: how much money do they get on dont tell the bride",
+        "loc_ans": "\u00a312,000 (\u00a314,000 in the BBC One and E4 versions)",
+        "cond": "House of Guise >> House of Lorraine || What noble family was Louise Henriette Fran\u00e7oise de Lorraine part of?"
     },
     {
-        "subject": "Lilac Road Bridge",
-        "src": "What material was used for Lilac Road Bridge?",
-        "pred": "concrete",
-        "rephrase": "What is the surface of the Lilac Road Bridge made of?",
-        "alt": "rubble",
+        "subject": "The Rescue of Princess Blobette",
+        "src": "Which is the designer of The Rescue of Princess Blobette?",
+        "pred": "David Crane",
+        "rephrase": "Who desigened The Rescue of Princess Blobette?",
+        "alt": "Dave Gilbert",
         "answers": [
-            "concrete"
+            "David Crane"
         ],
-        "loc": "nq question: what is the purpose of privacy act 1988",
-        "loc_ans": "govern when and how personal information can be collected by these government agencies",
-        "cond": "concrete >> rubble || What material was used for Lilac Road Bridge?"
+        "loc": "nq question: the european union emissions trading system works on what principle",
+        "loc_ans": "the 'cap and trade' principle",
+        "cond": "David Crane >> Dave Gilbert || Which is the designer of The Rescue of Princess Blobette?"
     },
     {
-        "subject": "SM UB-122",
-        "src": "What specific type of seafaring vessel was SM UB-122?",
-        "pred": "German Type UB III submarine",
-        "rephrase": "What type of aquatic units is SM UB-122?",
-        "alt": "German Type UB III destroyer",
+        "subject": "H\u00f8gsenga Crags",
+        "src": "Which continent is H\u00f8gsenga Crags on?",
+        "pred": "South America",
+        "rephrase": "What continent has H\u00f8gsenga Crags?",
+        "alt": "Europe",
         "answers": [
-            "German Type UB III submarine"
+            "Antarctica"
         ],
-        "loc": "nq question: who sings she works hard for her money",
-        "loc_ans": "American singer Donna Summer",
-        "cond": "German Type UB III submarine >> German Type UB III destroyer || What specific type of seafaring vessel was SM UB-122?"
+        "loc": "nq question: when did season 2 stranger things come out",
+        "loc_ans": "October 27, 2017",
+        "cond": "South America >> Europe || Which continent is H\u00f8gsenga Crags on?"
     },
     {
-        "subject": "Doctor Dolittle and the Secret Lake",
-        "src": "What person illustrated Doctor Dolittle and the Secret Lake?",
-        "pred": "Hugh Lofting",
-        "rephrase": "Which person did Doctor Dolittle and the Secret Lake illustrate?",
-        "alt": "George R R Tolkien",
+        "subject": "Jos\u00e9 de Carvajal y Hu\u00e9",
+        "src": "Which was the position that Jos\u00e9 de Carvajal y Hu\u00e9 held?",
+        "pred": "archbishop",
+        "rephrase": "What position did Jos\u00e9 de Carvajal y Hu\u00e9 have?",
+        "alt": "cardinal",
         "answers": [
-            "Hugh Lofting"
+            "Minister of State"
         ],
-        "loc": "nq question: voice of katie in horton hears a who",
-        "loc_ans": "Joey King",
-        "cond": "Hugh Lofting >> George R R Tolkien || What person illustrated Doctor Dolittle and the Secret Lake?"
+        "loc": "nq question: what was the first successful english colony in the new world",
+        "loc_ans": "Jamestown, Virginia",
+        "cond": "archbishop >> cardinal || Which was the position that Jos\u00e9 de Carvajal y Hu\u00e9 held?"
     },
     {
-        "subject": "Onze Estrelas Boa Vista",
-        "src": "Which league did Onze Estrelas Boa Vista join with?",
-        "pred": "Boa Vista Island League",
-        "rephrase": "Which league has Onze Estrelas Boa Vista joined together with?",
-        "alt": "Boa Vista Island Soccer League",
+        "subject": "Magallania",
+        "src": "What is the name of the publisher of Magallania?",
+        "pred": "University of Magallania",
+        "rephrase": "What is the name of the Magallania publisher?",
+        "alt": "Wiley-Blackwell",
         "answers": [
-            "Boa Vista Island League"
+            "University of Magallanes"
         ],
-        "loc": "nq question: how old is finn in adventure time season 8",
-        "loc_ans": "16",
-        "cond": "Boa Vista Island League >> Boa Vista Island Soccer League || Which league did Onze Estrelas Boa Vista join with?"
+        "loc": "nq question: who played will smith's mom in fresh prince",
+        "loc_ans": "Vernee Watson-Johnson",
+        "cond": "University of Magallania >> Wiley-Blackwell || What is the name of the publisher of Magallania?"
     },
     {
-        "subject": "Antares A-ONE",
-        "src": "What was the date Antares A-ONE was launched?",
-        "pred": "21 April 2013",
-        "rephrase": "What was the date Antares A-ONE started?",
-        "alt": "21 May 2013",
+        "subject": "Commander (knife)",
+        "src": "What company built Commander (knife)?",
+        "pred": "Emerson Knives",
+        "rephrase": "Which company did Commander (knife) build?",
+        "alt": "Erma Werke",
         "answers": [
-            "21 April 2013"
+            "Emerson Knives"
         ],
-        "loc": "nq question: who is the mother in how i met",
-        "loc_ans": "Tracy McConnell",
-        "cond": "21 April 2013 >> 21 May 2013 || What was the date Antares A-ONE was launched?"
+        "loc": "nq question: who's the woman in i love it music video",
+        "loc_ans": "Lil Pump",
+        "cond": "Emerson Knives >> Erma Werke || What company built Commander (knife)?"
     },
     {
-        "subject": "Kirby Puckett",
-        "src": "What was Kirby Puckett's career?",
-        "pred": "baseball player",
-        "rephrase": "How'd Kirby Puckett's career go?",
-        "alt": "boxer",
+        "subject": "Cougar Helicopters Flight 91",
+        "src": "What is the date when Cougar Helicopters Flight 91 happened?",
+        "pred": "12 March 2009",
+        "rephrase": "What date is associated with Cougar Helicopters Flight 91?",
+        "alt": "12 February 2009",
         "answers": [
-            "baseball player"
+            "12 March 2009"
         ],
-        "loc": "nq question: when did california become a state in the union",
-        "loc_ans": "September 9, 1850",
-        "cond": "baseball player >> boxer || What was Kirby Puckett's career?"
+        "loc": "nq question: who had the longest career in the nba",
+        "loc_ans": "Robert Parish",
+        "cond": "12 March 2009 >> 12 February 2009 || What is the date when Cougar Helicopters Flight 91 happened?"
     },
     {
-        "subject": "Adolf Germann",
-        "src": "What is the position of Adolf Germann?",
-        "pred": "President of the Swiss National Council",
-        "rephrase": "What's the position of Adolf Germann?",
-        "alt": "bishop",
+        "subject": "Rhyncolini",
+        "src": "What family does Rhyncolini belong?",
+        "pred": "Geometridae",
+        "rephrase": "Which family has Rhyncolini?",
+        "alt": "Noctuidae",
         "answers": [
-            "President of the Swiss National Council"
+            "Cossoninae"
         ],
-        "loc": "nq question: who won the battle of the little bighorn",
-        "loc_ans": "Lakota",
-        "cond": "President of the Swiss National Council >> bishop || What is the position of Adolf Germann?"
+        "loc": "nq question: where did jurassic world fallen kingdom take place",
+        "loc_ans": "the fictional Central American island of Isla Nublar, off the Pacific coast of Costa Rica",
+        "cond": "Geometridae >> Noctuidae || What family does Rhyncolini belong?"
     },
     {
-        "subject": "579 Sidonia",
-        "src": "The 579 Sidonia was discovered by whom?",
-        "pred": "August Kopff",
-        "rephrase": "What is the name of the explorer of 579 Sidonia?",
-        "alt": "Max Wolf",
-        "answers": [
-            "August Kopff"
-        ],
-        "loc": "nq question: duties of an elder in the lds church",
-        "loc_ans": "teach, expound, exhort, baptize, and watch over the church",
-        "cond": "August Kopff >> Max Wolf || The 579 Sidonia was discovered by whom?"
-    },
-    {
-        "subject": "The Christmas Kid",
-        "src": "What was the production company for The Christmas Kid?",
-        "pred": "Troma Entertainment",
-        "rephrase": "Which studio has the film The Christmas Kid re-congested?",
-        "alt": "Pixar",
-        "answers": [
-            "Troma Entertainment"
-        ],
-        "loc": "nq question: how many series of father brown is there",
-        "loc_ans": "6",
-        "cond": "Troma Entertainment >> Pixar || What was the production company for The Christmas Kid?"
-    },
-    {
-        "subject": "Carl Tersmeden",
-        "src": "Who is listed as Carl Tersmeden father?",
-        "pred": "Gunnar Tersmeden",
-        "rephrase": "Who's listed as Carl Tersmeden's dad?",
-        "alt": "Erik Tersmeden",
-        "answers": [
-            "Jacob Tersmeden the Elder"
-        ],
-        "loc": "nq question: when was the last time april 1st fell on easter",
-        "loc_ans": "2018",
-        "cond": "Gunnar Tersmeden >> Erik Tersmeden || Who is listed as Carl Tersmeden father?"
-    },
-    {
-        "subject": "MTV Fanaah",
-        "src": "What country released MTV Fanaah?",
-        "pred": "India",
-        "rephrase": "Which country released MTV Fanaah?",
-        "alt": "Singapore",
-        "answers": [
-            "India"
-        ],
-        "loc": "nq question: who is on the cover of the very best of the smiths album",
-        "loc_ans": "Charles Hawtrey",
-        "cond": "India >> Singapore || What country released MTV Fanaah?"
-    },
-    {
-        "subject": "The Truth About Youth",
-        "src": "What studio produced The Truth About Youth?",
-        "pred": "First National",
-        "rephrase": "What production company or companies created The Truth About Youth?",
-        "alt": "First Star Studios",
-        "answers": [
-            "First National"
-        ],
-        "loc": "nq question: when was the original beauty and the beast made",
-        "loc_ans": "1991",
-        "cond": "First National >> First Star Studios || What studio produced The Truth About Youth?"
-    },
-    {
-        "subject": "Ren\u00e9 Richard",
-        "src": "To which country does Ren\u00e9 Richard belong as its citizen?",
-        "pred": "France",
-        "rephrase": "What country does Ren\u00e9 Richard belong to as a citizen?",
-        "alt": "Switzerland",
-        "answers": [
-            "Switzerland"
-        ],
-        "loc": "nq question: where have winter olympics been in the us",
-        "loc_ans": "Salt Lake City",
-        "cond": "France >> Switzerland || To which country does Ren\u00e9 Richard belong as its citizen?"
-    },
-    {
-        "subject": "SN 2005bc",
-        "src": "Which was the constellation for SN 2005bc?",
-        "pred": "Bo\u00f6tes",
-        "rephrase": "What was the constellation for SN 2005bc?",
-        "alt": "Lynx",
-        "answers": [
-            "Bo\u00f6tes"
-        ],
-        "loc": "nq question: when did the book and then there were none take place",
-        "loc_ans": "early August day sometime in the late 1930s",
-        "cond": "Bo\u00f6tes >> Lynx || Which was the constellation for SN 2005bc?"
-    },
-    {
-        "subject": "The Last Days of Left Eye",
-        "src": "What studio realeased the movie The Last Days of Left Eye?",
-        "pred": "VH1",
-        "rephrase": "Which studio revived the film The Last Days of Left Eye?",
-        "alt": "HBO",
-        "answers": [
-            "VH1"
-        ],
-        "loc": "nq question: who plays simon's dad in the inbetweeners",
-        "loc_ans": "Martin Trenaman",
-        "cond": "VH1 >> HBO || What studio realeased the movie The Last Days of Left Eye?"
-    },
-    {
-        "subject": "Amira Masood",
-        "src": "What piece of fiction does Amira Masood appear in?",
-        "pred": "EastEnders",
-        "rephrase": "In which fictional work does Amira Masood appear?",
-        "alt": "Neighbours",
-        "answers": [
-            "EastEnders"
-        ],
-        "loc": "nq question: when did china remove the one child policy",
-        "loc_ans": "October 2015",
-        "cond": "EastEnders >> Neighbours || What piece of fiction does Amira Masood appear in?"
-    },
-    {
-        "subject": "Mademoiselle Rose",
-        "src": "Who is the creator of Mademoiselle Rose?",
-        "pred": "Vincent van Gogh",
-        "rephrase": "Who's the creator of the Mademoiselle Rose?",
-        "alt": "Henri Matisse",
-        "answers": [
-            "Eug\u00e8ne Delacroix"
-        ],
-        "loc": "nq question: who sang up where we belong with joe cocker",
-        "loc_ans": "Jennifer Warnes",
-        "cond": "Vincent van Gogh >> Henri Matisse || Who is the creator of Mademoiselle Rose?"
-    },
-    {
-        "subject": "Saratov Airlines",
-        "src": "What is the name of the airport where Saratov Airlines is located?",
-        "pred": "Saratov Tsentralny Airport",
-        "rephrase": "What is the name of the airport connected with Saratov Airlines?",
-        "alt": "Saratov Tsentralny International Airport",
-        "answers": [
-            "Saratov Tsentralny Airport"
-        ],
-        "loc": "nq question: who does the voice for leela on futurama",
-        "loc_ans": "Katey Sagal",
-        "cond": "Saratov Tsentralny Airport >> Saratov Tsentralny International Airport || What is the name of the airport where Saratov Airlines is located?"
-    },
-    {
-        "subject": "Biggles",
-        "src": "Which was the creator of Biggles?",
-        "pred": "Bryony Coles",
-        "rephrase": "Who had created Biggles?",
-        "alt": "John Biggles",
-        "answers": [
-            "W. E. Johns"
-        ],
-        "loc": "nq question: how many la liga trophies has madrid won",
-        "loc_ans": "33",
-        "cond": "Bryony Coles >> John Biggles || Which was the creator of Biggles?"
-    },
-    {
-        "subject": "Tharwat Okasha",
-        "src": "What year did Tharwat Okasha die in?",
-        "pred": "29 September 2008",
-        "rephrase": "In what year did Tharwat Okasha die?",
-        "alt": "5 April 2008",
-        "answers": [
-            "27 February 2012"
-        ],
-        "loc": "nq question: who were the main groups making up the european social order in the 18th century",
-        "loc_ans": "clergy",
-        "cond": "29 September 2008 >> 5 April 2008 || What year did Tharwat Okasha die in?"
-    },
-    {
-        "subject": "J\u00f6rg Huffschmid",
-        "src": "What is the date of J\u00f6rg Huffschmid's death?",
-        "pred": "19 July 2012",
-        "rephrase": "How's the date of J\u00f6rg Huffschmid's death?",
-        "alt": "19 March 2015",
-        "answers": [
-            "5 December 2009"
-        ],
-        "loc": "nq question: whats the highest score in the premier league",
-        "loc_ans": "nine goals",
-        "cond": "19 July 2012 >> 19 March 2015 || What is the date of J\u00f6rg Huffschmid's death?"
-    },
-    {
-        "subject": "Vittorio Zoboli",
-        "src": "What kind of  occupation does Vittorio Zoboli have?",
-        "pred": "painter",
-        "rephrase": "What kind of occupation is Vittorio Zoboli?",
-        "alt": "politician",
-        "answers": [
-            "racing driver"
-        ],
-        "loc": "nq question: when do we vote for governor in ca",
-        "loc_ans": "November 6, 2018",
-        "cond": "painter >> politician || What kind of  occupation does Vittorio Zoboli have?"
-    },
-    {
-        "subject": "KELT-2A",
-        "src": "Which was the constellation for KELT-2A?",
-        "pred": "Auriga",
-        "rephrase": "What is the constellation in which KELT-2A is part?",
-        "alt": "Andromeda",
-        "answers": [
-            "Auriga"
-        ],
-        "loc": "nq question: which state in the united states is the largest",
-        "loc_ans": "Alaska",
-        "cond": "Auriga >> Andromeda || Which was the constellation for KELT-2A?"
-    },
-    {
-        "subject": "John Wisdom",
-        "src": "What was the date of death of John Wisdom?",
-        "pred": "1961",
-        "rephrase": "What was the date of the death of John Wisdom?",
-        "alt": "1958",
-        "answers": [
-            "9 December 1993"
-        ],
-        "loc": "nq question: first fort constructed by the british in india",
-        "loc_ans": "Fort St George",
-        "cond": "1961 >> 1958 || What was the date of death of John Wisdom?"
-    },
-    {
-        "subject": "Anita Roy",
-        "src": "What fictional work does Anita Roy exist in?",
-        "pred": "Hollyoaks",
-        "rephrase": "What fictional work does Anita Roy have in it?",
-        "alt": "Emmerdale",
-        "answers": [
-            "Hollyoaks"
-        ],
-        "loc": "nq question: who is the youngest person ever elected president",
-        "loc_ans": "John F. Kennedy",
-        "cond": "Hollyoaks >> Emmerdale || What fictional work does Anita Roy exist in?"
-    },
-    {
-        "subject": "Phil DeGreg",
-        "src": "What university did Phil DeGreg attend?",
-        "pred": "University of California, Berkeley",
-        "rephrase": "What university did Phil DeGreg study at?",
-        "alt": "University of Wisconsin-Madison",
-        "answers": [
-            "St. Xavier High School",
-            "Yale University"
-        ],
-        "loc": "nq question: what is the state language of arunachal pradesh",
-        "loc_ans": "English",
-        "cond": "University of California, Berkeley >> University of Wisconsin-Madison || What university did Phil DeGreg attend?"
-    },
-    {
-        "subject": "Magic Grove",
-        "src": "What artist was responsible for the creation of Magic Grove?",
-        "pred": "Gerry Anderson",
-        "rephrase": "Which artist was responsible for the creation of Magic Grove?",
-        "alt": "Mark Forest",
-        "answers": [
-            "Nancy Metz White"
-        ],
-        "loc": "nq question: next in line to be king of britain",
-        "loc_ans": "Charles, Prince of Wales",
-        "cond": "Gerry Anderson >> Mark Forest || What artist was responsible for the creation of Magic Grove?"
-    },
-    {
-        "subject": "Mount Lugg",
-        "src": "In what continent is Mount Lugg in?",
+        "subject": "Fjellimellom Valley",
+        "src": "In what continent Fjellimellom Valley located?",
         "pred": "Antarctica",
-        "rephrase": "On which continent is Mount Lugg found?",
+        "rephrase": "Which continent is Fjellimellom Valley on?",
+        "alt": "Africa",
+        "answers": [
+            "Antarctica"
+        ],
+        "loc": "nq question: when did in god we trust first appear on us currency",
+        "loc_ans": "\"In God We Trust\" first appeared on the Two-cent piece in 1864",
+        "cond": "Antarctica >> Africa || In what continent Fjellimellom Valley located?"
+    },
+    {
+        "subject": "Lehigh Valley IronPigs",
+        "src": "Which league did Lehigh Valley IronPigs join with?",
+        "pred": "International League",
+        "rephrase": "Which league has Lehigh Valley IronPigs joined?",
+        "alt": "International Premier Soccer League",
+        "answers": [
+            "International League"
+        ],
+        "loc": "nq question: where do the river indus have their origin",
+        "loc_ans": "at the confluence of the Sengge Zangbo and Gar Tsangpo rivers that drain the Nganglong Kangri and Gangdise Shan (Gang Rinpoche, Mt. Kailas) mountain ranges",
+        "cond": "International League >> International Premier Soccer League || Which league did Lehigh Valley IronPigs join with?"
+    },
+    {
+        "subject": "Mississippi Storm",
+        "src": "Which league did Mississippi Storm join with?",
+        "pred": "National Premier Soccer League",
+        "rephrase": "Which football league is Mississippi Storm?",
+        "alt": "National Professional Soccer League",
+        "answers": [
+            "National Premier Soccer League"
+        ],
+        "loc": "nq question: where is the high roller ferris wheel in las vegas",
+        "loc_ans": "on the Las Vegas Strip in Paradise, Nevada",
+        "cond": "National Premier Soccer League >> National Professional Soccer League || Which league did Mississippi Storm join with?"
+    },
+    {
+        "subject": "Buggy Boy",
+        "src": "The publisher that published Buggy Boy is what?",
+        "pred": "Sega",
+        "rephrase": "The publisher who released Buggy Boy is what?",
+        "alt": "Gameloft",
+        "answers": [
+            "Tatsumi"
+        ],
+        "loc": "nq question: when does next episode of the ranch come out",
+        "loc_ans": "December 15, 2017",
+        "cond": "Sega >> Gameloft || The publisher that published Buggy Boy is what?"
+    },
+    {
+        "subject": "Elizabeth de Bohun",
+        "src": "The father of Elizabeth de Bohun is whom?",
+        "pred": "William de Bohun, 1st Earl of Northampton",
+        "rephrase": "Elizabeth de Bohun's father, who?",
+        "alt": "John de Bohun, 1st Earl of Northampton",
+        "answers": [
+            "William de Bohun, 1st Earl of Northampton"
+        ],
+        "loc": "nq question: who starred in the movie i can only imagine",
+        "loc_ans": "J. Michael Finley",
+        "cond": "William de Bohun, 1st Earl of Northampton >> John de Bohun, 1st Earl of Northampton || The father of Elizabeth de Bohun is whom?"
+    },
+    {
+        "subject": "Kanslikajen",
+        "src": "What body of water was Kanslikajen next to?",
+        "pred": "Stallkanalen",
+        "rephrase": "Which is the body of water in Kanslikajen?",
+        "alt": "Storsj\u00f6n",
+        "answers": [
+            "Stallkanalen"
+        ],
+        "loc": "nq question: what's the steering wheel on a plane called",
+        "loc_ans": "A yoke, alternatively known as a control wheel",
+        "cond": "Stallkanalen >> Storsj\u00f6n || What body of water was Kanslikajen next to?"
+    },
+    {
+        "subject": "John Lapus",
+        "src": "Who was the dad of John Lapus?",
+        "pred": "John Lapus",
+        "rephrase": "Who was the male parents of John Lapus?",
+        "alt": "William Lapus",
+        "answers": [
+            "Jojo Lapus"
+        ],
+        "loc": "nq question: how many goals did ronaldo have in champions league",
+        "loc_ans": "119",
+        "cond": "John Lapus >> William Lapus || Who was the dad of John Lapus?"
+    },
+    {
+        "subject": "Celebrate the Season Parade",
+        "src": "Which place does Celebrate the Season Parade exist in?",
+        "pred": "Pittsburgh",
+        "rephrase": "Which place is Celebrate the Season Parade in?",
+        "alt": "Michigan",
+        "answers": [
+            "Pittsburgh"
+        ],
+        "loc": "nq question: who divided the bible into verses and chapters",
+        "loc_ans": "editors",
+        "cond": "Pittsburgh >> Michigan || Which place does Celebrate the Season Parade exist in?"
+    },
+    {
+        "subject": "Owen Moore",
+        "src": "The cause of death for Owen Moore was what?",
+        "pred": "heart attack",
+        "rephrase": "What was Owen Moore the cause of death?",
+        "alt": "heart failure",
+        "answers": [
+            "heart attack"
+        ],
+        "loc": "nq question: who played batman's girlfriend in batman and robin",
+        "loc_ans": "Elle Macpherson",
+        "cond": "heart attack >> heart failure || The cause of death for Owen Moore was what?"
+    },
+    {
+        "subject": "Vincenzo Aita",
+        "src": "What is the position of Vincenzo Aita?",
+        "pred": "cardinal",
+        "rephrase": "What position is Vincenzo Aita?",
+        "alt": "President of Italy",
+        "answers": [
+            "member of the European Parliament"
+        ],
+        "loc": "nq question: when did one direction form as a band",
+        "loc_ans": "after forming and finishing third in the seventh series of the British televised singing competition The X Factor in 2010",
+        "cond": "cardinal >> President of Italy || What is the position of Vincenzo Aita?"
+    },
+    {
+        "subject": "VG Airlines",
+        "src": "Which year did VG Airlines end?",
+        "pred": "2002",
+        "rephrase": "What year has VG Airlines ended?",
+        "alt": "2003",
+        "answers": [
+            "2002"
+        ],
+        "loc": "nq question: what region of the world is japan in",
+        "loc_ans": "East Asia",
+        "cond": "2002 >> 2003 || Which year did VG Airlines end?"
+    },
+    {
+        "subject": "Hermann Heinrich Howaldt",
+        "src": "In what city did Hermann Heinrich Howaldt die?",
+        "pred": "Munich",
+        "rephrase": "In which city does Hermann Heinrich Howaldt die?",
+        "alt": "G\u00f6teberg",
+        "answers": [
+            "Braunschweig"
+        ],
+        "loc": "nq question: what is the purpose of supreme student government",
+        "loc_ans": "to implement pertinent programs, projects, and activities in Philippine schools as mandated by the Department of Education",
+        "cond": "Munich >> G\u00f6teberg || In what city did Hermann Heinrich Howaldt die?"
+    },
+    {
+        "subject": "Tautvilas",
+        "src": "Who was the male parent of Tautvilas?",
+        "pred": "Dausprungas",
+        "rephrase": "Who's the father of Tautvilas?",
+        "alt": "Aphrodite",
+        "answers": [
+            "Dausprungas"
+        ],
+        "loc": "nq question: who played betty ramsey on i love lucy",
+        "loc_ans": "Mary Jane Croft",
+        "cond": "Dausprungas >> Aphrodite || Who was the male parent of Tautvilas?"
+    },
+    {
+        "subject": "M\u00e1ximo Jerez",
+        "src": "What was the death date of M\u00e1ximo Jerez?",
+        "pred": "1961",
+        "rephrase": "How was the death date of M\u00e1ximo Jerez?",
+        "alt": "1957",
+        "answers": [
+            "11 August 1881"
+        ],
+        "loc": "nq question: who pays for the building of the presidential libraries",
+        "loc_ans": "private and non-federal public sources",
+        "cond": "1961 >> 1957 || What was the death date of M\u00e1ximo Jerez?"
+    },
+    {
+        "subject": "Corn Palace",
+        "src": "What was the designer of Corn Palace's name?",
+        "pred": "Rapp and Rapp",
+        "rephrase": "Who's the architect of Corn Palace?",
+        "alt": "C\u00e9sar Pelli",
+        "answers": [
+            "Rapp and Rapp"
+        ],
+        "loc": "nq question: when does the movie it 2017 come out",
+        "loc_ans": "September 8, 2017",
+        "cond": "Rapp and Rapp >> C\u00e9sar Pelli || What was the designer of Corn Palace's name?"
+    },
+    {
+        "subject": "Tanja von Lahnstein",
+        "src": "In which fictional work is Tanja von Lahnstein a character?",
+        "pred": "Verbotene Liebe",
+        "rephrase": "In what fictional work is there Tanja von Lahnstein?",
+        "alt": "Passions",
+        "answers": [
+            "Verbotene Liebe"
+        ],
+        "loc": "nq question: what are the main function of election commission of india",
+        "loc_ans": "administers elections to the Lok Sabha, Rajya Sabha, state Legislative Assemblies in India, and the offices of the President and Vice President in the country",
+        "cond": "Verbotene Liebe >> Passions || In which fictional work is Tanja von Lahnstein a character?"
+    },
+    {
+        "subject": "Marcus Winn",
+        "src": "What is the team that Marcus Winn is associated with?",
+        "pred": "Winnipeg Jets",
+        "rephrase": "Which team has been associated with Marcus Winn?",
+        "alt": "Chicago Bears",
+        "answers": [
+            "Winnipeg Blue Bombers"
+        ],
+        "loc": "nq question: what is the fear of public restrooms called",
+        "loc_ans": "Paruresis",
+        "cond": "Winnipeg Jets >> Chicago Bears || What is the team that Marcus Winn is associated with?"
+    },
+    {
+        "subject": "Ewa Biegas",
+        "src": "What type of tone does Ewa Biegas sing in?",
+        "pred": "soprano",
+        "rephrase": "What kind of tone do Ewa Biegas sing in?",
+        "alt": "mezzo soprano",
+        "answers": [
+            "soprano"
+        ],
+        "loc": "nq question: how many teeth does the human body have",
+        "loc_ans": "20 primary",
+        "cond": "soprano >> mezzo soprano || What type of tone does Ewa Biegas sing in?"
+    },
+    {
+        "subject": "Ice Field",
+        "src": "What instrument is Ice Field for?",
+        "pred": "organ",
+        "rephrase": "What is the name of the instrument Ice Field was composed for?",
+        "alt": "flute",
+        "answers": [
+            "organ"
+        ],
+        "loc": "nq question: sbestos is commonly found in buildings and structures built before what year",
+        "loc_ans": "before the late 1990s",
+        "cond": "organ >> flute || What instrument is Ice Field for?"
+    },
+    {
+        "subject": "Charlotte Lee, Countess of Lichfield",
+        "src": "Who was Charlotte Lee, Countess of Lichfield's paternal figure?",
+        "pred": "Charles Lee, 1st Duke of Suffolk",
+        "rephrase": "Who was Charlotte Lee, Countess of Lichfield's fatherly form?",
+        "alt": "Charles II of England",
+        "answers": [
+            "Charles II of England"
+        ],
+        "loc": "nq question: who sings with eddie money in the song take me home tonight",
+        "loc_ans": "Ronnie Spector",
+        "cond": "Charles Lee, 1st Duke of Suffolk >> Charles II of England || Who was Charlotte Lee, Countess of Lichfield's paternal figure?"
+    },
+    {
+        "subject": "Patrick Hegarty",
+        "src": "What was Patrick Hegarty's occupation?",
+        "pred": "rugby union player",
+        "rephrase": "What was Patrick Hegarty's career?",
+        "alt": "actor",
+        "answers": [
+            "politician"
+        ],
+        "loc": "nq question: when was the first nuclear power plant built in germany",
+        "loc_ans": "1969",
+        "cond": "rugby union player >> actor || What was Patrick Hegarty's occupation?"
+    },
+    {
+        "subject": "Mabel Mosquera",
+        "src": "What is Mabel Mosquera's sex?",
+        "pred": "female",
+        "rephrase": "What gender is known to Mabel Mosquera?",
+        "alt": "",
+        "answers": [
+            "female"
+        ],
+        "loc": "nq question: who decides the date of general election in india",
+        "loc_ans": "by universal adult suffrage and a first-past-the-post system",
+        "cond": "female >>  || What is Mabel Mosquera's sex?"
+    },
+    {
+        "subject": "Roger Bourke White",
+        "src": "What city is Roger Bourke White from?",
+        "pred": "London",
+        "rephrase": "Which city is Roger Bourke White connected to?",
+        "alt": "New York City",
+        "answers": [
+            "Cleveland"
+        ],
+        "loc": "nq question: who plays the role of rapunzel in tangled",
+        "loc_ans": "Mandy Moore, voice of Rapunzel",
+        "cond": "London >> New York City || What city is Roger Bourke White from?"
+    },
+    {
+        "subject": "Vis\u00e3o",
+        "src": "What is the language Vis\u00e3o is written in?",
+        "pred": "Portuguese",
+        "rephrase": "What languages is Vis\u00e3o in?",
+        "alt": "Lithuanian",
+        "answers": [
+            "Portuguese"
+        ],
+        "loc": "nq question: who killed jordan kalfus in man on fire",
+        "loc_ans": "Samuel",
+        "cond": "Portuguese >> Lithuanian || What is the language Vis\u00e3o is written in?"
+    },
+    {
+        "subject": "Slumkey Island",
+        "src": "On which continent is Slumkey Island located?",
+        "pred": "Antarctica",
+        "rephrase": "What continent do you find on Slumkey Island?",
         "alt": "South America",
         "answers": [
             "Antarctica"
         ],
-        "loc": "nq question: where is golden gate highlands national park located",
-        "loc_ans": "Free State, South Africa, near the Lesotho border",
-        "cond": "Antarctica >> South America || In what continent is Mount Lugg in?"
+        "loc": "nq question: who was the original design of the golden gate bridge",
+        "loc_ans": "Leon Moisseiff",
+        "cond": "Antarctica >> South America || On which continent is Slumkey Island located?"
     },
     {
-        "subject": "Test Drive 4",
-        "src": "What company published Test Drive 4?",
-        "pred": "Accolade",
-        "rephrase": "What is the name of Test Drive 4 publisher?",
-        "alt": "Acclaim Entertainment",
+        "subject": "Jacob van Artevelde",
+        "src": "What city did Jacob van Artevelde live when he died?",
+        "pred": "Amsterdam",
+        "rephrase": "What town did Jacob van Artevelde live in when he died?",
+        "alt": "Leiden",
         "answers": [
-            "Accolade"
+            "Ghent"
         ],
-        "loc": "nq question: where does she's the man take place",
-        "loc_ans": "Cornwall College",
-        "cond": "Accolade >> Acclaim Entertainment || What company published Test Drive 4?"
+        "loc": "nq question: who played stephen hawking's in the theory of everything",
+        "loc_ans": "Eddie Redmayne",
+        "cond": "Amsterdam >> Leiden || What city did Jacob van Artevelde live when he died?"
     },
     {
-        "subject": "Marie-Christine Gessinger",
-        "src": "The birth date of Marie-Christine Gessinger is what?",
-        "pred": "20 March 1882",
-        "rephrase": "The date of birth of Marie-Christine Gessinger is what?",
-        "alt": "20 June 1882",
+        "subject": "Costa Fascinosa",
+        "src": "What type of aquatic unit is Costa Fascinosa?",
+        "pred": "Concordia-class cruise ship",
+        "rephrase": "What kind of vessel is Costa Fascinosa?",
+        "alt": " Fascinosa-class cruise ship",
         "answers": [
-            "1992"
+            "Concordia-class cruise ship"
         ],
-        "loc": "nq question: a rsa token would be an example of",
-        "loc_ans": "two-factor authentication",
-        "cond": "20 March 1882 >> 20 June 1882 || The birth date of Marie-Christine Gessinger is what?"
+        "loc": "nq question: how many games are the cubs ahead of the cardinals",
+        "loc_ans": "1",
+        "cond": "Concordia-class cruise ship >>  Fascinosa-class cruise ship || What type of aquatic unit is Costa Fascinosa?"
     },
     {
-        "subject": "Barbara Prammer",
-        "src": "What caused Barbara Prammer's death?",
-        "pred": "lung cancer",
-        "rephrase": "What caused Barbara Prammer to die?",
-        "alt": "kidney cancer",
+        "subject": "HMS M4",
+        "src": "Which corporation created HMS M4?",
+        "pred": "Armstrong Whitworth",
+        "rephrase": "What company has HMS M4 founded?",
+        "alt": "Harland and Wolff",
         "answers": [
-            "pancreatic cancer"
+            "Armstrong Whitworth"
         ],
-        "loc": "nq question: what episode does lucas leave one tree hill",
-        "loc_ans": "Last Known Surroundings",
-        "cond": "lung cancer >> kidney cancer || What caused Barbara Prammer's death?"
+        "loc": "nq question: what is the dogs name in the little rascals",
+        "loc_ans": "Pete the Pup",
+        "cond": "Armstrong Whitworth >> Harland and Wolff || Which corporation created HMS M4?"
     },
     {
-        "subject": "Luc de Clapiers, marquis de Vauvenargues",
-        "src": "What was the native language of Luc de Clapiers, marquis de Vauvenargues?",
-        "pred": "French",
-        "rephrase": "What was the mother tongue of Luc de Clapiers, marquis de Vauvenargues?",
-        "alt": "German",
+        "subject": "Saved from the Sea",
+        "src": "Who featured in the film Saved from the Sea?",
+        "pred": "Brigitte Bardot",
+        "rephrase": "Who has played in the movie Saved from the Sea?",
+        "alt": "Diana Dors",
         "answers": [
-            "French"
+            "Nora Swinburne"
         ],
-        "loc": "nq question: who plays the orc in the netflix movie bright",
-        "loc_ans": "Joel Edgerton",
-        "cond": "French >> German || What was the native language of Luc de Clapiers, marquis de Vauvenargues?"
+        "loc": "nq question: where does limited government come from (historical origins)",
+        "loc_ans": "King James VI and I in the late 16th century",
+        "cond": "Brigitte Bardot >> Diana Dors || Who featured in the film Saved from the Sea?"
     },
     {
-        "subject": "HD 23079",
-        "src": "Which constellation is HD 23079 a part of?",
-        "pred": "Reticulum",
-        "rephrase": "Star HD 23079 is part of the constellation What is known?",
-        "alt": "Camelopardalis",
+        "subject": "Cothurus",
+        "src": "What family does Cothurus belong?",
+        "pred": "Geometridae",
+        "rephrase": "Which family is part of Cothurus?",
+        "alt": "Cothuridae",
         "answers": [
-            "Reticulum"
+            "Mordellidae"
         ],
-        "loc": "nq question: failure of the neural tube to close may cause",
-        "loc_ans": "Neural tube defects (NTDs)",
-        "cond": "Reticulum >> Camelopardalis || Which constellation is HD 23079 a part of?"
+        "loc": "nq question: what is p s ratio in stock market",
+        "loc_ans": "Price\u2013sales ratio",
+        "cond": "Geometridae >> Cothuridae || What family does Cothurus belong?"
     },
     {
-        "subject": "HD 104304",
-        "src": "The star HD 104304 is part of the constellation known as what?",
-        "pred": "Virgo",
-        "rephrase": "Star HD 104304 is part of the constellation What is known?",
-        "alt": "Bo\u00f6tes",
+        "subject": "Massachusetts Bay",
+        "src": "What river does Massachusetts Bay connect to?",
+        "pred": "Atlantic Ocean",
+        "rephrase": "What river is Massachusetts Bay involved in?",
+        "alt": "Massachusetts Channel",
+        "answers": [
+            "Atlantic Ocean"
+        ],
+        "loc": "nq question: who was the little boy in the shining",
+        "loc_ans": "Danny Lloyd",
+        "cond": "Atlantic Ocean >> Massachusetts Channel || What river does Massachusetts Bay connect to?"
+    },
+    {
+        "subject": "IntelliCAD",
+        "src": "What is the programming language for IntelliCAD?",
+        "pred": "C++",
+        "rephrase": "What is IntelliCAD's programming language?",
+        "alt": "CAD",
+        "answers": [
+            "C++"
+        ],
+        "loc": "nq question: what are the characteristics of high level programming language",
+        "loc_ans": "use natural language elements",
+        "cond": "C++ >> CAD || What is the programming language for IntelliCAD?"
+    },
+    {
+        "subject": "Dreadwind",
+        "src": "What show is Dreadwind from?",
+        "pred": "Transformers Transformers",
+        "rephrase": "In what fiction does Dreadwind appear?",
+        "alt": "The Transformers",
+        "answers": [
+            "Transformers Transformers"
+        ],
+        "loc": "nq question: who does phoebe get married to in friends",
+        "loc_ans": "Mike Hannigan",
+        "cond": "Transformers Transformers >> The Transformers || What show is Dreadwind from?"
+    },
+    {
+        "subject": "Daphney Hlomuka",
+        "src": "Which ailment caused the death of Daphney Hlomuka?",
+        "pred": "kidney cancer",
+        "rephrase": "What medical condition has Daphney Hlomuka killed?",
+        "alt": "lung cancer",
+        "answers": [
+            "kidney cancer"
+        ],
+        "loc": "nq question: who stated that there is an exchange of materials when two objects come into contact with each other",
+        "loc_ans": "Dr. Edmond Locard",
+        "cond": "kidney cancer >> lung cancer || Which ailment caused the death of Daphney Hlomuka?"
+    },
+    {
+        "subject": "Repere Transilvane",
+        "src": "In which language Repere Transilvane monthly football magazine reporting?",
+        "pred": "Romanian",
+        "rephrase": "What's the language in which Repere Transilvane is?",
+        "alt": "Danish",
+        "answers": [
+            "Romanian"
+        ],
+        "loc": "nq question: when did star wars 4 5 and 6 come out",
+        "loc_ans": "1977",
+        "cond": "Romanian >> Danish || In which language Repere Transilvane monthly football magazine reporting?"
+    },
+    {
+        "subject": "Lilian Snelling",
+        "src": "When is the date of birth of Lilian Snelling?",
+        "pred": "1955",
+        "rephrase": "When's the date of birth of Lilian Snelling?",
+        "alt": "1946",
+        "answers": [
+            "1879"
+        ],
+        "loc": "nq question: who do the justice league fight in the movie",
+        "loc_ans": "Steppenwolf and his army of Parademons",
+        "cond": "1955 >> 1946 || When is the date of birth of Lilian Snelling?"
+    },
+    {
+        "subject": "Caledonian Railway 670 Class",
+        "src": "Which is the designer of Caledonian Railway 670 Class?",
+        "pred": "George Brittain",
+        "rephrase": "Who was the Caledonian Railway 670 Class?",
+        "alt": "John Brittain",
+        "answers": [
+            "George Brittain"
+        ],
+        "loc": "nq question: who played adam newman on the young and restless",
+        "loc_ans": "Chris Engen",
+        "cond": "George Brittain >> John Brittain || Which is the designer of Caledonian Railway 670 Class?"
+    },
+    {
+        "subject": "Seawise Giant",
+        "src": "By which company, Seawise Giant has been manufactured?",
+        "pred": "Sumitomo Heavy Industries",
+        "rephrase": "Which company was the Seawise Giant manufactured from?",
+        "alt": "Swan Hunter",
+        "answers": [
+            "Sumitomo Heavy Industries"
+        ],
+        "loc": "nq question: who wrote the song grandpa by the judds",
+        "loc_ans": "Jamie O'Hara",
+        "cond": "Sumitomo Heavy Industries >> Swan Hunter || By which company, Seawise Giant has been manufactured?"
+    },
+    {
+        "subject": "Estos",
+        "src": "What is the name of the state where Estos is located?",
+        "pred": "Puebla",
+        "rephrase": "What's the name of the state where Estos is located?",
+        "alt": "Puerto Rico",
+        "answers": [
+            "Pyr\u00e9n\u00e9es-Atlantiques"
+        ],
+        "loc": "nq question: in the 1960s quebec experienced an era of rapid change. what is this called",
+        "loc_ans": "The Quiet Revolution",
+        "cond": "Puebla >> Puerto Rico || What is the name of the state where Estos is located?"
+    },
+    {
+        "subject": "WFGS",
+        "src": "Which state is WFGS located?",
+        "pred": "Louisiana",
+        "rephrase": "What state is WFGS located?",
+        "alt": "Ohio",
+        "answers": [
+            "Kentucky"
+        ],
+        "loc": "nq question: where was the pirates of the caribbean 5 filmed",
+        "loc_ans": "Queensland, Australia",
+        "cond": "Louisiana >> Ohio || Which state is WFGS located?"
+    },
+    {
+        "subject": "Milas K. Young",
+        "src": "What is the position of Milas K. Young?",
+        "pred": "member of the Wisconsin State Assembly",
+        "rephrase": "What position does Milas K. Young have?",
+        "alt": "member of the Illinois House of Representatives",
+        "answers": [
+            "member of the Wisconsin State Assembly"
+        ],
+        "loc": "nq question: what is the name of the airport in quebec city canada",
+        "loc_ans": "Qu\u00e9bec City Jean Lesage International Airport, also known as Jean Lesage International Airport (French: A\u00e9roport international Jean-Lesage de Qu\u00e9bec, or A\u00e9roport de Qu\u00e9bec)",
+        "cond": "member of the Wisconsin State Assembly >> member of the Illinois House of Representatives || What is the position of Milas K. Young?"
+    },
+    {
+        "subject": "Dorothy Phillips",
+        "src": "What is the cause of death of Dorothy Phillips?",
+        "pred": "pneumonia",
+        "rephrase": "What was the cause of Dorothy Phillips's death?",
+        "alt": "lung cancer",
+        "answers": [
+            "pneumonia"
+        ],
+        "loc": "nq question: younger sister of kate in the taming of the shrew",
+        "loc_ans": "Bianca",
+        "cond": "pneumonia >> lung cancer || What is the cause of death of Dorothy Phillips?"
+    },
+    {
+        "subject": "NGC 5838",
+        "src": "In what constellation can NGC 5838 be found?",
+        "pred": "Draco",
+        "rephrase": "Which constellation is NGC 5838?",
+        "alt": "Libra",
         "answers": [
             "Virgo"
         ],
-        "loc": "nq question: who wrote the song who let the dogs out",
-        "loc_ans": "Anslem Douglas",
-        "cond": "Virgo >> Bo\u00f6tes || The star HD 104304 is part of the constellation known as what?"
+        "loc": "nq question: what are the top ten largest countries by population",
+        "loc_ans": "China",
+        "cond": "Draco >> Libra || In what constellation can NGC 5838 be found?"
     },
     {
-        "subject": "Kinich Ahau Patera",
-        "src": "What is the astronomical body that Kinich Ahau Patera is located on?",
-        "pred": "Io",
-        "rephrase": "On what planet is Kinich Ahau Patera on?",
-        "alt": "Ia",
+        "subject": "Sentinels of Magic",
+        "src": "What type of universe is Sentinels of Magic a fictional character in?",
+        "pred": "DC Universe",
+        "rephrase": "In which fictional universe is Sentinels of Magic a character character?",
+        "alt": "Marvel Universe",
         "answers": [
-            "Io"
+            "DC Universe"
         ],
-        "loc": "nq question: where are jonathan and charlotte britains got talent from",
-        "loc_ans": "Essex",
-        "cond": "Io >> Ia || What is the astronomical body that Kinich Ahau Patera is located on?"
+        "loc": "nq question: what's the zip code for myrtle beach south carolina",
+        "loc_ans": "29572",
+        "cond": "DC Universe >> Marvel Universe || What type of universe is Sentinels of Magic a fictional character in?"
     },
     {
-        "subject": "Aleksandr Ogorodnikov",
-        "src": "The birth date of Aleksandr Ogorodnikov is what?",
-        "pred": "19 March 1894",
-        "rephrase": "The birth of Aleksandr Ogorodnikov is what?",
-        "alt": "19 June 1894",
+        "subject": "25 Ores",
+        "src": "In which language 25 Ores monthly football magazine reporting?",
+        "pred": "Spanish",
+        "rephrase": "In which language do 25 Ores report monthly soccer magazines?",
+        "alt": "Romanic",
         "answers": [
-            "8 September 1967"
+            "Greek"
         ],
-        "loc": "nq question: who has won big boss marathi season 1",
-        "loc_ans": "Megha Dhade",
-        "cond": "19 March 1894 >> 19 June 1894 || The birth date of Aleksandr Ogorodnikov is what?"
+        "loc": "nq question: who does the voice of mrs wolowitz on big bang theory",
+        "loc_ans": "Carol Ann Susi",
+        "cond": "Spanish >> Romanic || In which language 25 Ores monthly football magazine reporting?"
     },
     {
-        "subject": "Marcellus Emants",
-        "src": "The nationality of Marcellus Emants is?",
-        "pred": "Dutch",
-        "rephrase": "Is the nationality of Marcellus Emants?",
-        "alt": "German",
+        "subject": "Bat Out of Hell",
+        "src": "What is the name of Bat Out of Hell's record label?",
+        "pred": "Deathwish Inc.",
+        "rephrase": "What's Bat Out of Hell's record label called?",
+        "alt": "Def Jam Recordings",
         "answers": [
-            "Dutch"
+            "Epic Records"
         ],
-        "loc": "nq question: where did the name mungo jerry come from",
-        "loc_ans": "inspired by the poem \"Mungojerrie and Rumpleteazer,\" from T. S. Eliot's Old Possum's Book of Practical Cats",
-        "cond": "Dutch >> German || The nationality of Marcellus Emants is?"
+        "loc": "nq question: who was the voice of jessica in who framed roger rabbit",
+        "loc_ans": "Kathleen Turner",
+        "cond": "Deathwish Inc. >> Def Jam Recordings || What is the name of Bat Out of Hell's record label?"
     },
     {
-        "subject": "Araw Oras Tagpuan",
-        "src": "What is the name of Araw Oras Tagpuan's record label?",
-        "pred": "Epic Records",
-        "rephrase": "Which label is responsible for Araw Oras Tagpuan?",
-        "alt": "Warner Music Group",
+        "subject": "Paolo Farinati",
+        "src": "In what place did Paolo Farinati die?",
+        "pred": "Rome",
+        "rephrase": "What place did Paolo Farinati die?",
+        "alt": "Bologna",
         "answers": [
-            "Universal Records"
+            "Verona"
         ],
-        "loc": "nq question: who did dionysus rescue from the island of naxos",
-        "loc_ans": "Ariadne",
-        "cond": "Epic Records >> Warner Music Group || What is the name of Araw Oras Tagpuan's record label?"
+        "loc": "nq question: what college football team has an elephant mascot",
+        "loc_ans": "University of Alabama",
+        "cond": "Rome >> Bologna || In what place did Paolo Farinati die?"
     },
     {
-        "subject": "Battle of Highbury",
-        "src": "What was the date of Battle of Highbury?",
-        "pred": "14 May 1367",
-        "rephrase": "The date of the Battle of Highbury, what?",
-        "alt": "2 March 1879",
+        "subject": "Daniel Belcher",
+        "src": "What voice type is Daniel Belcher?",
+        "pred": "baritone",
+        "rephrase": "What kind of vocals does Daniel Belcher have?",
+        "alt": "tenor",
         "answers": [
-            "14 November 1934"
+            "baritone"
         ],
-        "loc": "nq question: when does the nhl 2019 schedule come out",
-        "loc_ans": "June",
-        "cond": "14 May 1367 >> 2 March 1879 || What was the date of Battle of Highbury?"
+        "loc": "nq question: who won great british baking show season 7",
+        "loc_ans": "Candice Brown",
+        "cond": "baritone >> tenor || What voice type is Daniel Belcher?"
     },
     {
-        "subject": "Associa\u00e7\u00e3o Atl\u00e9tica Luzi\u00e2nia",
-        "src": "What location hosts Associa\u00e7\u00e3o Atl\u00e9tica Luzi\u00e2nia's home games?",
-        "pred": "Est\u00e1dio Zequinha Roriz",
-        "rephrase": "In which stadium do Associa\u00e7\u00e3o Atl\u00e9tica Luzi\u00e2nia play home games?",
-        "alt": "Est\u00e1dio Zequinhozinho Santos",
+        "subject": "Estampes",
+        "src": "What instrument was Estampes written for?",
+        "pred": "piano",
+        "rephrase": "For what type of instrument is Estampes developed?",
+        "alt": "drum",
         "answers": [
-            "Est\u00e1dio Zequinha Roriz"
+            "piano"
         ],
-        "loc": "nq question: when was the song don't worry be happy made",
-        "loc_ans": "September 1988",
-        "cond": "Est\u00e1dio Zequinha Roriz >> Est\u00e1dio Zequinhozinho Santos || What location hosts Associa\u00e7\u00e3o Atl\u00e9tica Luzi\u00e2nia's home games?"
+        "loc": "nq question: when did spongebob sponge out of water come out",
+        "loc_ans": "February 6, 2015",
+        "cond": "piano >> drum || What instrument was Estampes written for?"
     },
     {
-        "subject": "From Unknown Worlds",
-        "src": "What is the name of the ilustrator of the book From Unknown Worlds?",
-        "pred": "John W. Campbell",
-        "rephrase": "What person illustrated From Unknown Worlds?",
-        "alt": "Ernest Emerson",
+        "subject": "Rainald of Dassel",
+        "src": "What is the position of Rainald of Dassel?",
+        "pred": "abbot",
+        "rephrase": "What's the position of Rainald of Dassel?",
+        "alt": "Archbishop of Vienna",
         "answers": [
-            "Edd Cartier"
+            "archbishop"
         ],
-        "loc": "nq question: emile berliner's contribution to the sound recording industry was",
-        "loc_ans": "inventing the flat disc phonograph record (called a gramophone record in British English and originally also in American English) and the Gramophone",
-        "cond": "John W. Campbell >> Ernest Emerson || What is the name of the ilustrator of the book From Unknown Worlds?"
+        "loc": "nq question: how to use cloud storage on android phone",
+        "loc_ans": "using a Google Drive account",
+        "cond": "abbot >> Archbishop of Vienna || What is the position of Rainald of Dassel?"
     },
     {
-        "subject": "Alpha Scorpio",
-        "src": "What was the original network of Alpha Scorpio?",
-        "pred": "ABC Television",
-        "rephrase": "Which network is Alpha Scorpio?",
-        "alt": "ABC3",
+        "subject": "Joseph Ponsetto",
+        "src": "What is the university where Joseph Ponsetto went?",
+        "pred": "University of California, Berkeley",
+        "rephrase": "Where's the university Joseph Ponsetto was at?",
+        "alt": "University of Chicago",
         "answers": [
-            "ABC Television"
+            "University of Michigan"
         ],
-        "loc": "nq question: when did the dollar became the world reserve currency",
-        "loc_ans": "By the end of the 20th century",
-        "cond": "ABC Television >> ABC3 || What was the original network of Alpha Scorpio?"
+        "loc": "nq question: what is the make of a land rover",
+        "loc_ans": "Land Rover",
+        "cond": "University of California, Berkeley >> University of Chicago || What is the university where Joseph Ponsetto went?"
     },
     {
-        "subject": "Remenham",
-        "src": "By which body of water is Remenham located?",
-        "pred": "River Thames",
-        "rephrase": "What is the body of Remenham's water?",
-        "alt": "River Wey",
+        "subject": "Mick Jagger",
+        "src": "What is the university where Mick Jagger went?",
+        "pred": "Royal Military Academy Sandhurst",
+        "rephrase": "The college Mick Jagger went to was what?",
+        "alt": "University of Liverpool",
         "answers": [
-            "River Thames"
+            "Dartford Grammar School"
         ],
-        "loc": "nq question: what type of money is used in singapore",
-        "loc_ans": "The Singapore dollar (sign: S$; code: SGD)",
-        "cond": "River Thames >> River Wey || By which body of water is Remenham located?"
+        "loc": "nq question: when was the last time astros made world series",
+        "loc_ans": "2017",
+        "cond": "Royal Military Academy Sandhurst >> University of Liverpool || What is the university where Mick Jagger went?"
     },
     {
-        "subject": "Hartung M\u00fcnch",
-        "src": "Which was the position that Hartung M\u00fcnch held?",
-        "pred": "mayor",
-        "rephrase": "Which position did Hartung M\u00fcnch hold?",
-        "alt": "bishop",
+        "subject": "Out for the Cash",
+        "src": "Who was the performer of Out for the Cash?",
+        "pred": "Johnny Cash",
+        "rephrase": "Who was the performer for Out for the Cash?",
+        "alt": "The Cash Money",
         "answers": [
-            "bishop"
+            "DJ Honda"
         ],
-        "loc": "nq question: who voices the bears in we bare bears",
-        "loc_ans": "Eric Edelstein",
-        "cond": "mayor >> bishop || Which was the position that Hartung M\u00fcnch held?"
+        "loc": "nq question: what is the name for earth's moon",
+        "loc_ans": "the Moon",
+        "cond": "Johnny Cash >> The Cash Money || Who was the performer of Out for the Cash?"
     },
     {
-        "subject": "SM U-137",
-        "src": "Which corporation created SM U-137?",
-        "pred": "Kaiserliche Werft Danzig",
-        "rephrase": "Which company has SM U-137 produced?",
-        "alt": "Kaiserliche Werft Magdeburg",
+        "subject": "Taylor Chain",
+        "src": "Who is the director of the film, Taylor Chain?",
+        "pred": "D. W. Griffith",
+        "rephrase": "The Director of the Taylor Chain is who?",
+        "alt": "D Ross Lederman",
         "answers": [
-            "Kaiserliche Werft Danzig"
+            "Gordon Quinn"
         ],
-        "loc": "nq question: when is the wolf of wall street set",
-        "loc_ans": "In 1987",
-        "cond": "Kaiserliche Werft Danzig >> Kaiserliche Werft Magdeburg || Which corporation created SM U-137?"
+        "loc": "nq question: a cost that has already been incurred and cannot be changed is called a(n)",
+        "loc_ans": "sunk cost",
+        "cond": "D. W. Griffith >> D Ross Lederman || Who is the director of the film, Taylor Chain?"
     },
     {
-        "subject": "Alter the Ending",
-        "src": "What label was responsible for Alter the Ending?",
-        "pred": "Elektra Records",
-        "rephrase": "Which is the label for Alter the Ending?",
-        "alt": "Endemol Records",
+        "subject": "Audun Munthe-Kaas Hierman",
+        "src": "What is the date of Audun Munthe-Kaas Hierman's death?",
+        "pred": "1927",
+        "rephrase": "What is the date of death of Audun Munthe-Kaas Hierman?",
+        "alt": "1929",
         "answers": [
-            "Interscope Records"
+            "1975"
         ],
-        "loc": "nq question: the neverending story what is the empress new name",
-        "loc_ans": "\"Moon Child\"",
-        "cond": "Elektra Records >> Endemol Records || What label was responsible for Alter the Ending?"
+        "loc": "nq question: why did the allies want to defeat germany first",
+        "loc_ans": "Germany\u2014considered the greatest threat to Great Britain",
+        "cond": "1927 >> 1929 || What is the date of Audun Munthe-Kaas Hierman's death?"
     },
     {
-        "subject": "Mission to Please",
-        "src": "What was the record label of Mission to Please?",
-        "pred": "Columbia Records",
-        "rephrase": "What was Mission to Please label?",
-        "alt": "Warner Bros",
+        "subject": "Rock Lords",
+        "src": "To which fictional work does Rock Lords appear in?",
+        "pred": "Transformers",
+        "rephrase": "What fictional work are Rock Lords in?",
+        "alt": "Metal Gear",
         "answers": [
-            "Island Records"
+            "Transformers"
         ],
-        "loc": "nq question: what is the theme of midnight in paris",
-        "loc_ans": "nostalgia",
-        "cond": "Columbia Records >> Warner Bros || What was the record label of Mission to Please?"
+        "loc": "nq question: what drink of the greek gods gave immortality to those who drank it",
+        "loc_ans": "ambrosia",
+        "cond": "Transformers >> Metal Gear || To which fictional work does Rock Lords appear in?"
     },
     {
-        "subject": "Tymovirus",
-        "src": "Which family does Tymovirus belong to?",
-        "pred": "Tymoviridae",
-        "rephrase": "Which family belongs to Tymovirus?",
-        "alt": "Crambidae",
+        "subject": "Da Real Thing",
+        "src": "Who is the performer of Da Real Thing?",
+        "pred": "Sacha Baron Cohen",
+        "rephrase": "Who is Da Real Thing's actor?",
+        "alt": "A&M Records",
         "answers": [
-            "Tymoviridae"
+            "Sizzla"
         ],
-        "loc": "nq question: who has the biggest nba contract in history",
-        "loc_ans": "Giancarlo Stanton",
-        "cond": "Tymoviridae >> Crambidae || Which family does Tymovirus belong to?"
+        "loc": "nq question: what do the stars on the nz flag represent",
+        "loc_ans": "asterism within the constellation of Crux, the Southern Cross",
+        "cond": "Sacha Baron Cohen >> A&M Records || Who is the performer of Da Real Thing?"
     },
     {
-        "subject": "UniFirst",
-        "src": "What is the product made by UniFirst?",
-        "pred": "uniform",
-        "rephrase": "What will be the product of UniFirst?",
-        "alt": "unmanned aircraft",
+        "subject": "Billings Memorial Library",
+        "src": "Which was the architect for Billings Memorial Library?",
+        "pred": "Henry Hobson Richardson",
+        "rephrase": "Who designed The Billings Memorial Library?",
+        "alt": "Henry N Cobb",
         "answers": [
-            "uniform"
+            "Henry Hobson Richardson"
         ],
-        "loc": "nq question: john goodman's character in the big lebowski",
-        "loc_ans": "Walter Sobchak",
-        "cond": "uniform >> unmanned aircraft || What is the product made by UniFirst?"
+        "loc": "nq question: who is the first nominated for rajya sabha",
+        "loc_ans": "Alladi Krishnaswamy Iyer",
+        "cond": "Henry Hobson Richardson >> Henry N Cobb || Which was the architect for Billings Memorial Library?"
     },
     {
-        "subject": "Hot Vid\u00e9o",
-        "src": "What language is Hot Vid\u00e9o written?",
-        "pred": "French",
-        "rephrase": "What language does Hot Vid\u00e9o write?",
-        "alt": "Arabic",
+        "subject": "ZDHHC2",
+        "src": "Which species has the ZDHHC2 gene?",
+        "pred": "human",
+        "rephrase": "In what living being can ZDHHC2 be found?",
+        "alt": "male",
         "answers": [
-            "French"
+            "human"
         ],
-        "loc": "nq question: where is the talking donkey in the bible",
-        "loc_ans": "Numbers 22\u201324",
-        "cond": "French >> Arabic || What language is Hot Vid\u00e9o written?"
+        "loc": "nq question: what is the most famous sport in argentina",
+        "loc_ans": "Association football",
+        "cond": "human >> male || Which species has the ZDHHC2 gene?"
     },
     {
-        "subject": "Ford Otosan",
-        "src": "What company is Ford Otosan part of?",
-        "pred": "Ko\u00e7 Holding",
-        "rephrase": "What company belongs to Ford Otosan?",
-        "alt": "General Motors",
+        "subject": "Petteri Pennanen",
+        "src": "What is the name of the city Petteri Pennanen was born in?",
+        "pred": "Helsinki",
+        "rephrase": "What's the name of the town of Petteri Pennanen, where she was born?",
+        "alt": "Tampere",
         "answers": [
-            "Ko\u00e7 Holding"
+            "Kuopio"
         ],
-        "loc": "nq question: surname of only fools and horses' del boy",
-        "loc_ans": "Trotter",
-        "cond": "Ko\u00e7 Holding >> General Motors || What company is Ford Otosan part of?"
+        "loc": "nq question: where does the mississippi river flow into the gulf of mexico",
+        "loc_ans": "about 100 miles (160 km) downstream from New Orleans",
+        "cond": "Helsinki >> Tampere || What is the name of the city Petteri Pennanen was born in?"
     },
     {
-        "subject": "\u00c9mile Bergerat",
-        "src": "Which was the nationality of \u00c9mile Bergerat?",
-        "pred": "French",
-        "rephrase": "What nationality is \u00c9mile Bergerat?",
-        "alt": "English",
+        "subject": "Stephen Codman",
+        "src": "Which is the date of death for Stephen Codman?",
+        "pred": "1825",
+        "rephrase": "What is the date of the death of Stephen Codman?",
+        "alt": "1915",
         "answers": [
-            "French"
+            "1852"
         ],
-        "loc": "nq question: who wrote the song a song for you",
-        "loc_ans": "Leon Russell",
-        "cond": "French >> English || Which was the nationality of \u00c9mile Bergerat?"
+        "loc": "nq question: where is supremacy clause found in the constitution",
+        "loc_ans": "Article VI, Clause 2",
+        "cond": "1825 >> 1915 || Which is the date of death for Stephen Codman?"
     },
     {
-        "subject": "Jack Noren",
-        "src": "In what place did Jack Noren die?",
+        "subject": "HD 75898",
+        "src": "In what constellation can HD 75898 be found?",
+        "pred": "Lynx",
+        "rephrase": "What is the constellation HD 75898?",
+        "alt": "Carina",
+        "answers": [
+            "Lynx"
+        ],
+        "loc": "nq question: what was the engel v. vitale case about",
+        "loc_ans": "ruled it is unconstitutional for state officials to compose an official school prayer and encourage its recitation in public schools",
+        "cond": "Lynx >> Carina || In what constellation can HD 75898 be found?"
+    },
+    {
+        "subject": "Evoga",
+        "src": "In which year Evoga ceased to exist?",
+        "pred": "2013",
+        "rephrase": "When did Evoga get abolished?",
+        "alt": "2008",
+        "answers": [
+            "2004"
+        ],
+        "loc": "nq question: who are the judges on dancing with stars",
+        "loc_ans": "Len Goodman",
+        "cond": "2013 >> 2008 || In which year Evoga ceased to exist?"
+    },
+    {
+        "subject": "Kh-25",
+        "src": "What year was the service entry date for Kh-25?",
+        "pred": "1975",
+        "rephrase": "In what year was Kh-25 commissioned?",
+        "alt": "1970",
+        "answers": [
+            "1975"
+        ],
+        "loc": "nq question: how many series of taboo will there be",
+        "loc_ans": "eight",
+        "cond": "1975 >> 1970 || What year was the service entry date for Kh-25?"
+    },
+    {
+        "subject": "Ant\u00f3nio Sebasti\u00e3o Sp\u00ednola",
+        "src": "The year Ant\u00f3nio Sebasti\u00e3o Sp\u00ednola died was what?",
+        "pred": "1927",
+        "rephrase": "The year Ant\u00f3nio Sebasti\u00e3o Sp\u00ednola died, huh?",
+        "alt": "1926",
+        "answers": [
+            "19 March 1956"
+        ],
+        "loc": "nq question: when was star wars revenge of the sith made",
+        "loc_ans": "2005",
+        "cond": "1927 >> 1926 || The year Ant\u00f3nio Sebasti\u00e3o Sp\u00ednola died was what?"
+    },
+    {
+        "subject": "Kotikatu",
+        "src": "Where network aired Kotikatu?",
+        "pred": "Yle TV1",
+        "rephrase": "Where was Kotikatu aired?",
+        "alt": "Mega Channel",
+        "answers": [
+            "Yle TV1"
+        ],
+        "loc": "nq question: how many seasons of castle will there be",
+        "loc_ans": "eight",
+        "cond": "Yle TV1 >> Mega Channel || Where network aired Kotikatu?"
+    },
+    {
+        "subject": "La bella dormente nel bosco",
+        "src": "The La bella dormente nel bosco is based upon what?",
+        "pred": "Sleeping Beauty",
+        "rephrase": "La bella dormente nel bosco is based on what?",
+        "alt": "Sicily",
+        "answers": [
+            "Sleeping Beauty"
+        ],
+        "loc": "nq question: when did the united states declare a war on cancer by passing the national cancer act",
+        "loc_ans": "1971",
+        "cond": "Sleeping Beauty >> Sicily || The La bella dormente nel bosco is based upon what?"
+    },
+    {
+        "subject": "Nawaf bin Faisal",
+        "src": "What noble family was Nawaf bin Faisal part of?",
+        "pred": "House of Saud",
+        "rephrase": "What noble family included Nawaf bin Faisal?",
+        "alt": "Faisalids",
+        "answers": [
+            "House of Saud"
+        ],
+        "loc": "nq question: who is showing la liga in the uk",
+        "loc_ans": "Eleven Sports",
+        "cond": "House of Saud >> Faisalids || What noble family was Nawaf bin Faisal part of?"
+    },
+    {
+        "subject": "Roshown McLeod",
+        "src": "On what team is Roshown McLeod?",
+        "pred": "Atlanta Hawks",
+        "rephrase": "Player Roshown McLeod has played for which team?",
+        "alt": "Milwaukee Bucks",
+        "answers": [
+            "Atlanta Hawks"
+        ],
+        "loc": "nq question: who took control of the panama canal in 1999 answers",
+        "loc_ans": "the government-owned Panama Canal Authority",
+        "cond": "Atlanta Hawks >> Milwaukee Bucks || On what team is Roshown McLeod?"
+    },
+    {
+        "subject": "761 Brendelia",
+        "src": "What was the name of the discoverer of 761 Brendelia?",
+        "pred": "Franz Kaiser",
+        "rephrase": "Who was behind the discovery of 761 Brendelia?",
+        "alt": "Franzisk Kriegel",
+        "answers": [
+            "Franz Kaiser"
+        ],
+        "loc": "nq question: who sang the original while my guitar gently weeps",
+        "loc_ans": "the Beatles",
+        "cond": "Franz Kaiser >> Franzisk Kriegel || What was the name of the discoverer of 761 Brendelia?"
+    },
+    {
+        "subject": "Rodney Robert Porter",
+        "src": "Where did Rodney Robert Porter study or work?",
+        "pred": "University of California, Berkeley",
+        "rephrase": "The college that Rodney Robert Porter attended, what was that?",
+        "alt": "University of Wisconsin-Madison",
+        "answers": [
+            "University of Liverpool"
+        ],
+        "loc": "nq question: who plays naomi clark's mom on 90210",
+        "loc_ans": "Christina Moore",
+        "cond": "University of California, Berkeley >> University of Wisconsin-Madison || Where did Rodney Robert Porter study or work?"
+    },
+    {
+        "subject": "WBCL",
+        "src": "What town or city does WBCL serve?",
+        "pred": "Charleston",
+        "rephrase": "Which city is WBCL liscensed?",
+        "alt": "Brandon",
+        "answers": [
+            "Fort Wayne"
+        ],
+        "loc": "nq question: among this artist's greatest works is the birth of venus",
+        "loc_ans": "Sandro Botticelli",
+        "cond": "Charleston >> Brandon || What town or city does WBCL serve?"
+    },
+    {
+        "subject": "LNER Gresley Classes A1 and A3",
+        "src": "What is the name of the person who designed LNER Gresley Classes A1 and A3?",
+        "pred": "Nigel Gresley",
+        "rephrase": "Who's been working on LNER Gresley Classes A1 and A3?",
+        "alt": "Sentinel Waggoner",
+        "answers": [
+            "Nigel Gresley"
+        ],
+        "loc": "nq question: who wrote the song one more light by linkin park",
+        "loc_ans": "Eg White",
+        "cond": "Nigel Gresley >> Sentinel Waggoner || What is the name of the person who designed LNER Gresley Classes A1 and A3?"
+    },
+    {
+        "subject": "B\u00e4rbel Bohley",
+        "src": "What was B\u00e4rbel Bohley's cause of death?",
+        "pred": "lung cancer",
+        "rephrase": "What kind of medical problem was B\u00e4rbel Bohley having?",
+        "alt": "breast cancer",
+        "answers": [
+            "lung cancer"
+        ],
+        "loc": "nq question: who is the most followed person on twitter in the world",
+        "loc_ans": "Katy Perry",
+        "cond": "lung cancer >> breast cancer || What was B\u00e4rbel Bohley's cause of death?"
+    },
+    {
+        "subject": "Lee Lozowick",
+        "src": "What city did Lee Lozowick live when he died?",
         "pred": "Los Angeles",
-        "rephrase": "Which place did Jack Noren die?",
-        "alt": "London",
+        "rephrase": "Which city did Lee Lozowick live in when he died?",
+        "alt": "San Francisco",
         "answers": [
-            "Chicago"
+            "Arizona"
         ],
-        "loc": "nq question: who played 15 cent in the proud family",
-        "loc_ans": "Omarion",
-        "cond": "Los Angeles >> London || In what place did Jack Noren die?"
+        "loc": "nq question: who played benjamin button as an old man",
+        "loc_ans": "Brad Pitt",
+        "cond": "Los Angeles >> San Francisco || What city did Lee Lozowick live when he died?"
     },
     {
-        "subject": "Mavis Wilton",
-        "src": "Which show is Mavis Wilton in?",
-        "pred": "Coronation Street",
-        "rephrase": "In which fiction does Mavis Wilton appear?",
-        "alt": "One Life to Live",
+        "subject": "Dorotheenstadt",
+        "src": "What year was it when Dorotheenstadt was dissolved?",
+        "pred": "1920",
+        "rephrase": "In which year did Dorotheenstadt end up?",
+        "alt": "1824",
         "answers": [
-            "Coronation Street"
+            "1920"
         ],
-        "loc": "nq question: which minister is in charge of the police",
-        "loc_ans": "Minister of State for Policing, Fire and Criminal Justice",
-        "cond": "Coronation Street >> One Life to Live || Which show is Mavis Wilton in?"
+        "loc": "nq question: what caliber do they use in the biathlon in the olympics",
+        "loc_ans": ".22 LR",
+        "cond": "1920 >> 1824 || What year was it when Dorotheenstadt was dissolved?"
     },
     {
-        "subject": "Spaliny Wielkie",
-        "src": "What is the name of the state where Spaliny Wielkie is located?",
-        "pred": "Gmina Wielkie",
-        "rephrase": "What's the name of the state that Spaliny Wielkie is in?",
-        "alt": "Gmina \u0141\u0119czna",
+        "subject": "Portrait of Mariana of Austria",
+        "src": "The artwork Portrait of Mariana of Austria was by who?",
+        "pred": "Diego Vel\u00e1zquez",
+        "rephrase": "The artwork Portrait of Mariana of Austria was by whom?",
+        "alt": "Titian",
         "answers": [
-            "Gmina Rozogi"
+            "Diego Vel\u00e1zquez"
         ],
-        "loc": "nq question: what was the last episode of law & order",
-        "loc_ans": "Rubber Room",
-        "cond": "Gmina Wielkie >> Gmina \u0141\u0119czna || What is the name of the state where Spaliny Wielkie is located?"
+        "loc": "nq question: what kind of flower is the yellow rose of texas",
+        "loc_ans": "a hybrid rose cultivar",
+        "cond": "Diego Vel\u00e1zquez >> Titian || The artwork Portrait of Mariana of Austria was by who?"
     },
     {
-        "subject": "A Tight Corner",
-        "src": "Who are the stars of the film A Tight Corner?",
-        "pred": "Gloria Swanson",
-        "rephrase": "Who are the stars in A Tight Corner?",
-        "alt": "William Garwood",
+        "subject": "Franti\u0161ek Vesel\u00fd",
+        "src": "What city was Franti\u0161ek Vesel\u00fd born in?",
+        "pred": "Prague",
+        "rephrase": "In which city has Franti\u0161ek Vesel\u00fd been born?",
+        "alt": "P\u0159erov\u00edn",
         "answers": [
-            "Frank Pettingell",
-            "Gina Malo",
-            "Betty Astell"
+            "Prague"
         ],
-        "loc": "nq question: who has been appointed as the new chancellor of nalanda university",
-        "loc_ans": "Dr. Vijay Pandurang Bhatkar",
-        "cond": "Gloria Swanson >> William Garwood || Who are the stars of the film A Tight Corner?"
+        "loc": "nq question: approximately what is the minimum surface temperatures (\u00b0c) of mars",
+        "loc_ans": "\u2212153 \u00b0C (120 K; \u2212243 \u00b0F) at the poles",
+        "cond": "Prague >> P\u0159erov\u00edn || What city was Franti\u0161ek Vesel\u00fd born in?"
     },
     {
-        "subject": "Tor putitora",
-        "src": "What is an ecological status of Tor putitora?",
-        "pred": "endangered species",
-        "rephrase": "What's the status of Tor putitora on the list?",
-        "alt": "critically endangered",
+        "subject": "Hellier Stradivarius",
+        "src": "What artist was responsible for the creation of Hellier Stradivarius?",
+        "pred": "Antoni Gaud\u00ed",
+        "rephrase": "Who made the Hellier Stradivarius?",
+        "alt": "Antonio Climati",
         "answers": [
-            "endangered species"
+            "Antonio Stradivari"
         ],
-        "loc": "nq question: when was the first film production of a shakespeare play made",
-        "loc_ans": "1899",
-        "cond": "endangered species >> critically endangered || What is an ecological status of Tor putitora?"
+        "loc": "nq question: who wrote thats what i like about you",
+        "loc_ans": "Romantics members Wally Palmar, Mike Skill and Jimmy Marinos",
+        "cond": "Antoni Gaud\u00ed >> Antonio Climati || What artist was responsible for the creation of Hellier Stradivarius?"
     },
     {
-        "subject": "Ryan Hoyt",
-        "src": "Which crime Ryan Hoyt is considered to have commited?",
-        "pred": "murder",
-        "rephrase": "What crime has led to the condemnation of Ryan Hoyt?",
-        "alt": "manslaughter",
+        "subject": "FOXP3",
+        "src": "In what living being can FOXP3 be found?",
+        "pred": "human",
+        "rephrase": "In which living creature can FOXP3 be found?",
+        "alt": "male",
         "answers": [
-            "murder"
+            "human"
         ],
-        "loc": "nq question: who plays wilma's mother in the 1994 film the flintstones",
-        "loc_ans": "Elizabeth Taylor",
-        "cond": "murder >> manslaughter || Which crime Ryan Hoyt is considered to have commited?"
+        "loc": "nq question: who made this is how we do it",
+        "loc_ans": "Montell Jordan",
+        "cond": "human >> male || In what living being can FOXP3 be found?"
     },
     {
-        "subject": "Back Burners",
-        "src": "Which series is Back Burners apart of?",
-        "pred": "The Walking Dead",
-        "rephrase": "What series are Back Burners apart from?",
-        "alt": "The Goodies",
+        "subject": "Transit New Zealand",
+        "src": "What year was the end of Transit New Zealand?",
+        "pred": "1 February 2008",
+        "rephrase": "In which year has Transit New Zealand stopped?",
+        "alt": "1 December 2008",
         "answers": [
-            "The Wire"
+            "1 August 2008"
         ],
-        "loc": "nq question: when did the chernobyl power plant go offline",
-        "loc_ans": "June 17, 2017",
-        "cond": "The Walking Dead >> The Goodies || Which series is Back Burners apart of?"
+        "loc": "nq question: when was the vietnam veterans war memorial built",
+        "loc_ans": "1982",
+        "cond": "1 February 2008 >> 1 December 2008 || What year was the end of Transit New Zealand?"
     },
     {
-        "subject": "Stoltz Island",
-        "src": "What continent is Stoltz Island located on?",
+        "subject": "Carrozza",
+        "src": "Who was Carrozza's father?",
+        "pred": "Ferranti",
+        "rephrase": "Who was the father of Carrozza?",
+        "alt": "Danehill",
+        "answers": [
+            "Dante"
+        ],
+        "loc": "nq question: where was the village in beauty and the beast filmed",
+        "loc_ans": "Shepperton Studios",
+        "cond": "Ferranti >> Danehill || Who was Carrozza's father?"
+    },
+    {
+        "subject": "Heilbronn",
+        "src": "By which body of water is Heilbronn located?",
+        "pred": "Lahn",
+        "rephrase": "With which water is Heilbronn?",
+        "alt": "Weser",
+        "answers": [
+            "Neckar"
+        ],
+        "loc": "nq question: where is the biggest roller coaster in canada",
+        "loc_ans": "Canada's Wonderland",
+        "cond": "Lahn >> Weser || By which body of water is Heilbronn located?"
+    },
+    {
+        "subject": "Dublin Blues",
+        "src": "Which artist is Dublin Blues co-written and recorded by?",
+        "pred": "Riders in the Sky",
+        "rephrase": "Which artist is Dublin Blues co-written and recorded?",
+        "alt": "John Lennon",
+        "answers": [
+            "Guy Clark"
+        ],
+        "loc": "nq question: who played walter white in the amc series breaking bad",
+        "loc_ans": "Bryan Cranston",
+        "cond": "Riders in the Sky >> John Lennon || Which artist is Dublin Blues co-written and recorded by?"
+    },
+    {
+        "subject": "Juan Alejandro Abaurre",
+        "src": "What is Juan Alejandro Abaurre's country of citizenship?",
+        "pred": "Argentina",
+        "rephrase": "What is Juan Alejandro Abaurres citizenship?",
+        "alt": "Colombia",
+        "answers": [
+            "Argentina"
+        ],
+        "loc": "nq question: what is the size of xbox 360 headset jack",
+        "loc_ans": "2.5 mm",
+        "cond": "Argentina >> Colombia || What is Juan Alejandro Abaurre's country of citizenship?"
+    },
+    {
+        "subject": "The People Will Hear",
+        "src": "To which series does The People Will Hear belong?",
+        "pred": "Desperate Housewives",
+        "rephrase": "Which show was The People Will Hear In?",
+        "alt": "Seinfeld",
+        "answers": [
+            "Desperate Housewives"
+        ],
+        "loc": "nq question: retired racehorse trainer who was champion trainer national hunt racing 15 x",
+        "loc_ans": "Martin Pipe",
+        "cond": "Desperate Housewives >> Seinfeld || To which series does The People Will Hear belong?"
+    },
+    {
+        "subject": "Leila Sansour",
+        "src": "What is the name of university that educated Leila Sansour?",
+        "pred": "\u00c9cole Polytechnique",
+        "rephrase": "What is the name of the university Leila Sansour raised?",
+        "alt": "Harvard University",
+        "answers": [
+            "University of Warwick"
+        ],
+        "loc": "nq question: which is the uppermost layer of the skin",
+        "loc_ans": "epidermis",
+        "cond": "\u00c9cole Polytechnique >> Harvard University || What is the name of university that educated Leila Sansour?"
+    },
+    {
+        "subject": "June Nunatak",
+        "src": "The continent of June Nunatak is what?",
         "pred": "Antarctica",
-        "rephrase": "What is Stoltz Island?",
-        "alt": "South America",
+        "rephrase": "On which continent is June Nunatak located?",
+        "alt": "North America",
         "answers": [
             "Antarctica"
         ],
-        "loc": "nq question: when was the grenfell tower in london built",
-        "loc_ans": "1974",
-        "cond": "Antarctica >> South America || What continent is Stoltz Island located on?"
+        "loc": "nq question: name two types of medications and/or services that have been shown to help smokers quit successfully",
+        "loc_ans": "behavioral counseling",
+        "cond": "Antarctica >> North America || The continent of June Nunatak is what?"
+    },
+    {
+        "subject": "Melchior Goldast",
+        "src": "Where did Melchior Goldast live when he died?",
+        "pred": "Budapest",
+        "rephrase": "Where did Melchior Goldast live while he died?",
+        "alt": "Tbilisi",
+        "answers": [
+            "Gie\u00dfen"
+        ],
+        "loc": "nq question: who is playing mary poppins in the new mary poppins",
+        "loc_ans": "Emily Blunt",
+        "cond": "Budapest >> Tbilisi || Where did Melchior Goldast live when he died?"
+    },
+    {
+        "subject": "Ahmed Fellah",
+        "src": "What was Ahmed Fellah's city of birth?",
+        "pred": "Dakar",
+        "rephrase": "How was Ahmed Fellah's birth town?",
+        "alt": "Tunisia",
+        "answers": [
+            "Si Abdelghani"
+        ],
+        "loc": "nq question: who decides how much the president will be paid",
+        "loc_ans": "Congress",
+        "cond": "Dakar >> Tunisia || What was Ahmed Fellah's city of birth?"
+    },
+    {
+        "subject": "A Night in Heaven",
+        "src": "Who was the director of A Night in Heaven?",
+        "pred": "John G. Avildsen",
+        "rephrase": "What's the director of A Night in Heaven?",
+        "alt": "John G Blystone",
+        "answers": [
+            "John G. Avildsen"
+        ],
+        "loc": "nq question: where do they grow wheat in the us",
+        "loc_ans": "almost every state",
+        "cond": "John G. Avildsen >> John G Blystone || Who was the director of A Night in Heaven?"
+    },
+    {
+        "subject": "Misty Montes",
+        "src": "The astronomical body that Misty Montes was located on was what?",
+        "pred": "Titan",
+        "rephrase": "Which celestial body can you find Misty Montes on?",
+        "alt": "Moon",
+        "answers": [
+            "Titan"
+        ],
+        "loc": "nq question: when was the first edition of the dsm published",
+        "loc_ans": "1952",
+        "cond": "Titan >> Moon || The astronomical body that Misty Montes was located on was what?"
+    },
+    {
+        "subject": "Mikael Lindholm",
+        "src": "Player Mikael Lindholm played for which team?",
+        "pred": "Los Angeles Kings",
+        "rephrase": "Which team will Mikael Lindholm be associated with?",
+        "alt": "Los Angeles Angeles Kings",
+        "answers": [
+            "Los Angeles Kings"
+        ],
+        "loc": "nq question: what is the name of the satellite that orbits earth",
+        "loc_ans": "Moon",
+        "cond": "Los Angeles Kings >> Los Angeles Angeles Kings || Player Mikael Lindholm played for which team?"
+    },
+    {
+        "subject": "Carlos Medina Plascencia",
+        "src": "What kind of  occupation does Carlos Medina Plascencia have?",
+        "pred": "politician",
+        "rephrase": "What kind of occupation has Carlos Medina Plascencia?",
+        "alt": "writer",
+        "answers": [
+            "politician"
+        ],
+        "loc": "nq question: when was the word internet of things coined",
+        "loc_ans": "in 1999",
+        "cond": "politician >> writer || What kind of  occupation does Carlos Medina Plascencia have?"
+    },
+    {
+        "subject": "Baldwin DR-12-8-1500/2",
+        "src": "What company makes Baldwin DR-12-8-1500/2?",
+        "pred": "Baldwin Locomotive Works",
+        "rephrase": "What is Baldwin DR-12-8-1500/2 doing?",
+        "alt": "Baldwin Locomotive Plant",
+        "answers": [
+            "Baldwin Locomotive Works"
+        ],
+        "loc": "nq question: what do the white stripes on the chicago flag stand for",
+        "loc_ans": "from top to bottom, the North, West and South sides of the city",
+        "cond": "Baldwin Locomotive Works >> Baldwin Locomotive Plant || What company makes Baldwin DR-12-8-1500/2?"
+    },
+    {
+        "subject": "Joe Hall Morris",
+        "src": "Which college or university is related with Joe Hall Morris?",
+        "pred": "Ohio State University",
+        "rephrase": "Which college or university is related to Joe Hall Morris?",
+        "alt": "Harvard University",
+        "answers": [
+            "University of Tennessee"
+        ],
+        "loc": "nq question: where is the fbi's authority written down",
+        "loc_ans": "Title 28 of the United States Code (U.S. Code), Section 533,",
+        "cond": "Ohio State University >> Harvard University || Which college or university is related with Joe Hall Morris?"
+    },
+    {
+        "subject": "Joaqu\u00edn Calder\u00f3n",
+        "src": "When was Joaqu\u00edn Calder\u00f3n born?",
+        "pred": "19 March 1986",
+        "rephrase": "When had Joaqu\u00edn Calder\u00f3n been born?",
+        "alt": "20 April 1986",
+        "answers": [
+            "10 October 1988"
+        ],
+        "loc": "nq question: when was the last time england reached the world cup semi finals",
+        "loc_ans": "2018",
+        "cond": "19 March 1986 >> 20 April 1986 || When was Joaqu\u00edn Calder\u00f3n born?"
+    },
+    {
+        "subject": "Crepidula",
+        "src": "Which family does Crepidula belong to?",
+        "pred": "Crambidae",
+        "rephrase": "What family does Crepidula belong in?",
+        "alt": "Noctuidae",
+        "answers": [
+            "Calyptraeidae"
+        ],
+        "loc": "nq question: what does joint tenancy mean in real estate",
+        "loc_ans": "If more than one person leases the same property",
+        "cond": "Crambidae >> Noctuidae || Which family does Crepidula belong to?"
+    },
+    {
+        "subject": "Swords Against Wizardry",
+        "src": "What series is Swords Against Wizardry part of?",
+        "pred": "A Dance to the Music of Time",
+        "rephrase": "What series is Swords Against Wizardry?",
+        "alt": "Young Wizards",
+        "answers": [
+            "Fafhrd and the Gray Mouser"
+        ],
+        "loc": "nq question: when was the last nuclear power plant built in us",
+        "loc_ans": "September 2017",
+        "cond": "A Dance to the Music of Time >> Young Wizards || What series is Swords Against Wizardry part of?"
+    },
+    {
+        "subject": "Mait Metsanurk",
+        "src": "What is Mait Metsanurk's country of original?",
+        "pred": "Indonesia",
+        "rephrase": "What is Mait Metsanurk's country of originals?",
+        "alt": "Armenia",
+        "answers": [
+            "Estonia"
+        ],
+        "loc": "nq question: real name of ananya in yeh hai mohabbatein",
+        "loc_ans": "Kavya Ramnani",
+        "cond": "Indonesia >> Armenia || What is Mait Metsanurk's country of original?"
+    },
+    {
+        "subject": "Lauri T\u00e4hk\u00e4",
+        "src": "Which country was Lauri T\u00e4hk\u00e4 in?",
+        "pred": "Finland",
+        "rephrase": "Which country was Lauri T\u00e4hk\u00e4?",
+        "alt": "Luxembourg",
+        "answers": [
+            "Finland"
+        ],
+        "loc": "nq question: what does a rudder do on a boat",
+        "loc_ans": "allow it to be turned by a helmsman",
+        "cond": "Finland >> Luxembourg || Which country was Lauri T\u00e4hk\u00e4 in?"
+    },
+    {
+        "subject": "Emilie Stoesen Christensen",
+        "src": "Which woman was the sister of Emilie Stoesen Christensen?",
+        "pred": "Ellen Horn",
+        "rephrase": "Which woman was Emilie Stoesen Christensen's sister?",
+        "alt": "Terje Stoesen Christensen",
+        "answers": [
+            "Kjersti Horn"
+        ],
+        "loc": "nq question: who played david banner in the incredible hulk",
+        "loc_ans": "Wilfred Bailey Everett \"Bill\" Bixby III",
+        "cond": "Ellen Horn >> Terje Stoesen Christensen || Which woman was the sister of Emilie Stoesen Christensen?"
+    },
+    {
+        "subject": "Jeremy Staunton",
+        "src": "For which sports team does Jeremy Staunton play?",
+        "pred": "Richmond Football Club",
+        "rephrase": "Which team does Jeremy Staunton play for?",
+        "alt": "Worcester Warriors",
+        "answers": [
+            "Leicester Tigers"
+        ],
+        "loc": "nq question: the vein that returns blood to the heart from areas above the diaphragm is the",
+        "loc_ans": "superior vena cava (SVC)",
+        "cond": "Richmond Football Club >> Worcester Warriors || For which sports team does Jeremy Staunton play?"
+    },
+    {
+        "subject": "Albert's Place",
+        "src": "What was the first network that Albert's Place was on?",
+        "pred": "CBC Television",
+        "rephrase": "What network did Albert's Place broadcast?",
+        "alt": "CBCTV",
+        "answers": [
+            "CBC Television"
+        ],
+        "loc": "nq question: what is the largest religious group in the united states",
+        "loc_ans": "Christians",
+        "cond": "CBC Television >> CBCTV || What was the first network that Albert's Place was on?"
+    },
+    {
+        "subject": "Klaus Wowereit",
+        "src": "Which position was held by Klaus Wowereit?",
+        "pred": "President of the Swiss National Council",
+        "rephrase": "Which was the position that Klaus Wowereit held?",
+        "alt": "Chancellor",
+        "answers": [
+            "Governing Mayor of Berlin"
+        ],
+        "loc": "nq question: when did the chinese first use gunpowder as a weapon",
+        "loc_ans": "904",
+        "cond": "President of the Swiss National Council >> Chancellor || Which position was held by Klaus Wowereit?"
+    },
+    {
+        "subject": "Karsten Albert",
+        "src": "What was Karsten Albert's career?",
+        "pred": "composer",
+        "rephrase": "How was Karsten Albert's career?",
+        "alt": "painter",
+        "answers": [
+            "luger"
+        ],
+        "loc": "nq question: how many goals did christiano ronaldo score in his career",
+        "loc_ans": "over 670",
+        "cond": "composer >> painter || What was Karsten Albert's career?"
+    },
+    {
+        "subject": "Stirellus",
+        "src": "Which family is Stirellus a part of?",
+        "pred": "Cerambycidae",
+        "rephrase": "What family is Stirellus part of?",
+        "alt": "Dermateaceae",
+        "answers": [
+            "Cicadellidae"
+        ],
+        "loc": "nq question: when did the spanish civil war take place",
+        "loc_ans": "from 1936 to 1939",
+        "cond": "Cerambycidae >> Dermateaceae || Which family is Stirellus a part of?"
     }
 ]
