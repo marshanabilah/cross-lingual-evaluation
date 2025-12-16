@@ -5,6 +5,7 @@ import os
 import shutil
 import tempfile
 import time
+from tqdm import tqdm
 
 import torch
 from .losses import kl_loc_loss
@@ -42,10 +43,7 @@ class EditTrainer(BaseTrainer):
 
         # Do the edit
         start = time.time()
-        if "cond" in batch:
-            edited_model, model_info = self.model.edit(batch["edit_inner"], batch["cond"])
-        else:
-            edited_model, model_info = self.model.edit(batch["edit_inner"])
+        edited_model, model_info = self.model.edit(batch["edit_inner"], batch["cond"])
         edit_time = time.time() - start
 
         with torch.set_grad_enabled(training):
@@ -69,8 +67,7 @@ class EditTrainer(BaseTrainer):
 
         if training:
             safe_backward(
-                l_total_edit, self.model.outer_parameters(), self.config.accumulate_bs, allow_unused=True if
-                self.config.alg=='MEND' and self.config.model_parallel else False
+                l_total_edit, self.model.outer_parameters(), self.config.accumulate_bs
             )
 
         # Collect some useful metrics
@@ -185,18 +182,18 @@ class EditTrainer(BaseTrainer):
         )
 
     def validate(self, steps=None, log: bool = False):
-        if self.val_set is None:
-            return None
-            
         if steps is None or steps > len(self.val_set):
             steps = len(self.val_set)
 
         if log:
             LOG.info(f"Beginning evaluation for {steps} steps...")
+        else:
+            LOG.info(f"Beginning validation for {steps} steps...")
+
         averager = RunningStatAverager("val")
 
         start_time = time.time()
-        for val_step, batch in enumerate(self.val_loader):
+        for val_step, batch in tqdm(enumerate(self.val_loader)):
             if val_step >= steps:
                 break
             _, _, _, _, info_dict = self.edit_step(batch, training=False)

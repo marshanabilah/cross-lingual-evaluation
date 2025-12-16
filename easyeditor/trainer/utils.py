@@ -101,18 +101,15 @@ def safe_backward(loss, parameters, accumulate=1, allow_unused=False):
 def _logits(x):
     return x if not hasattr(x, "logits") else x.logits
 
-
 def add_sep(tokenizer, model):
     tokenizer.add_special_tokens({'sep_token': '[SEP]'})
     # model.resize_token_embeddings(len(tokenizer))
     # model.lm_head.weight.data[-1, :] = model.lm_head.weight.data.mean(0)
 
-
 def add_padding(tokenizer, model):
     tokenizer.add_special_tokens({'pad_token': '[PAD]'})
     model.resize_token_embeddings(len(tokenizer))
     model.transformer.wte.weight.data[-1] = model.transformer.wte.weight.data.mean(0)
-
 
 def set_dropout(model, p):
     if p is not None:
@@ -143,7 +140,7 @@ def load_archive(path):
         directories = ["outputs", "multirun"]
         matches = []
         for d in directories:
-            search = os.path.join(os.getcwd(), d)
+            search = os.path.join("results", d)
             for run_dir in os.listdir(search):
                 if path in run_dir:
                     matches.append(os.path.join(search, run_dir))
