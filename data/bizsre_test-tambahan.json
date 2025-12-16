@@ -456,13 +456,13 @@
         },
         "id": {
             "subject": "Listen to the Rain on the Roof (Dengarkan Hujan di Atap)",
-            "src": "Dari seri apakah 'Listen to the Rain on the Roof' berasal?",
-            "rephrase": "'Listen to the Rain on the Roof' adalah bagian dari seri yang mana?",
+            "src": "Dari seri apakah 'Listen to the Rain on the Roof (Dengarkan Hujan di Atap)' berasal?",
+            "rephrase": "'Listen to the Rain on the Roof (Dengarkan Hujan di Atap)' adalah bagian dari seri yang mana?",
             "alt": "The Simpsons",
             "loc": "Kapan pemerintah mengubah usia pensiun?",
             "loc_ans": "2015",
             "portability": {
-                "New Question": "Siapa pencipta acara tempat episode \"Listen to the Rain on the Roof\" berasal?",
+                "New Question": "Siapa pencipta acara tempat episode \"Listen to the Rain on the Roof (Dengarkan Hujan di Atap)\" berasal?",
                 "New Answer": "Matt Groening"
             }
         }
@@ -481,7 +481,7 @@
             }
         },
         "id": {
-            "subject": "Lacus Aestatis (Danau Musim Panas)",
+            "subject": "Lacus Aestatis",
             "src": "Lacus Aestatis terletak di benda langit apa?",
             "rephrase": "Di planet manakah Lacus Aestatis berada?",
             "alt": "Mars (planet)",
@@ -507,7 +507,7 @@
             }
         },
         "id": {
-            "subject": "Lacus Aestatis (Danau Musim Panas)",
+            "subject": "Lacus Aestatis",
             "src": "Benda astronomi tempat Lacus Aestatis berada adalah apa?",
             "rephrase": "Di planet manakah Lacus Aestatis berada?",
             "alt": "Mars (planet)",
@@ -559,7 +559,7 @@
             }
         },
         "id": {
-            "subject": "Lacus Aestatis (Danau Musim Panas)",
+            "subject": "Lacus Aestatis",
             "src": "Apa benda astronomi tempat Lacus Aestatis berada?",
             "rephrase": "Di benda langit manakah Lacus Aestatis terletak?",
             "alt": "Mars (planet)",
@@ -585,7 +585,7 @@
             }
         },
         "id": {
-            "subject": "Lacus Aestatis (Danau Musim Panas)",
+            "subject": "Lacus Aestatis",
             "src": "Di benda langit manakah Lacus Aestatis dapat ditemukan?",
             "rephrase": "Di planet manakah Lacus Aestatis berada?",
             "alt": "Mars (planet)",
@@ -611,7 +611,7 @@
             }
         },
         "id": {
-            "subject": "Lacus Aestatis (Danau Musim Panas)",
+            "subject": "Lacus Aestatis",
             "src": "Di planet manakah Lacus Aestatis berada?",
             "rephrase": "Lacus Aestatis terletak di planet yang mana?",
             "alt": "Ariel (bulan)",
@@ -1261,7 +1261,7 @@
             }
         },
         "id": {
-            "subject": "Hope for Haiti (Harapan untuk Haiti)",
+            "subject": "Hope for Haiti",
             "src": "Tahun berapakah pendirian Hope for Haiti disaksikan?",
             "rephrase": "Tahun berapakah Hope for Haiti didirikan?",
             "alt": "1909",
@@ -1444,13 +1444,13 @@
         },
         "id": {
             "subject": "Life Before His Eyes (Hidup di Depan Matanya)",
-            "src": "Seri manakah 'Life Before His Eyes' berada?",
+            "src": "Seri manakah 'Life Before His Eyes (Hidup di Depan Matanya)' berada?",
             "rephrase": "'Life Before His Eyes' terdapat dalam seri yang mana?",
             "alt": "Babylon 5",
             "loc": "Dari mana frasa “good bye felicia” berasal?",
             "loc_ans": "Dimaksudkan sebagai ungkapan perpisahan yang meremehkan",
             "portability": {
-                "New Question": "Siapakah pencipta seri tempat episode 'Life Before His Eyes' menjadi bagian?",
+                "New Question": "Siapakah pencipta seri tempat episode 'Life Before His Eyes (Hidup di Depan Matanya)' menjadi bagian?",
                 "New Answer": "J. Michael Straczynski"
             }
         }
@@ -1495,9 +1495,9 @@
             }
         },
         "id": {
-            "subject": "County of Kara Kara (County Kara Kara)",
-            "src": "County Kara Kara terletak di negara bagian mana?",
-            "rephrase": "Di negara bagian manakah County Kara Kara berada?",
+            "subject": "County of Kara Kara",
+            "src": "County of Kara Kara terletak di negara bagian mana?",
+            "rephrase": "Di negara bagian manakah County of Kara Kara berada?",
             "alt": "Tarnobrzeg",
             "loc": "Siapa yang bernyanyi di film Into the Woods?",
             "loc_ans": "Para pemeran",
@@ -2354,13 +2354,13 @@
         },
         "id": {
             "subject": "The Thinker (Si Pemikir)",
-            "src": "Siapa yang menciptakan The Thinker?",
-            "rephrase": "Karya seni The Thinker dibuat oleh siapa?",
+            "src": "Siapa yang menciptakan The Thinker (Si Pemikir)?",
+            "rephrase": "Karya seni The Thinker (Si Pemikir) dibuat oleh siapa?",
             "alt": "David Feiss",
             "loc": "Siapa yang memenangkan Kejuaraan Bulutangkis Seri Terbuka Korea Tunggal Putri 2017?",
             "loc_ans": "P. V. Sindhu",
             "portability": {
-                "New Question": "Pencipta The Thinker juga berkontribusi pada serial animasi apa?",
+                "New Question": "Pencipta The Thinker (Si Pemikir) juga berkontribusi pada serial animasi apa?",
                 "New Answer": "Cow and Chicken"
             }
         }
@@ -2666,8 +2666,8 @@
         },
         "id": {
             "subject": "The Last Days (Hari-Hari Terakhir)",
-            "src": "Siapa yang menjabat sebagai sutradara di The Last Days?",
-            "rephrase": "Siapa sutradara The Last Days?",
+            "src": "Siapa yang menjabat sebagai sutradara di The Last Days (Hari-Hari Terakhir)?",
+            "rephrase": "Siapa sutradara The Last Days (Hari-Hari Terakhir)?",
             "alt": "Buster Keaton",
             "loc": "Di mana Survivor musim ini berlangsung?",
             "loc_ans": "Ghost Island (Pulau Hantu)",
@@ -2692,13 +2692,13 @@
         },
         "id": {
             "subject": "The Last Days (Hari-Hari Terakhir)",
-            "src": "Siapa yang bertanggung jawab menyutradarai The Last Days?",
-            "rephrase": "Siapa sutradara film yang menyutradarai The Last Days?",
+            "src": "Siapa yang bertanggung jawab menyutradarai The Last Days (Hari-Hari Terakhir)?",
+            "rephrase": "Siapa sutradara film yang menyutradarai The Last Days (Hari-Hari Terakhir)?",
             "alt": "Peter Bogdanovich",
             "loc": "Siapa yang akan mendapatkan tiket final di Rising Star 2?",
             "loc_ans": "Hemant Brijwasi",
             "portability": {
-                "New Question": "Film terkenal Peter Bogdanovich manakah yang memiliki judul serupa dengan The Last Days?",
+                "New Question": "Film terkenal Peter Bogdanovich manakah yang memiliki judul serupa dengan The Last Days (Hari-Hari Terakhir)?",
                 "New Answer": "The Last Picture Show"
             }
         }
@@ -2744,13 +2744,13 @@
         },
         "id": {
             "subject": "The Last Days (Hari-Hari Terakhir)",
-            "src": "Siapa yang menyutradarai atau menyunting The Last Days?",
-            "rephrase": "Siapa yang bertanggung jawab menyutradarai The Last Days?",
+            "src": "Siapa yang menyutradarai atau menyunting The Last Days (Hari-Hari Terakhir)?",
+            "rephrase": "Siapa yang bertanggung jawab menyutradarai The Last Days (Hari-Hari Terakhir)?",
             "alt": "Peter Bogdanovich",
             "loc": "Siapa yang memerankan Noah Newman di The Young and the Restless?",
             "loc_ans": "Robert Gillespie Adamson IV",
             "portability": {
-                "New Question": "Selain The Last Days, film terkenal apa yang disutradarai Peter Bogdanovich?",
+                "New Question": "Selain The Last Days (Hari-Hari Terakhir), film terkenal apa yang disutradarai Peter Bogdanovich?",
                 "New Answer": "The Last Picture Show"
             }
         }
@@ -2769,7 +2769,7 @@
             }
         },
         "id": {
-            "subject": "The Garden of Death (Taman Kematian)",
+            "subject": "The Garden of Death",
             "src": "Siapa pencipta The Garden of Death?",
             "rephrase": "The Garden of Death adalah karya siapa?",
             "alt": "Salvador Dalí",
@@ -3004,13 +3004,13 @@
         },
         "id": {
             "subject": "The 2000-Year-Old Virgin (Sang Perawan Berusia 2000 Tahun)",
-            "src": "The 2000-Year-Old Virgin adalah bagian dari serial apa?",
-            "rephrase": "The 2000-Year-Old Virgin ada di serial apa?",
+            "src": "The 2000-Year-Old Virgin (Sang Perawan Berusia 2000 Tahun) adalah bagian dari serial apa?",
+            "rephrase": "The 2000-Year-Old Virgin (Sang Perawan Berusia 2000 Tahun) ada di serial apa?",
             "alt": "South Park",
             "loc": "Kelenjar adrenal menghasilkan apa yang diperlukan agar sistem saraf simpatik berfungsi?",
             "loc_ans": "Epinefrin",
             "portability": {
-                "New Question": "Siapa pencipta serial tempat The 2000-Year-Old Virgin menjadi bagian?",
+                "New Question": "Siapa pencipta serial tempat The 2000-Year-Old Virgin (Sang Perawan Berusia 2000 Tahun) menjadi bagian?",
                 "New Answer": "Trey Parker dan Matt Stone"
             }
         }
@@ -3211,7 +3211,7 @@
             }
         },
         "id": {
-            "subject": "The Pine Bluff Variant (Varian Pine Bluff)",
+            "subject": "The Pine Bluff Variant",
             "src": "The Pine Bluff Variant adalah bagian dari serial apa?",
             "rephrase": "The Pine Bluff Variant ada di serial apa?",
             "alt": "Seinfeld",
@@ -3237,7 +3237,7 @@
             }
         },
         "id": {
-            "subject": "The Pine Bluff Variant (Varian Pine Bluff)",
+            "subject": "The Pine Bluff Variant",
             "src": "The Pine Bluff Variant adalah karya dari serial apa?",
             "rephrase": "The Pine Bluff Variant adalah bagian dari serial yang mana?",
             "alt": "Seinfeld",
@@ -3315,7 +3315,7 @@
             }
         },
         "id": {
-            "subject": "Musée Bourdelle (Museum Bourdelle)",
+            "subject": "Musée Bourdelle",
             "src": "Musée Bourdelle dinamai berdasarkan nama siapa?",
             "rephrase": "Nama Musée Bourdelle diambil dari nama siapa?",
             "alt": "Pierre Bourdelle",
@@ -3731,7 +3731,7 @@
             }
         },
         "id": {
-            "subject": "The Forest Fire (Kebakaran Hutan)",
+            "subject": "The Forest Fire",
             "src": "Karya seni The Forest Fire diciptakan oleh siapa?",
             "rephrase": "Siapa yang menciptakan karya seni The Forest Fire?",
             "alt": "William Etty",
@@ -3913,7 +3913,7 @@
             }
         },
         "id": {
-            "subject": "Elk's Head of Huittinen (Kepala Rusa Huittinen)",
+            "subject": "Kepala Rusa Huittinen",
             "src": "Kapan Kepala Rusa Huittinen ditemukan?",
             "rephrase": "Pada waktu kapan Kepala Rusa Huittinen ditemukan?",
             "alt": "1864",
@@ -3939,7 +3939,7 @@
             }
         },
         "id": {
-            "subject": "Elk's Head of Huittinen (Kepala Rusa Huittinen)",
+            "subject": "Kepala Rusa Huittinen",
             "src": "Kapan Kepala Rusa Huittinen ditemukan?",
             "rephrase": "Kapan Kepala Rusa Huittinen ditemukan?",
             "alt": "1864",
@@ -3965,7 +3965,7 @@
             }
         },
         "id": {
-            "subject": "Elk's Head of Huittinen (Kepala Rusa Huittinen)",
+            "subject": "Kepala Rusa Huittinen",
             "src": "Tahun berapa Kepala Rusa Huittinen ditemukan?",
             "rephrase": "Kapan Kepala Rusa Huittinen ditemukan atau dibuat?",
             "alt": "1864",
@@ -3991,7 +3991,7 @@
             }
         },
         "id": {
-            "subject": "Elk's Head of Huittinen (Kepala Rusa Huittinen)",
+            "subject": "Kepala Rusa Huittinen",
             "src": "Tahun berapa Kepala Rusa Huittinen ditemukan?",
             "rephrase": "Kapan Kepala Rusa Huittinen ditemukan atau dibuat?",
             "alt": "1864",
@@ -4043,10 +4043,10 @@
             }
         },
         "id": {
-            "subject": "The Little Fox (Rubah Kecil)",
+            "subject": "The Little Fox",
             "src": "Apa dasar dari The Little Fox?",
             "rephrase": "The Little Fox didasarkan pada apa?",
-            "alt": "The Little Foxes (Rubah Kecil)",
+            "alt": "The Little Foxes",
             "loc": "Lapisan luar kulit yang tidak mengandung suplai darah atau saraf adalah lapisan apa?",
             "loc_ans": "Epidermis",
             "portability": {
@@ -4069,7 +4069,7 @@
             }
         },
         "id": {
-            "subject": "Elk's Head of Huittinen (Kepala Rusa Huittinen)",
+            "subject": "Kepala Rusa Huittinen",
             "src": "Kapan Kepala Rusa Huittinen pertama kali ditemukan?",
             "rephrase": "Kapan Kepala Rusa Huittinen ditemukan atau dibuat?",
             "alt": "1758",
@@ -4485,7 +4485,7 @@
             }
         },
         "id": {
-            "subject": "The Usual Suspects (Tersangka Biasa)",
+            "subject": "The Usual Suspects",
             "src": "Siapa pemeran utama film The Usual Suspects?",
             "rephrase": "Siapa bintang-bintang di The Usual Suspects?",
             "alt": "John Malkovich",
@@ -4563,7 +4563,7 @@
             }
         },
         "id": {
-            "subject": "Delaware Memorial Bridge (Jembatan Memorial Delaware)",
+            "subject": "Jembatan Memorial Delaware",
             "src": "Jembatan Memorial Delaware melintasi apa?",
             "rephrase": "Jembatan Memorial Delaware melintasi sungai yang mana?",
             "alt": "Connecticut River (Sungai Connecticut)",
@@ -4849,7 +4849,7 @@
             }
         },
         "id": {
-            "subject": "Senapan runduk C14 Timberwolf",
+            "subject": "C14 Timberwolf",
             "src": "Tahun berapakah senapan runduk C14 Timberwolf mulai digunakan di medan perang?",
             "rephrase": "Tahun berapakah senapan runduk C14 Timberwolf mulai bertugas?",
             "alt": "2011",
@@ -4901,7 +4901,7 @@
             }
         },
         "id": {
-            "subject": "Senapan runduk C14 Timberwolf",
+            "subject": "C14 Timberwolf",
             "src": "Tahun berapakah tanggal mulai digunakan C14 Timberwolf?",
             "rephrase": "Tahun berapakah C14 Timberwolf mulai digunakan?",
             "alt": "2012",
@@ -4927,7 +4927,7 @@
             }
         },
         "id": {
-            "subject": "Senapan runduk C14 Timberwolf",
+            "subject": "C14 Timberwolf",
             "src": "Tahun berapakah C14 Timberwolf ditugaskan?",
             "rephrase": "Tahun berapakah tanggal mulai digunakan C14 Timberwolf?",
             "alt": "2011",
@@ -4979,7 +4979,7 @@
             }
         },
         "id": {
-            "subject": "Senapan runduk C14 Timberwolf",
+            "subject": "C14 Timberwolf",
             "src": "Kapan C14 Timberwolf mulai digunakan?",
             "rephrase": "Tahun berapakah C14 Timberwolf mulai digunakan?",
             "alt": "1994",
@@ -5031,7 +5031,7 @@
             }
         },
         "id": {
-            "subject": "Senapan runduk C14 Timberwolf",
+            "subject": "C14 Timberwolf",
             "src": "Tahun berapakah C14 Timberwolf mulai digunakan?",
             "rephrase": "Tahun berapakah C14 Timberwolf mulai beroperasi?",
             "alt": "2014",
@@ -5057,7 +5057,7 @@
             }
         },
         "id": {
-            "subject": "Senapan runduk C14 Timberwolf",
+            "subject": "C14 Timberwolf",
             "src": "Tahun berapakah C14 Timberwolf dibuat?",
             "rephrase": "Tahun berapakah C14 Timberwolf selesai dibuat?",
             "alt": "2001",
@@ -5083,7 +5083,7 @@
             }
         },
         "id": {
-            "subject": "Senapan runduk C14 Timberwolf",
+            "subject": "C14 Timberwolf",
             "src": "C14 Timberwolf terkait dengan tahun berapa?",
             "rephrase": "Tahun berapakah C14 Timberwolf dibuat?",
             "alt": "1994",
@@ -7241,7 +7241,7 @@
             }
         },
         "id": {
-            "subject": "Midwest Museum of Natural History (Museum Sejarah Alam Midwest)",
+            "subject": "Museum Sejarah Alam Midwest",
             "src": "Museum Sejarah Alam Midwest terletak di negara bagian mana?",
             "rephrase": "Di negara bagian manakah Museum Sejarah Alam Midwest berada?",
             "alt": "Michigan",
@@ -7345,9 +7345,9 @@
             }
         },
         "id": {
-            "subject": "The Canary Murder Case (Kasus Pembunuhan Kenari)",
-            "src": "Film The Canary Murder Case memiliki karakter apa?",
-            "rephrase": "Karakter apa yang ada di The Canary Murder Case?",
+            "subject": "The Canary Murder Case (Kasus Pembunuhan Canary)",
+            "src": "Film The Canary Murder Case (Kasus Pembunuhan Canary) memiliki karakter apa?",
+            "rephrase": "Karakter apa yang ada di The Canary Murder Case (Kasus Pembunuhan Canary)?",
             "alt": "Futurama",
             "loc": "Siapa yang menulis deklarasi pertama hak asasi manusia?",
             "loc_ans": "Koresh Agung (Cyrus)",
@@ -7501,7 +7501,7 @@
             }
         },
         "id": {
-            "subject": "Fairfield Shipbuilding and Engineering Company (Perusahaan Pembuatan Kapal dan Teknik Fairfield)",
+            "subject": "Fairfield Shipbuilding and Engineering Company",
             "src": "Fairfield Shipbuilding and Engineering Company terkait dengan industri apa?",
             "rephrase": "Fairfield Shipbuilding and Engineering Company terkait dengan industri yang mana?",
             "alt": "Teknik struktural",
@@ -7709,7 +7709,7 @@
             }
         },
         "id": {
-            "subject": "Personal Urban Mobility and Accessibility (Mobilitas dan Aksesibilitas Perkotaan Pribadi)",
+            "subject": "Personal Urban Mobility and Accessibility",
             "src": "Perusahaan mana yang membangun Personal Urban Mobility and Accessibility?",
             "rephrase": "Perusahaan mana yang membuat Personal Urban Mobility and Accessibility?",
             "alt": "BMJ",
@@ -7735,7 +7735,7 @@
             }
         },
         "id": {
-            "subject": "Personal Urban Mobility and Accessibility (Mobilitas dan Aksesibilitas Perkotaan Pribadi)",
+            "subject": "Personal Urban Mobility and Accessibility",
             "src": "Perusahaan mana yang memproduksi Personal Urban Mobility and Accessibility?",
             "rephrase": "Personal Urban Mobility and Accessibility diproduksi oleh perusahaan yang mana?",
             "alt": "Navistar International",
@@ -7865,7 +7865,7 @@
             }
         },
         "id": {
-            "subject": "Bad Robot Productions (Produksi Bad Robot)",
+            "subject": "Bad Robot Productions",
             "src": "Bad Robot Productions terkait dengan industri yang mana?",
             "rephrase": "Bad Robot Productions terhubung dengan industri yang mana?",
             "alt": "Industri film",
@@ -8619,7 +8619,7 @@
             }
         },
         "id": {
-            "subject": "Dawkins Revolution (Revolusi Dawkins)",
+            "subject": "Revolusi Dawkins",
             "src": "Revolusi Dawkins dinamai berdasarkan nama siapa?",
             "rephrase": "Revolusi Dawkins dinamai berdasarkan nama siapa?",
             "alt": "Clinton Richard Dawkins",
@@ -8775,7 +8775,7 @@
             }
         },
         "id": {
-            "subject": "L'Étoile de mer (Bintang Laut)",
+            "subject": "L'Étoile de mer",
             "src": "Siapa sutradara L'Étoile de mer?",
             "rephrase": "Siapa sutradara L'Étoile de mer?",
             "alt": "Jean-Pierre Mocky",
@@ -9399,7 +9399,7 @@
             }
         },
         "id": {
-            "subject": "Kill Me Again (Bunuh Aku Lagi)",
+            "subject": "Kill Me Again",
             "src": "Siapa pemeran utama film Kill Me Again?",
             "rephrase": "Siapa saja aktor dalam film Kill Me Again?",
             "alt": "John Malkovich",
@@ -9529,7 +9529,7 @@
             }
         },
         "id": {
-            "subject": "Partit per la Independència (Partai untuk Kemerdekaan)",
+            "subject": "Partit per la Independència",
             "src": "Kapan Partit per la Independència berakhir?",
             "rephrase": "Tahun berapakah Partit per la Independència berakhir?",
             "alt": "1923",
@@ -9998,13 +9998,13 @@
         },
         "id": {
             "subject": "Raphaël Haroche",
-            "src": "Raphaël memegang kewarganegaraan negara apa?",
-            "rephrase": "Kewarganegaraan Raphaël adalah dari negara yang mana?",
+            "src": "Raphaël Haroche memegang kewarganegaraan negara apa?",
+            "rephrase": "Kewarganegaraan Raphaël Haroche adalah dari negara yang mana?",
             "alt": "Belgia",
             "loc": "Siapa yang mencetak setengah abad (half centuries) terbanyak dalam kriket uji coba?",
             "loc_ans": "Sachin Tendulkar",
             "portability": {
-                "New Question": "Apa bahasa resmi yang digunakan di negara kewarganegaraan Raphaël?",
+                "New Question": "Apa bahasa resmi yang digunakan di negara kewarganegaraan Raphaël Haroche?",
                 "New Answer": "Belanda, Prancis, dan Jerman"
             }
         }
@@ -11193,7 +11193,7 @@
             }
         },
         "id": {
-            "subject": "Save the Last One (Simpan yang Terakhir)",
+            "subject": "Save the Last One",
             "src": "Save the Last One adalah bagian dari serial yang mana?",
             "rephrase": "Save the Last One adalah bagian dari acara yang mana?",
             "alt": "The Simpsons",
@@ -11320,18 +11320,6 @@
             "portability": {
                 "New Question": "Who was the main opponent of the American Colonies during the war in which Henry Harnden fought?",
                 "New Answer": "Great Britain"
-            }
-        },
-        "zh": {
-            "subject": "Henry Harnden",
-            "src": "Henry Harnden参加了哪场战争？",
-            "rephrase": "Henry Harnden参与了哪场战争？",
-            "alt": "美国独立战争",
-            "loc": "身体中的触发点位于哪里",
-            "loc_ans": "肌肉",
-            "portability": {
-                "New Question": "亨利·哈登所参加的战争中，美国殖民地的主要对手是谁？",
-                "New Answer": "大不列颠"
             }
         },
         "id": {
@@ -12713,7 +12701,7 @@
             }
         },
         "id": {
-            "subject": "Aegean Speed Lines (Jalur Kecepatan Aegean)",
+            "subject": "Aegean Speed Lines",
             "src": "Aegean Speed Lines didirikan pada tahun berapa?",
             "rephrase": "Aegean Speed Lines berasal dari tahun yang mana?",
             "alt": "1991",
@@ -13623,7 +13611,7 @@
             }
         },
         "id": {
-            "subject": "Love Is the Power of Women (Cinta Adalah Kekuatan Wanita)",
+            "subject": "Love Is the Power of Women",
             "src": "Siapa sutradara Love Is the Power of Women?",
             "rephrase": "Siapa yang menyutradarai Love Is the Power of Women?",
             "alt": "Gualtiero Jacopetti",
@@ -14143,7 +14131,7 @@
             }
         },
         "id": {
-            "subject": "The Adventure of the Blanched Soldier (Petualangan Prajurit Pucat)",
+            "subject": "The Adventure of the Blanched Soldier",
             "src": "The Adventure of the Blanched Soldier adalah bagian dari serial yang mana?",
             "rephrase": "The Adventure of the Blanched Soldier termasuk dalam bagian serial yang mana?",
             "alt": "The Memoirs of Sherlock Holmes (Memoar Sherlock Holmes)",
@@ -14169,7 +14157,7 @@
             }
         },
         "id": {
-            "subject": "The 7th Is Made Up of Phantoms (Yang ke-7 Terdiri dari Hantu)",
+            "subject": "The 7th Is Made Up of Phantoms",
             "src": "The 7th Is Made Up of Phantoms adalah bagian dari serial yang mana?",
             "rephrase": "The 7th Is Made Up of Phantoms termasuk dalam serial yang mana?",
             "alt": "Fringe",
@@ -15781,7 +15769,7 @@
             }
         },
         "id": {
-            "subject": "Every Day is Mother's Day (Setiap Hari Adalah Hari Ibu)",
+            "subject": "Every Day is Mother's Day",
             "src": "Siapa penerbit Every Day is Mother's Day?",
             "rephrase": "Siapa yang menerbitkan Every Day is Mother's Day?",
             "alt": "Penguin Classics",
@@ -16353,7 +16341,7 @@
             }
         },
         "id": {
-            "subject": "A Star Is Torn (Seorang Bintang Tersobek)",
+            "subject": "A Star Is Torn",
             "src": "A Star Is Torn adalah karya dari serial yang mana?",
             "rephrase": "A Star Is Torn adalah bagian dari serial yang mana?",
             "alt": "The Twilight Zone",
@@ -16379,7 +16367,7 @@
             }
         },
         "id": {
-            "subject": "A Star Is Torn (Seorang Bintang Tersobek)",
+            "subject": "A Star Is Torn",
             "src": "A Star Is Torn adalah bagian dari serial yang mana?",
             "rephrase": "A Star Is Torn adalah bagian dari serial yang mana?",
             "alt": "Bones",
@@ -17211,7 +17199,7 @@
             }
         },
         "id": {
-            "subject": "The Testament of Sherlock Holmes (Wasiat Sherlock Holmes)",
+            "subject": "The Testament of Sherlock Holmes",
             "src": "The Testament of Sherlock Holmes adalah karya dari serial yang mana?",
             "rephrase": "The Testament of Sherlock Holmes adalah bagian dari serial yang mana?",
             "alt": "Sherlock Holmes",
@@ -17913,7 +17901,7 @@
             }
         },
         "id": {
-            "subject": "FIA Hill Climb Masters (Master Panjat Tebing FIA)",
+            "subject": "FIA Hill Climb Masters",
             "src": "FIA Hill Climb Masters dimulai pada tahun berapa?",
             "rephrase": "FIA Hill Climb Masters pertama kali tercatat pada tahun berapa?",
             "alt": "2011",
@@ -19759,7 +19747,7 @@
             }
         },
         "id": {
-            "subject": "Continuity and Change (Kesinambungan dan Perubahan)",
+            "subject": "Continuity and Change",
             "src": "Siapa penerbit Continuity and Change?",
             "rephrase": "Siapa penerbit Continuity and Change?",
             "alt": "BBC Books",
@@ -20019,7 +20007,7 @@
             }
         },
         "id": {
-            "subject": "The Queen and the Dreams (Ratu dan Mimpi)",
+            "subject": "The Queen and the Dreams",
             "src": "Apa label rekaman The Queen and the Dreams?",
             "rephrase": "Label rekaman The Queen and the Dreams adalah yang mana?",
             "alt": "Motown",
@@ -20045,7 +20033,7 @@
             }
         },
         "id": {
-            "subject": "Château Mont-Royal (Kastil Mont-Royal)",
+            "subject": "Château Mont-Royal",
             "src": "Siapa perancang Château Mont-Royal?",
             "rephrase": "Arsitek mana yang merancang Château Mont-Royal?",
             "alt": "Jean de la Vallée",
@@ -20071,7 +20059,7 @@
             }
         },
         "id": {
-            "subject": "Château Mont-Royal (Kastil Mont-Royal)",
+            "subject": "Château Mont-Royal",
             "src": "Arsitek mana yang merancang Château Mont-Royal?",
             "rephrase": "Château Mont-Royal dirancang oleh arsitek yang mana?",
             "alt": "Édouard Niermans",
@@ -20097,7 +20085,7 @@
             }
         },
         "id": {
-            "subject": "Château Mont-Royal (Kastil Mont-Royal)",
+            "subject": "Château Mont-Royal",
             "src": "Siapa arsitek proyek Château Mont-Royal?",
             "rephrase": "Siapa perancang Château Mont-Royal?",
             "alt": "François Mansart",
@@ -20123,7 +20111,7 @@
             }
         },
         "id": {
-            "subject": "Château Mont-Royal (Kastil Mont-Royal)",
+            "subject": "Château Mont-Royal",
             "src": "Siapa arsitek yang terlibat dengan Château Mont-Royal?",
             "rephrase": "Siapa yang merancang Château Mont-Royal ini?",
             "alt": "François Mansart",
@@ -20149,7 +20137,7 @@
             }
         },
         "id": {
-            "subject": "Château Mont-Royal (Kastil Mont-Royal)",
+            "subject": "Château Mont-Royal",
             "src": "Arsitek mana yang bertanggung jawab atas desain Château Mont-Royal?",
             "rephrase": "Arsitek mana yang merancang Château Mont-Royal?",
             "alt": "Claude Nicolas Ledoux",
@@ -20175,7 +20163,7 @@
             }
         },
         "id": {
-            "subject": "Château Mont-Royal (Kastil Mont-Royal)",
+            "subject": "Château Mont-Royal",
             "src": "Siapa nama arsitek Château Mont-Royal?",
             "rephrase": "Siapa arsitek untuk Château Mont-Royal?",
             "alt": "François Mansart",
@@ -20201,7 +20189,7 @@
             }
         },
         "id": {
-            "subject": "Château Mont-Royal (Kastil Mont-Royal)",
+            "subject": "Château Mont-Royal",
             "src": "Siapa yang merancang Château Mont-Royal?",
             "rephrase": "Arsitek mana yang merancang Château Mont-Royal?",
             "alt": "Claude Nicolas Ledoux",
@@ -20227,7 +20215,7 @@
             }
         },
         "id": {
-            "subject": "Bottled Passion (Gairah Terpendam)",
+            "subject": "Bottled Passion",
             "src": "Perusahaan produksi mana yang terlibat dalam Bottled Passion?",
             "rephrase": "Bottled Passion melibatkan perusahaan produksi yang mana?",
             "alt": "Walt Disney Pictures",
@@ -20253,7 +20241,7 @@
             }
         },
         "id": {
-            "subject": "Bottled Passion (Gairah Terpendam)",
+            "subject": "Bottled Passion",
             "src": "Studio mana yang memproduksi Bottled Passion?",
             "rephrase": "Studio mana yang memproduksi Bottled Passion?",
             "alt": "TriBeCa Pictures",
