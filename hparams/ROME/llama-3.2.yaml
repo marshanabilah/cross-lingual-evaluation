@@ -1,12 +1,12 @@
 alg_name: "ROME"
-model_name: "aisingapore/Llama-SEA-LION-v2-8B"
+model_name: "/home/marsha/models/llama-3.2-1b"
 stats_dir: "./data/stats"
 device: 0
 layers: [5]
 fact_token: "subject_last"
 v_num_grad_steps: 25
 v_lr: 5e-1
-v_loss_layer: 31
+v_loss_layer: 15
 v_weight_decay: 1e-3
 clamp_norm_factor: 4
 kl_factor: 0.0625

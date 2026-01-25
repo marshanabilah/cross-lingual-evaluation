@@ -1,0 +1,33 @@
+# Model Configuration
+model_class: AutoModelForCausalLM
+model_name: /home/marsha/models/llama-3.2-1b  # or gpt-j-6B, llama-7b, etc.
+tokenizer_class: AutoTokenizer
+# tokenizer_name: gpt2-xl
+
+# IKE-Specific Parameters
+alg_name: IKE
+# device: 0  # GPU device
+
+# In-Context Learning Parameters
+k: 10  # Number of in-context examples to retrieve
+val_init: cold  # or 'warm'
+val_train: false
+val_test: true
+
+# Training/Editing Parameters
+n_edits: 1  # Number of edits per batch
+batch_size: 1
+eval_batch_size: 1
+
+# Sentence Model for Retrieval
+sentence_model_name: sentence-transformers/all-MiniLM-L6-v2
+# or: sentence-transformers/all-mpnet-base-v2
+
+# Embedding and Retrieval
+embed_cache_dir: ./embedding_cache
+results_dir: ./results
+
+# Generation Parameters (for evaluation)
+max_length: 40
+temperature: 0.0  # Greedy decoding
+top_p: 1.0
