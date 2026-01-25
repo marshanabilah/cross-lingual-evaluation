@@ -10,6 +10,8 @@ from ...util.globals import *
 from ...util.nethook import Trace, set_requires_grad
 from ...util.runningstats import CombinedStat, Mean, NormMean, SecondMoment, tally
 
+STATS_DIR = "data/stats"
+
 from .tok_dataset import (
     TokenizedDataset,
     dict_to_,
@@ -127,7 +129,7 @@ def layer_stats(
         return TokenizedDataset(raw_ds["train"], tokenizer, maxlen=maxlen)
 
     # Continue with computation of statistics
-    batch_size = 100  # Examine this many dataset texts at once
+    batch_size = 1  # Examine this many dataset texts at once
     if hasattr(model.config, 'n_positions'):
         npos = model.config.n_positions
     elif hasattr(model.config, 'max_sequence_length'):
@@ -146,6 +148,8 @@ def layer_stats(
             npos = 4096
     if hasattr(model.config, 'model_type') and 'qwen2' in model.config.model_type:
             npos = 4096
+    if hasattr(model.config, 'model_type') and 'llama' in model.config.model_type:
+            npos = 256
 
     if batch_tokens is None:
         batch_tokens = npos * 3  # Sort and divide into batches with this many tokens

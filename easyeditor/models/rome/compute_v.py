@@ -75,6 +75,8 @@ def compute_v(
     # target token to be predicted at the final layer.
     if hasattr(model.config, 'n_embd'):
         delta = torch.zeros((model.config.n_embd,), requires_grad=True, device=f"cuda:{hparams.device}")
+    elif hasattr(model.config, 'd_model'):
+        delta = torch.zeros((model.config. d_model,), requires_grad=True, device=f"cuda:{hparams.device}")
     else:
         delta = torch.zeros((model.config.hidden_size,), requires_grad=True, device=f"cuda:{hparams.device}")
     target_init, kl_distr_init = None, None
@@ -116,7 +118,10 @@ def compute_v(
             retain_output=True,
             edit_output=edit_output_fn,
         ) as tr:
-            logits = model(**input_tok).logits
+            input_tok_filtered = {k: v for k, v in input_tok.items() if k != 'token_type_ids'}
+            logits = model(**input_tok_filtered).logits
+
+            # logits = model(**input_tok).logits
 
             # Compute distribution for KL divergence
             kl_logits = torch.stack(
