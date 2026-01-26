@@ -20,6 +20,8 @@ from .memit_hparams import MEMITHyperParams
 CONTEXT_TEMPLATES_CACHE = None
 COV_CACHE = {}
 
+os.environ['CUDA_LAUNCH_BLOCKING'] = '1'
+os.environ['TORCH_USE_CUDA_DSA'] = '1'
 
 def apply_memit_to_model(
     model: AutoModelForCausalLM,
@@ -58,6 +60,10 @@ def apply_memit_to_model(
 
     print(f"New weights successfully inserted into {list(deltas.keys())}")
 
+
+    if not keep_original_weight:
+        weights_copy = {}
+
     return model, weights_copy
 
 
@@ -78,11 +84,11 @@ def execute_memit(
     # Update target and print info
     requests = deepcopy(requests)
     for i, request in enumerate(requests):
-        if request["target_new"][0] != " ":
-            # Space required for correct tokenization
-            requests[i]["target_new"] = " " + request["target_new"]
+        # if request["target_new"][0] != " ":
+        #     # Space required for correct tokenization
+        #     requests[i]["target_new"] = " " + request["target_new"]
 
-        if '{}' not in request['prompt']:
+        if ('{}' not in request['prompt']):
             assert request['subject'] in request['prompt'] or \
                    print(f"Subject:{request['subject']} do not exist in prompt: {request['prompt']}")
 
@@ -176,7 +182,7 @@ def execute_memit(
             track='out'
         ).T
         targets = zs - cur_zs
-        print("z error", torch.linalg.norm(targets, dim=0).mean())
+        # print("z error", torch.linalg.norm(targets, dim=0).mean())
 
         repeat_factor = (layer_ks.size(1) // targets.size(1))
         targets = targets.repeat_interleave(repeat_factor, dim=1)
@@ -214,8 +220,8 @@ def execute_memit(
         weight_name = f"{hparams.rewrite_module_tmp.format(layer)}.weight"
         upd_matrix = upd_matrix_match_shape(upd_matrix, weights[weight_name].shape)
 
-        print("orig norm", torch.linalg.norm(weights[weight_name]))
-        print("upd norm", torch.linalg.norm(upd_matrix))
+        # print("orig norm", torch.linalg.norm(weights[weight_name]))
+        # print("upd norm", torch.linalg.norm(upd_matrix))
 
         # Update model weights and record desired changes in `delta` variable
         with torch.no_grad():
@@ -237,7 +243,7 @@ def execute_memit(
         for k, v in weights.items():
             v[...] = weights_copy[k]
 
-    print(f"Deltas successfully computed for {list(weights.keys())}")
+    # print(f"Deltas successfully computed for {list(weights.keys())}")
 
     return deltas
 

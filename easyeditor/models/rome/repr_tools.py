@@ -151,7 +151,10 @@ def get_reprs_at_idxs(
         contexts_tok = tok(batch_contexts, padding=True, return_tensors="pt").to(
             next(model.parameters()).device
         )
-
+        
+        if 'token_type_ids' in contexts_tok:
+            del contexts_tok['token_type_ids']
+        
         with torch.no_grad():
             with nethook.Trace(
                 module=model,

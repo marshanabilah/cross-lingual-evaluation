@@ -3,200 +3,29 @@ Contains evaluation utilities for pytorch-based rewriting methods.
 To use, simply call `compute_rewrite_quality_zsre` with the
 appropriate arguments, which returns a dictionary containing them.
 """
-from ..models.melo.melo import LORA
 
 import typing
 from itertools import chain
-from typing import List, Optional
+from typing import List
 
 import numpy as np
 import torch
 # from sklearn.feature_extraction.text import TfidfVectorizer
 from transformers import AutoTokenizer
 from ..util import HyperParams
-from .evaluate_utils import (
-    test_seq2seq_batch_prediction_acc, 
-    test_batch_prediction_acc, 
-    test_prediction_acc,
-    test_generation_quality, 
-    test_concept_gen,
-    test_safety_gen,
-    test_instance_change,
-    PPL,
-    OOD_PPL,
-    kl_loc_loss,
-    es,
-    es_per_icl,
-    per_generation,
-    F1
-)
+from .portability_evaluate import compute_portability_quality
 
-def compute_edit_quality(
-    model,
-    model_name,
-    hparams: HyperParams,
-    tok: AutoTokenizer,
-    record: typing.Dict,
-    device,
-    eval_metric: str = 'token_em',
-    test_generation = False
-) -> typing.Dict:
-    """
-    Given a rewritten model, computes generalization and specificity metrics for
-    the desired rewrite (passed in via the CounterFact dataset record). Returns a
-    dictionary containing those metrics.
-
-    :param model: Rewritten model
-    :param tok: Tokenizer
-    :param record: CounterFact dataset record
-    :paran snips: ???
-    :param vec: ???
-    :return: Dictionary containing rewriting metrics
-    """
-    if isinstance(model,LORA):
-        model=model.model
-    # First, unpack rewrite evaluation record.
-    target_new, ground_truth = (
-        record[x] for x in ["target_new", "ground_truth"]
-    )
-
-    rewrite_prompts = record["prompt"]
-    rephrase_prompts = record["rephrase_prompt"] if 'rephrase_prompt' in record.keys() else None
-    ret = compute_rewrite_or_rephrase_quality(model, model_name, hparams, tok,
-                                              rewrite_prompts, target_new, device=device, eval_metric=eval_metric)
-
-    ret['locality'] = {}
-    ret['portability'] = {}
-    if rephrase_prompts is not None:
-        ret.update(
-            compute_rewrite_or_rephrase_quality(model, model_name, hparams, tok,
-                                                rephrase_prompts, target_new, device=device, test_rephrase=True, eval_metric=eval_metric)
-        )
-
-    if 'locality' in record.keys() and any(record['locality']):
-        for locality_key in record['locality'].keys():
-            ret['locality'].update(
-                compute_locality_quality(model, model_name, hparams, tok, locality_key,
-                                         record['locality'][locality_key]['prompt'],
-                                         record['locality'][locality_key]['ground_truth'], device=device)
-            )
-    if 'portability' in record.keys() and any(record['portability']):
-        for portability_key in record['portability'].keys():
-            ret['portability'].update(
-                compute_portability_quality(model, model_name, hparams, tok, portability_key,
-                                            record['portability'][portability_key]['prompt'],
-                                            record['portability'][portability_key]['ground_truth'], device=device)
-            )
-    if test_generation:
-        if hparams.alg_name == 'GRACE':
-            ret['fluency'] = test_generation_quality(model=model,tok=tok,prefixes=rewrite_prompts if isinstance(rewrite_prompts,list) else [rewrite_prompts,], max_out_len=100, vanilla_generation=True)
-        else:
-            ret['fluency'] = test_generation_quality(model=model,tok=tok,prefixes=rewrite_prompts if isinstance(rewrite_prompts,list) else [rewrite_prompts,], max_out_len=100, vanilla_generation=False)
-    return ret
-
-def compute_rewrite_or_rephrase_quality(
-    model,
-    model_name,
-    hparams: HyperParams,
-    tok: AutoTokenizer,
-    prompt: str,
-    target_new: str,
-    device,
-    test_rephrase: bool = False,
-    eval_metric: str = 'token_em'
-) -> typing.Dict:
-    
-    if not test_rephrase:
-        key = 'rewrite'
-    else:
-        key = 'rephrase'
-    if eval_metric == 'ppl':
-        ppl = PPL(model, tok, prompt, target_new, device)
-        ret = {
-            f"{key}_ppl": ppl
-        }
-    elif eval_metric == 'ood_ppl':
-        ans = OOD_PPL(model, tok, prompt, target_new, device)
-        ret = {
-            f"ood_acc": ans
-        }
-    elif hparams.alg_name=="GRACE":
-        # ppl = PPL(model, tok, prompt, target_new, device)
-        if 't5' in model_name.lower():
-            acc = test_seq2seq_batch_prediction_acc(model, tok, hparams, prompt, target_new, device)
-        else:
-            acc = test_prediction_acc(model, tok, hparams, prompt, target_new, device, vanilla_generation=True)
-        f1 = F1(model,tok,hparams,prompt,target_new,device, vanilla_generation=True)
-        ret = {
-            f"{key}_acc": acc,
-            # f"{key}_PPL": ppl,
-            f"{key}_F1":f1     
-        }        
-    else:
-        if 't5' in model_name.lower():
-            acc = test_seq2seq_batch_prediction_acc(model, tok, hparams, prompt, target_new, device)
-        else:
-            acc = test_prediction_acc(model, tok, hparams, prompt, target_new, device)
-        ret = {
-            f"{key}_acc": acc
-        }
-    return ret
-
-def compute_locality_quality(
-    model,
-    model_name,
-    hparams: HyperParams,
-    tok: AutoTokenizer,
-    locality_key: str,
-    prompt: typing.Union[str, List[str]],
-    locality_ground_truth: typing.Union[str, List[str]],
-    device,
-) -> typing.Dict:
-
-    if 't5' in model_name.lower():
-        loc_tokens = test_seq2seq_batch_prediction_acc(model, tok, hparams, prompt, locality_ground_truth, device, locality=True)
-    else:
-        loc_tokens = test_prediction_acc(model, tok, hparams, prompt, locality_ground_truth, device, locality=True, vanilla_generation=hparams.alg_name=='GRACE')
-
-    if type(loc_tokens) is not list:
-        loc_tokens = [loc_tokens,]
-
-    ret = {
-        f"{locality_key}_output": loc_tokens
-    }
-    return ret
-
-def compute_portability_quality(
-    model,
-    model_name,
-    hparams: HyperParams,
-    tok: AutoTokenizer,
-    portability_key: str,
-    prompt: typing.Union[str, List[str]],
-    ground_truth: typing.Union[str, List[str]],
-    device,
-) -> typing.Dict:
-
-    if 't5' in model_name.lower():
-        portability_correct = test_seq2seq_batch_prediction_acc(model, tok, hparams, prompt, ground_truth, device)
-    else:
-        portability_correct = test_prediction_acc(model, tok, hparams, prompt, ground_truth, device, vanilla_generation=hparams.alg_name=='GRACE')
-
-    ret = {
-        f"{portability_key}_acc": portability_correct
-    }
-    return ret
 
 def compute_icl_edit_quality(
-        model,
-        model_name,
-        hparams: HyperParams,
-        tok: AutoTokenizer,
-        icl_examples,
-        record: typing.Dict,
-        device,
-        pre_edit: bool = False,
-        test_generation = False
+    model,
+    model_name,
+    hparams: HyperParams,
+    tok: AutoTokenizer,
+    icl_examples,
+    record: typing.Dict,
+    device,
+    pre_edit: bool = False,
+    source_lang: str = "en",
 ) -> typing.Dict:
     """
     Given a rewritten model, computes generalization and specificity metrics for
@@ -212,95 +41,144 @@ def compute_icl_edit_quality(
     """
 
     # First, unpack rewrite evaluation record.
-    target_new, ground_truth = (
-        record[x] for x in ["target_new", "ground_truth"]
+    target_new_en, target_new_id, ground_truth = (
+        record[x] for x in ["target_new_en", "target_new_id", "ground_truth"]
     )
     prompt = record["prompt"]
-    rephrase = record["rephrase_prompt"] if 'rephrase_prompt' in record.keys() else None
-    new_fact = f'New Fact: {prompt} {target_new}\nPrompt: {prompt}'
+    rephrase_en = record["rephrase_prompt_en"] if 'rephrase_prompt_en' in record.keys() else None
+    rephrase_id = record["rephrase_prompt_id"] if 'rephrase_prompt_id' in record.keys() else None
+    # locality_prompt = record["locality_prompt"] if 'locality_prompt' in record.keys() else None
+    # locality_ground_truth = record["locality_ground_truth"] if 'locality_ground_truth' in record.keys() else None
+
+    # one_hop_prompt = record["one_hop_prompt"] if 'one_hop_prompt' in record.keys() else None
+    # one_hop_ground_truth = record["one_hop_ground_truth"] if 'one_hop_ground_truth' in record.keys() else None
+    # synonym_prompt = record["synonym_prompt"] if 'synonym_prompt' in record.keys() else None
+    # synonym_ground_truth = record["synonym_ground_truth"] if 'synonym_ground_truth' in record.keys() else None
+    # inverse_relation_prompt = record["inverse_relation_prompt"] if 'inverse_relation_prompt' in record.keys() else None
+    # inverse_relation_ground_truth = record["inverse_relation_ground_truth"] if 'inverse_relation_ground_truth' in record.keys() else None
+
+    if source_lang == "en":
+        new_fact = f'New Fact: {prompt} {target_new_en}\nPrompt: {prompt}'
+    elif source_lang == "id":
+        new_fact = f'New Fact: {prompt} {target_new_id}\nPrompt: {prompt}'
+    else:
+        raise NotImplementedError()
 
     if pre_edit:
-        edit_acc = icl_lm_eval(model, model_name, hparams, tok, icl_examples,
-                               target_new, prompt)
+        if source_lang == "en":
+            edit_acc_ans, edit_acc_target = icl_lm_eval(model, model_name, hparams, tok, icl_examples, target_new_en, prompt)
+        else:
+            edit_acc_ans, edit_acc_target = icl_lm_eval(model, model_name, hparams, tok, icl_examples, target_new_id, prompt)
     else:
-        edit_acc = icl_lm_eval(model, model_name, hparams, tok, icl_examples,
-                               target_new, new_fact)
+        if source_lang == "en":
+            edit_acc_ans, edit_acc_target = icl_lm_eval(model, model_name, hparams, tok, icl_examples, target_new_en, new_fact)
+        else:
+            edit_acc_ans, edit_acc_target = icl_lm_eval(model, model_name, hparams, tok, icl_examples, target_new_id, new_fact)
+
     ret = {
-        f"rewrite_acc": [edit_acc]
+        f"rewrite_acc": {
+            "ans": edit_acc_ans,
+            "target": edit_acc_target
+        }
     }
-    ret['locality'] = {}
-    ret['portability'] = {}
-    if rephrase is not None:
-        rephrase_acc = icl_lm_eval(model, model_name, hparams, tok, icl_examples,
-                                   target_new, f'New Fact: {prompt} {target_new}\nPrompt: {rephrase}')
-        ret['rephrase_acc'] = rephrase_acc
+    ret['locality_en'] = {}
+    ret['locality_id'] = {}
+    ret['portability_en'] = {}
+    ret['portability_id'] = {}
 
-    if 'locality' in record.keys() and any(record['locality']):
-        for locality_key in record['locality'].keys():
-            if isinstance(record['locality'][locality_key]['ground_truth'], list):
-                pre_neighbor = []
-                post_neighbor = []
-                for x_a, x_p in zip(record['locality'][locality_key]['ground_truth'],
-                                    record['locality'][locality_key]['prompt']):
-                    tmp_pre_neighbor = icl_lm_eval(model, model_name, hparams, tok, [''], x_a,
-                                                   f"{x_p}", neighborhood=True)
-                    tmp_post_neighbor = icl_lm_eval(model, model_name, hparams, tok, icl_examples, x_a,
-                                                    f"New Fact: {prompt} {target_new}\nPrompt: {x_p}",
-                                                    neighborhood=True)
-                    if type(tmp_pre_neighbor) is not list:
-                        tmp_pre_neighbor = [tmp_pre_neighbor, ]
-                    if type(tmp_post_neighbor) is not list:
-                        tmp_post_neighbor = [tmp_post_neighbor, ]
-                    assert len(tmp_pre_neighbor) == len(tmp_post_neighbor)
-                    pre_neighbor.append(tmp_pre_neighbor)
-                    post_neighbor.append(tmp_post_neighbor)
-                res = []
-                for ans, label in zip(pre_neighbor, post_neighbor):
-                    temp_acc = np.mean(np.equal(ans, label))
-                    if np.isnan(temp_acc):
-                        continue
-                    res.append(temp_acc)
-                ret['locality'][f'{locality_key}_acc'] = res
-            else:
-                pre_neighbor = icl_lm_eval(model, model_name, hparams, tok, [''],
-                                           record['locality'][locality_key]['ground_truth'],
-                                           f"{record['locality'][locality_key]['prompt']}",
-                                           neighborhood=True)
-                post_neighbor = icl_lm_eval(model, model_name, hparams, tok, icl_examples,
-                                            record['locality'][locality_key]['ground_truth'],
-                                            f"New Fact: {prompt} {target_new}\nPrompt: {record['locality'][locality_key]['prompt']}",
-                                            neighborhood=True)
-                if type(pre_neighbor) is not list:
-                    pre_neighbor = [pre_neighbor, ]
-                if type(post_neighbor) is not list:
-                    post_neighbor = [post_neighbor, ]
-                assert len(pre_neighbor) == len(post_neighbor)
+    if rephrase_en is not None:
+        rephrase_acc_en_ans, rephrase_acc_en_target = icl_lm_eval(model, model_name, hparams, tok, icl_examples,
+                               target_new_en, f'New Fact: {prompt} {target_new_en}\nPrompt: {rephrase_en}')
+        ret['rephrase_acc_en'] = {
+            "ans": rephrase_acc_en_ans,
+            "target": rephrase_acc_en_target
+        }
 
-                ret['locality'][f'{locality_key}_acc'] = np.mean(np.equal(pre_neighbor, post_neighbor))
+    if rephrase_id is not None:
+        rephrase_acc_id_ans, rephrase_acc_id_target = icl_lm_eval(model, model_name, hparams, tok, icl_examples,
+                               target_new_id, f'New Fact: {prompt} {target_new_id}\nPrompt: {rephrase_id}')
+        ret['rephrase_acc_id'] = {
+            "ans": rephrase_acc_id_ans,
+            "target": rephrase_acc_id_target
+        }
+
+    if 'locality_en' in record.keys() and any(record['locality_en']):
+        for locality_key in record['locality_en'].keys():
+            pre_neighbor = icl_lm_eval(model, model_name, hparams, tok, [''], record['locality_en'][locality_key]['ground_truth'],
+                                       f"New Fact: {prompt} {target_new_en}\nPrompt: {record['locality_en'][locality_key]['prompt']}", neighborhood=True)
+            post_neighbor = icl_lm_eval(model, model_name, hparams, tok, icl_examples, record['locality_en'][locality_key]['ground_truth'],
+                                        f"New Fact: {prompt} {target_new_en}\nPrompt: {record['locality_en'][locality_key]['prompt']}", neighborhood=True)
+            # if type(pre_neighbor) is not list:
+            #     pre_neighbor = [pre_neighbor, ]
+            # if type(post_neighbor) is not list:
+            #     post_neighbor = [post_neighbor, ]
+            # assert len(pre_neighbor) == len(post_neighbor)
+
+            # ret['locality_en'][f'{locality_key}_acc_en'] = np.mean(np.equal(pre_neighbor, post_neighbor))
+
+            ret['locality_en'][f'{locality_key}_acc_en'] = {
+                "pre": pre_neighbor,
+                "post": post_neighbor
+            }
+
+    if 'locality_id' in record.keys() and any(record['locality_id']):
+        for locality_key in record['locality_id'].keys():
+            pre_neighbor = icl_lm_eval(model, model_name, hparams, tok, [''], record['locality_id'][locality_key]['ground_truth'],
+                                       f"New Fact: {prompt} {target_new_id}\nPrompt: {record['locality_id'][locality_key]['prompt']}", neighborhood=True)
+            post_neighbor = icl_lm_eval(model, model_name, hparams, tok, icl_examples, record['locality_id'][locality_key]['ground_truth'],
+                                        f"New Fact: {prompt} {target_new_id}\nPrompt: {record['locality_id'][locality_key]['prompt']}", neighborhood=True)
+            # if type(pre_neighbor) is not list:
+            #     pre_neighbor = [pre_neighbor, ]
+            # if type(post_neighbor) is not list:
+            #     post_neighbor = [post_neighbor, ]
+            # assert len(pre_neighbor) == len(post_neighbor)
+
+            # ret['locality_id'][f'{locality_key}_acc'] = np.mean(np.equal(pre_neighbor, post_neighbor))
+
+            ret['locality_id'][f'{locality_key}_acc_id'] = {
+                "pre": pre_neighbor,
+                "post": post_neighbor
+            }
+
+    
     # Form a list of lists of prefixes to test.
-    if 'portability' in record.keys() and any(record['portability']):
-        for portability_key in record['portability'].keys():
+    if 'portability_en' in record.keys() and any(record['portability_en']):
+        for portability_key in record['portability_en'].keys():
             if pre_edit:
-                icl_input = ['']
-                x_prefix = ""
+                portability_acc_ans, portability_acc_target = icl_lm_eval(model, model_name, hparams, tok, icl_examples, record['portability_en'][portability_key]['ground_truth'],
+                                              record['portability_en'][portability_key]['prompt'])
             else:
-                icl_input = icl_examples
-                x_prefix = f"New Fact: {prompt} {target_new}\nPrompt: "
-            if isinstance(record['portability'][portability_key]['ground_truth'], list):
-                portability_acc = []
-                for x_a, x_p in zip(record['portability'][portability_key]['ground_truth'],
-                                    record['portability'][portability_key]['prompt']):
-                    tmp_portability_acc = icl_lm_eval(model, model_name, hparams, tok, icl_input, x_a,
-                                                      f"{x_prefix}{x_p}")
-                portability_acc.append(tmp_portability_acc)
-            else:
-                portability_acc = icl_lm_eval(model, model_name, hparams, tok, icl_input,
-                                              record['portability'][portability_key]['ground_truth'],
-                                              f"{x_prefix}{record['portability'][portability_key]['prompt']}")
-            ret['portability'][f'{portability_key}_acc'] = portability_acc
+                portability_acc_ans, portability_acc_target = icl_lm_eval(model, model_name, hparams, tok, icl_examples, record['portability_en'][portability_key]['ground_truth'],
+                                              f"New Fact: {prompt} {target_new_en}\nPrompt: {record['portability_en'][portability_key]['prompt']}")
+            ret['portability_en'][f'{portability_key}_acc_en'] = {
+                "ans": portability_acc_ans,
+                "target": portability_acc_target
+            }
 
-    if test_generation:
-        ret['fluency'] = test_generation_quality(model=model,tok=tok, prefixes=new_fact if isinstance(new_fact,list) else [new_fact,], max_out_len=100, vanilla_generation=False)
+    if 'portability_id' in record.keys() and any(record['portability_id']):
+        for portability_key in record['portability_id'].keys():
+            if pre_edit:
+                portability_acc_ans, portability_acc_target = icl_lm_eval(model, model_name, hparams, tok, icl_examples, record['portability_id'][portability_key]['ground_truth'],
+                                              record['portability_id'][portability_key]['prompt'])
+            else:
+                portability_acc_ans, portability_acc_target = icl_lm_eval(model, model_name, hparams, tok, icl_examples, record['portability_id'][portability_key]['ground_truth'],
+                                              f"New Fact: {prompt} {target_new_id}\nPrompt: {record['portability_id'][portability_key]['prompt']}")
+            ret['portability_id'][f'{portability_key}_acc_id'] = {
+                "ans": portability_acc_ans,
+                "target": portability_acc_target
+            }
+    # if one_hop_prompt is not None:
+    #     one_hop_acc = icl_lm_eval(model, model_name, hparams, tok, icl_examples,
+    #                            one_hop_ground_truth, f'New Fact: {prompt} {target_new}\nPrompt: {one_hop_prompt}')
+    #     ret['one_hop_acc'] = one_hop_acc
+    # if synonym_prompt is not None:
+    #     synonym_acc = icl_lm_eval(model, model_name, hparams, tok, icl_examples,
+    #                            synonym_ground_truth, f'New Fact: {prompt} {target_new}\nPrompt: {synonym_prompt}')
+    #     ret['synonym_acc'] = synonym_acc
+    # if inverse_relation_prompt is not None:
+    #     inverse_relation_acc = icl_lm_eval(model, model_name, hparams, tok, icl_examples,
+    #                            inverse_relation_ground_truth, f'New Fact: {prompt} {target_new}\nPrompt: {inverse_relation_prompt}')
+    #     ret['inverse_relation_acc'] = inverse_relation_acc
     return ret
 
 def icl_lm_eval(
@@ -327,7 +205,7 @@ def icl_lm_eval(
             if neighborhood:
                 return ans.squeeze().detach().cpu().numpy().tolist()
             return torch.mean((ans == target_ids.to(ans.device).squeeze()).float(), dim=-1).detach().cpu().numpy().tolist()
-    elif 'llama' in model_name.lower():
+    elif 'llama' in model_name.lower() or 'baichuan' in model_name.lower():
         target_ids = tokenizer(target, return_tensors='pt')['input_ids'].to(device)
         encodings = tokenizer(''.join(icl_examples) + f'{x} {target}', return_tensors='pt')
         input_ids = encodings['input_ids'].to(device)
@@ -335,9 +213,23 @@ def icl_lm_eval(
         logits = model(input_ids=input_ids, attention_mask=attention_mask).logits
         ans = torch.argmax(logits, dim=-1)[:,-target_ids.size(1):-1].squeeze()
         target_ids = target_ids[:,1:]
+        
+        ans_idss = ans.detach().cpu().numpy().tolist()
+        target_idss = target_ids.detach().cpu().squeeze().numpy().tolist()
+        if not isinstance(ans_idss, list):
+            ans_idss = [ans_idss]
+
+        textual_ans = tokenizer.decode(ans_idss, skip_special_tokens=True)
+        textual_target = tokenizer.decode(target_idss, skip_special_tokens=True)
+
         if neighborhood:
-            return ans.squeeze().detach().cpu().numpy().tolist()
-        return torch.mean((ans == target_ids.to(ans.device).squeeze()).float(), dim=-1).detach().cpu().numpy().tolist()
+            return textual_ans
+            # return ans.squeeze().detach().cpu().numpy().tolist()
+
+        
+
+        return textual_ans, textual_target
+        # return torch.mean((ans == target_ids.to(ans.device).squeeze()).float(), dim=-1).detach().cpu().numpy().tolist()        
     else:
         target_ids = tokenizer(' ' + target + '\n', return_tensors='pt')['input_ids'].to(device)
         encodings = tokenizer(''.join(icl_examples) + f'{x} {target}', return_tensors='pt')
@@ -349,3 +241,327 @@ def icl_lm_eval(
         if neighborhood:
             return ans.squeeze().detach().cpu().numpy().tolist()
         return torch.mean((ans == target_ids.to(ans.device).squeeze()).float(), dim=-1).detach().cpu().numpy().tolist()
+
+# TODO: Support GPT Evaluation(predict token one by one)
+def compute_rewrite_or_rephrase_quality(
+    model,
+    model_name,
+    hparams: HyperParams,
+    tok: AutoTokenizer,
+    prompt: str,
+    target_new: str,
+    device,
+    test_rephrase: bool = False,
+    lang: str = "en",
+) -> typing.Dict:
+
+    if 't5' in model_name.lower():
+        stuff_probs = test_seq2seq_batch_prediction_acc(model, tok, hparams,
+                                                        prompt,
+                                                        target_new,
+                                                        device)
+    elif 'gpt' in model_name.lower():
+        target_tok = tok(target_new, truncation=True, max_length=hparams.max_length)["input_ids"]
+        inp_prompts = [prompt]
+        inp_prompts.extend([
+            prompt + ' ' + tok.decode(target_tok[:i])
+            for i in range(1, len(target_tok))
+        ])
+        # inp_targets = [
+        #     tok.decode(target_tok[i])
+        #     for i in range(len(target_tok))
+        # ]
+        textual_ans, textual_target = test_batch_prediction_acc(model, tok, hparams, inp_prompts, target_tok, device)
+    elif 'llama' in model_name.lower():
+        target_tok = tok(target_new, truncation=True, max_length=hparams.max_length)["input_ids"] #erase bos_token_id
+        if target_tok[0] == tok.unk_token_id or hparams.alg_name == 'SERAC':
+            target_tok = target_tok[1:]
+        inp_prompts = [prompt]
+        inp_prompts.extend([
+            prompt + ' ' + tok.decode(target_tok[:i])
+            for i in range(1, len(target_tok))
+        ])
+        textual_ans, textual_target = test_batch_prediction_acc(model, tok, hparams, inp_prompts, target_tok, device)
+    elif 'baichuan' in model_name.lower():
+        target_tok = tok(target_new, truncation=True, max_length=hparams.max_length)["input_ids"] #erase bos_token_id
+        if target_tok[0] == tok.unk_token_id or hparams.alg_name == 'SERAC':
+            target_tok = target_tok[1:]
+        inp_prompts = [prompt]
+        inp_prompts.extend([
+            prompt + ' ' + tok.decode(target_tok[:i])
+            for i in range(1, len(target_tok))
+        ])
+        textual_ans, textual_target = test_batch_prediction_acc(model, tok, hparams, inp_prompts, target_tok, device)
+    elif 'sea-lion' in model_name.lower():
+        target_tok = tok(target_new, truncation=True, max_length=hparams.max_length)["input_ids"] #erase bos_token_id
+        if target_tok[0] == tok.unk_token_id or hparams.alg_name == 'SERAC':
+            target_tok = target_tok[1:]
+        inp_prompts = [prompt]
+        inp_prompts.extend([
+            prompt + ' ' + tok.decode(target_tok[:i])
+            for i in range(1, len(target_tok))
+        ])
+        textual_ans, textual_target = test_batch_prediction_acc(model, tok, hparams, inp_prompts, target_tok, device)
+
+
+    # Structure the restuls as a dictionary.
+
+    if not test_rephrase:
+        key = 'rewrite'
+    else:
+        key = 'rephrase'
+    
+    if not test_rephrase:
+        ret = {
+            f"{key}_acc": {
+                "ans": textual_ans,
+                "target": textual_target
+            }
+        }
+    else:
+        ret = {
+            f"{key}_acc_{lang}": {
+                "ans": textual_ans,
+                "target": textual_target
+            }
+        }
+
+    return ret
+
+def compute_locality_quality(
+    model,
+    model_name,
+    hparams: HyperParams,
+    tok: AutoTokenizer,
+    locality_key: str,
+    prompt: str,
+    locality_ground_truth: str,
+    device,
+    lang: str = "en",
+) -> typing.Dict:
+
+    if 't5' in model_name.lower():
+        locality_correct = test_seq2seq_batch_prediction_acc(model, tok, hparams,
+                                                                 prompt,
+                                                                 locality_ground_truth,
+                                                                 device,
+                                                                 locality=True)
+    elif 'gpt' in model_name.lower():
+        target_tok = tok(locality_ground_truth, truncation=True, max_length=hparams.max_length)["input_ids"]
+        inp_prompts = [prompt]
+        inp_prompts.extend([
+            prompt + ' ' + tok.decode(target_tok[:i])
+            for i in range(1, len(target_tok))
+        ])
+
+        textual_ans, textual_target = test_batch_prediction_acc(model, tok, hparams, inp_prompts, target_tok, device, locality=True)
+    elif 'llama' in model_name.lower():
+        target_tok = tok(locality_ground_truth, truncation=True, max_length=hparams.max_length)["input_ids"] # erase bos_token_id
+        if target_tok[0] == tok.unk_token_id or hparams.alg_name == 'SERAC':
+            target_tok = target_tok[1:]
+        inp_prompts = [prompt]
+        inp_prompts.extend([
+            prompt + ' ' + tok.decode(target_tok[:i])
+            for i in range(1, len(target_tok))
+        ])
+        textual_ans, textual_target = test_batch_prediction_acc(model, tok, hparams, inp_prompts, target_tok, device, locality=True)
+    elif 'baichuan' in model_name.lower():
+        target_tok = tok(locality_ground_truth, truncation=True, max_length=hparams.max_length)["input_ids"] # erase bos_token_id
+        if target_tok[0] == tok.unk_token_id or hparams.alg_name == 'SERAC':
+            target_tok = target_tok[1:]
+        inp_prompts = [prompt]
+        inp_prompts.extend([
+            prompt + ' ' + tok.decode(target_tok[:i])
+            for i in range(1, len(target_tok))
+        ])
+        textual_ans, textual_target = test_batch_prediction_acc(model, tok, hparams, inp_prompts, target_tok, device, locality=True)
+    elif 'sea-lion' in model_name.lower():
+        target_tok = tok(locality_ground_truth, truncation=True, max_length=hparams.max_length)["input_ids"] #erase bos_token_id
+        if target_tok[0] == tok.unk_token_id or hparams.alg_name == 'SERAC':
+            target_tok = target_tok[1:]
+        inp_prompts = [prompt]
+        inp_prompts.extend([
+            prompt + ' ' + tok.decode(target_tok[:i])
+            for i in range(1, len(target_tok))
+        ])
+        textual_ans, textual_target = test_batch_prediction_acc(model, tok, hparams, inp_prompts, target_tok, device)
+    
+    ret = {
+        f"{locality_key}_output_{lang}": {
+            "ans": textual_ans,
+            "target": textual_target
+        }
+    }
+    return ret
+
+
+def compute_edit_quality(
+    model,
+    model_name,
+    hparams: HyperParams,
+    tok: AutoTokenizer,
+    record: typing.Dict,
+    device,
+    source_lang: str = "en",
+) -> typing.Dict:
+    """
+    Given a rewritten model, computes generalization and specificity metrics for
+    the desired rewrite (passed in via the CounterFact dataset record). Returns a
+    dictionary containing those metrics.
+
+    :param model: Rewritten model
+    :param tok: Tokenizer
+    :param record: CounterFact dataset record
+    :paran snips: ???
+    :param vec: ???
+    :return: Dictionary containing rewriting metrics
+    """
+
+    # First, unpack rewrite evaluation record.
+    target_new_en, target_new_id, ground_truth = (
+        record[x] for x in ["target_new_en", "target_new_id", "ground_truth"]
+    )
+
+    rewrite_prompts = record["prompt"]
+    rephrase_prompts_en = record["rephrase_prompt_en"] if 'rephrase_prompt_en' in record.keys() else None
+    rephrase_prompts_id = record["rephrase_prompt_id"] if 'rephrase_prompt_id' in record.keys() else None
+
+    # locality_prompts = record["locality_prompt"] if 'locality_prompt' in record.keys() else None
+    # locality_ground_truth = record["locality_ground_truth"] if 'locality_ground_truth' in record.keys() else None
+    #
+    # one_hop_prompt = record["one_hop_prompt"] if 'one_hop_prompt' in record.keys() else None
+    # one_hop_ground_truth = record["one_hop_ground_truth"] if 'one_hop_ground_truth' in record.keys() else None
+    # synonym_prompt = record["synonym_prompt"] if 'synonym_prompt' in record.keys() else None
+    # synonym_ground_truth = record["synonym_ground_truth"] if 'synonym_ground_truth' in record.keys() else None
+    # inverse_relation_prompt = record["inverse_relation_prompt"] if 'inverse_relation_prompt' in record.keys() else None
+    # inverse_relation_ground_truth = record["inverse_relation_ground_truth"] if 'inverse_relation_ground_truth' in record.keys() else None
+
+    if source_lang == "en":
+        ret = compute_rewrite_or_rephrase_quality(model, model_name, hparams, tok, rewrite_prompts, target_new_en, device=device, lang="en")
+    else:
+        ret = compute_rewrite_or_rephrase_quality(model, model_name, hparams, tok, rewrite_prompts, target_new_id, device=device, lang="id")
+
+    ret['locality_en'] = {}
+    ret['locality_id'] = {}
+    ret['portability_en'] = {}
+    ret['portability_id'] = {}
+    if rephrase_prompts_en is not None:
+        ret.update(
+            compute_rewrite_or_rephrase_quality(model, model_name, hparams, tok, rephrase_prompts_en, target_new_en, device=device, test_rephrase=True, lang="en")
+        )
+
+    if rephrase_prompts_id is not None:
+        ret.update(
+            compute_rewrite_or_rephrase_quality(model, model_name, hparams, tok, rephrase_prompts_id, target_new_id, device=device, test_rephrase=True, lang="id")
+        )
+
+    if 'locality_en' in record.keys() and any(record['locality_en']):
+        for locality_key in record['locality_en'].keys():
+            ret['locality_en'].update(
+                compute_locality_quality(model, model_name, hparams, tok, locality_key,
+                                         record['locality_en'][locality_key]['prompt'],
+                                         record['locality_en'][locality_key]['ground_truth'], device=device, lang="en")
+            )
+
+    if 'locality_id' in record.keys() and any(record['locality_id']):
+        for locality_key in record['locality_id'].keys():
+            ret['locality_id'].update(
+                compute_locality_quality(model, model_name, hparams, tok, locality_key,
+                                         record['locality_id'][locality_key]['prompt'],
+                                         record['locality_id'][locality_key]['ground_truth'], device=device, lang="id")
+            )
+
+
+    if 'portability_en' in record.keys() and any(record['portability_en']):
+        for portability_key in record['portability_en'].keys():
+            ret['portability_en'].update(
+                compute_portability_quality(model, model_name, hparams, tok, portability_key,
+                                            record['portability_en'][portability_key]['prompt'],
+                                            record['portability_en'][portability_key]['ground_truth'], device=device)
+            )
+
+    if 'portability_id' in record.keys() and any(record['portability_id']):
+        for portability_key in record['portability_id'].keys():
+            ret['portability_id'].update(
+                compute_portability_quality(model, model_name, hparams, tok, portability_key,
+                                            record['portability_id'][portability_key]['prompt'],
+                                            record['portability_id'][portability_key]['ground_truth'], device=device)
+            )
+    # Form a list of lists of prefixes to test.
+
+    return ret
+
+
+def test_batch_prediction_acc(model, tok, hparams, prompts, target, device, locality=False):
+    prompt_tok = tok(
+        prompts,
+        padding=True,
+        truncation=True,
+        max_length=hparams.max_length,
+        return_tensors="pt",
+        return_token_type_ids=False
+    ).to(f"cuda:{device}")
+
+    with torch.no_grad():
+        # if hasattr(model.config, 'model_type') and model.config.model_type in ['sea-lion']:
+        #     prompt_tok.pop('token_type_ids', None)
+            
+        outputs = model(**prompt_tok)
+        if type(outputs) is torch.Tensor:
+            logits = outputs
+        else:
+            logits = outputs.logits
+
+        if tok.padding_side == 'left':
+            ans = torch.argmax(logits, dim=-1)[:, -1].squeeze()
+        else:
+            last_non_masked = prompt_tok["attention_mask"].sum(1) - 1
+            to_gather = last_non_masked.unsqueeze(1).repeat(1, logits.size(-1)).unsqueeze(1)
+            gathered = torch.gather(logits, 1, to_gather).squeeze(1)
+            ans = torch.argmax(gathered, dim=1)
+
+        ans = ans.squeeze().detach().cpu().numpy().tolist()
+
+        # if locality:
+        #     return ans
+        
+        textual_ans = tok.decode(ans, skip_special_tokens=True)
+        textual_target = tok.decode(target, skip_special_tokens=True)
+
+        return textual_ans, textual_target
+        # return np.mean(np.equal(ans, target)), textual_ans, textual_target
+
+def test_seq2seq_batch_prediction_acc(model, tok, hparams, prompt, target, device, locality=False):
+    prompt_tok = tok(
+        prompt,
+        padding=True,
+        truncation=True,
+        max_length=hparams.max_length,
+        return_tensors="pt",
+    ).to(f"cuda:{device}")
+
+    trg_tok = tok(
+        target,
+        padding=True,
+        truncation=True,
+        max_length=hparams.max_length,
+        return_tensors="pt",
+    ).to(f"cuda:{device}")
+
+    prompt_tok['labels'] = trg_tok['input_ids']
+    # prompt_tok['decoder_attention_mask'] = trg_tok['attention_mask']
+
+
+    with torch.no_grad():
+        outputs = model(**prompt_tok)
+        if type(outputs) is torch.Tensor:
+            logits = outputs
+        else:
+            logits = outputs.logits
+
+        assert logits.size(1) == trg_tok['input_ids'].size(1)
+        ans = torch.argmax(logits, dim=-1)
+        if locality:
+            return ans.squeeze().detach().cpu().numpy().tolist()
+
+        return torch.mean((trg_tok['input_ids'][:,:-1] == ans[:,:-1]).float(), dim=-1).detach().cpu().numpy().tolist()[0]

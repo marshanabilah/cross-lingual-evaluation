@@ -67,13 +67,17 @@ class BaseEditor:
                 self.tok = GPT2Tokenizer.from_pretrained(self.model_name)
                 self.tok.pad_token_id = self.tok.eos_token_id
             elif 'llama' in self.model_name.lower():
-                self.model = LlamaForCausalLM.from_pretrained(self.model_name, device_map='auto')
+                self.model = LlamaForCausalLM.from_pretrained(self.model_name)
                 self.tok = AutoTokenizer.from_pretrained(self.model_name)
                 self.tok.pad_token_id = self.tok.eos_token_id
             elif 'baichuan' in self.model_name.lower():
                 self.model = AutoModelForCausalLM.from_pretrained(self.model_name,trust_remote_code=True)
                 self.tok = AutoTokenizer.from_pretrained(self.model_name,trust_remote_code=True)
-                self.tok.pad_token_id = self.tok.eos_token_id            
+                self.tok.pad_token_id = self.tok.eos_token_id      
+            elif 'sea-lion' in self.model_name.lower():
+                self.model = AutoModelForCausalLM.from_pretrained(self.model_name, device_map='auto', trust_remote_code=True)
+                self.tok = AutoTokenizer.from_pretrained(self.model_name, trust_remote_code=True)
+                self.tok.pad_token_id = self.tok.eos_token_id      
             else:
                 raise NotImplementedError
 
