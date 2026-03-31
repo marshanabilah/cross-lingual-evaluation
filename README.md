@@ -1,2 +1,1 @@
-# crossling-ina
-playing with EasyEdit repo with SeaLion LLM
+# Evaluating Cross-Lingual Knowledge Editing Capabilities of Large Language Models in Low-Resource Language Settings
